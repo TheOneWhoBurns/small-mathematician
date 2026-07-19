@@ -1,0 +1,17 @@
+{
+  "created_unix": 1784435573.7232482,
+  "data": "assets/data/processed/training-views/self-contained-proof-1024-raw",
+  "examples": 263,
+  "loss": 1.577067494392395,
+  "mask_prompt": false,
+  "max_seq_length": 1024,
+  "mlx": "0.32.0",
+  "mlx_lm": "0.31.3",
+  "model": "assets/models/qwen3-0.6b-base",
+  "num_batches": 25,
+  "perplexity": 4.840739727020264,
+  "python": "3.12.13",
+  "schema_version": 1,
+  "split": "valid",
+  "weights": null
+}

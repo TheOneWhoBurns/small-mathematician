@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "seed": 20260719,
+  "split_counts_per_family": {
+    "composition": 16,
+    "near": 16,
+    "paraphrase": 16,
+    "train": 60,
+    "train_fit": 10,
+    "valid": 10
+  },
+  "splits": {
+    "composition": {
+      "count": 80,
+      "families": {
+        "diophantine_solvability": 16,
+        "finite_double_count": 16,
+        "finite_recurrence_period": 16,
+        "modular_period_prime_filter": 16,
+        "polynomial_value_obstruction": 16
+      },
+      "mutants_sha256": "0052991a4b4d04e0d0df5de59a6c91cf4eddc383e295b112d0d7ea9e541faeae",
+      "prompts_sha256": "db172e8fd50bb24fbcdffe59311a5edad4a550c17ba454483bad9b167ce2827c",
+      "targets_sha256": "9f234aa72602c682c2390541acbc831407bf7a9dd5e6c7fbfcdb1e1502046145",
+      "verifier_sha256": "af00e2c70d04a8b2413ab008188aff7ca1cacbdff3d7a1a5ae8101e129129e2b"
+    },
+    "near": {
+      "count": 80,
+      "families": {
+        "diophantine_solvability": 16,
+        "finite_double_count": 16,
+        "finite_recurrence_period": 16,
+        "modular_period_prime_filter": 16,
+        "polynomial_value_obstruction": 16
+      },
+      "mutants_sha256": "0820d97fa6d1daa72edd14cab4346f1d86dcab7e9e1ea2bd9367fb34661c9c5e",
+      "prompts_sha256": "9506e3231d8705d31d5241c7dcc89f118c0190e1c8c2d7681d97a54b3a7647a4",
+      "targets_sha256": "622523cbade5b1c31e56673df2953581e422d4dae6094b870513b5f324a273cb",
+      "verifier_sha256": "7393f61bd1e88fe3305b01d38aa72aa677da9e6ae94d74261c72058d2b433e53"
+    },
+    "paraphrase": {
+      "count": 80,
+      "families": {
+        "diophantine_solvability": 16,
+        "finite_double_count": 16,
+        "finite_recurrence_period": 16,
+        "modular_period_prime_filter": 16,
+        "polynomial_value_obstruction": 16
+      },
+      "mutants_sha256": "37a3ef4ba882b020c85038a6987ec36d157379404c5f8c2497092e3d25df3e4d",
+      "prompts_sha256": "12d7ca86697c88263998e8b779a608260162dda76a1b4e2f558fb498ffcfbc8d",
+      "targets_sha256": "b1eec4b01615e909cf6ca47b6c8fbc029ec512a4fd111b47193c38c6eee7e1fb",
+      "verifier_sha256": "7b5189fa17955393a5d1990a4f05a43808136365f68ed820e2da257b8196df82"
+    },
+    "train": {
+      "count": 300,
+      "families": {
+        "diophantine_solvability": 60,
+        "finite_double_count": 60,
+        "finite_recurrence_period": 60,
+        "modular_period_prime_filter": 60,
+        "polynomial_value_obstruction": 60
+      },
+      "mutants_sha256": "bb239b7120d266c1db29bc1e1245525f12f8924452e5b1c5ab29ae32fd1f5395",
+      "prompts_sha256": "881e092c27f766648d3df03934978bd549682dccc0338a62a06a827e086ec66d",
+      "targets_sha256": "e7af0bf58eb8434f49688d6ddb314390b69a326b0e0c522710703ccd4dfb31fb",
+      "verifier_sha256": "c41a39ac37ac68f68ec6cdcfbcce8df3547f6ec6a5ed2c25b29a973dd8b319f2"
+    },
+    "train_fit": {
+      "count": 50,
+      "families": {
+        "diophantine_solvability": 10,
+        "finite_double_count": 10,
+        "finite_recurrence_period": 10,
+        "modular_period_prime_filter": 10,
+        "polynomial_value_obstruction": 10
+      },
+      "mutants_sha256": "5c35bdf044c198981383377b85b7d5e15834f05f5ea6211e5620ac198063651c",
+      "prompts_sha256": "c6dc87633adad237c08d820d60cd07d3272169e3f30f448a57871155774384c8",
+      "targets_sha256": "8663936842ad05255e4b6c95b112785039d39d218de6a92db6dd897444a9b213",
+      "verifier_sha256": "fd462477662a0766d22eb52a10e8274911c59b37a9b18c98b3fd78c41a6c04c7"
+    },
+    "valid": {
+      "count": 50,
+      "families": {
+        "diophantine_solvability": 10,
+        "finite_double_count": 10,
+        "finite_recurrence_period": 10,
+        "modular_period_prime_filter": 10,
+        "polynomial_value_obstruction": 10
+      },
+      "mutants_sha256": "0dc7fd35d27817c8e25c42a000c32b9b54c0673358128dc06615f9fd5e95734a",
+      "prompts_sha256": "b06dc041611e4abee0b2f4cc17d6c3956a753bed7313a66ca6c0fa52ed68c524",
+      "targets_sha256": "7f13e9d360f66d58cc71dd9edfd7bd351b72e063e5ed69bcd01f0658abec843e",
+      "verifier_sha256": "312e12ecd54da57756976b12aacf51b4ce930269fd4b90d26743e3a3b61f48e3"
+    }
+  }
+}

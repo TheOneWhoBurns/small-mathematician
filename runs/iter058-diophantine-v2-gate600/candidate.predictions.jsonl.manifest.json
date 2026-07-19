@@ -1,0 +1,23 @@
+{
+  "assistant_prefix": "",
+  "chat_template": false,
+  "created_unix": 1784456170.421878,
+  "deadline": "2026-07-19T08:50:00-05:00",
+  "elapsed_seconds": 100.0785973072052,
+  "family": null,
+  "max_tokens": 64,
+  "model": "assets/models/qwen3-0.6b-base",
+  "new_predictions": 200,
+  "output": "runs/iter058-diophantine-v2-gate600/candidate.predictions.jsonl",
+  "predictions_total": 200,
+  "prompt_prefix": "",
+  "prompt_suffix": "",
+  "prompts": "benchmarks/diophantine_atomic_v2/test.prompts.jsonl",
+  "prompts_sha256": "2f8320198a534bba14e4081fc46eec74a94d7a5b4efca27704e297eaf63a982b",
+  "requested": 200,
+  "schema_version": 1,
+  "seed": 17,
+  "temperature": 0.0,
+  "weights": "runs/iter058-diophantine-v2-gate600/weights.safetensors",
+  "weights_sha256": "20bb44c959c0c293d60c1e6ae84d686a97a74e6908e6162fe11041250be3f3e5"
+}

@@ -1,0 +1,23 @@
+{
+  "assistant_prefix": "<think>\n\n</think>\n\n",
+  "chat_template": true,
+  "created_unix": 1784448519.628639,
+  "deadline": "2026-07-19T09:00:00-05:00",
+  "elapsed_seconds": 52.68198895454407,
+  "family": "diophantine_solvability",
+  "max_tokens": 220,
+  "model": "assets/models/qwen3-0.6b-base",
+  "new_predictions": 16,
+  "output": "runs/iter033-vpl-diophantine-focus-cont300-seed17/near-diophantine-no-think.jsonl",
+  "predictions_total": 16,
+  "prompt_prefix": "Respond only in English.\n",
+  "prompt_suffix": "\nPlan:\n",
+  "prompts": "benchmarks/verified_plan_ladder/data/near.prompts.jsonl",
+  "prompts_sha256": "9506e3231d8705d31d5241c7dcc89f118c0190e1c8c2d7681d97a54b3a7647a4",
+  "requested": 16,
+  "schema_version": 1,
+  "seed": 17,
+  "temperature": 0.0,
+  "weights": "runs/iter033-vpl-diophantine-focus-cont300-seed17/weights.safetensors",
+  "weights_sha256": "d4d1a645648317c708194870f23e1c97049d5eb62fc31f975016cd1e123d9420"
+}

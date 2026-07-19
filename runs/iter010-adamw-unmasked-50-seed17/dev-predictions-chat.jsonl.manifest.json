@@ -1,0 +1,21 @@
+{
+  "created_unix": 1784431211.428999,
+  "deadline": "2026-07-19T09:00:00-05:00",
+  "elapsed_seconds": 66.60415005683899,
+  "max_tokens": 160,
+  "model": "assets/models/qwen3-0.6b-base",
+  "new_predictions": 48,
+  "predictions_total": 60,
+  "prompt_mode": "chat",
+  "prompt_path": "benchmarks/deterministic_nl/data/dev.prompts.jsonl",
+  "prompt_sha256": "87fd7a925cc59084f0544f3f1d4f1042f7ac0de11db69b11e1386fb2b40d71d1",
+  "requested": 60,
+  "schema_version": 1,
+  "seed": 17,
+  "split": "dev",
+  "system_prompt": null,
+  "temperature": 0.0,
+  "user_prefix": "",
+  "weights": "runs/iter010-adamw-unmasked-50-seed17/weights.safetensors",
+  "weights_sha256": "9c41ce13b488ebea579ff6bf47d5c693c3b5f8ad3440c67a357beaa956540c59"
+}

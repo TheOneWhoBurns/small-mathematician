@@ -1,0 +1,5 @@
+{"expected": "It does divide 35.", "id": "vpl-v1-paraphrase-diophantine_solvability-008-533313dcbb", "response": "5 does not divide 35.", "semantic": false}
+{"expected": "It does not divide 15.", "id": "vpl-v1-paraphrase-diophantine_solvability-009-253eeb8186", "response": "7 does not divide 15.", "semantic": true}
+{"expected": "It does divide -66.", "id": "vpl-v1-paraphrase-diophantine_solvability-011-b8e53db05d", "response": "11 does not divide -66.", "semantic": false}
+{"expected": "It does divide -30.", "id": "vpl-v1-paraphrase-diophantine_solvability-014-5814fdf22b", "response": "10 does not divide -30.", "semantic": false}
+{"expected": "It does not divide -52.", "id": "vpl-v1-paraphrase-diophantine_solvability-015-a3c5f2989e", "response": "9 does not divide -52.", "semantic": true}

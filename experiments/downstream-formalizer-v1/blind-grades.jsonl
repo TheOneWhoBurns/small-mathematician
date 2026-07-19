@@ -1,0 +1,24 @@
+{"id":"fineproofs-00010","label":"A","score":4,"reason":"The strict-monotonicity argument for x+floor(x) is correct, concise, and proves injectivity immediately."}
+{"id":"fineproofs-00010","label":"B","score":4,"reason":"The two strict-order cases are correctly ruled out using monotonicity of the floor function."}
+{"id":"fineproofs-00010","label":"C","score":4,"reason":"The integer-part decomposition and interval argument rigorously force both integer and fractional parts to agree."}
+{"id":"fineproofs-01105","label":"A","score":4,"reason":"The response correctly derives additivity up to translation, classifies rational additive maps, solves the coefficient constraints, and verifies the complete solution set."}
+{"id":"fineproofs-01105","label":"B","score":4,"reason":"The bijectivity, translated additivity, affine classification, parameter constraints, and converse verification are all correct and complete."}
+{"id":"fineproofs-01105","label":"C","score":4,"reason":"The proof rigorously obtains bijectivity and additivity after translation, then correctly classifies and verifies every solution."}
+{"id":"fineproofs-01254","label":"A","score":4,"reason":"The indicator-counting argument correctly counts tuples containing each fixed element and obtains the required closed form."}
+{"id":"fineproofs-01254","label":"B","score":4,"reason":"The double count is complete and correctly yields 2019 times the difference of the two tuple counts."}
+{"id":"fineproofs-01254","label":"C","score":4,"reason":"The response cleanly double-counts tuple-element incidence pairs and derives the correct factored answer."}
+{"id":"fineproofs-01303","label":"A","score":4,"reason":"It correctly derives the quadratic row-column objective, proves the balancing bound, and supplies a valid attaining configuration."}
+{"id":"fineproofs-01303","label":"B","score":4,"reason":"The empty-square sum, convex balancing argument, and simultaneous row-column construction are all correct."}
+{"id":"fineproofs-01303","label":"C","score":4,"reason":"The proof establishes the sharp upper bound and explicitly realizes the balanced degree sequence, so the maximum is rigorously attained."}
+{"id":"fineproofs-01356","label":"A","score":2,"reason":"The Lucas-theorem antichain analysis is mathematically meaningful for an increasing sequence, but that ordering restriction is absent and misses the valid decreasing construction of length 2024."}
+{"id":"fineproofs-01356","label":"B","score":4,"reason":"Distinctness gives the exact upper bound, and listing every permitted value in decreasing order makes each required binomial coefficient zero."}
+{"id":"fineproofs-01356","label":"C","score":4,"reason":"The proof correctly combines the no-duplicates upper bound with a decreasing enumeration attaining all 2024 values."}
+{"id":"fineproofs-01490","label":"A","score":4,"reason":"The discriminant and common-power analysis exhausts the possible bases, bounds both root families, and gives a valid equality example."}
+{"id":"fineproofs-01490","label":"B","score":4,"reason":"The exponent equation is solved exhaustively and the sharp value 64 is both bounded and attained correctly."}
+{"id":"fineproofs-01490","label":"C","score":4,"reason":"The two possible common bases are handled correctly, and the explicit coefficients verify attainability of the maximum."}
+{"id":"fineproofs-01816","label":"A","score":4,"reason":"The standard divisibility property for integer polynomials is proved and immediately contradicts the odd value difference."}
+{"id":"fineproofs-01816","label":"B","score":4,"reason":"The polynomial difference divisibility lemma and its application to the two inputs form a complete rigorous contradiction."}
+{"id":"fineproofs-01816","label":"C","score":4,"reason":"The factorization of power differences justifies the divisibility lemma, which correctly rules out the stated values."}
+{"id":"fineproofs-02103","label":"A","score":4,"reason":"The tangent representation, domain checks, period reduction, and final radical evaluation are all correct."}
+{"id":"fineproofs-02103","label":"B","score":4,"reason":"The tangent-subtraction recurrence is applied correctly, the denominator issue is excluded, and the period-six computation gives 4."}
+{"id":"fineproofs-02103","label":"C","score":4,"reason":"The proof rigorously establishes the tangent formula and its domain, then computes the correct periodic term and requested sum."}

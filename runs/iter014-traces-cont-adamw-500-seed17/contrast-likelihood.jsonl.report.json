@@ -1,0 +1,43 @@
+{
+  "accuracy": 0.2,
+  "confusion": [
+    {
+      "count": 20,
+      "expected": "diophantine_solvability",
+      "predicted": "diophantine_solvability"
+    },
+    {
+      "count": 20,
+      "expected": "finite_double_count",
+      "predicted": "diophantine_solvability"
+    },
+    {
+      "count": 20,
+      "expected": "finite_recurrence_period",
+      "predicted": "diophantine_solvability"
+    },
+    {
+      "count": 20,
+      "expected": "modular_period_prime_filter",
+      "predicted": "diophantine_solvability"
+    },
+    {
+      "count": 20,
+      "expected": "polynomial_value_obstruction",
+      "predicted": "diophantine_solvability"
+    }
+  ],
+  "count": 100,
+  "deadline": "2026-07-19T09:00:00-05:00",
+  "elapsed_seconds": 64.59959506988525,
+  "mean_margin": 1.15,
+  "model": "assets/models/qwen3-0.6b-base",
+  "pair_accuracy": 0.0,
+  "pairs": 50,
+  "prompts": "benchmarks/method_router/contrast/data/prompts.jsonl",
+  "prompts_sha256": "7235446d98d2e733375cfe2b057c542487c48c5a54c2601ba6f903e0cae1eb22",
+  "schema_version": 1,
+  "selection": "highest mean teacher-forced log probability of five natural-language method descriptions",
+  "weights": "runs/iter014-traces-cont-adamw-500-seed17/weights.safetensors",
+  "weights_sha256": "7ab1e989e7e4ca7d509bca81138b0510fa54321d9c2e86f69f3bc0afcb5f76eb"
+}

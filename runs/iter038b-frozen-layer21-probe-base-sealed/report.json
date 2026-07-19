@@ -1,0 +1,654 @@
+{
+  "all_trials": [
+    {
+      "contrast_accuracy": 0.68,
+      "layer": 7,
+      "pool": "last",
+      "ridge": 1.0,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.6
+    },
+    {
+      "contrast_accuracy": 0.62,
+      "layer": 7,
+      "pool": "last",
+      "ridge": 0.01,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.6
+    },
+    {
+      "contrast_accuracy": 0.56,
+      "layer": 7,
+      "pool": "last",
+      "ridge": 0.1,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.6
+    },
+    {
+      "contrast_accuracy": 0.53,
+      "layer": 7,
+      "pool": "last",
+      "ridge": 10.0,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.6
+    },
+    {
+      "contrast_accuracy": 0.5,
+      "layer": 7,
+      "pool": "last",
+      "ridge": 100.0,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.6
+    },
+    {
+      "contrast_accuracy": 0.4,
+      "layer": 28,
+      "pool": "mean",
+      "ridge": 0.01,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.6
+    },
+    {
+      "contrast_accuracy": 0.4,
+      "layer": 28,
+      "pool": "mean",
+      "ridge": 1.0,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.6
+    },
+    {
+      "contrast_accuracy": 0.4,
+      "layer": 28,
+      "pool": "mean",
+      "ridge": 10.0,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.6
+    },
+    {
+      "contrast_accuracy": 0.4,
+      "layer": 28,
+      "pool": "mean",
+      "ridge": 100.0,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.6
+    },
+    {
+      "contrast_accuracy": 0.39,
+      "layer": 7,
+      "pool": "mean",
+      "ridge": 0.001,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.8
+    },
+    {
+      "contrast_accuracy": 0.39,
+      "layer": 21,
+      "pool": "mean",
+      "ridge": 100.0,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.7
+    },
+    {
+      "contrast_accuracy": 0.39,
+      "layer": 7,
+      "pool": "last",
+      "ridge": 0.001,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.6
+    },
+    {
+      "contrast_accuracy": 0.39,
+      "layer": 21,
+      "pool": "last",
+      "ridge": 0.1,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.6
+    },
+    {
+      "contrast_accuracy": 0.39,
+      "layer": 28,
+      "pool": "mean",
+      "ridge": 0.1,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.6
+    },
+    {
+      "contrast_accuracy": 0.39,
+      "layer": 14,
+      "pool": "mean",
+      "ridge": 0.001,
+      "train_accuracy": 0.61,
+      "validation_accuracy": 0.375
+    },
+    {
+      "contrast_accuracy": 0.37,
+      "layer": 21,
+      "pool": "last",
+      "ridge": 0.01,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.6
+    },
+    {
+      "contrast_accuracy": 0.37,
+      "layer": 21,
+      "pool": "last",
+      "ridge": 1.0,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.6
+    },
+    {
+      "contrast_accuracy": 0.36,
+      "layer": 21,
+      "pool": "mean",
+      "ridge": 10.0,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.6
+    },
+    {
+      "contrast_accuracy": 0.34,
+      "layer": 14,
+      "pool": "mean",
+      "ridge": 10.0,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.8
+    },
+    {
+      "contrast_accuracy": 0.33,
+      "layer": 28,
+      "pool": "last",
+      "ridge": 0.1,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.6
+    },
+    {
+      "contrast_accuracy": 0.31,
+      "layer": 28,
+      "pool": "last",
+      "ridge": 100.0,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.8
+    },
+    {
+      "contrast_accuracy": 0.3,
+      "layer": 0,
+      "pool": "mean",
+      "ridge": 0.1,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.8
+    },
+    {
+      "contrast_accuracy": 0.3,
+      "layer": 28,
+      "pool": "mean",
+      "ridge": 0.001,
+      "train_accuracy": 0.24333333333333335,
+      "validation_accuracy": 0.25
+    },
+    {
+      "contrast_accuracy": 0.29,
+      "layer": 14,
+      "pool": "mean",
+      "ridge": 1.0,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.8
+    },
+    {
+      "contrast_accuracy": 0.29,
+      "layer": 28,
+      "pool": "last",
+      "ridge": 1.0,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.6
+    },
+    {
+      "contrast_accuracy": 0.27,
+      "layer": 14,
+      "pool": "mean",
+      "ridge": 100.0,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.8
+    },
+    {
+      "contrast_accuracy": 0.27,
+      "layer": 28,
+      "pool": "last",
+      "ridge": 10.0,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.6125
+    },
+    {
+      "contrast_accuracy": 0.26,
+      "layer": 0,
+      "pool": "mean",
+      "ridge": 0.01,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.8
+    },
+    {
+      "contrast_accuracy": 0.26,
+      "layer": 21,
+      "pool": "mean",
+      "ridge": 1.0,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.6
+    },
+    {
+      "contrast_accuracy": 0.25,
+      "layer": 7,
+      "pool": "mean",
+      "ridge": 100.0,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.8
+    },
+    {
+      "contrast_accuracy": 0.25,
+      "layer": 21,
+      "pool": "mean",
+      "ridge": 0.01,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.6
+    },
+    {
+      "contrast_accuracy": 0.24,
+      "layer": 21,
+      "pool": "mean",
+      "ridge": 0.1,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.6
+    },
+    {
+      "contrast_accuracy": 0.22,
+      "layer": 14,
+      "pool": "last",
+      "ridge": 0.01,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.7875
+    },
+    {
+      "contrast_accuracy": 0.22,
+      "layer": 14,
+      "pool": "last",
+      "ridge": 1.0,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.7875
+    },
+    {
+      "contrast_accuracy": 0.22,
+      "layer": 0,
+      "pool": "mean",
+      "ridge": 100.0,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.6
+    },
+    {
+      "contrast_accuracy": 0.22,
+      "layer": 28,
+      "pool": "last",
+      "ridge": 0.01,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.6
+    },
+    {
+      "contrast_accuracy": 0.21,
+      "layer": 14,
+      "pool": "last",
+      "ridge": 0.1,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.75
+    },
+    {
+      "contrast_accuracy": 0.21,
+      "layer": 0,
+      "pool": "mean",
+      "ridge": 10.0,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.6
+    },
+    {
+      "contrast_accuracy": 0.21,
+      "layer": 28,
+      "pool": "last",
+      "ridge": 0.001,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.475
+    },
+    {
+      "contrast_accuracy": 0.2,
+      "layer": 7,
+      "pool": "mean",
+      "ridge": 0.01,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.8
+    },
+    {
+      "contrast_accuracy": 0.2,
+      "layer": 7,
+      "pool": "mean",
+      "ridge": 0.1,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.8
+    },
+    {
+      "contrast_accuracy": 0.2,
+      "layer": 7,
+      "pool": "mean",
+      "ridge": 1.0,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.8
+    },
+    {
+      "contrast_accuracy": 0.2,
+      "layer": 7,
+      "pool": "mean",
+      "ridge": 10.0,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.8
+    },
+    {
+      "contrast_accuracy": 0.2,
+      "layer": 14,
+      "pool": "mean",
+      "ridge": 0.1,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.8
+    },
+    {
+      "contrast_accuracy": 0.2,
+      "layer": 21,
+      "pool": "last",
+      "ridge": 0.001,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.6625
+    },
+    {
+      "contrast_accuracy": 0.2,
+      "layer": 14,
+      "pool": "mean",
+      "ridge": 0.01,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.6
+    },
+    {
+      "contrast_accuracy": 0.2,
+      "layer": 21,
+      "pool": "last",
+      "ridge": 10.0,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.6
+    },
+    {
+      "contrast_accuracy": 0.2,
+      "layer": 14,
+      "pool": "last",
+      "ridge": 0.001,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.5875
+    },
+    {
+      "contrast_accuracy": 0.2,
+      "layer": 21,
+      "pool": "last",
+      "ridge": 100.0,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.575
+    },
+    {
+      "contrast_accuracy": 0.2,
+      "layer": 14,
+      "pool": "last",
+      "ridge": 10.0,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.4625
+    },
+    {
+      "contrast_accuracy": 0.2,
+      "layer": 21,
+      "pool": "mean",
+      "ridge": 0.001,
+      "train_accuracy": 0.68,
+      "validation_accuracy": 0.425
+    },
+    {
+      "contrast_accuracy": 0.2,
+      "layer": 0,
+      "pool": "mean",
+      "ridge": 0.001,
+      "train_accuracy": 0.44,
+      "validation_accuracy": 0.4125
+    },
+    {
+      "contrast_accuracy": 0.2,
+      "layer": 14,
+      "pool": "last",
+      "ridge": 100.0,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.4
+    },
+    {
+      "contrast_accuracy": 0.2,
+      "layer": 0,
+      "pool": "last",
+      "ridge": 0.001,
+      "train_accuracy": 0.2,
+      "validation_accuracy": 0.2
+    },
+    {
+      "contrast_accuracy": 0.2,
+      "layer": 0,
+      "pool": "last",
+      "ridge": 0.01,
+      "train_accuracy": 0.2,
+      "validation_accuracy": 0.2
+    },
+    {
+      "contrast_accuracy": 0.2,
+      "layer": 0,
+      "pool": "last",
+      "ridge": 0.1,
+      "train_accuracy": 0.2,
+      "validation_accuracy": 0.2
+    },
+    {
+      "contrast_accuracy": 0.2,
+      "layer": 0,
+      "pool": "last",
+      "ridge": 1.0,
+      "train_accuracy": 0.2,
+      "validation_accuracy": 0.2
+    },
+    {
+      "contrast_accuracy": 0.2,
+      "layer": 0,
+      "pool": "last",
+      "ridge": 10.0,
+      "train_accuracy": 0.2,
+      "validation_accuracy": 0.2
+    },
+    {
+      "contrast_accuracy": 0.2,
+      "layer": 0,
+      "pool": "last",
+      "ridge": 100.0,
+      "train_accuracy": 0.2,
+      "validation_accuracy": 0.2
+    },
+    {
+      "contrast_accuracy": 0.18,
+      "layer": 0,
+      "pool": "mean",
+      "ridge": 1.0,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.7875
+    }
+  ],
+  "classes": [
+    "diophantine_solvability",
+    "finite_double_count",
+    "finite_recurrence_period",
+    "modular_period_prime_filter",
+    "polynomial_value_obstruction"
+  ],
+  "contrast": {
+    "accuracy": 0.24,
+    "confusion": [
+      {
+        "count": 20,
+        "expected": "diophantine_solvability",
+        "predicted": "finite_recurrence_period"
+      },
+      {
+        "count": 4,
+        "expected": "finite_double_count",
+        "predicted": "finite_double_count"
+      },
+      {
+        "count": 13,
+        "expected": "finite_double_count",
+        "predicted": "finite_recurrence_period"
+      },
+      {
+        "count": 3,
+        "expected": "finite_double_count",
+        "predicted": "modular_period_prime_filter"
+      },
+      {
+        "count": 20,
+        "expected": "finite_recurrence_period",
+        "predicted": "finite_recurrence_period"
+      },
+      {
+        "count": 20,
+        "expected": "modular_period_prime_filter",
+        "predicted": "finite_recurrence_period"
+      },
+      {
+        "count": 20,
+        "expected": "polynomial_value_obstruction",
+        "predicted": "finite_recurrence_period"
+      }
+    ],
+    "count": 100,
+    "pair_accuracy": 0.0,
+    "prediction_counts": {
+      "finite_double_count": 4,
+      "finite_recurrence_period": 93,
+      "modular_period_prime_filter": 3
+    }
+  },
+  "contrast_sha256": "e087fa2d070427ac1cb537a7d44ad0831291550558fd131e69f86bb8e8626fdb",
+  "elapsed_seconds": 31.577270030975342,
+  "input_contract": "natural-language statement only",
+  "limitations": [
+    "This measures closed-set method selection, not method execution or proof generation.",
+    "The linear head uses labeled method-routing examples even though the language model remains frozen.",
+    "The synthetic five-family contrast set does not establish broad mathematical abstraction."
+  ],
+  "model": "assets/models/qwen3-0.6b-base",
+  "posthoc_oracle_best_contrast_trial": {
+    "contrast_accuracy": 0.68,
+    "layer": 7,
+    "pool": "last",
+    "ridge": 1.0,
+    "train_accuracy": 1.0,
+    "validation_accuracy": 0.6
+  },
+  "posthoc_oracle_warning": "Uses held-out contrast labels after unsealing and is diagnostic only; it is not a selectable result.",
+  "predictions_sha256": "b441e2943353c7485602cb80cb695c58a7067c0be4592c4e2e09e277ae228e4c",
+  "probe_bytes": 30984,
+  "purpose": "test whether a tiny frozen readout can recover mathematical method concepts without modifying the language model",
+  "schema_version": 1,
+  "selected": {
+    "layer": 21,
+    "pool": "mean",
+    "ridge": 0.1,
+    "train_accuracy": 1.0,
+    "validation_accuracy": 0.6
+  },
+  "selection_seal_sha256": "dac12ea28bec032b9c4335dedf0018ce66e66d64e95274578d1e6ba1a86e69e7",
+  "train": {
+    "accuracy": 1.0,
+    "confusion": [
+      {
+        "count": 60,
+        "expected": "diophantine_solvability",
+        "predicted": "diophantine_solvability"
+      },
+      {
+        "count": 60,
+        "expected": "finite_double_count",
+        "predicted": "finite_double_count"
+      },
+      {
+        "count": 60,
+        "expected": "finite_recurrence_period",
+        "predicted": "finite_recurrence_period"
+      },
+      {
+        "count": 60,
+        "expected": "modular_period_prime_filter",
+        "predicted": "modular_period_prime_filter"
+      },
+      {
+        "count": 60,
+        "expected": "polynomial_value_obstruction",
+        "predicted": "polynomial_value_obstruction"
+      }
+    ],
+    "count": 300,
+    "pair_accuracy": null,
+    "prediction_counts": {
+      "diophantine_solvability": 60,
+      "finite_double_count": 60,
+      "finite_recurrence_period": 60,
+      "modular_period_prime_filter": 60,
+      "polynomial_value_obstruction": 60
+    }
+  },
+  "trainable_parameters": 5120,
+  "validation": {
+    "accuracy": 0.6,
+    "confusion": [
+      {
+        "count": 11,
+        "expected": "diophantine_solvability",
+        "predicted": "modular_period_prime_filter"
+      },
+      {
+        "count": 5,
+        "expected": "diophantine_solvability",
+        "predicted": "polynomial_value_obstruction"
+      },
+      {
+        "count": 16,
+        "expected": "finite_double_count",
+        "predicted": "finite_double_count"
+      },
+      {
+        "count": 16,
+        "expected": "finite_recurrence_period",
+        "predicted": "finite_recurrence_period"
+      },
+      {
+        "count": 16,
+        "expected": "modular_period_prime_filter",
+        "predicted": "modular_period_prime_filter"
+      },
+      {
+        "count": 16,
+        "expected": "polynomial_value_obstruction",
+        "predicted": "diophantine_solvability"
+      }
+    ],
+    "count": 80,
+    "pair_accuracy": null,
+    "prediction_counts": {
+      "diophantine_solvability": 16,
+      "finite_double_count": 16,
+      "finite_recurrence_period": 16,
+      "modular_period_prime_filter": 27,
+      "polynomial_value_obstruction": 5
+    }
+  },
+  "weights": null,
+  "weights_sha256": null
+}

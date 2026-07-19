@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "sealed_at_utc": "2026-07-19T08:33:17Z",
+  "purpose": "Blind semantic route audit of all 100 iter035 contrast responses, testing whether a stronger formalizer can recover faithful method paraphrases that an exact-marker evaluator may miss.",
+  "route_concepts": {
+    "diophantine_solvability": "Use the greatest-common-divisor criterion for linear Diophantine equations, with a Bezout witness when a solution exists.",
+    "finite_double_count": "Use double counting of element incidences: count how often one fixed element appears, then sum over the universe.",
+    "finite_recurrence_period": "Use cycle detection for finite recurrences: find a repeated state and reduce the requested index modulo the cycle length.",
+    "modular_period_prime_filter": "Use periodicity of modular powers: find the exponent cycle and inspect the relevant residue classes.",
+    "polynomial_value_obstruction": "Use congruence preservation for integer polynomials: compare the input difference with the value difference."
+  },
+  "blind_phase": {
+    "allowed_inputs": [
+      {
+        "path": "runs/iter035-method-router-diverse-cont300-seed17/contrast.jsonl",
+        "sha256": "976d794f6fe5b114e19690af9c5ccc6141cb743deb62ec7909cde769375a2997",
+        "record_count": 100,
+        "fields_read": ["id", "response"]
+      },
+      {
+        "path": "benchmarks/method_router/contrast/data/prompts.jsonl",
+        "sha256": "7235446d98d2e733375cfe2b057c542487c48c5a54c2601ba6f903e0cae1eb22",
+        "fields_read": ["id", "prompt"]
+      },
+      {
+        "path": "assets/data/processed/training-views/method-router-v1/manifest.json",
+        "sha256": "e8fe84d8e5d42ebf113d32c8511687c51d5748ea79455bb95b8179415e938bc1",
+        "fields_read": ["methods"]
+      }
+    ],
+    "prohibited_before_seal": [
+      "gold route fields",
+      "gold family fields",
+      "contrast manifest",
+      "lexical or marker scores",
+      "strict evaluator output",
+      "any previous iter035 contrast metrics"
+    ],
+    "attestation": "Each judgment classifies only the mathematical method actually proposed by the model response. The public prompt was used for reference resolution, but its apparent correct method was not substituted when the response proposed something else. No response was repaired. Gold labels and evaluator results were not read before this artifact and manifest were sealed.",
+    "classification_values": [
+      "polynomial_value_obstruction",
+      "diophantine_solvability",
+      "modular_period_prime_filter",
+      "finite_double_count",
+      "finite_recurrence_period",
+      "ambiguous_missing"
+    ]
+  },
+  "sealed_artifact": {
+    "path": "experiments/faithful-formalizer-probe/iter035-contrast100/blind_route_judgments.jsonl",
+    "sha256": "517cae391f595656b9e3a4a1bdbfca87514df440669ea609d362a3f9bf1fa3df",
+    "record_count": 100
+  },
+  "blind_route_counts": {
+    "polynomial_value_obstruction": 0,
+    "diophantine_solvability": 4,
+    "modular_period_prime_filter": 20,
+    "finite_double_count": 8,
+    "finite_recurrence_period": 14,
+    "ambiguous_missing": 54
+  }
+}

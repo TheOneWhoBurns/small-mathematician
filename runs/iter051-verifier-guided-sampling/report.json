@@ -1,0 +1,12 @@
+{
+  "accepted": 5,
+  "accepted_precision": 1.0,
+  "accepted_sha256": "e88851f766edd07daff220b5e5ddd528648d0fd3c6dafa1f75c6e6083c156c9b",
+  "candidate_valid": 26,
+  "candidates": 64,
+  "candidates_sha256": "31a37df8704107cfa1f526b05fa237caf9c3a51977afbbb495c77b3ceb574374",
+  "coverage": 0.625,
+  "mean_unique_candidates": 1.875,
+  "prompts": 8,
+  "verifier_sha256": "7be6673b1a516b6022e222f90ad7da5d0788f818a5cc88759ebdb834b5160e1c"
+}

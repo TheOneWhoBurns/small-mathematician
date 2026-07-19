@@ -1,0 +1,10 @@
+{
+  "counts": {
+    "long": 50,
+    "short": 50
+  },
+  "parameter_overlap": 0,
+  "test_prompt_sha256": "49037a607c3ff590b2b474bffc87a3b8aa4c546e1f685cc6ddc0cab893d853c3",
+  "test_verifier_sha256": "e90d1ceb6f17006bfa0e23bedcfd3a4110c8c4b3ca9f4bbf4417ab121461940c",
+  "total": 100
+}

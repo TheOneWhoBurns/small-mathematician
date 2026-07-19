@@ -1,0 +1,130 @@
+{
+  "audit": "strict_blind_semantic_route_audit",
+  "status": "complete",
+  "blind_seal_verified_before_scoring": true,
+  "files": {
+    "blind_input": {
+      "path": "runs/iter035-method-router-diverse-cont300-seed17/contrast.jsonl",
+      "sha256": "976d794f6fe5b114e19690af9c5ccc6141cb743deb62ec7909cde769375a2997"
+    },
+    "gold_join_input_opened_only_after_seal": {
+      "path": "benchmarks/method_router/contrast/data/prompts.jsonl",
+      "sha256": "7235446d98d2e733375cfe2b057c542487c48c5a54c2601ba6f903e0cae1eb22"
+    },
+    "judgments": {
+      "path": "runs/iter035-method-router-diverse-cont300-seed17/blind_semantic_audit/judgments.jsonl",
+      "sha256": "7f9b5b04934b0cf8d7a7645342becf9b218118c2323a250a2d02cb05be6d3259"
+    },
+    "manifest": {
+      "path": "runs/iter035-method-router-diverse-cont300-seed17/blind_semantic_audit/manifest.json",
+      "sha256": "4f1b87e0fff42086a0702281f5e88b9b0531104b01bb9d5d3e53b6d88198fc1b"
+    },
+    "seal": {
+      "path": "runs/iter035-method-router-diverse-cont300-seed17/blind_semantic_audit/seal.sha256",
+      "sha256": "e1d2c0dea6fb3444663776186635ff0b700228064288cc9bbe93ea60baaa980b"
+    }
+  },
+  "join": {
+    "key": "id",
+    "contrast_rows": 100,
+    "judgment_rows": 100,
+    "gold_rows_matched": 100,
+    "missing_or_duplicate_ids": 0
+  },
+  "scoring_rules": {
+    "item_accuracy": "A judgment is correct iff judgment equals the gold route; ambiguous_or_missing counts as incorrect.",
+    "per_route_accuracy": "Correct items divided by all gold items for that route.",
+    "matched_pair_accuracy": "A pair is correct iff both of its two sides are correct; divide such pairs by all pair_id groups.",
+    "recognizable_route_precision": "Among judgments with recognizable_route=true, the proportion whose judgment equals the gold route."
+  },
+  "scores": {
+    "overall_accuracy": {
+      "correct": 18,
+      "total": 100,
+      "value": 0.18
+    },
+    "per_route_accuracy": {
+      "polynomial_value_obstruction": {
+        "correct": 0,
+        "total": 20,
+        "value": 0.0
+      },
+      "diophantine_solvability": {
+        "correct": 0,
+        "total": 20,
+        "value": 0.0
+      },
+      "modular_period_prime_filter": {
+        "correct": 1,
+        "total": 20,
+        "value": 0.05
+      },
+      "finite_double_count": {
+        "correct": 8,
+        "total": 20,
+        "value": 0.4
+      },
+      "finite_recurrence_period": {
+        "correct": 9,
+        "total": 20,
+        "value": 0.45
+      }
+    },
+    "matched_pair_accuracy": {
+      "both_sides_correct": 0,
+      "total_pairs": 50,
+      "value": 0.0,
+      "exactly_one_side_correct": 18,
+      "neither_side_correct": 32
+    },
+    "recognizable_route_precision": {
+      "correct": 18,
+      "predicted_recognizable": 18,
+      "value": 1.0,
+      "coverage": 0.18
+    },
+    "recognizable_predictions_by_route": {
+      "polynomial_value_obstruction": {
+        "predicted": 0,
+        "correct": 0,
+        "precision": null
+      },
+      "diophantine_solvability": {
+        "predicted": 0,
+        "correct": 0,
+        "precision": null
+      },
+      "modular_period_prime_filter": {
+        "predicted": 1,
+        "correct": 1,
+        "precision": 1.0
+      },
+      "finite_double_count": {
+        "predicted": 8,
+        "correct": 8,
+        "precision": 1.0
+      },
+      "finite_recurrence_period": {
+        "predicted": 9,
+        "correct": 9,
+        "precision": 1.0
+      }
+    },
+    "judgment_distribution": {
+      "ambiguous_or_missing": 82,
+      "polynomial_value_obstruction": 0,
+      "diophantine_solvability": 0,
+      "modular_period_prime_filter": 1,
+      "finite_double_count": 8,
+      "finite_recurrence_period": 9
+    }
+  },
+  "limitations": [
+    "The audit is deliberately conservative: generic divisibility, remainder extraction, gcd, recurrence formulas, hypergeometric counting, and direct arithmetic were not repaired into a route unless the response text stated the route-defining mechanism.",
+    "Many responses are truncated, multilingual, repetitive, contradictory, or contaminated by irrelevant text, so 82 of 100 judgments are ambiguous_or_missing.",
+    "The 100 percent recognizable-route precision applies to only 18 percent coverage and does not imply strong overall routing performance.",
+    "No response was judged recognizably polynomial_value_obstruction or diophantine_solvability, so route-specific recognizable precision for those predicted classes is undefined.",
+    "The single modular_period_prime_filter judgment states repeated multiplication, modular remainders, repetition, and exponent reduction; it does not explicitly say prime filtering, so this is the closest boundary judgment under the supplied definition.",
+    "Matched-pair accuracy uses the strict both-sides-correct definition; a looser per-side pair score would equal the ordinary 18 percent item accuracy."
+  ]
+}

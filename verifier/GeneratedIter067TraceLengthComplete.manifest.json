@@ -1,0 +1,8 @@
+{
+  "accept_field": "semantic",
+  "accepted_claims": 35,
+  "certificate_sha256": "964e974ee20a973b92963a3eae95bdb285f2d52729ec12f12336e99fa47f8a6f",
+  "details_sha256": "62f66e8ffe3e2d911d1c3dc41700b4b28a23ad7efe0e2a52285481145d04b236",
+  "trace_step_certificates": 143,
+  "verifier_sha256": "72b404dbe38b84306cb76b6b86ae40913e27cd16b384dded062444a48bb87177"
+}

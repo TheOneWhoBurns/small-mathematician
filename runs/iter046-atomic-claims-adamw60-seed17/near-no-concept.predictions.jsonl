@@ -1,0 +1,32 @@
+{"id": "vpl-v1-near-polynomial_value_obstruction-000-0dd51ccbae", "response": "The input difference is -13, and the proposed value difference is 210."}
+{"id": "vpl-v1-near-polynomial_value_obstruction-001-41f078ab50", "response": "The input difference is -10, and the proposed value difference is 121."}
+{"id": "vpl-v1-near-polynomial_value_obstruction-002-1deb636e61", "response": "The input difference is -25 and the proposed value difference is 125."}
+{"id": "vpl-v1-near-polynomial_value_obstruction-003-08d797e0e9", "response": "The input difference is -24, and the proposed value difference is -136."}
+{"id": "vpl-v1-near-polynomial_value_obstruction-004-e88ad30057", "response": "The input difference is -12, and the proposed value difference is -48."}
+{"id": "vpl-v1-near-polynomial_value_obstruction-005-57b01aef7d", "response": "The input difference is -19, and the proposed value difference is 57."}
+{"id": "vpl-v1-near-polynomial_value_obstruction-006-752de5c331", "response": "The input difference is -21, and the proposed value difference is -60."}
+{"id": "vpl-v1-near-polynomial_value_obstruction-007-00fa89fae7", "response": "The input difference is -5, and the proposed value difference is 44."}
+{"id": "vpl-v1-near-polynomial_value_obstruction-008-940b127624", "response": "The input difference is -19, and the proposed value difference is -228."}
+{"id": "vpl-v1-near-polynomial_value_obstruction-009-24e0fde1c7", "response": "The input difference is -21, and the proposed value difference is -161."}
+{"id": "vpl-v1-near-polynomial_value_obstruction-010-7ec6fc9df2", "response": "The input difference is -4, and the proposed value difference is -1."}
+{"id": "vpl-v1-near-polynomial_value_obstruction-011-9d7b9b306b", "response": "The input difference is -5, and the proposed value difference is -5."}
+{"id": "vpl-v1-near-polynomial_value_obstruction-012-5ec83404f8", "response": "The input difference is -27, and the proposed value difference is 337."}
+{"id": "vpl-v1-near-polynomial_value_obstruction-013-a39cb72862", "response": "The input difference is -8 and the proposed value difference is 102."}
+{"id": "vpl-v1-near-polynomial_value_obstruction-014-fc7ae836c0", "response": "The input difference is -77, and the proposed value difference is 84."}
+{"id": "vpl-v1-near-polynomial_value_obstruction-015-f35c5bce4d", "response": "The input difference is -4, and the proposed value difference is -39."}
+{"id": "vpl-v1-near-diophantine_solvability-000-d334ffc687", "response": "The equation 1728x + 1212y = 45 has an integer solution."}
+{"id": "vpl-v1-near-diophantine_solvability-001-e0a8b7d314", "response": "The equation 318x + 72y = -15 has an integer solution."}
+{"id": "vpl-v1-near-diophantine_solvability-002-b696577734", "response": "The equation 1183x + 195y = 104 has an integer solution."}
+{"id": "vpl-v1-near-diophantine_solvability-003-894cedcf99", "response": "The equation 1378x + 1898y = 189 has no integer solution."}
+{"id": "vpl-v1-near-diophantine_solvability-004-7b5013dbd2", "response": "The equation 984x + 952y = 40 has an integer solution."}
+{"id": "vpl-v1-near-diophantine_solvability-005-0609131c3e", "response": "The equation 3014x + 528y = 88 has an integer solution."}
+{"id": "vpl-v1-near-diophantine_solvability-006-bbfe4ab84f", "response": "The equation 2430x + 4290y = 78 has an integer solution."}
+{"id": "vpl-v1-near-diophantine_solvability-007-6e26758050", "response": "The equation 429x + 1276y = -2 has an integer solution."}
+{"id": "vpl-v1-near-diophantine_solvability-008-de219b9d30", "response": "The equation 42x + 306y = 30 has no integer solution."}
+{"id": "vpl-v1-near-diophantine_solvability-009-ceac834864", "response": "The equation 1460x + 1740y = 176 has an integer solution."}
+{"id": "vpl-v1-near-diophantine_solvability-010-3dd58d993a", "response": "The equation 388x + 516y = 32 has an integer solution."}
+{"id": "vpl-v1-near-diophantine_solvability-011-ee20dfd785", "response": "The equation 437x + 2461y = 69 has an integer solution."}
+{"id": "vpl-v1-near-diophantine_solvability-012-df0e02beb4", "response": "The equation 264x + 1740y = 78 has an integer solution."}
+{"id": "vpl-v1-near-diophantine_solvability-013-8da031a981", "response": "The equation 1430x + 1782y = 99 has an integer solution."}
+{"id": "vpl-v1-near-diophantine_solvability-014-f2a4639612", "response": "The equation 915x + 2100y = -135 has an integer solution."}
+{"id": "vpl-v1-near-diophantine_solvability-015-095875208d", "response": "The equation 226x + 120y = -15 has an integer solution."}

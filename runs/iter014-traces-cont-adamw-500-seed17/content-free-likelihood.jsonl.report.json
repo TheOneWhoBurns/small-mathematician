@@ -1,0 +1,17 @@
+{
+  "accuracy": NaN,
+  "confusion": [],
+  "count": 0,
+  "deadline": "2026-07-19T09:00:00-05:00",
+  "elapsed_seconds": 2.800771713256836,
+  "mean_margin": NaN,
+  "model": "assets/models/qwen3-0.6b-base",
+  "pair_accuracy": null,
+  "pairs": 0,
+  "prompts": "benchmarks/method_router/content_free_prompts.jsonl",
+  "prompts_sha256": "1059b9965ffe46b091b04b5c6521822be4936a81d9fea5cf6e5e8977a0c72ef8",
+  "schema_version": 1,
+  "selection": "highest mean teacher-forced log probability of five natural-language method descriptions",
+  "weights": "runs/iter014-traces-cont-adamw-500-seed17/weights.safetensors",
+  "weights_sha256": "7ab1e989e7e4ca7d509bca81138b0510fa54321d9c2e86f69f3bc0afcb5f76eb"
+}

@@ -1,0 +1,22 @@
+{
+  "assistant_prefix": "<think>\n\n</think>\n\n",
+  "chat_template": true,
+  "created_unix": 1784447886.806829,
+  "deadline": "2026-07-19T09:00:00-05:00",
+  "elapsed_seconds": 144.36499285697937,
+  "max_tokens": 220,
+  "model": "assets/models/qwen3-0.6b-base",
+  "new_predictions": 50,
+  "output": "runs/iter032-vpl-ordered-completion-300-seed17/train-fit-no-think.jsonl",
+  "predictions_total": 50,
+  "prompt_prefix": "Respond only in English.\n",
+  "prompt_suffix": "\nPlan:\n",
+  "prompts": "benchmarks/verified_plan_ladder/data/train_fit.prompts.jsonl",
+  "prompts_sha256": "c6dc87633adad237c08d820d60cd07d3272169e3f30f448a57871155774384c8",
+  "requested": 50,
+  "schema_version": 1,
+  "seed": 17,
+  "temperature": 0.0,
+  "weights": "runs/iter032-vpl-ordered-completion-300-seed17/weights.safetensors",
+  "weights_sha256": "08268ed77958d873f0bf406a6c5576340f644b9fa4040d8ad7e4566d081c0f17"
+}

@@ -1,0 +1,14 @@
+.venv/
+.tools/
+.downloads/
+assets/models/
+assets/data/raw/
+assets/data/processed/
+assets/manifest.actual.json
+verifier/.lake/
+verifier/lake-manifest.json
+autoresearch/counterexamples/
+*.safetensors
+.release-staging/
+__pycache__/
+*.pyc

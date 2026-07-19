@@ -1,0 +1,45 @@
+{
+  "candidate_sha256": [
+    "fd63654a747a11cf975ee791a375327b567f0d55c226e09efd86c188a01ebd8b",
+    "98511de4513caf92a844228697faa78aa9fa92d78fbd24c2d22c269609eb0640",
+    "27fe83dcefd07123b04b8383cdaf03770ca051f1130bbaedbec5c79024bba09b",
+    "2851bc4c66745ff0b8326d0725060ff552da8bef014731f27294e2d564a147e1"
+  ],
+  "candidates": 4,
+  "count": 200,
+  "coverage_by_prefix": [
+    44,
+    50,
+    52,
+    58
+  ],
+  "output_sha256": "efab1f8fb4e89b54438932bca4c18e93ad02d0900b3ac0ca60ca2c52e484d8b8",
+  "per_surface": {
+    "long": {
+      "count": 100,
+      "coverage_by_prefix": [
+        25,
+        27,
+        27,
+        29
+      ]
+    },
+    "short": {
+      "count": 100,
+      "coverage_by_prefix": [
+        19,
+        23,
+        25,
+        29
+      ]
+    }
+  },
+  "selected_arm_counts": {
+    "0": 186,
+    "1": 6,
+    "2": 2,
+    "3": 6
+  },
+  "selection_metric": "trace_valid only",
+  "verifier_sha256": "72b404dbe38b84306cb76b6b86ae40913e27cd16b384dded062444a48bb87177"
+}

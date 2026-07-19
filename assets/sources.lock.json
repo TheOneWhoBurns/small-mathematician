@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "architecture_boundary": {
+    "small_mathematician_input": "natural-language mathematics only",
+    "small_mathematician_output": "natural-language proof blueprint only",
+    "lean_role": "downstream formalization and verification only"
+  },
+  "sources": {
+    "qwen3_0_6b_base": {
+      "kind": "model",
+      "repository": "Qwen/Qwen3-0.6B-Base",
+      "revision": "da87bfb608c14b7cf20ba1ce41287e8de496c0cd",
+      "license": "Apache-2.0",
+      "purpose": "editable natural-language-only base model",
+      "files": [
+        {"path": "LICENSE", "size": 11343},
+        {"path": "README.md", "size": 2973},
+        {"path": "config.json", "size": 727},
+        {"path": "generation_config.json", "size": 138},
+        {"path": "merges.txt", "size": 1671853},
+        {"path": "model.safetensors", "size": 1192135096, "sha256": "cd2a512003e2f9f3cd3c32a9c3573f820bb28c940f73c57b1ddaa983d9223eba"},
+        {"path": "tokenizer.json", "size": 7031645},
+        {"path": "tokenizer_config.json", "size": 9678},
+        {"path": "vocab.json", "size": 2776833}
+      ]
+    },
+    "naturalproofs_2": {
+      "kind": "dataset",
+      "repository": "https://zenodo.org/records/4902289",
+      "revision": "2.0.0",
+      "license": "source-specific attribution; see bundled LICENSE",
+      "purpose": "natural-language definitions, theorems, proofs, and reference links",
+      "files": [
+        {"path": "LICENSE", "size": 365, "md5": "de0990a82a670c9f6389f4d0a5fab33b"},
+        {"path": "naturalproofs_stacks.json", "size": 49740834, "md5": "1cc83913a9d34d469e9e75d693d8a404"},
+        {"path": "naturalproofs_trench.json", "size": 1047921, "md5": "cdbc1151d7e064a5149403eabf5bc3b0"},
+        {"path": "naturalproofs_proofwiki.json", "size": 116780142, "md5": "f6d0cfcbfa91b47c9390ca654351fa46"}
+      ]
+    },
+    "fineproofs_sft": {
+      "kind": "dataset",
+      "repository": "lm-provers/FineProofs-SFT",
+      "revision": "73661e62811cf2940a0d3f82788a4f4332204c2f",
+      "license": "Apache-2.0",
+      "purpose": "candidate natural-language olympiad proof trajectories with quality metadata",
+      "warning": "teacher-generated and intentionally contains incomplete solutions; not a verified training set",
+      "files": [
+        {"path": "README.md", "size": 14522},
+        {"path": "data/train-00000-of-00002.parquet", "size": 175021478, "sha256": "0c4f849c338fb45bfe89c59f95760cc41aa25f97d737bb8b3ff52fd0f06ecd85"},
+        {"path": "data/train-00001-of-00002.parquet", "size": 171071184, "sha256": "99518fe91a731dbd8b9c0f879176cbfb703f87ef8eb7a3d30e1d4e09acc42f78"}
+      ]
+    },
+    "proofbench": {
+      "kind": "benchmark",
+      "repository": "lm-provers/ProofBench",
+      "revision": "c9ef8ca58c1711c4e3f1415755fc1a5286610c61",
+      "license": "not declared in dataset card; research evaluation only pending clarification",
+      "purpose": "frozen natural-language proof evaluation; never train on it",
+      "files": [
+        {"path": "README.md", "size": 597},
+        {"path": "data/all-00000-of-00001.parquet", "size": 651671, "sha256": "799c03bc7b6d34a7e81d04176ef14527af70f79735549587cd9668d61d8aa888"}
+      ]
+    },
+    "ma_proofbench": {
+      "kind": "benchmark",
+      "repository": "openbmb/MA-ProofBench",
+      "revision": "6d57ec1360a2237d2bcc133682755e1369556b2c",
+      "license": "MIT",
+      "purpose": "frozen natural-language analysis benchmark with a separate Lean 4.28 verification view",
+      "files": [
+        {"path": "LICENSE", "size": 1064},
+        {"path": "README.md", "size": 5448},
+        {"path": "ma_proofbench.jsonl", "size": 173168}
+      ]
+    },
+    "lean_verifier": {
+      "kind": "toolchain",
+      "repository": "leanprover-community/mathlib4",
+      "revision": "8f9d9cff6bd728b17a24e163c9402775d9e6a365",
+      "tag": "v4.28.0",
+      "lean_toolchain": "leanprover/lean4:v4.28.0",
+      "elan": "v4.2.3",
+      "license": "Apache-2.0",
+      "purpose": "downstream proof checking; excluded from small-model inputs"
+    }
+  }
+}
+

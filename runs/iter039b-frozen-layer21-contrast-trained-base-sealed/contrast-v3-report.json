@@ -1,0 +1,70 @@
+{
+  "accuracy": 0.98,
+  "configuration": {
+    "layer": 21,
+    "pool": "mean",
+    "ridge": 0.1
+  },
+  "confusion": [
+    {
+      "count": 20,
+      "expected": "diophantine_solvability",
+      "predicted": "diophantine_solvability"
+    },
+    {
+      "count": 20,
+      "expected": "finite_double_count",
+      "predicted": "finite_double_count"
+    },
+    {
+      "count": 19,
+      "expected": "finite_recurrence_period",
+      "predicted": "finite_recurrence_period"
+    },
+    {
+      "count": 1,
+      "expected": "finite_recurrence_period",
+      "predicted": "polynomial_value_obstruction"
+    },
+    {
+      "count": 19,
+      "expected": "modular_period_prime_filter",
+      "predicted": "modular_period_prime_filter"
+    },
+    {
+      "count": 1,
+      "expected": "modular_period_prime_filter",
+      "predicted": "polynomial_value_obstruction"
+    },
+    {
+      "count": 20,
+      "expected": "polynomial_value_obstruction",
+      "predicted": "polynomial_value_obstruction"
+    }
+  ],
+  "count": 100,
+  "elapsed_seconds": 7.742012023925781,
+  "evaluation_contract": "sealed frozen readout; no fitting or configuration selection",
+  "model": "assets/models/qwen3-0.6b-base",
+  "pair_accuracy": 0.96,
+  "pairs": 50,
+  "peak_metal_gb": 1.453284194,
+  "prediction_counts": {
+    "diophantine_solvability": 20,
+    "finite_double_count": 20,
+    "finite_recurrence_period": 19,
+    "modular_period_prime_filter": 19,
+    "polynomial_value_obstruction": 22
+  },
+  "predictions_sha256": "f6470994c82ca8d362910f91032d5da588c8d76a73f7d5de005f9008f81149fd",
+  "probe": "runs/iter039b-frozen-layer21-contrast-trained-base-sealed/probe.npz",
+  "probe_bytes": 30984,
+  "probe_parameters": 5120,
+  "probe_sha256": "bdaae51db013fa520ef6ef516fd6deae303275ae59d327bf9b7fade1dcba2795",
+  "prompts": "benchmarks/method_router/contrast_v3/data/prompts.jsonl",
+  "prompts_per_second_including_load": 12.916538968289085,
+  "prompts_sha256": "74c5cf839fc92836aefa8520cc47058d25b2d42d9b349d8b0f2e7cabcf08f066",
+  "schema_version": 1,
+  "weights": null,
+  "weights_sha256": null
+}

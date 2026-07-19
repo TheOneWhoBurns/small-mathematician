@@ -1,0 +1,27 @@
+{
+  "count": 200,
+  "per_family": {
+    "diophantine_solvability": {
+      "count": 200,
+      "semantic": 10,
+      "semantic_rate": 0.05,
+      "strict": 10,
+      "strict_rate": 0.05
+    }
+  },
+  "per_surface": {
+    "test": {
+      "count": 200,
+      "semantic": 10,
+      "semantic_rate": 0.05,
+      "strict": 10,
+      "strict_rate": 0.05
+    }
+  },
+  "predictions_sha256": "f942c146109b38f0fb4683c55444eb8b58899f498d3cdf7db07ef6fc4e7e87b9",
+  "semantic": 10,
+  "semantic_rate": 0.05,
+  "strict": 10,
+  "strict_rate": 0.05,
+  "verifier_sha256": "db73e9f098aa0abca4a3fae386640c1fe3f0c32ef1d4d3300d40a74436ed23d0"
+}

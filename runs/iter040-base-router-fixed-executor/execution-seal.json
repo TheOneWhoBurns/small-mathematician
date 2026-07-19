@@ -1,0 +1,13 @@
+{
+  "contract": "responses generated from public natural-language prompts and predicted routes before private verifier data was opened",
+  "count": 80,
+  "private_opened": false,
+  "prompts": "benchmarks/verified_plan_ladder/data/composition.prompts.jsonl",
+  "prompts_sha256": "db172e8fd50bb24fbcdffe59311a5edad4a550c17ba454483bad9b167ce2827c",
+  "responses": "runs/iter040-base-router-fixed-executor/composition-responses.jsonl",
+  "responses_sha256": "9e7c67749ad73a9308e4495f9863bd0f4417a1b0e67216ed4c04746ea20fe920",
+  "route_parse_failures": [],
+  "route_predictions": "runs/iter039b-frozen-layer21-contrast-trained-base-sealed/composition-route-predictions.jsonl",
+  "route_predictions_sha256": "a8ba832d8d6216d81d157c884d3e62317bdc1e86e3eb078fd74fd7d10d4da30b",
+  "schema_version": 1
+}

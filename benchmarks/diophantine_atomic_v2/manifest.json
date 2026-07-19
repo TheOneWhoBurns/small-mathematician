@@ -1,0 +1,15 @@
+{
+  "counts": {
+    "test": 200,
+    "train": 600,
+    "valid": 120
+  },
+  "parameter_overlap": 0,
+  "seed": 20260719,
+  "test_prompt_sha256": "2f8320198a534bba14e4081fc46eec74a94d7a5b4efca27704e297eaf63a982b",
+  "test_verifier_sha256": "6cdd98d513f2436c5e68ed028e7e2b15f0ca9697f635ded7a8d0fb35246ad159",
+  "training_expanded": {
+    "train": 1800,
+    "valid": 360
+  }
+}

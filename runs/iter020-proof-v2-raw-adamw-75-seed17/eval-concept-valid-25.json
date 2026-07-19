@@ -1,0 +1,17 @@
+{
+  "created_unix": 1784436836.130819,
+  "data": "assets/data/processed/training-views/self-contained-concept-proof-1024-raw",
+  "examples": 251,
+  "loss": 1.2177239656448364,
+  "mask_prompt": false,
+  "max_seq_length": 1024,
+  "mlx": "0.32.0",
+  "mlx_lm": "0.31.3",
+  "model": "assets/models/qwen3-0.6b-base",
+  "num_batches": 25,
+  "perplexity": 3.3794872760772705,
+  "python": "3.12.13",
+  "schema_version": 1,
+  "split": "valid",
+  "weights": "runs/iter020-proof-v2-raw-adamw-75-seed17/weights.safetensors"
+}

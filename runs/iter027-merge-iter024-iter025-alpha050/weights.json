@@ -1,0 +1,13 @@
+{
+  "alpha": 0.5,
+  "checkpoint_a": "runs/iter024-blueprint-adamw-60-seed17/weights.safetensors",
+  "checkpoint_a_sha256": "00d1e697f6704a7e07a776c61b05f08369766a668c92a42e13430423ab185f30",
+  "checkpoint_b": "runs/iter025-blueprint-v1-v2-adamw-180-seed17/weights.safetensors",
+  "checkpoint_b_sha256": "9f506449f51ea67500def3e482f35e8b746315c60cbaf3aca4ad2abf56d07e50",
+  "created_unix": 1784442866.222234,
+  "operation": "linear checkpoint interpolation",
+  "output": "runs/iter027-merge-iter024-iter025-alpha050/weights.safetensors",
+  "output_sha256": "e406ea88d59a5d46c69e07431a34ca1b3bacb085461a4ef37f2db28cb4fd25ec",
+  "schema_version": 1,
+  "tensor_count": 310
+}

@@ -1,0 +1,30 @@
+{
+  "classes": [
+    "diophantine_solvability",
+    "finite_double_count",
+    "finite_recurrence_period",
+    "modular_period_prime_filter",
+    "polynomial_value_obstruction"
+  ],
+  "contrast_opened": false,
+  "probe": "runs/iter037-frozen-method-probe-iter014/probe.npz",
+  "probe_bytes": 30984,
+  "probe_sha256": "6cb0e0e1fee771f3fe9c14dc95af68a6ffb9b0e3a6c7d702b8db72c66e48962d",
+  "schema_version": 1,
+  "selected": {
+    "layer": 0,
+    "pool": "mean",
+    "ridge": 0.01,
+    "train_accuracy": 1.0,
+    "validation_accuracy": 0.8
+  },
+  "selection_data": [
+    "assets/data/processed/training-views/method-router-v1/train.prompts.jsonl",
+    "assets/data/processed/training-views/method-router-v1/paraphrase.prompts.jsonl"
+  ],
+  "selection_data_sha256": [
+    "2589e55f1f7c5eb721c55607cbc9da5f437aeb41c8ac96322ba3f36226eaa19f",
+    "2a4ba30cda88ad495bd25e64c21b269c26d17206b4044ceb4002be2e80c9cc2b"
+  ],
+  "trainable_parameters": 5120
+}

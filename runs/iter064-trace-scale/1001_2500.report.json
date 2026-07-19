@@ -1,0 +1,13 @@
+{
+  "count": 80,
+  "final_valid": 12,
+  "final_valid_rate": 0.15,
+  "parsed": 78,
+  "parsed_rate": 0.975,
+  "predictions_sha256": "181bb94e97b09cf80668b2f85c2a8f8579d3fa438eb91a45f9ff61b3bbccdbd1",
+  "semantic": 1,
+  "semantic_rate": 0.0125,
+  "trace_valid": 1,
+  "trace_valid_rate": 0.0125,
+  "verifier_sha256": "edd24cd4b79523dac882b08600bc023fbab4646ae2e82ebfbb03d662504d6e2c"
+}

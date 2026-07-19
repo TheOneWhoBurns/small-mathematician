@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "sealed_at_utc": "2026-07-19T08:40:57Z",
+  "purpose": "Response-only blind semantic route audit of all 100 iter014 contrast generations using the same five-route classification protocol as iter035.",
+  "route_concepts": {
+    "diophantine_solvability": "Use the greatest-common-divisor criterion for linear Diophantine equations, with a Bezout witness when a solution exists.",
+    "finite_double_count": "Use double counting of element incidences: count how often one fixed element appears, then sum over the universe.",
+    "finite_recurrence_period": "Use cycle detection for finite recurrences: find a repeated state and reduce the requested index modulo the cycle length.",
+    "modular_period_prime_filter": "Use periodicity of modular powers: find the exponent cycle and inspect the relevant residue classes.",
+    "polynomial_value_obstruction": "Use congruence preservation for integer polynomials: compare the input difference with the value difference."
+  },
+  "blind_phase": {
+    "allowed_inputs": [
+      {
+        "path": "runs/iter014-traces-cont-adamw-500-seed17/contrast.jsonl",
+        "sha256": "bc334f66c593e715ee8424e4a8a40d6e30d69a41a402c3ee637392fc9c8f79ff",
+        "record_count": 100,
+        "fields_read": ["id", "response"]
+      }
+    ],
+    "prohibited_before_seal": [
+      "public prompt text",
+      "gold route fields",
+      "gold family fields",
+      "contrast manifest",
+      "marker or lexical scores",
+      "strict evaluator output",
+      "iter035 conclusions or labels"
+    ],
+    "attestation": "Each response was classified from its own text alone. No prompt was used to infer an intended route, no missing method was supplied, and no output was repaired. All one hundred outputs were judged ambiguous or missing because none actually proposed one of the five route concepts.",
+    "classification_values": [
+      "polynomial_value_obstruction",
+      "diophantine_solvability",
+      "modular_period_prime_filter",
+      "finite_double_count",
+      "finite_recurrence_period",
+      "ambiguous_missing"
+    ]
+  },
+  "sealed_artifact": {
+    "path": "experiments/faithful-formalizer-probe/iter014-contrast100/blind_route_judgments.jsonl",
+    "sha256": "a1aacdc263fd2e511213d5495041e07f0271fe827d106768ccca8b4d502bd9cc",
+    "record_count": 100
+  },
+  "blind_route_counts": {
+    "polynomial_value_obstruction": 0,
+    "diophantine_solvability": 0,
+    "modular_period_prime_filter": 0,
+    "finite_double_count": 0,
+    "finite_recurrence_period": 0,
+    "ambiguous_missing": 100
+  }
+}

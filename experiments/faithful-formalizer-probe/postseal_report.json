@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "interpretation": "Formalization means preserving the mathematical content actually asserted by the tiny model. Repair would mean correcting a false claim, supplying a missing premise, changing the conclusion, or independently solving the public problem. Repair was forbidden.",
+  "blind_result": {
+    "responses": 10,
+    "at_least_partly_faithfully_formalizable": 10,
+    "minimal_coverage": 2,
+    "partial_coverage": 1,
+    "substantive_coverage": 7,
+    "self_contained_certifiable_arguments": 0
+  },
+  "postseal_correctness_audit": {
+    "faithful_and_certifiable": 0,
+    "unambiguously_correct_final_conclusions": 1,
+    "correct_final_conclusion_but_invalid_argument": 1,
+    "note": "The second polynomial response reaches the correct nonexistence decision, but its stated premise that 1 does not divide 26 is false. None of the ten responses supplies a valid proof of its requested conclusion."
+  },
+  "benchmark_evaluator": {
+    "command": "uv run python benchmarks/verified_plan_ladder/evaluate.py --split train --condition ordered --predictions runs/iter031-vpl-ordered-completion-micro10-300-seed17/micro10-no-think.jsonl --allow-partial --details-out experiments/faithful-formalizer-probe/postseal_benchmark_details.jsonl",
+    "responses_scored": 10,
+    "parse_valid": 0,
+    "conclusion_correct": 0,
+    "strict_plan": 0,
+    "overall_critical_fact_precision": 0.4,
+    "overall_required_fact_recall": 0.14166666666666666,
+    "caveat": "The benchmark parser requires its controlled claim templates, so its zero parse and conclusion counts are stricter than the blind semantic extraction. It recognized some correct isolated facts in four responses, but no full plan."
+  },
+  "lean_certificate_check": {
+    "builder_command": "uv run python scripts/build_plan_lean_certificates.py --results experiments/faithful-formalizer-probe/postseal_benchmark_details.jsonl --private benchmarks/verified_plan_ladder/data/train.verifier.jsonl --output verifier/GeneratedFaithfulFormalizerProbe.lean",
+    "compile_command": "cd verifier && ~/.elan/bin/lake env lean -s 65536 GeneratedFaithfulFormalizerProbe.lean",
+    "certified_ids": 0,
+    "parse_failures_safely_skipped": 10,
+    "compile_exit_code": 0,
+    "interpretation": "The sound builder emitted no example theorem. Successful compilation confirms safe rejection, not correctness of any model response."
+  },
+  "artifacts": [
+    {
+      "path": "experiments/faithful-formalizer-probe/blind_judgments.jsonl",
+      "sha256": "a8810a8cae867e89d8d55e2300643b0994e1a46518da98d1e1794838348b7254"
+    },
+    {
+      "path": "experiments/faithful-formalizer-probe/manifest.json",
+      "sha256": "dc51f6c2901e04cc388f329efde58fbe3bc01fcea01198a65f3640f12120349e"
+    },
+    {
+      "path": "experiments/faithful-formalizer-probe/postseal_benchmark_details.jsonl",
+      "sha256": "b5b3aa925cd1c97f69b42f46e07ef40d6d87c0a9c58792401e904a7b8fe03e6a"
+    },
+    {
+      "path": "verifier/GeneratedFaithfulFormalizerProbe.lean",
+      "sha256": "65bbdc73469333795d71f86877d13ee95773e8d1938e2855304cf3f4f90336cf"
+    },
+    {
+      "path": "verifier/GeneratedFaithfulFormalizerProbe.manifest.json",
+      "sha256": "f90441700eff2d88797a852baace9dac6117b08ff0e8dd80c6cf700bdfa2f188"
+    }
+  ],
+  "limitations": [
+    "This is a bounded diagnostic of ten training-split outputs, two per benchmark family, not a held-out estimate.",
+    "The responses come from one checkpoint and one decoding configuration; the result does not isolate model capacity from decoding corruption.",
+    "The blind audit was performed by one stronger language model, so inter-rater reliability was not measured.",
+    "A proposition being formalizable only means it can be represented faithfully; false propositions and contradictions are also formalizable.",
+    "The certificate builder only consumes controlled parsed claims. Its safe rejection demonstrates that no repair occurred, not that an unconstrained theorem prover could never find a proof of the public problem independently."
+  ]
+}

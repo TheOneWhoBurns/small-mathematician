@@ -1,0 +1,44 @@
+{
+  "candidate_count": 64,
+  "candidates_per_prompt": 8,
+  "candidates_sha256": "31a37df8704107cfa1f526b05fa237caf9c3a51977afbbb495c77b3ceb574374",
+  "configs": [
+    {
+      "seed": 17,
+      "temperature": 0.4
+    },
+    {
+      "seed": 23,
+      "temperature": 0.4
+    },
+    {
+      "seed": 31,
+      "temperature": 0.4
+    },
+    {
+      "seed": 47,
+      "temperature": 0.4
+    },
+    {
+      "seed": 17,
+      "temperature": 0.8
+    },
+    {
+      "seed": 23,
+      "temperature": 0.8
+    },
+    {
+      "seed": 31,
+      "temperature": 0.8
+    },
+    {
+      "seed": 47,
+      "temperature": 0.8
+    }
+  ],
+  "count_prompts": 8,
+  "elapsed_seconds": 31.02399492263794,
+  "peak_metal_gb": 1.365541596,
+  "prompts_sha256": "3e848a2a3d50414c44b4238f2e770c8fe930fa2f6a6a3a999875680500750531",
+  "weights_sha256": "116d19ad558758ecaa9fc1abc9ba12534691396859db6e23ae0bd1d0c484cced"
+}

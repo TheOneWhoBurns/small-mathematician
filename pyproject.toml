@@ -1,0 +1,13 @@
+[project]
+name = "small-mathematician"
+version = "0.1.0"
+description = "Natural-language-only small mathematical reasoning research"
+requires-python = ">=3.11,<3.14"
+dependencies = [
+  "mlx-lm==0.31.3",
+  "pyarrow==25.0.0",
+]
+
+[tool.uv]
+package = false
+

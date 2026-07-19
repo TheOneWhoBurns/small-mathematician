@@ -1,0 +1,17 @@
+{
+  "accuracy": NaN,
+  "confusion": [],
+  "count": 0,
+  "deadline": "2026-07-19T09:00:00-05:00",
+  "elapsed_seconds": 3.4172980785369873,
+  "mean_margin": NaN,
+  "model": "assets/models/qwen3-0.6b-base",
+  "pair_accuracy": null,
+  "pairs": 0,
+  "prompts": "benchmarks/method_router/content_free_prompts.jsonl",
+  "prompts_sha256": "1059b9965ffe46b091b04b5c6521822be4936a81d9fea5cf6e5e8977a0c72ef8",
+  "schema_version": 1,
+  "selection": "highest mean teacher-forced log probability of five natural-language method descriptions",
+  "weights": "runs/iter035-method-router-diverse-cont300-seed17/weights.safetensors",
+  "weights_sha256": "2a0e3f8f1a3414675e7c34ff9b39b69f486dc26c999befe522aec8da61ae83ea"
+}

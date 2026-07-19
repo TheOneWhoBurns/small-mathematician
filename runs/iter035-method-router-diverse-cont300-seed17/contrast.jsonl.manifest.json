@@ -1,0 +1,23 @@
+{
+  "assistant_prefix": "<think>\n\n</think>\n\n",
+  "chat_template": true,
+  "created_unix": 1784449703.422403,
+  "deadline": "2026-07-19T09:00:00-05:00",
+  "elapsed_seconds": 116.88446116447449,
+  "family": null,
+  "max_tokens": 80,
+  "model": "assets/models/qwen3-0.6b-base",
+  "new_predictions": 100,
+  "output": "runs/iter035-method-router-diverse-cont300-seed17/contrast.jsonl",
+  "predictions_total": 100,
+  "prompt_prefix": "Respond only in English.\n",
+  "prompt_suffix": "\nMethod:\n",
+  "prompts": "benchmarks/method_router/contrast/data/prompts.jsonl",
+  "prompts_sha256": "7235446d98d2e733375cfe2b057c542487c48c5a54c2601ba6f903e0cae1eb22",
+  "requested": 100,
+  "schema_version": 1,
+  "seed": 17,
+  "temperature": 0.0,
+  "weights": "runs/iter035-method-router-diverse-cont300-seed17/weights.safetensors",
+  "weights_sha256": "2a0e3f8f1a3414675e7c34ff9b39b69f486dc26c999befe522aec8da61ae83ea"
+}

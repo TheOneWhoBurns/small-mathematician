@@ -1,0 +1,111 @@
+{
+  "count": 100,
+  "forbidden_gold_phrases": [
+    "polynomial_value_obstruction",
+    "diophantine_solvability",
+    "modular_period_prime_filter",
+    "finite_double_count",
+    "finite_recurrence_period",
+    "congruence preservation for integer polynomials",
+    "greatest-common-divisor criterion for linear diophantine equations",
+    "periodicity of modular powers",
+    "double counting of element incidences",
+    "cycle detection for finite recurrences",
+    "congruence preservation",
+    "greatest-common-divisor criterion",
+    "periodicity of modular powers",
+    "double counting",
+    "cycle detection",
+    "bezout witness"
+  ],
+  "forbidden_v1_relation_phrases": [
+    "a score rule assigns positions",
+    "the rule must be built from the integer input",
+    "two signed whole-number choices",
+    "their combined total can be exactly",
+    "beginning from the multiplicative identity",
+    "repeatedly multiply by",
+    "keep the remainder after division",
+    "list every ordered choice",
+    "occur in at least one chosen group",
+    "a pair begins at",
+    "each move replaces"
+  ],
+  "forbidden_v2_relation_phrases": [
+    "starting from a whole-number dial reading",
+    "whole-number coefficients through finitely many sums and products",
+    "positive or negative number of crates",
+    "net load can reach exactly",
+    "scaling the current mark",
+    "the target mark is",
+    "complete catalogue of sequences",
+    "aggregate the marked-badge counts",
+    "two-register memory initialized",
+    "on each clock tick"
+  ],
+  "limitations": [
+    "This evaluates method routing only, not proof generation or answer correctness.",
+    "The semantic audit checks authored relation contracts and parameter well-formedness; it is not based on model consensus.",
+    "Pair matching controls story, length, and numeric sequence, while relation-specific vocabulary necessarily differs.",
+    "The held-out claim applies only because the recorded probes and their configuration seals predate v3 inspection."
+  ],
+  "pair_contract": {
+    "counterpart_route_is_nonoperative_decoy": true,
+    "different_correct_routes": true,
+    "same_ordered_numeric_literals": true,
+    "same_word_count": true,
+    "third_relation_phrasings": true,
+    "third_story_shells": true
+  },
+  "pair_type_counts": {
+    "diophantine_solvability + finite_double_count": 5,
+    "diophantine_solvability + finite_recurrence_period": 5,
+    "diophantine_solvability + modular_period_prime_filter": 5,
+    "diophantine_solvability + polynomial_value_obstruction": 5,
+    "finite_double_count + finite_recurrence_period": 5,
+    "finite_double_count + modular_period_prime_filter": 5,
+    "finite_double_count + polynomial_value_obstruction": 5,
+    "finite_recurrence_period + modular_period_prime_filter": 5,
+    "finite_recurrence_period + polynomial_value_obstruction": 5,
+    "modular_period_prime_filter + polynomial_value_obstruction": 5
+  },
+  "pairs": 50,
+  "prior_version_comparison_contract": {
+    "exact_prompt_overlap_required_each": 0,
+    "long_normalized_ngram_overlap_required_each": 0,
+    "normalized_ngram_size": 8,
+    "versions": [
+      "contrast_v1",
+      "contrast_v2"
+    ]
+  },
+  "prompts_sha256": "74c5cf839fc92836aefa8520cc47058d25b2d42d9b349d8b0f2e7cabcf08f066",
+  "purpose": "third newly authored held-out matched routing test created after the named probes were sealed",
+  "route_counts": {
+    "diophantine_solvability": 20,
+    "finite_double_count": 20,
+    "finite_recurrence_period": 20,
+    "modular_period_prime_filter": 20,
+    "polynomial_value_obstruction": 20
+  },
+  "routes": [
+    "polynomial_value_obstruction",
+    "diophantine_solvability",
+    "modular_period_prime_filter",
+    "finite_double_count",
+    "finite_recurrence_period"
+  ],
+  "schema_version": 3,
+  "scope": "route-selection evaluation only; no model evaluation, proof executor, or Lean certification",
+  "sealed_before_v3": {
+    "base": {
+      "probe_sha256": "bdaae51db013fa520ef6ef516fd6deae303275ae59d327bf9b7fade1dcba2795",
+      "selection_seal_sha256": "64f1c5021752551cc7bb2bdd15028cfbf860063c27c5cbc1295f6d517860c084"
+    },
+    "iter039": {
+      "probe_sha256": "d729c596f2c209f1f8df7adb7e592cda8de9571915a481b9d73bbd69af89efd7",
+      "selection_seal_sha256": "13ea9855a72984849590bb24a12499c5dc79b17be3cc8df3cac12e60b3394490"
+    }
+  },
+  "seed": 20260721
+}

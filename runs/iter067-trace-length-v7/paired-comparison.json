@@ -1,0 +1,38 @@
+{
+  "metric": "semantic",
+  "overall": {
+    "baseline_rate": 0.14,
+    "baseline_semantic": 28,
+    "candidate_rate": 0.175,
+    "candidate_semantic": 35,
+    "count": 200,
+    "delta": 0.035,
+    "harmed": 4,
+    "helped": 11,
+    "mcnemar_exact_two_sided_p": 0.11846923828125
+  },
+  "per_surface": {
+    "long": {
+      "baseline_rate": 0.16,
+      "baseline_semantic": 16,
+      "candidate_rate": 0.21,
+      "candidate_semantic": 21,
+      "count": 100,
+      "delta": 0.05,
+      "harmed": 1,
+      "helped": 6,
+      "mcnemar_exact_two_sided_p": 0.125
+    },
+    "short": {
+      "baseline_rate": 0.12,
+      "baseline_semantic": 12,
+      "candidate_rate": 0.14,
+      "candidate_semantic": 14,
+      "count": 100,
+      "delta": 0.02,
+      "harmed": 3,
+      "helped": 5,
+      "mcnemar_exact_two_sided_p": 0.7265625
+    }
+  }
+}

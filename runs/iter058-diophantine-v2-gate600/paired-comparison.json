@@ -1,0 +1,37 @@
+{
+  "overall": {
+    "baseline_rate": 0.095,
+    "baseline_semantic": 19,
+    "candidate_rate": 0.16,
+    "candidate_semantic": 32,
+    "count": 200,
+    "delta": 0.065,
+    "harmed": 10,
+    "helped": 23,
+    "mcnemar_exact_two_sided_p": 0.03508203336969018
+  },
+  "per_surface": {
+    "familiar": {
+      "baseline_rate": 0.15,
+      "baseline_semantic": 15,
+      "candidate_rate": 0.26,
+      "candidate_semantic": 26,
+      "count": 100,
+      "delta": 0.11,
+      "harmed": 6,
+      "helped": 17,
+      "mcnemar_exact_two_sided_p": 0.03468966484069824
+    },
+    "novel": {
+      "baseline_rate": 0.04,
+      "baseline_semantic": 4,
+      "candidate_rate": 0.06,
+      "candidate_semantic": 6,
+      "count": 100,
+      "delta": 0.02,
+      "harmed": 4,
+      "helped": 6,
+      "mcnemar_exact_two_sided_p": 0.75390625
+    }
+  }
+}

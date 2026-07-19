@@ -1,0 +1,17 @@
+{
+  "created_unix": 1784429999.845654,
+  "data": "assets/data/processed/synthetic-dnl-v1",
+  "examples": 50,
+  "loss": 2.6852738857269287,
+  "mask_prompt": true,
+  "max_seq_length": 512,
+  "mlx": "0.32.0",
+  "mlx_lm": "0.31.3",
+  "model": "assets/models/qwen3-0.6b-base",
+  "num_batches": -1,
+  "perplexity": 14.662217140197754,
+  "python": "3.12.13",
+  "schema_version": 1,
+  "split": "valid",
+  "weights": null
+}

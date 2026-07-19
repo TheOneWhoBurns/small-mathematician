@@ -1,0 +1,37 @@
+{
+  "count": 200,
+  "final_valid": 89,
+  "final_valid_rate": 0.445,
+  "parsed": 195,
+  "parsed_rate": 0.975,
+  "per_surface": {
+    "long": {
+      "count": 100,
+      "final_valid": 48,
+      "final_valid_rate": 0.48,
+      "parsed": 97,
+      "parsed_rate": 0.97,
+      "semantic": 19,
+      "semantic_rate": 0.19,
+      "trace_valid": 25,
+      "trace_valid_rate": 0.25
+    },
+    "short": {
+      "count": 100,
+      "final_valid": 41,
+      "final_valid_rate": 0.41,
+      "parsed": 98,
+      "parsed_rate": 0.98,
+      "semantic": 14,
+      "semantic_rate": 0.14,
+      "trace_valid": 19,
+      "trace_valid_rate": 0.19
+    }
+  },
+  "predictions_sha256": "fd63654a747a11cf975ee791a375327b567f0d55c226e09efd86c188a01ebd8b",
+  "semantic": 33,
+  "semantic_rate": 0.165,
+  "trace_valid": 44,
+  "trace_valid_rate": 0.22,
+  "verifier_sha256": "72b404dbe38b84306cb76b6b86ae40913e27cd16b384dded062444a48bb87177"
+}

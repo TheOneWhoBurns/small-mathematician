@@ -1,0 +1,33 @@
+Loading pretrained model
+Loading datasets
+Training
+Trainable parameters: 73.898% (440.466M/596.050M)
+Starting training..., iters: 3
+Calculating loss...:   0%|          | 0/1 [00:00<?, ?it/s]Calculating loss...: 100%|██████████| 1/1 [00:00<00:00,  3.04it/s]Calculating loss...: 100%|██████████| 1/1 [00:00<00:00,  3.04it/s]
+Iter 1: Val loss 2.243, Val took 0.343s
+Iter 1: Train loss 2.136, Learning Rate 1.000e-05, It/sec 0.820, Tokens/sec 67.214, Trained Tokens 82, Peak mem 2.421 GB
+Iter 2: Train loss 4.496, Learning Rate 1.000e-05, It/sec 0.895, Tokens/sec 76.046, Trained Tokens 167, Peak mem 2.516 GB
+Calculating loss...:   0%|          | 0/1 [00:00<?, ?it/s]Calculating loss...: 100%|██████████| 1/1 [00:00<00:00, 16.25it/s]
+Iter 3: Val loss 7.477, Val took 0.064s
+Iter 3: Train loss 6.200, Learning Rate 1.000e-05, It/sec 1.699, Tokens/sec 130.847, Trained Tokens 244, Peak mem 2.529 GB
+Saved final weights to experiments/full_train_probe/output-seq256-seed17b/adapters.safetensors.
+real 6.38
+user 1.27
+sys 1.24
+          1094762496  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+              169764  page reclaims
+                2042  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   1  messages sent
+                   1  messages received
+                   1  signals received
+                4814  voluntary context switches
+               28615  involuntary context switches
+           122070009  instructions retired
+            51012112  cycles elapsed
+            10797584  peak memory footprint

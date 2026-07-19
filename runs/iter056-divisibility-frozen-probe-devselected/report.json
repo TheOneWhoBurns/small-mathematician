@@ -1,0 +1,589 @@
+{
+  "all_trials": [
+    {
+      "contrast_accuracy": 0.75,
+      "layer": 28,
+      "pool": "last",
+      "ridge": 0.001,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 1.0
+    },
+    {
+      "contrast_accuracy": 0.75,
+      "layer": 28,
+      "pool": "last",
+      "ridge": 0.01,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 1.0
+    },
+    {
+      "contrast_accuracy": 0.75,
+      "layer": 28,
+      "pool": "last",
+      "ridge": 0.1,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 1.0
+    },
+    {
+      "contrast_accuracy": 0.75,
+      "layer": 28,
+      "pool": "last",
+      "ridge": 1.0,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 1.0
+    },
+    {
+      "contrast_accuracy": 0.75,
+      "layer": 28,
+      "pool": "last",
+      "ridge": 10.0,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 1.0
+    },
+    {
+      "contrast_accuracy": 0.625,
+      "layer": 28,
+      "pool": "last",
+      "ridge": 100.0,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.875
+    },
+    {
+      "contrast_accuracy": 0.5,
+      "layer": 7,
+      "pool": "last",
+      "ridge": 0.01,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.75
+    },
+    {
+      "contrast_accuracy": 0.5,
+      "layer": 7,
+      "pool": "last",
+      "ridge": 0.1,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.75
+    },
+    {
+      "contrast_accuracy": 0.5,
+      "layer": 7,
+      "pool": "last",
+      "ridge": 1.0,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.75
+    },
+    {
+      "contrast_accuracy": 0.5,
+      "layer": 0,
+      "pool": "mean",
+      "ridge": 0.001,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.625
+    },
+    {
+      "contrast_accuracy": 0.5,
+      "layer": 0,
+      "pool": "mean",
+      "ridge": 0.01,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.625
+    },
+    {
+      "contrast_accuracy": 0.5,
+      "layer": 0,
+      "pool": "mean",
+      "ridge": 0.1,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.625
+    },
+    {
+      "contrast_accuracy": 0.5,
+      "layer": 0,
+      "pool": "mean",
+      "ridge": 1.0,
+      "train_accuracy": 0.9666666666666667,
+      "validation_accuracy": 0.625
+    },
+    {
+      "contrast_accuracy": 0.5,
+      "layer": 0,
+      "pool": "mean",
+      "ridge": 10.0,
+      "train_accuracy": 0.75,
+      "validation_accuracy": 0.625
+    },
+    {
+      "contrast_accuracy": 0.5,
+      "layer": 0,
+      "pool": "mean",
+      "ridge": 100.0,
+      "train_accuracy": 0.6666666666666666,
+      "validation_accuracy": 0.625
+    },
+    {
+      "contrast_accuracy": 0.5,
+      "layer": 7,
+      "pool": "last",
+      "ridge": 0.001,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.625
+    },
+    {
+      "contrast_accuracy": 0.5,
+      "layer": 7,
+      "pool": "last",
+      "ridge": 10.0,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.625
+    },
+    {
+      "contrast_accuracy": 0.5,
+      "layer": 7,
+      "pool": "last",
+      "ridge": 100.0,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.625
+    },
+    {
+      "contrast_accuracy": 0.5,
+      "layer": 7,
+      "pool": "mean",
+      "ridge": 0.001,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.625
+    },
+    {
+      "contrast_accuracy": 0.5,
+      "layer": 7,
+      "pool": "mean",
+      "ridge": 0.01,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.625
+    },
+    {
+      "contrast_accuracy": 0.5,
+      "layer": 7,
+      "pool": "mean",
+      "ridge": 0.1,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.625
+    },
+    {
+      "contrast_accuracy": 0.5,
+      "layer": 7,
+      "pool": "mean",
+      "ridge": 1.0,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.625
+    },
+    {
+      "contrast_accuracy": 0.5,
+      "layer": 7,
+      "pool": "mean",
+      "ridge": 10.0,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.625
+    },
+    {
+      "contrast_accuracy": 0.5,
+      "layer": 7,
+      "pool": "mean",
+      "ridge": 100.0,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.625
+    },
+    {
+      "contrast_accuracy": 0.5,
+      "layer": 14,
+      "pool": "last",
+      "ridge": 0.001,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.625
+    },
+    {
+      "contrast_accuracy": 0.5,
+      "layer": 14,
+      "pool": "last",
+      "ridge": 0.01,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.625
+    },
+    {
+      "contrast_accuracy": 0.5,
+      "layer": 14,
+      "pool": "last",
+      "ridge": 0.1,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.625
+    },
+    {
+      "contrast_accuracy": 0.5,
+      "layer": 14,
+      "pool": "last",
+      "ridge": 1.0,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.625
+    },
+    {
+      "contrast_accuracy": 0.5,
+      "layer": 14,
+      "pool": "last",
+      "ridge": 10.0,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.625
+    },
+    {
+      "contrast_accuracy": 0.5,
+      "layer": 14,
+      "pool": "last",
+      "ridge": 100.0,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.625
+    },
+    {
+      "contrast_accuracy": 0.5,
+      "layer": 14,
+      "pool": "mean",
+      "ridge": 0.001,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.625
+    },
+    {
+      "contrast_accuracy": 0.5,
+      "layer": 14,
+      "pool": "mean",
+      "ridge": 0.01,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.625
+    },
+    {
+      "contrast_accuracy": 0.5,
+      "layer": 14,
+      "pool": "mean",
+      "ridge": 0.1,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.625
+    },
+    {
+      "contrast_accuracy": 0.5,
+      "layer": 14,
+      "pool": "mean",
+      "ridge": 1.0,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.625
+    },
+    {
+      "contrast_accuracy": 0.5,
+      "layer": 14,
+      "pool": "mean",
+      "ridge": 10.0,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.625
+    },
+    {
+      "contrast_accuracy": 0.5,
+      "layer": 14,
+      "pool": "mean",
+      "ridge": 100.0,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.625
+    },
+    {
+      "contrast_accuracy": 0.5,
+      "layer": 21,
+      "pool": "last",
+      "ridge": 0.001,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.625
+    },
+    {
+      "contrast_accuracy": 0.5,
+      "layer": 21,
+      "pool": "last",
+      "ridge": 0.01,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.625
+    },
+    {
+      "contrast_accuracy": 0.5,
+      "layer": 21,
+      "pool": "last",
+      "ridge": 0.1,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.625
+    },
+    {
+      "contrast_accuracy": 0.5,
+      "layer": 21,
+      "pool": "last",
+      "ridge": 1.0,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.625
+    },
+    {
+      "contrast_accuracy": 0.5,
+      "layer": 21,
+      "pool": "last",
+      "ridge": 10.0,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.625
+    },
+    {
+      "contrast_accuracy": 0.5,
+      "layer": 21,
+      "pool": "last",
+      "ridge": 100.0,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.625
+    },
+    {
+      "contrast_accuracy": 0.5,
+      "layer": 21,
+      "pool": "mean",
+      "ridge": 0.001,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.625
+    },
+    {
+      "contrast_accuracy": 0.5,
+      "layer": 21,
+      "pool": "mean",
+      "ridge": 0.01,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.625
+    },
+    {
+      "contrast_accuracy": 0.5,
+      "layer": 21,
+      "pool": "mean",
+      "ridge": 0.1,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.625
+    },
+    {
+      "contrast_accuracy": 0.5,
+      "layer": 21,
+      "pool": "mean",
+      "ridge": 1.0,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.625
+    },
+    {
+      "contrast_accuracy": 0.5,
+      "layer": 21,
+      "pool": "mean",
+      "ridge": 10.0,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.625
+    },
+    {
+      "contrast_accuracy": 0.5,
+      "layer": 21,
+      "pool": "mean",
+      "ridge": 100.0,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.625
+    },
+    {
+      "contrast_accuracy": 0.5,
+      "layer": 28,
+      "pool": "mean",
+      "ridge": 0.001,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.625
+    },
+    {
+      "contrast_accuracy": 0.5,
+      "layer": 28,
+      "pool": "mean",
+      "ridge": 0.01,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.5
+    },
+    {
+      "contrast_accuracy": 0.5,
+      "layer": 28,
+      "pool": "mean",
+      "ridge": 0.1,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.5
+    },
+    {
+      "contrast_accuracy": 0.5,
+      "layer": 28,
+      "pool": "mean",
+      "ridge": 1.0,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.5
+    },
+    {
+      "contrast_accuracy": 0.5,
+      "layer": 28,
+      "pool": "mean",
+      "ridge": 10.0,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.5
+    },
+    {
+      "contrast_accuracy": 0.5,
+      "layer": 28,
+      "pool": "mean",
+      "ridge": 100.0,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.5
+    },
+    {
+      "contrast_accuracy": 0.5,
+      "layer": 0,
+      "pool": "last",
+      "ridge": 0.001,
+      "train_accuracy": 0.5,
+      "validation_accuracy": 0.375
+    },
+    {
+      "contrast_accuracy": 0.5,
+      "layer": 0,
+      "pool": "last",
+      "ridge": 0.01,
+      "train_accuracy": 0.5,
+      "validation_accuracy": 0.375
+    },
+    {
+      "contrast_accuracy": 0.5,
+      "layer": 0,
+      "pool": "last",
+      "ridge": 0.1,
+      "train_accuracy": 0.5,
+      "validation_accuracy": 0.375
+    },
+    {
+      "contrast_accuracy": 0.5,
+      "layer": 0,
+      "pool": "last",
+      "ridge": 1.0,
+      "train_accuracy": 0.5,
+      "validation_accuracy": 0.375
+    },
+    {
+      "contrast_accuracy": 0.5,
+      "layer": 0,
+      "pool": "last",
+      "ridge": 10.0,
+      "train_accuracy": 0.5,
+      "validation_accuracy": 0.375
+    },
+    {
+      "contrast_accuracy": 0.5,
+      "layer": 0,
+      "pool": "last",
+      "ridge": 100.0,
+      "train_accuracy": 0.5,
+      "validation_accuracy": 0.375
+    }
+  ],
+  "classes": [
+    "does_divide",
+    "does_not_divide"
+  ],
+  "contrast": {
+    "accuracy": 0.75,
+    "confusion": [
+      {
+        "count": 2,
+        "expected": "does_divide",
+        "predicted": "does_divide"
+      },
+      {
+        "count": 2,
+        "expected": "does_divide",
+        "predicted": "does_not_divide"
+      },
+      {
+        "count": 4,
+        "expected": "does_not_divide",
+        "predicted": "does_not_divide"
+      }
+    ],
+    "count": 8,
+    "pair_accuracy": null,
+    "prediction_counts": {
+      "does_divide": 2,
+      "does_not_divide": 6
+    }
+  },
+  "contrast_sha256": "d6b7b0cc779a442ee85aa80bcff45755081d4678e36851b0c008f96636a1f7ed",
+  "elapsed_seconds": 7.078176021575928,
+  "input_contract": "natural-language statement only",
+  "limitations": [
+    "This measures closed-set method selection, not method execution or proof generation.",
+    "The linear head uses labeled method-routing examples even though the language model remains frozen.",
+    "The synthetic five-family contrast set does not establish broad mathematical abstraction."
+  ],
+  "model": "assets/models/qwen3-0.6b-base",
+  "posthoc_oracle_best_contrast_trial": {
+    "contrast_accuracy": 0.75,
+    "layer": 28,
+    "pool": "last",
+    "ridge": 0.001,
+    "train_accuracy": 1.0,
+    "validation_accuracy": 1.0
+  },
+  "posthoc_oracle_warning": "Uses held-out contrast labels after unsealing and is diagnostic only; it is not a selectable result.",
+  "predictions_sha256": "9d49f6a6345ed4d168cfb525b2a32ed73d26a405f5bfb73b715a7677e9b6afd9",
+  "probe_bytes": 18256,
+  "purpose": "test whether a tiny frozen readout can recover mathematical method concepts without modifying the language model",
+  "schema_version": 1,
+  "selected": {
+    "layer": 28,
+    "pool": "last",
+    "ridge": 0.001,
+    "train_accuracy": 1.0,
+    "validation_accuracy": 1.0
+  },
+  "selection_seal_sha256": "d7c57543535c8fd2ebccc0e49ccfb5a0e6fd982fed268075f8737763d30117d9",
+  "train": {
+    "accuracy": 1.0,
+    "confusion": [
+      {
+        "count": 30,
+        "expected": "does_divide",
+        "predicted": "does_divide"
+      },
+      {
+        "count": 30,
+        "expected": "does_not_divide",
+        "predicted": "does_not_divide"
+      }
+    ],
+    "count": 60,
+    "pair_accuracy": null,
+    "prediction_counts": {
+      "does_divide": 30,
+      "does_not_divide": 30
+    }
+  },
+  "trainable_parameters": 2048,
+  "validation": {
+    "accuracy": 1.0,
+    "confusion": [
+      {
+        "count": 3,
+        "expected": "does_divide",
+        "predicted": "does_divide"
+      },
+      {
+        "count": 5,
+        "expected": "does_not_divide",
+        "predicted": "does_not_divide"
+      }
+    ],
+    "count": 8,
+    "pair_accuracy": null,
+    "prediction_counts": {
+      "does_divide": 3,
+      "does_not_divide": 5
+    }
+  },
+  "weights": "runs/iter054-diophantine-decomposed-adamw100-seed17/weights.safetensors",
+  "weights_sha256": "a8d5a8e0b8613badcd5659a57e23fa637adbffb18851a02d7d124c35e9c586d0"
+}

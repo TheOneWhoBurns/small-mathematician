@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "interpretation": "Formalization preserves propositions actually asserted by the tiny model. Certification checks those propositions against the public problem parameters. Correcting them, supplying absent premises, choosing between contradictory conclusions, or independently solving the task counts as repair and was forbidden.",
+  "blind_result": {
+    "responses": 10,
+    "at_least_partly_faithfully_formalizable": 10,
+    "minimal_coverage": 1,
+    "partial_coverage": 1,
+    "substantive_coverage": 8,
+    "self_contained_certifiable_arguments": 1,
+    "requires_repair_or_independent_solving": 9
+  },
+  "postseal_benchmark_result": {
+    "responses_scored": 10,
+    "parse_valid": 1,
+    "conclusion_correct": 1,
+    "strict_plan": 1,
+    "faithful_and_certifiable": 1,
+    "overall_critical_fact_precision": 0.2785714285714286,
+    "overall_required_fact_recall": 0.19833333333333333,
+    "certified_id": "vpl-v1-near-diophantine_solvability-001-e0a8b7d314",
+    "blind_postseal_agreement": "The only strict benchmark success is exactly the response marked certifiable in the sealed blind judgments."
+  },
+  "benchmark_evaluator": {
+    "command": "uv run python benchmarks/verified_plan_ladder/evaluate.py --split near --condition ordered --predictions experiments/faithful-formalizer-probe/iter032-near-balanced10/selected_predictions.jsonl --allow-partial --details-out experiments/faithful-formalizer-probe/iter032-near-balanced10/postseal_benchmark_details.jsonl",
+    "instances_expected_in_full_split": 80,
+    "instances_scored_in_diagnostic_sample": 10,
+    "parse_rate": 0.1,
+    "conclusion_accuracy": 0.1,
+    "strict_plan_rate": 0.1
+  },
+  "lean_certificate_check": {
+    "builder_command": "uv run python scripts/build_plan_lean_certificates.py --results experiments/faithful-formalizer-probe/iter032-near-balanced10/postseal_benchmark_details.jsonl --private benchmarks/verified_plan_ladder/data/near.verifier.jsonl --output verifier/GeneratedFaithfulFormalizerProbeIter032Near.lean",
+    "compile_command": "cd verifier && ~/.elan/bin/lake env lean -s 65536 GeneratedFaithfulFormalizerProbeIter032Near.lean",
+    "certified_ids": [
+      "vpl-v1-near-diophantine_solvability-001-e0a8b7d314"
+    ],
+    "certified_by_family": {
+      "diophantine_solvability": 1
+    },
+    "parse_failures_safely_skipped": 9,
+    "compile_exit_code": 0,
+    "boundary": "Private rows supplied only concrete problem parameters. Every deduction and conclusion in the emitted theorem came from the parsed model response and passed Python recomputation before Lean emission; no expected answer was substituted."
+  },
+  "artifacts": [
+    {
+      "path": "experiments/faithful-formalizer-probe/iter032-near-balanced10/blind_judgments.jsonl",
+      "sha256": "0bf505d7542b270fdd0046512c77a1d10d37d828a0a6671fd9f1c1e8fb0de2c7"
+    },
+    {
+      "path": "experiments/faithful-formalizer-probe/iter032-near-balanced10/manifest.json",
+      "sha256": "f94f55cf05d3ff6d46d609f798300e875019dd50de56f9c405ef62d2454f529f"
+    },
+    {
+      "path": "experiments/faithful-formalizer-probe/iter032-near-balanced10/selected_predictions.jsonl",
+      "sha256": "739b60d7983fb06bb1898e974f229f02a4fe5831c538450b8816b5371685bd0e"
+    },
+    {
+      "path": "experiments/faithful-formalizer-probe/iter032-near-balanced10/postseal_benchmark_details.jsonl",
+      "sha256": "3d9144534ce303f261ae451855756f829e8c07b6ecc90f7091648463528a431b"
+    },
+    {
+      "path": "verifier/GeneratedFaithfulFormalizerProbeIter032Near.lean",
+      "sha256": "509743f6de579079b6bfb4c452386749cb296c3b3d9a6a5d7ccfacdea1e1c669"
+    },
+    {
+      "path": "verifier/GeneratedFaithfulFormalizerProbeIter032Near.manifest.json",
+      "sha256": "fd5ca78cc66aa7d6ea2ba50346207e6dbc541dd38d71669f45d122ca0468fe03"
+    }
+  ],
+  "limitations": [
+    "This is a deterministic balanced diagnostic of ten near-split outputs, two per family, not an estimate over all 80 near examples.",
+    "The first-two-per-family rule may not be representative within each family.",
+    "All responses come from one checkpoint and deterministic decoding configuration.",
+    "The blind semantic audit was performed by one stronger language model, so inter-rater reliability was not measured.",
+    "Nine failures often contain formalizable isolated propositions; the 10 percent certified rate measures complete faithful arguments, not whether an external solver could discard the response and solve the public problem independently."
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "classes": [
+    "does_divide",
+    "does_not_divide"
+  ],
+  "contrast_opened": false,
+  "probe": "runs/iter055-divisibility-frozen-probe/probe.npz",
+  "probe_bytes": 18256,
+  "probe_sha256": "fa72b5901ea0b27a00ec669b8842bc83b981c4857b85c827bd9b228a8f8a0231",
+  "schema_version": 1,
+  "selected": {
+    "layer": 21,
+    "pool": "last",
+    "ridge": 0.01,
+    "train_accuracy": 1.0,
+    "validation_accuracy": 0.9
+  },
+  "selection_data": [
+    "benchmarks/atomic_claims/divisibility_probe_v1/train.jsonl",
+    "benchmarks/atomic_claims/divisibility_probe_v1/valid.jsonl"
+  ],
+  "selection_data_sha256": [
+    "d539332f4cd163fecd7c317bcf5f8ed508530b5c7ce4f20fca0e3cc0cfbfc512",
+    "fbe168e7c86ba49ed6bd2163cbb1d41e2ace7af5fa6fa1e22e3ea36988b36f31"
+  ],
+  "selection_mode": "highest paraphrase validation accuracy",
+  "trainable_parameters": 2048
+}

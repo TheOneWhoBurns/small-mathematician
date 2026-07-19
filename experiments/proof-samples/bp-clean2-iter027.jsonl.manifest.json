@@ -1,0 +1,20 @@
+{
+  "blueprint_max_words": null,
+  "created_unix": 1784443053.938703,
+  "elapsed_seconds": 25.360755920410156,
+  "limit": 8,
+  "max_tokens": 240,
+  "model": "assets/models/qwen3-0.6b-base",
+  "new_predictions": 8,
+  "offset": 8,
+  "schema_version": 1,
+  "seed": 17,
+  "selection": "rows by sha256('proof-sample-v1|' + family_id), then offset/limit",
+  "source_sha256": "bb138e3bccc540a482cf41b2196597da4d75e0d75974162d4a927231194dbf06",
+  "split": "valid",
+  "task": "blueprint",
+  "temperature": 0.0,
+  "view": "assets/data/processed/training-views/fineproofs-proof-1024-v2",
+  "weights": "runs/iter027-merge-iter024-iter025-alpha050/weights.safetensors",
+  "weights_sha256": "e406ea88d59a5d46c69e07431a34ca1b3bacb085461a4ef37f2db28cb4fd25ec"
+}

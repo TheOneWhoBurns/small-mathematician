@@ -1,0 +1,64 @@
+{"id": "vpl-v1-paraphrase-diophantine_solvability-008-533313dcbb", "response": "The greatest common divisor is 5, and it does not divide 35.", "sample_index": 0, "seed": 17, "temperature": 0.4}
+{"id": "vpl-v1-paraphrase-diophantine_solvability-008-533313dcbb", "response": "The greatest common divisor is 5, and it does not divide 35.", "sample_index": 1, "seed": 23, "temperature": 0.4}
+{"id": "vpl-v1-paraphrase-diophantine_solvability-008-533313dcbb", "response": "The greatest common divisor is 5, and it does not divide 35.", "sample_index": 2, "seed": 31, "temperature": 0.4}
+{"id": "vpl-v1-paraphrase-diophantine_solvability-008-533313dcbb", "response": "The greatest common divisor is 5, and it does divide 35.", "sample_index": 3, "seed": 47, "temperature": 0.4}
+{"id": "vpl-v1-paraphrase-diophantine_solvability-008-533313dcbb", "response": "The greatest common divisor is 5, and it does not divide 35.", "sample_index": 4, "seed": 17, "temperature": 0.8}
+{"id": "vpl-v1-paraphrase-diophantine_solvability-008-533313dcbb", "response": "The greatest common divisor is 5, and it does not divide 35.", "sample_index": 5, "seed": 23, "temperature": 0.8}
+{"id": "vpl-v1-paraphrase-diophantine_solvability-008-533313dcbb", "response": "The greatest common divisor is 5, and it does not divide 35.", "sample_index": 6, "seed": 31, "temperature": 0.8}
+{"id": "vpl-v1-paraphrase-diophantine_solvability-008-533313dcbb", "response": "The greatest common divisor is 5, and it does divide 35.", "sample_index": 7, "seed": 47, "temperature": 0.8}
+{"id": "vpl-v1-paraphrase-diophantine_solvability-009-253eeb8186", "response": "The greatest common divisor is 7, and it does not divide 15.", "sample_index": 0, "seed": 17, "temperature": 0.4}
+{"id": "vpl-v1-paraphrase-diophantine_solvability-009-253eeb8186", "response": "The greatest common divisor is 7, and it does not divide 15.", "sample_index": 1, "seed": 23, "temperature": 0.4}
+{"id": "vpl-v1-paraphrase-diophantine_solvability-009-253eeb8186", "response": "The greatest common divisor is 7, and it does not divide 15.", "sample_index": 2, "seed": 31, "temperature": 0.4}
+{"id": "vpl-v1-paraphrase-diophantine_solvability-009-253eeb8186", "response": "The greatest common divisor is 7, and it does not divide 15.", "sample_index": 3, "seed": 47, "temperature": 0.4}
+{"id": "vpl-v1-paraphrase-diophantine_solvability-009-253eeb8186", "response": "The greatest common divisor is 7, and it does not divide 15.", "sample_index": 4, "seed": 17, "temperature": 0.8}
+{"id": "vpl-v1-paraphrase-diophantine_solvability-009-253eeb8186", "response": "The greatest common divisor is 7, and it does not divide 15.", "sample_index": 5, "seed": 23, "temperature": 0.8}
+{"id": "vpl-v1-paraphrase-diophantine_solvability-009-253eeb8186", "response": "The greatest common divisor is 7, and it does not divide 15.", "sample_index": 6, "seed": 31, "temperature": 0.8}
+{"id": "vpl-v1-paraphrase-diophantine_solvability-009-253eeb8186", "response": "The greatest common divisor is 7, and it does divide 15.", "sample_index": 7, "seed": 47, "temperature": 0.8}
+{"id": "vpl-v1-paraphrase-diophantine_solvability-010-8f0b06dc26", "response": "The greatest common divisor is 8, and it does not divide 72.", "sample_index": 0, "seed": 17, "temperature": 0.4}
+{"id": "vpl-v1-paraphrase-diophantine_solvability-010-8f0b06dc26", "response": "The greatest common divisor is 4, and it does not divide 72.", "sample_index": 1, "seed": 23, "temperature": 0.4}
+{"id": "vpl-v1-paraphrase-diophantine_solvability-010-8f0b06dc26", "response": "The greatest common divisor is 8, and it does not divide 72.", "sample_index": 2, "seed": 31, "temperature": 0.4}
+{"id": "vpl-v1-paraphrase-diophantine_solvability-010-8f0b06dc26", "response": "The greatest common divisor is 4, and it does not divide 72.", "sample_index": 3, "seed": 47, "temperature": 0.4}
+{"id": "vpl-v1-paraphrase-diophantine_solvability-010-8f0b06dc26", "response": "The greatest common divisor is 8, and it does not divide 72.", "sample_index": 4, "seed": 17, "temperature": 0.8}
+{"id": "vpl-v1-paraphrase-diophantine_solvability-010-8f0b06dc26", "response": "The greatest common divisor is 4, and it does not divide 72.", "sample_index": 5, "seed": 23, "temperature": 0.8}
+{"id": "vpl-v1-paraphrase-diophantine_solvability-010-8f0b06dc26", "response": "The greatest common divisor is 8, and it does not divide 72.", "sample_index": 6, "seed": 31, "temperature": 0.8}
+{"id": "vpl-v1-paraphrase-diophantine_solvability-010-8f0b06dc26", "response": "The greatest common divisor is 4, and it does not divide 72.", "sample_index": 7, "seed": 47, "temperature": 0.8}
+{"id": "vpl-v1-paraphrase-diophantine_solvability-011-b8e53db05d", "response": "The greatest common divisor is 11, and it does divide -66.", "sample_index": 0, "seed": 17, "temperature": 0.4}
+{"id": "vpl-v1-paraphrase-diophantine_solvability-011-b8e53db05d", "response": "The greatest common divisor is 11, and it does not divide -66.", "sample_index": 1, "seed": 23, "temperature": 0.4}
+{"id": "vpl-v1-paraphrase-diophantine_solvability-011-b8e53db05d", "response": "The greatest common divisor is 11, and it does divide -66.", "sample_index": 2, "seed": 31, "temperature": 0.4}
+{"id": "vpl-v1-paraphrase-diophantine_solvability-011-b8e53db05d", "response": "The greatest common divisor is 11, and it does not divide -66.", "sample_index": 3, "seed": 47, "temperature": 0.4}
+{"id": "vpl-v1-paraphrase-diophantine_solvability-011-b8e53db05d", "response": "The greatest common divisor is 11, and it does divide -66.", "sample_index": 4, "seed": 17, "temperature": 0.8}
+{"id": "vpl-v1-paraphrase-diophantine_solvability-011-b8e53db05d", "response": "The greatest common divisor is 11, and it does not divide -66.", "sample_index": 5, "seed": 23, "temperature": 0.8}
+{"id": "vpl-v1-paraphrase-diophantine_solvability-011-b8e53db05d", "response": "The greatest common divisor is 11, and it does divide -66.", "sample_index": 6, "seed": 31, "temperature": 0.8}
+{"id": "vpl-v1-paraphrase-diophantine_solvability-011-b8e53db05d", "response": "The greatest common divisor is 11, and it does not divide -66.", "sample_index": 7, "seed": 47, "temperature": 0.8}
+{"id": "vpl-v1-paraphrase-diophantine_solvability-012-7bfa5d2668", "response": "The greatest common divisor is 4, and it does not divide -65.", "sample_index": 0, "seed": 17, "temperature": 0.4}
+{"id": "vpl-v1-paraphrase-diophantine_solvability-012-7bfa5d2668", "response": "The greatest common divisor is 4, and it does not divide -65.", "sample_index": 1, "seed": 23, "temperature": 0.4}
+{"id": "vpl-v1-paraphrase-diophantine_solvability-012-7bfa5d2668", "response": "The greatest common divisor is 4, and it does not divide -65.", "sample_index": 2, "seed": 31, "temperature": 0.4}
+{"id": "vpl-v1-paraphrase-diophantine_solvability-012-7bfa5d2668", "response": "The greatest common divisor is 4, and it does not divide -65.", "sample_index": 3, "seed": 47, "temperature": 0.4}
+{"id": "vpl-v1-paraphrase-diophantine_solvability-012-7bfa5d2668", "response": "The greatest common divisor is 4, and it does not divide -65.", "sample_index": 4, "seed": 17, "temperature": 0.8}
+{"id": "vpl-v1-paraphrase-diophantine_solvability-012-7bfa5d2668", "response": "The greatest common divisor is 4, and it does not divide -65.", "sample_index": 5, "seed": 23, "temperature": 0.8}
+{"id": "vpl-v1-paraphrase-diophantine_solvability-012-7bfa5d2668", "response": "The greatest common divisor is 4, and it does not divide -65.", "sample_index": 6, "seed": 31, "temperature": 0.8}
+{"id": "vpl-v1-paraphrase-diophantine_solvability-012-7bfa5d2668", "response": "The greatest common divisor is 4, and it does not divide -65.", "sample_index": 7, "seed": 47, "temperature": 0.8}
+{"id": "vpl-v1-paraphrase-diophantine_solvability-013-23a02f010c", "response": "The greatest common divisor is 2, and it does not divide 34.", "sample_index": 0, "seed": 17, "temperature": 0.4}
+{"id": "vpl-v1-paraphrase-diophantine_solvability-013-23a02f010c", "response": "The greatest common divisor is 2, and it does not divide 34.", "sample_index": 1, "seed": 23, "temperature": 0.4}
+{"id": "vpl-v1-paraphrase-diophantine_solvability-013-23a02f010c", "response": "The greatest common divisor is 2, and it does divide 34.", "sample_index": 2, "seed": 31, "temperature": 0.4}
+{"id": "vpl-v1-paraphrase-diophantine_solvability-013-23a02f010c", "response": "The greatest common divisor is 2, and it does divide 34.", "sample_index": 3, "seed": 47, "temperature": 0.4}
+{"id": "vpl-v1-paraphrase-diophantine_solvability-013-23a02f010c", "response": "The greatest common divisor is 2, and it does not divide 34.", "sample_index": 4, "seed": 17, "temperature": 0.8}
+{"id": "vpl-v1-paraphrase-diophantine_solvability-013-23a02f010c", "response": "The greatest common divisor is 2, and it does not divide 34.", "sample_index": 5, "seed": 23, "temperature": 0.8}
+{"id": "vpl-v1-paraphrase-diophantine_solvability-013-23a02f010c", "response": "The greatest common divisor is 2, and it does divide 34.", "sample_index": 6, "seed": 31, "temperature": 0.8}
+{"id": "vpl-v1-paraphrase-diophantine_solvability-013-23a02f010c", "response": "The greatest common divisor is 2, and it does divide 34.", "sample_index": 7, "seed": 47, "temperature": 0.8}
+{"id": "vpl-v1-paraphrase-diophantine_solvability-014-5814fdf22b", "response": "The greatest common divisor is 10, and it does divide -30.", "sample_index": 0, "seed": 17, "temperature": 0.4}
+{"id": "vpl-v1-paraphrase-diophantine_solvability-014-5814fdf22b", "response": "The greatest common divisor is 10, and it does divide -30.", "sample_index": 1, "seed": 23, "temperature": 0.4}
+{"id": "vpl-v1-paraphrase-diophantine_solvability-014-5814fdf22b", "response": "The greatest common divisor is 10, and it does not divide -30.", "sample_index": 2, "seed": 31, "temperature": 0.4}
+{"id": "vpl-v1-paraphrase-diophantine_solvability-014-5814fdf22b", "response": "The greatest common divisor is 10, and it does divide -30.", "sample_index": 3, "seed": 47, "temperature": 0.4}
+{"id": "vpl-v1-paraphrase-diophantine_solvability-014-5814fdf22b", "response": "The greatest common divisor is 10, and it does divide -30.", "sample_index": 4, "seed": 17, "temperature": 0.8}
+{"id": "vpl-v1-paraphrase-diophantine_solvability-014-5814fdf22b", "response": "The greatest common divisor is 10, and it does divide -30.", "sample_index": 5, "seed": 23, "temperature": 0.8}
+{"id": "vpl-v1-paraphrase-diophantine_solvability-014-5814fdf22b", "response": "The greatest common divisor is 10, and it does not divide -30.", "sample_index": 6, "seed": 31, "temperature": 0.8}
+{"id": "vpl-v1-paraphrase-diophantine_solvability-014-5814fdf22b", "response": "The greatest common divisor is 10, and it does divide -30.", "sample_index": 7, "seed": 47, "temperature": 0.8}
+{"id": "vpl-v1-paraphrase-diophantine_solvability-015-a3c5f2989e", "response": "The greatest common divisor is 9, and it does not divide -52.", "sample_index": 0, "seed": 17, "temperature": 0.4}
+{"id": "vpl-v1-paraphrase-diophantine_solvability-015-a3c5f2989e", "response": "The greatest common divisor is 9, and it does not divide -52.", "sample_index": 1, "seed": 23, "temperature": 0.4}
+{"id": "vpl-v1-paraphrase-diophantine_solvability-015-a3c5f2989e", "response": "The greatest common divisor is 9, and it does not divide -52.", "sample_index": 2, "seed": 31, "temperature": 0.4}
+{"id": "vpl-v1-paraphrase-diophantine_solvability-015-a3c5f2989e", "response": "The greatest common divisor is 9, and it does not divide -52.", "sample_index": 3, "seed": 47, "temperature": 0.4}
+{"id": "vpl-v1-paraphrase-diophantine_solvability-015-a3c5f2989e", "response": "The greatest common divisor is 9, and it does not divide -52.", "sample_index": 4, "seed": 17, "temperature": 0.8}
+{"id": "vpl-v1-paraphrase-diophantine_solvability-015-a3c5f2989e", "response": "The greatest common divisor is 9, and it does not divide -52.", "sample_index": 5, "seed": 23, "temperature": 0.8}
+{"id": "vpl-v1-paraphrase-diophantine_solvability-015-a3c5f2989e", "response": "The greatest common divisor is 9, and it does divide -52.", "sample_index": 6, "seed": 31, "temperature": 0.8}
+{"id": "vpl-v1-paraphrase-diophantine_solvability-015-a3c5f2989e", "response": "The greatest common divisor is 9, and it does not divide -52.", "sample_index": 7, "seed": 47, "temperature": 0.8}

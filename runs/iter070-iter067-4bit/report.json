@@ -1,0 +1,37 @@
+{
+  "count": 200,
+  "final_valid": 0,
+  "final_valid_rate": 0.0,
+  "parsed": 0,
+  "parsed_rate": 0.0,
+  "per_surface": {
+    "long": {
+      "count": 100,
+      "final_valid": 0,
+      "final_valid_rate": 0.0,
+      "parsed": 0,
+      "parsed_rate": 0.0,
+      "semantic": 0,
+      "semantic_rate": 0.0,
+      "trace_valid": 0,
+      "trace_valid_rate": 0.0
+    },
+    "short": {
+      "count": 100,
+      "final_valid": 0,
+      "final_valid_rate": 0.0,
+      "parsed": 0,
+      "parsed_rate": 0.0,
+      "semantic": 0,
+      "semantic_rate": 0.0,
+      "trace_valid": 0,
+      "trace_valid_rate": 0.0
+    }
+  },
+  "predictions_sha256": "2f03083adb1524268c62b991c34b3278daf3074ef982c1ff8465b9988f4161d9",
+  "semantic": 0,
+  "semantic_rate": 0.0,
+  "trace_valid": 0,
+  "trace_valid_rate": 0.0,
+  "verifier_sha256": "72b404dbe38b84306cb76b6b86ae40913e27cd16b384dded062444a48bb87177"
+}

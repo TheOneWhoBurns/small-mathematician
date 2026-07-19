@@ -1,0 +1,26 @@
+{
+  "overall": {
+    "baseline_rate": 0.05,
+    "baseline_semantic": 10,
+    "candidate_rate": 0.08,
+    "candidate_semantic": 16,
+    "count": 200,
+    "delta": 0.03,
+    "harmed": 9,
+    "helped": 15,
+    "mcnemar_exact_two_sided_p": 0.30745625495910645
+  },
+  "per_surface": {
+    "test": {
+      "baseline_rate": 0.05,
+      "baseline_semantic": 10,
+      "candidate_rate": 0.08,
+      "candidate_semantic": 16,
+      "count": 200,
+      "delta": 0.03,
+      "harmed": 9,
+      "helped": 15,
+      "mcnemar_exact_two_sided_p": 0.30745625495910645
+    }
+  }
+}

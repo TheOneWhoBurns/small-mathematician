@@ -1,0 +1,60 @@
+{"family": "integer_expression", "id": "dnl-v1-dev-integer_expression-000-a0bc00bbca", "schema_version": 1, "split": "dev", "verifier": {"answer": 142, "operands": [12, 18, 5, 8]}}
+{"family": "integer_expression", "id": "dnl-v1-dev-integer_expression-001-0553185c36", "schema_version": 1, "split": "dev", "verifier": {"answer": 128, "operands": [17, 9, 5, 2]}}
+{"family": "integer_expression", "id": "dnl-v1-dev-integer_expression-002-3de847548c", "schema_version": 1, "split": "dev", "verifier": {"answer": 166, "operands": [3, 11, 13, 16]}}
+{"family": "integer_expression", "id": "dnl-v1-dev-integer_expression-003-df582ae84c", "schema_version": 1, "split": "dev", "verifier": {"answer": 353, "operands": [16, 5, 17, 4]}}
+{"family": "integer_expression", "id": "dnl-v1-dev-integer_expression-004-20e1ffe096", "schema_version": 1, "split": "dev", "verifier": {"answer": 87, "operands": [7, 8, 6, 3]}}
+{"family": "integer_expression", "id": "dnl-v1-dev-integer_expression-005-4ba698a8f6", "schema_version": 1, "split": "dev", "verifier": {"answer": 284, "operands": [14, 3, 17, 5]}}
+{"family": "integer_expression", "id": "dnl-v1-dev-integer_expression-006-5ef9c61f3e", "schema_version": 1, "split": "dev", "verifier": {"answer": 205, "operands": [19, 13, 7, 19]}}
+{"family": "integer_expression", "id": "dnl-v1-dev-integer_expression-007-2853b04321", "schema_version": 1, "split": "dev", "verifier": {"answer": 56, "operands": [7, 4, 6, 10]}}
+{"family": "integer_expression", "id": "dnl-v1-dev-integer_expression-008-d440dddbe4", "schema_version": 1, "split": "dev", "verifier": {"answer": 50, "operands": [12, 9, 3, 13]}}
+{"family": "integer_expression", "id": "dnl-v1-dev-integer_expression-009-7394abe8c1", "schema_version": 1, "split": "dev", "verifier": {"answer": 476, "operands": [12, 17, 17, 17]}}
+{"family": "integer_expression", "id": "dnl-v1-dev-integer_expression-010-0e5916b3da", "schema_version": 1, "split": "dev", "verifier": {"answer": 374, "operands": [10, 11, 18, 4]}}
+{"family": "integer_expression", "id": "dnl-v1-dev-integer_expression-011-3f09472b67", "schema_version": 1, "split": "dev", "verifier": {"answer": 156, "operands": [4, 11, 11, 9]}}
+{"family": "gcd_bezout", "id": "dnl-v1-dev-gcd_bezout-000-5e0ab6aabc", "schema_version": 1, "split": "dev", "verifier": {"a": 110, "b": 65, "canonical_x": 3, "canonical_y": -5, "gcd": 5}}
+{"family": "gcd_bezout", "id": "dnl-v1-dev-gcd_bezout-001-030b7305cd", "schema_version": 1, "split": "dev", "verifier": {"a": 442, "b": 455, "canonical_x": -1, "canonical_y": 1, "gcd": 13}}
+{"family": "gcd_bezout", "id": "dnl-v1-dev-gcd_bezout-002-4392cc7d64", "schema_version": 1, "split": "dev", "verifier": {"a": 81, "b": 60, "canonical_x": 3, "canonical_y": -4, "gcd": 3}}
+{"family": "gcd_bezout", "id": "dnl-v1-dev-gcd_bezout-003-1f7c3318ee", "schema_version": 1, "split": "dev", "verifier": {"a": 30, "b": 108, "canonical_x": -7, "canonical_y": 2, "gcd": 6}}
+{"family": "gcd_bezout", "id": "dnl-v1-dev-gcd_bezout-004-808d2935d6", "schema_version": 1, "split": "dev", "verifier": {"a": 40, "b": 110, "canonical_x": 3, "canonical_y": -1, "gcd": 10}}
+{"family": "gcd_bezout", "id": "dnl-v1-dev-gcd_bezout-005-7192bb3f27", "schema_version": 1, "split": "dev", "verifier": {"a": 406, "b": 182, "canonical_x": -4, "canonical_y": 9, "gcd": 14}}
+{"family": "gcd_bezout", "id": "dnl-v1-dev-gcd_bezout-006-6a2c700d8b", "schema_version": 1, "split": "dev", "verifier": {"a": 144, "b": 99, "canonical_x": -2, "canonical_y": 3, "gcd": 9}}
+{"family": "gcd_bezout", "id": "dnl-v1-dev-gcd_bezout-007-bcbf99fb3e", "schema_version": 1, "split": "dev", "verifier": {"a": 156, "b": 240, "canonical_x": -3, "canonical_y": 2, "gcd": 12}}
+{"family": "gcd_bezout", "id": "dnl-v1-dev-gcd_bezout-008-091b4eb991", "schema_version": 1, "split": "dev", "verifier": {"a": 22, "b": 28, "canonical_x": -5, "canonical_y": 4, "gcd": 2}}
+{"family": "gcd_bezout", "id": "dnl-v1-dev-gcd_bezout-009-39524fb95b", "schema_version": 1, "split": "dev", "verifier": {"a": 341, "b": 33, "canonical_x": 1, "canonical_y": -10, "gcd": 11}}
+{"family": "gcd_bezout", "id": "dnl-v1-dev-gcd_bezout-010-f6f7e4ae03", "schema_version": 1, "split": "dev", "verifier": {"a": 180, "b": 99, "canonical_x": 5, "canonical_y": -9, "gcd": 9}}
+{"family": "gcd_bezout", "id": "dnl-v1-dev-gcd_bezout-011-f7b6c0dade", "schema_version": 1, "split": "dev", "verifier": {"a": 336, "b": 36, "canonical_x": 1, "canonical_y": -9, "gcd": 12}}
+{"family": "modular_inverse", "id": "dnl-v1-dev-modular_inverse-000-b17d46ad16", "schema_version": 1, "split": "dev", "verifier": {"inverse": 46, "modulus": 65, "value": 41}}
+{"family": "modular_inverse", "id": "dnl-v1-dev-modular_inverse-001-98312d3450", "schema_version": 1, "split": "dev", "verifier": {"inverse": 19, "modulus": 35, "value": 24}}
+{"family": "modular_inverse", "id": "dnl-v1-dev-modular_inverse-002-516924afe7", "schema_version": 1, "split": "dev", "verifier": {"inverse": 4, "modulus": 15, "value": 4}}
+{"family": "modular_inverse", "id": "dnl-v1-dev-modular_inverse-003-ee9b34f199", "schema_version": 1, "split": "dev", "verifier": {"inverse": 23, "modulus": 42, "value": 11}}
+{"family": "modular_inverse", "id": "dnl-v1-dev-modular_inverse-004-d08427bc83", "schema_version": 1, "split": "dev", "verifier": {"inverse": 41, "modulus": 55, "value": 51}}
+{"family": "modular_inverse", "id": "dnl-v1-dev-modular_inverse-005-c78336338f", "schema_version": 1, "split": "dev", "verifier": {"inverse": 7, "modulus": 34, "value": 5}}
+{"family": "modular_inverse", "id": "dnl-v1-dev-modular_inverse-006-d9e7e00f64", "schema_version": 1, "split": "dev", "verifier": {"inverse": 63, "modulus": 64, "value": 63}}
+{"family": "modular_inverse", "id": "dnl-v1-dev-modular_inverse-007-d1dfc0158c", "schema_version": 1, "split": "dev", "verifier": {"inverse": 7, "modulus": 38, "value": 11}}
+{"family": "modular_inverse", "id": "dnl-v1-dev-modular_inverse-008-d053289672", "schema_version": 1, "split": "dev", "verifier": {"inverse": 35, "modulus": 36, "value": 35}}
+{"family": "modular_inverse", "id": "dnl-v1-dev-modular_inverse-009-9113f23c89", "schema_version": 1, "split": "dev", "verifier": {"inverse": 51, "modulus": 65, "value": 51}}
+{"family": "modular_inverse", "id": "dnl-v1-dev-modular_inverse-010-e7296dc67b", "schema_version": 1, "split": "dev", "verifier": {"inverse": 24, "modulus": 37, "value": 17}}
+{"family": "modular_inverse", "id": "dnl-v1-dev-modular_inverse-011-dfe712d39a", "schema_version": 1, "split": "dev", "verifier": {"inverse": 19, "modulus": 30, "value": 19}}
+{"family": "quadratic_integer_roots", "id": "dnl-v1-dev-quadratic_integer_roots-000-bfa3d665fa", "schema_version": 1, "split": "dev", "verifier": {"constant": 40, "linear": 13, "roots": [-8, -5]}}
+{"family": "quadratic_integer_roots", "id": "dnl-v1-dev-quadratic_integer_roots-001-f425f04d00", "schema_version": 1, "split": "dev", "verifier": {"constant": 42, "linear": 13, "roots": [-7, -6]}}
+{"family": "quadratic_integer_roots", "id": "dnl-v1-dev-quadratic_integer_roots-002-b0a20f7650", "schema_version": 1, "split": "dev", "verifier": {"constant": -72, "linear": -1, "roots": [-8, 9]}}
+{"family": "quadratic_integer_roots", "id": "dnl-v1-dev-quadratic_integer_roots-003-4d87a16cf2", "schema_version": 1, "split": "dev", "verifier": {"constant": 28, "linear": 11, "roots": [-7, -4]}}
+{"family": "quadratic_integer_roots", "id": "dnl-v1-dev-quadratic_integer_roots-004-df83581d30", "schema_version": 1, "split": "dev", "verifier": {"constant": 36, "linear": 13, "roots": [-9, -4]}}
+{"family": "quadratic_integer_roots", "id": "dnl-v1-dev-quadratic_integer_roots-005-98cafe7c59", "schema_version": 1, "split": "dev", "verifier": {"constant": 6, "linear": 7, "roots": [-6, -1]}}
+{"family": "quadratic_integer_roots", "id": "dnl-v1-dev-quadratic_integer_roots-006-d590798eba", "schema_version": 1, "split": "dev", "verifier": {"constant": 42, "linear": -13, "roots": [6, 7]}}
+{"family": "quadratic_integer_roots", "id": "dnl-v1-dev-quadratic_integer_roots-007-1005c87732", "schema_version": 1, "split": "dev", "verifier": {"constant": -49, "linear": 0, "roots": [-7, 7]}}
+{"family": "quadratic_integer_roots", "id": "dnl-v1-dev-quadratic_integer_roots-008-8187ca763f", "schema_version": 1, "split": "dev", "verifier": {"constant": 36, "linear": -13, "roots": [4, 9]}}
+{"family": "quadratic_integer_roots", "id": "dnl-v1-dev-quadratic_integer_roots-009-eea91191e0", "schema_version": 1, "split": "dev", "verifier": {"constant": -8, "linear": -7, "roots": [-1, 8]}}
+{"family": "quadratic_integer_roots", "id": "dnl-v1-dev-quadratic_integer_roots-010-502bc44a79", "schema_version": 1, "split": "dev", "verifier": {"constant": 45, "linear": -14, "roots": [5, 9]}}
+{"family": "quadratic_integer_roots", "id": "dnl-v1-dev-quadratic_integer_roots-011-71a7427854", "schema_version": 1, "split": "dev", "verifier": {"constant": 72, "linear": 17, "roots": [-9, -8]}}
+{"family": "linear_system", "id": "dnl-v1-dev-linear_system-000-ce8019bc56", "schema_version": 1, "split": "dev", "verifier": {"a": -6, "b": 1, "c": -2, "d": 3, "rhs1": 33, "rhs2": 35, "x": -4, "y": 9}}
+{"family": "linear_system", "id": "dnl-v1-dev-linear_system-001-817863da49", "schema_version": 1, "split": "dev", "verifier": {"a": -1, "b": -2, "c": 3, "d": 2, "rhs1": 8, "rhs2": -4, "x": 2, "y": -5}}
+{"family": "linear_system", "id": "dnl-v1-dev-linear_system-002-e97db3552b", "schema_version": 1, "split": "dev", "verifier": {"a": 3, "b": -2, "c": -4, "d": 5, "rhs1": 4, "rhs2": -3, "x": 2, "y": 1}}
+{"family": "linear_system", "id": "dnl-v1-dev-linear_system-003-517bea3238", "schema_version": 1, "split": "dev", "verifier": {"a": 5, "b": -1, "c": 5, "d": -2, "rhs1": 32, "rhs2": 39, "x": 5, "y": -7}}
+{"family": "linear_system", "id": "dnl-v1-dev-linear_system-004-d2dfcacced", "schema_version": 1, "split": "dev", "verifier": {"a": -2, "b": -6, "c": 1, "d": -3, "rhs1": 14, "rhs2": 23, "x": 8, "y": -5}}
+{"family": "linear_system", "id": "dnl-v1-dev-linear_system-005-8dcb9895fe", "schema_version": 1, "split": "dev", "verifier": {"a": 4, "b": 3, "c": -5, "d": 2, "rhs1": -25, "rhs2": -9, "x": -1, "y": -7}}
+{"family": "linear_system", "id": "dnl-v1-dev-linear_system-006-e1a43990f5", "schema_version": 1, "split": "dev", "verifier": {"a": 4, "b": -1, "c": -3, "d": -2, "rhs1": -10, "rhs2": 35, "x": -5, "y": -10}}
+{"family": "linear_system", "id": "dnl-v1-dev-linear_system-007-a533cd5e01", "schema_version": 1, "split": "dev", "verifier": {"a": 4, "b": 5, "c": 5, "d": -1, "rhs1": 80, "rhs2": 42, "x": 10, "y": 8}}
+{"family": "linear_system", "id": "dnl-v1-dev-linear_system-008-4e6bf1455f", "schema_version": 1, "split": "dev", "verifier": {"a": 3, "b": 4, "c": 4, "d": 5, "rhs1": -39, "rhs2": -50, "x": -5, "y": -6}}
+{"family": "linear_system", "id": "dnl-v1-dev-linear_system-009-050c9b891a", "schema_version": 1, "split": "dev", "verifier": {"a": 1, "b": -4, "c": 2, "d": -1, "rhs1": 23, "rhs2": 11, "x": 3, "y": -5}}
+{"family": "linear_system", "id": "dnl-v1-dev-linear_system-010-d740d6de16", "schema_version": 1, "split": "dev", "verifier": {"a": -2, "b": 3, "c": -6, "d": 6, "rhs1": 50, "rhs2": 120, "x": -10, "y": 10}}
+{"family": "linear_system", "id": "dnl-v1-dev-linear_system-011-11f57b8465", "schema_version": 1, "split": "dev", "verifier": {"a": -1, "b": -6, "c": 3, "d": -6, "rhs1": -62, "rhs2": -30, "x": 8, "y": 9}}

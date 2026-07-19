@@ -1,0 +1,76 @@
+{
+  "count": 100,
+  "forbidden_ngrams": [
+    "polynomial_value_obstruction",
+    "diophantine_solvability",
+    "modular_period_prime_filter",
+    "finite_double_count",
+    "finite_recurrence_period",
+    "congruence preservation",
+    "integer polynomials",
+    "input difference",
+    "value difference",
+    "greatest-common-divisor criterion",
+    "linear diophantine",
+    "bezout",
+    "periodicity of modular powers",
+    "exponent cycle",
+    "residue classes",
+    "double counting",
+    "element incidences",
+    "fixed element",
+    "cycle detection",
+    "finite recurrences",
+    "repeated state",
+    "cycle length"
+  ],
+  "limitations": [
+    "This suite evaluates route selection, not proof generation or final-answer correctness.",
+    "The cross-route story shells do not share one universal fixed executor.",
+    "No Lean certification is claimed for the synthetic cross-route prompts.",
+    "Matching controls length and ordered numeric literals but cannot make mathematical vocabulary identical."
+  ],
+  "pair_contract": {
+    "counterpart_route_is_salient_nonoperative_decoy": true,
+    "different_correct_routes": true,
+    "same_ordered_numeric_literals": true,
+    "same_story_shell": true,
+    "same_word_count": true
+  },
+  "pair_type_counts": {
+    "diophantine_solvability + finite_double_count": 5,
+    "diophantine_solvability + finite_recurrence_period": 5,
+    "diophantine_solvability + modular_period_prime_filter": 5,
+    "diophantine_solvability + polynomial_value_obstruction": 5,
+    "finite_double_count + finite_recurrence_period": 5,
+    "finite_double_count + modular_period_prime_filter": 5,
+    "finite_double_count + polynomial_value_obstruction": 5,
+    "finite_recurrence_period + modular_period_prime_filter": 5,
+    "finite_recurrence_period + polynomial_value_obstruction": 5,
+    "modular_period_prime_filter + polynomial_value_obstruction": 5
+  },
+  "pairs": 50,
+  "prompts_sha256": "7235446d98d2e733375cfe2b057c542487c48c5a54c2601ba6f903e0cae1eb22",
+  "purpose": "matched contrast and decoy evaluation of natural-language method selection",
+  "route_counts": {
+    "diophantine_solvability": 20,
+    "finite_double_count": 20,
+    "finite_recurrence_period": 20,
+    "modular_period_prime_filter": 20,
+    "polynomial_value_obstruction": 20
+  },
+  "routes": [
+    "polynomial_value_obstruction",
+    "diophantine_solvability",
+    "modular_period_prime_filter",
+    "finite_double_count",
+    "finite_recurrence_period"
+  ],
+  "schema_version": 1,
+  "scope": "route selection only; no fixed-executor or Lean certification is claimed",
+  "seed": 20260719,
+  "word_count_range": [
+    89,
+    99
+  ]
+}

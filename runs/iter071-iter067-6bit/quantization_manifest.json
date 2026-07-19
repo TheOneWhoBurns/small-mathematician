@@ -1,0 +1,17 @@
+{
+  "base_model": "assets/models/qwen3-0.6b-base",
+  "bits": 6,
+  "group_size": 64,
+  "quantization_mode": "affine",
+  "schema_version": 1,
+  "source_weights": "runs/iter067-trace-length-v7/weights.safetensors",
+  "source_weights_sha256": "1c9fb3ed91625721ae610c6d13e981de25b4070faf04c8b3f0ec152673b30a2b",
+  "total_weight_bytes": 484446856,
+  "weight_files": [
+    {
+      "bytes": 484446856,
+      "path": "model.safetensors",
+      "sha256": "4fb679f4744757c93adfd03967510a2c8beb8e94b2f6567539468f1c13bca644"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "sealed_at_utc": "2026-07-19T07:53:01Z",
+  "purpose": "Blind audit of whether a stronger external formalizer can faithfully formalize, without repairing, ten natural-language outputs from the tiny mathematician.",
+  "blind_phase": {
+    "allowed_inputs": [
+      {
+        "path": "benchmarks/verified_plan_ladder/data/train.prompts.jsonl",
+        "sha256": "881e092c27f766648d3df03934978bd549682dccc0338a62a06a827e086ec66d",
+        "scope_read": "Only the ten public prompt records whose ids occur in the response file."
+      },
+      {
+        "path": "runs/iter031-vpl-ordered-completion-micro10-300-seed17/micro10-no-think.jsonl",
+        "sha256": "1cc2141510b8356142d237ba12c8a703e7fdc8394f482ea9cf56deeeec05d700",
+        "record_count": 10
+      }
+    ],
+    "prohibited_before_seal": [
+      "training targets",
+      "private benchmark records",
+      "evaluator details",
+      "oracle outputs",
+      "expected answers"
+    ],
+    "attestation": "The judgments were written before reading any prohibited material. Mathematical claims were extracted only when actually asserted by the response, allowing ordinary paraphrase. No wrong claim was corrected, no missing premise was supplied, and no problem was independently solved around the response.",
+    "rubric": {
+      "faithful_formalization_possible": "At least one mathematically meaningful proposition can be represented without changing what the response says. This does not imply that the proposition is true or that the whole response is a proof.",
+      "formalization_coverage": "minimal means only an isolated claim is extractable; partial means malformed or truncated mathematical content prevents full coverage; substantive means the response's central answer and reasoning claims can be represented.",
+      "certifiable_argument_on_own_precheck": "True only if the response itself states enough mutually consistent claims to justify its requested conclusion, without external repair or independent problem solving."
+    }
+  },
+  "sealed_artifact": {
+    "path": "experiments/faithful-formalizer-probe/blind_judgments.jsonl",
+    "sha256": "a8810a8cae867e89d8d55e2300643b0994e1a46518da98d1e1794838348b7254",
+    "record_count": 10
+  },
+  "blind_counts": {
+    "faithful_formalization_possible": 10,
+    "formalization_coverage": {
+      "minimal": 2,
+      "partial": 1,
+      "substantive": 7
+    },
+    "certifiable_argument_on_own_precheck": 0
+  }
+}

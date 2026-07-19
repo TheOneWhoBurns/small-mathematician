@@ -1,0 +1,22 @@
+1/5 naturalproofs:proofwiki:7607:proof-0
+2/5 naturalproofs:proofwiki:4337:proof-0
+3/5 naturalproofs:proofwiki:15179:proof-0
+4/5 naturalproofs:proofwiki:12639:proof-0
+5/5 naturalproofs:proofwiki:16410:proof-0
+{
+  "created_unix": 1784435969.375929,
+  "elapsed_seconds": 46.179004192352295,
+  "limit": 5,
+  "max_tokens": 300,
+  "model": "assets/models/qwen3-0.6b-base",
+  "new_predictions": 5,
+  "schema_version": 1,
+  "seed": 17,
+  "selection": "first rows by sha256('proof-sample-v1|' + family_id)",
+  "source_sha256": "b413831754f2c72f317682a9d6c89806e527b807615db0efa2b7021c92f91df4",
+  "split": "valid",
+  "temperature": 0.0,
+  "view": "assets/data/processed/training-views/self-contained-proof-1024",
+  "weights": null,
+  "weights_sha256": null
+}

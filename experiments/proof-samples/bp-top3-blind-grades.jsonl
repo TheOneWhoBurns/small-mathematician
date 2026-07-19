@@ -1,0 +1,24 @@
+{"id":"fineproofs-00014","label":"A","score":1,"reason":"It assumes the wrong proposition, misstates powers of two and the greatest proper divisor, and derives no relevant contradiction."}
+{"id":"fineproofs-00014","label":"B","score":1,"reason":"Although it mentions odd divisors, none of the claims about divisors of n+d or their multiplicity is justified or coherent."}
+{"id":"fineproofs-00014","label":"C","score":1,"reason":"The parity statements contradict one another, d is falsely declared prime, and the argument repeatedly assumes its desired conclusion."}
+{"id":"fineproofs-00482","label":"A","score":1,"reason":"It invents a second digit group and unsupported equalities n=10m and m=10n, without addressing a divisor quotient."}
+{"id":"fineproofs-00482","label":"B","score":1,"reason":"The response merely repeats the given digit distribution and supplies no modular or size strategy for divisibility."}
+{"id":"fineproofs-00482","label":"C","score":1,"reason":"It restates a factorization setup but gives no congruence, quotient bound, or actual contradiction from the digit condition."}
+{"id":"fineproofs-00933","label":"A","score":1,"reason":"The displayed Cauchy-Schwarz inequality is an upper bound in an unrelated direction and cannot yield the required lower bound."}
+{"id":"fineproofs-00933","label":"B","score":2,"reason":"It correctly derives the main reciprocal-product lower bound but cuts off before the essential factor-four denominator comparison."}
+{"id":"fineproofs-00933","label":"C","score":1,"reason":"It proposes bounding the left side from above rather than below and gives no concrete inequality connecting the two expressions."}
+{"id":"fineproofs-01863","label":"A","score":1,"reason":"The claimed right angles and chord perpendicularities are false, so the equal-angle parallelogram argument has no valid foundation."}
+{"id":"fineproofs-01863","label":"B","score":1,"reason":"It repeatedly asserts false perpendicular and parallel relations and does not establish either pair of opposite sides."}
+{"id":"fineproofs-01863","label":"C","score":1,"reason":"It misidentifies an orthocenter configuration and accumulates contradictory, unsupported midpoint and length claims."}
+{"id":"fineproofs-01993","label":"A","score":1,"reason":"It treats ordered coordinates as independent choices and loops over tautological statements without computing the average."}
+{"id":"fineproofs-01993","label":"B","score":1,"reason":"The response discusses a nonexistent fourteenth element and arbitrary bounds, with no valid tuple count or order-statistic argument."}
+{"id":"fineproofs-01993","label":"C","score":1,"reason":"It refers to the wrong coordinate and an unexplained set of 25 tuples, so it offers no usable computation."}
+{"id":"fineproofs-02529","label":"A","score":1,"reason":"The proposed finite checks are arbitrary, internally contradict whether listed values qualify, and do not control all primes."}
+{"id":"fineproofs-02529","label":"B","score":1,"reason":"It falsely replaces a difference of powers by a power of the difference and reaches the nonprime value p=1."}
+{"id":"fineproofs-02529","label":"C","score":2,"reason":"The modular reformulation and use of periodic powers are relevant, but the claim that congruence to 41 has no solutions is false."}
+{"id":"fineproofs-03674","label":"A","score":2,"reason":"Repeated differentiation via a Taylor or product expansion is a viable route, but no derivative formula or limiting series is supplied."}
+{"id":"fineproofs-03674","label":"B","score":1,"reason":"The derivatives incorrectly discard the exponential factor and the resulting pattern is unusable for the stated function."}
+{"id":"fineproofs-03674","label":"C","score":1,"reason":"It confuses successive derivatives with values of lower derivatives and gives false formulas leading to the wrong limit."}
+{"id":"fineproofs-03875","label":"A","score":1,"reason":"Repeated pushes do not swap lamp states as claimed, and the response never models or counts distinct reachable configurations."}
+{"id":"fineproofs-03875","label":"B","score":1,"reason":"Position differences, greatest common divisors, and switch order are unrelated to the F2 span governing the lamp system."}
+{"id":"fineproofs-03875","label":"C","score":1,"reason":"It treats switches as independent single-lamp choices, leaves k undefined, and ignores the cyclic three-lamp transformations."}

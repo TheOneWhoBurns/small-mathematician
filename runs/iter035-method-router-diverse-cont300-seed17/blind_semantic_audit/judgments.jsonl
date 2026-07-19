@@ -1,0 +1,100 @@
+{"id":"mrc-v1-01-0-de7bddb80f-a","judgment":"ambiguous_or_missing","recognizable_route":false,"rationale":"Generic congruence check; no polynomial-value preservation, linear-equation gcd criterion, modular-power prime filter, double count, or recurrence cycle."}
+{"id":"mrc-v1-01-0-de7bddb80f-b","judgment":"ambiguous_or_missing","recognizable_route":false,"rationale":"Generic decimal divisibility tests only."}
+{"id":"mrc-v1-01-1-f2757cdaae-a","judgment":"ambiguous_or_missing","recognizable_route":false,"rationale":"Direct arithmetic and range check only."}
+{"id":"mrc-v1-01-1-f2757cdaae-b","judgment":"ambiguous_or_missing","recognizable_route":false,"rationale":"Ordinary equality manipulation; no gcd solvability criterion."}
+{"id":"mrc-v1-01-2-8352d54d96-a","judgment":"ambiguous_or_missing","recognizable_route":false,"rationale":"Generic divisibility filtering without a recognizable defined route."}
+{"id":"mrc-v1-01-2-8352d54d96-b","judgment":"ambiguous_or_missing","recognizable_route":false,"rationale":"Generic decimal divisibility tests only."}
+{"id":"mrc-v1-01-3-3245f599fb-a","judgment":"ambiguous_or_missing","recognizable_route":false,"rationale":"Mentions a common divisor but not a linear Diophantine solvability criterion."}
+{"id":"mrc-v1-01-3-3245f599fb-b","judgment":"ambiguous_or_missing","recognizable_route":false,"rationale":"Generic decimal divisibility tests only."}
+{"id":"mrc-v1-01-4-ca848eadea-a","judgment":"ambiguous_or_missing","recognizable_route":false,"rationale":"Score-rule comparison without a recognizable defined route."}
+{"id":"mrc-v1-01-4-ca848eadea-b","judgment":"ambiguous_or_missing","recognizable_route":false,"rationale":"Ordinary equality manipulation only."}
+{"id":"mrc-v1-02-0-aa83fcc2b7-a","judgment":"ambiguous_or_missing","recognizable_route":false,"rationale":"Direct arithmetic/parity reasoning only."}
+{"id":"mrc-v1-02-0-aa83fcc2b7-b","judgment":"ambiguous_or_missing","recognizable_route":false,"rationale":"Remainder comparison mentions a polynomial but not congruence or difference preservation of integer-polynomial values."}
+{"id":"mrc-v1-02-1-103fb9f46f-a","judgment":"ambiguous_or_missing","recognizable_route":false,"rationale":"Conditional score-rule and multiplication language only."}
+{"id":"mrc-v1-02-1-103fb9f46f-b","judgment":"ambiguous_or_missing","recognizable_route":false,"rationale":"Generic remainder extraction only."}
+{"id":"mrc-v1-02-2-a2209746c9-a","judgment":"ambiguous_or_missing","recognizable_route":false,"rationale":"Addition and multiplication instruction only."}
+{"id":"mrc-v1-02-2-a2209746c9-b","judgment":"ambiguous_or_missing","recognizable_route":false,"rationale":"Repeated division by 13 with a digit-string condition; no defined route is recognizable."}
+{"id":"mrc-v1-02-3-3ea09562fd-a","judgment":"ambiguous_or_missing","recognizable_route":false,"rationale":"Generic addition/multiplication proposal only."}
+{"id":"mrc-v1-02-3-3ea09562fd-b","judgment":"ambiguous_or_missing","recognizable_route":false,"rationale":"Generic division and multiplication operations only."}
+{"id":"mrc-v1-02-4-6bbf4530aa-a","judgment":"ambiguous_or_missing","recognizable_route":false,"rationale":"Direct multiplication and addition only."}
+{"id":"mrc-v1-02-4-6bbf4530aa-b","judgment":"ambiguous_or_missing","recognizable_route":false,"rationale":"Generic remainder extraction only."}
+{"id":"mrc-v1-03-0-8e422894e8-a","judgment":"ambiguous_or_missing","recognizable_route":false,"rationale":"Generic modular score check; none of the defined route mechanisms is stated."}
+{"id":"mrc-v1-03-0-8e422894e8-b","judgment":"finite_double_count","recognizable_route":true,"rationale":"Explicitly proposes counting the same objects in their natural ordering and again in groupings, with overcount correction."}
+{"id":"mrc-v1-03-1-2e27ef1f15-a","judgment":"ambiguous_or_missing","recognizable_route":false,"rationale":"Direct score-rule arithmetic only."}
+{"id":"mrc-v1-03-1-2e27ef1f15-b","judgment":"ambiguous_or_missing","recognizable_route":false,"rationale":"Hypergeometric counting is not itself a double count of the same finite incidences."}
+{"id":"mrc-v1-03-2-cd64e687d2-a","judgment":"ambiguous_or_missing","recognizable_route":false,"rationale":"Applies two unspecified score rules; no defined route is stated."}
+{"id":"mrc-v1-03-2-cd64e687d2-b","judgment":"ambiguous_or_missing","recognizable_route":false,"rationale":"Only instructs use of given relations; no mathematical route is proposed."}
+{"id":"mrc-v1-03-3-c74065ffe6-a","judgment":"ambiguous_or_missing","recognizable_route":false,"rationale":"Direct multiplication comparison only."}
+{"id":"mrc-v1-03-3-c74065ffe6-b","judgment":"ambiguous_or_missing","recognizable_route":false,"rationale":"Hypergeometric counting is not a stated double count."}
+{"id":"mrc-v1-03-4-7f44dfb3d9-a","judgment":"ambiguous_or_missing","recognizable_route":false,"rationale":"Tie-breaking rule only."}
+{"id":"mrc-v1-03-4-7f44dfb3d9-b","judgment":"ambiguous_or_missing","recognizable_route":false,"rationale":"Hypergeometric counting is not a stated double count."}
+{"id":"mrc-v1-04-0-5cffa4cbf7-a","judgment":"ambiguous_or_missing","recognizable_route":false,"rationale":"Generic divisibility/congruence check only."}
+{"id":"mrc-v1-04-0-5cffa4cbf7-b","judgment":"finite_recurrence_period","recognizable_route":true,"rationale":"Explicitly proposes finding a cycle in an iterated move sequence and locating a far-away move within it."}
+{"id":"mrc-v1-04-1-0eee241fd8-a","judgment":"ambiguous_or_missing","recognizable_route":false,"rationale":"Direct score-rule arithmetic only."}
+{"id":"mrc-v1-04-1-0eee241fd8-b","judgment":"finite_recurrence_period","recognizable_route":true,"rationale":"Explicitly follows the cycle of state pairs generated by a move rule."}
+{"id":"mrc-v1-04-2-7e81fbf336-a","judgment":"ambiguous_or_missing","recognizable_route":false,"rationale":"Conditional score-rule language only."}
+{"id":"mrc-v1-04-2-7e81fbf336-b","judgment":"ambiguous_or_missing","recognizable_route":false,"rationale":"States congruence and affine conditions but no polynomial-value obstruction, gcd solvability criterion, or recurrence-cycle method."}
+{"id":"mrc-v1-04-3-25d4af72c0-a","judgment":"ambiguous_or_missing","recognizable_route":false,"rationale":"Generic divisibility tests only."}
+{"id":"mrc-v1-04-3-25d4af72c0-b","judgment":"ambiguous_or_missing","recognizable_route":false,"rationale":"Defines modular state evolution but does not propose repetition or cycle detection."}
+{"id":"mrc-v1-04-4-af836f8f89-a","judgment":"ambiguous_or_missing","recognizable_route":false,"rationale":"Contradictory tie-breaking rules; no defined route."}
+{"id":"mrc-v1-04-4-af836f8f89-b","judgment":"finite_recurrence_period","recognizable_route":true,"rationale":"Proposes tracking states, referencing prior states, and guarding against an infinite loop, which is recurrence-cycle detection."}
+{"id":"mrc-v1-12-0-5b0ee1e7a2-a","judgment":"ambiguous_or_missing","recognizable_route":false,"rationale":"Generic divisibility filtering only."}
+{"id":"mrc-v1-12-0-5b0ee1e7a2-b","judgment":"ambiguous_or_missing","recognizable_route":false,"rationale":"Exponent congruence tests are stated without modular powers, periodicity, or prime filtering."}
+{"id":"mrc-v1-12-1-4f8d19caee-a","judgment":"ambiguous_or_missing","recognizable_route":false,"rationale":"Generic divisibility and a direct difference check only."}
+{"id":"mrc-v1-12-1-4f8d19caee-b","judgment":"ambiguous_or_missing","recognizable_route":false,"rationale":"Chinese remainder computation on exponents, without a modular-power period used to filter primes."}
+{"id":"mrc-v1-12-2-4fb31f55be-a","judgment":"ambiguous_or_missing","recognizable_route":false,"rationale":"A broad list of divisibility/factorization tactics; no single defined route is recognizable."}
+{"id":"mrc-v1-12-2-4fb31f55be-b","judgment":"ambiguous_or_missing","recognizable_route":false,"rationale":"Mentions remainder periodicity and an exponent but never identifies modular powers or prime filtering."}
+{"id":"mrc-v1-12-3-d2fa747bef-a","judgment":"ambiguous_or_missing","recognizable_route":false,"rationale":"Generic divisibility tests and counterexamples only."}
+{"id":"mrc-v1-12-3-d2fa747bef-b","judgment":"ambiguous_or_missing","recognizable_route":false,"rationale":"Generic remainder extraction only."}
+{"id":"mrc-v1-12-4-3f1b07083a-a","judgment":"ambiguous_or_missing","recognizable_route":false,"rationale":"Generic divisibility filtering only."}
+{"id":"mrc-v1-12-4-3f1b07083a-b","judgment":"ambiguous_or_missing","recognizable_route":false,"rationale":"Generic remainder extraction only."}
+{"id":"mrc-v1-13-0-5fe8b00239-a","judgment":"ambiguous_or_missing","recognizable_route":false,"rationale":"Unfocused property/divisibility checklist; no defined route."}
+{"id":"mrc-v1-13-0-5fe8b00239-b","judgment":"finite_double_count","recognizable_route":true,"rationale":"Explicitly proposes double counting objects to obtain the quantity."}
+{"id":"mrc-v1-13-1-7613f0969c-a","judgment":"ambiguous_or_missing","recognizable_route":false,"rationale":"Generic decimal divisibility tests only."}
+{"id":"mrc-v1-13-1-7613f0969c-b","judgment":"ambiguous_or_missing","recognizable_route":false,"rationale":"Counts disjoint groups separately rather than the same finite incidences in two ways."}
+{"id":"mrc-v1-13-2-3003962264-a","judgment":"ambiguous_or_missing","recognizable_route":false,"rationale":"Generic decimal divisibility tests only."}
+{"id":"mrc-v1-13-2-3003962264-b","judgment":"ambiguous_or_missing","recognizable_route":false,"rationale":"Hypergeometric counting is not a stated double count."}
+{"id":"mrc-v1-13-3-93acc84ab1-a","judgment":"ambiguous_or_missing","recognizable_route":false,"rationale":"Generic decimal divisibility tests only."}
+{"id":"mrc-v1-13-3-93acc84ab1-b","judgment":"ambiguous_or_missing","recognizable_route":false,"rationale":"Hypergeometric probability is not a stated double count."}
+{"id":"mrc-v1-13-4-f73460e191-a","judgment":"ambiguous_or_missing","recognizable_route":false,"rationale":"Generic decimal divisibility tests only."}
+{"id":"mrc-v1-13-4-f73460e191-b","judgment":"ambiguous_or_missing","recognizable_route":false,"rationale":"Hypergeometric/complement counting does not state a double count of the same incidences."}
+{"id":"mrc-v1-14-0-dfb975eb0c-a","judgment":"ambiguous_or_missing","recognizable_route":false,"rationale":"Generic decimal divisibility tests only."}
+{"id":"mrc-v1-14-0-dfb975eb0c-b","judgment":"ambiguous_or_missing","recognizable_route":false,"rationale":"Gives a modular recurrence formula but no finite-state repetition or cycle detection."}
+{"id":"mrc-v1-14-1-608dfc60a5-a","judgment":"ambiguous_or_missing","recognizable_route":false,"rationale":"Generic digit-divisibility tests only."}
+{"id":"mrc-v1-14-1-608dfc60a5-b","judgment":"finite_recurrence_period","recognizable_route":true,"rationale":"Explicitly identifies a repeating cycle and reduces a distant step by its period."}
+{"id":"mrc-v1-14-2-57a5dac3b0-a","judgment":"ambiguous_or_missing","recognizable_route":false,"rationale":"Generic repeated divisibility tests only."}
+{"id":"mrc-v1-14-2-57a5dac3b0-b","judgment":"ambiguous_or_missing","recognizable_route":false,"rationale":"Defines a recurrence but does not propose finite-state repetition or cycle detection."}
+{"id":"mrc-v1-14-3-98d56a2ba0-a","judgment":"ambiguous_or_missing","recognizable_route":false,"rationale":"Generic decimal divisibility tests only."}
+{"id":"mrc-v1-14-3-98d56a2ba0-b","judgment":"ambiguous_or_missing","recognizable_route":false,"rationale":"A gcd test for coprimality, not the gcd divisibility criterion for solvability of an integer linear equation."}
+{"id":"mrc-v1-14-4-36f51489a5-a","judgment":"ambiguous_or_missing","recognizable_route":false,"rationale":"Generic decimal divisibility tests only."}
+{"id":"mrc-v1-14-4-36f51489a5-b","judgment":"ambiguous_or_missing","recognizable_route":false,"rationale":"Iterates a recurrence formula to a term but does not use repetition or cycle detection."}
+{"id":"mrc-v1-23-0-788a985b50-a","judgment":"ambiguous_or_missing","recognizable_route":false,"rationale":"Generic remainder extraction only."}
+{"id":"mrc-v1-23-0-788a985b50-b","judgment":"finite_double_count","recognizable_route":true,"rationale":"Explicitly proposes double counting objects to obtain the quantity."}
+{"id":"mrc-v1-23-1-71de8ce3d6-a","judgment":"ambiguous_or_missing","recognizable_route":false,"rationale":"Generic remainder extraction only."}
+{"id":"mrc-v1-23-1-71de8ce3d6-b","judgment":"ambiguous_or_missing","recognizable_route":false,"rationale":"Partitions and counts groups once rather than counting the same incidences in two ways."}
+{"id":"mrc-v1-23-2-7f633e1c3d-a","judgment":"ambiguous_or_missing","recognizable_route":false,"rationale":"Generic remainder extraction only."}
+{"id":"mrc-v1-23-2-7f633e1c3d-b","judgment":"finite_double_count","recognizable_route":true,"rationale":"Explicitly counts the same objects directly and then indirectly."}
+{"id":"mrc-v1-23-3-006634a22e-a","judgment":"ambiguous_or_missing","recognizable_route":false,"rationale":"Generic remainder extraction only."}
+{"id":"mrc-v1-23-3-006634a22e-b","judgment":"ambiguous_or_missing","recognizable_route":false,"rationale":"Hypergeometric distribution alone is not a stated double count."}
+{"id":"mrc-v1-23-4-5cb21ae89a-a","judgment":"ambiguous_or_missing","recognizable_route":false,"rationale":"Lists remainder sequences but no modular powers, prime filtering, or recurrence-cycle method is stated."}
+{"id":"mrc-v1-23-4-5cb21ae89a-b","judgment":"finite_double_count","recognizable_route":true,"rationale":"Explicitly proposes counting objects in two different ways and correcting multiplicity."}
+{"id":"mrc-v1-24-0-cb13ee06ed-a","judgment":"modular_period_prime_filter","recognizable_route":true,"rationale":"Explicitly cycles remainders under repeated multiplication by 4, detects repetition, and uses the period to handle an exponent."}
+{"id":"mrc-v1-24-0-cb13ee06ed-b","judgment":"ambiguous_or_missing","recognizable_route":false,"rationale":"Uses vague modular cycle/image language without a clear power sequence, prime filter, or recurrence state rule."}
+{"id":"mrc-v1-24-1-767b49a1b4-a","judgment":"ambiguous_or_missing","recognizable_route":false,"rationale":"Generic remainder extraction only."}
+{"id":"mrc-v1-24-1-767b49a1b4-b","judgment":"finite_recurrence_period","recognizable_route":true,"rationale":"Uses a cycle to reduce a desired sequence index back to an initial position."}
+{"id":"mrc-v1-24-2-f513723e04-a","judgment":"ambiguous_or_missing","recognizable_route":false,"rationale":"Generic remainder extraction only."}
+{"id":"mrc-v1-24-2-f513723e04-b","judgment":"finite_recurrence_period","recognizable_route":true,"rationale":"Uses the cycle of an explicitly iterated modular pair transformation to locate a distant state."}
+{"id":"mrc-v1-24-3-6c62c6dd75-a","judgment":"ambiguous_or_missing","recognizable_route":false,"rationale":"Mixes remainders, products, and exponents without stating modular-power periodicity used to filter primes."}
+{"id":"mrc-v1-24-3-6c62c6dd75-b","judgment":"finite_recurrence_period","recognizable_route":true,"rationale":"Explicitly proposes cycle detection, cycle length, and locating a target pair within the cycle."}
+{"id":"mrc-v1-24-4-a613587f8a-a","judgment":"ambiguous_or_missing","recognizable_route":false,"rationale":"Generic remainder extraction only."}
+{"id":"mrc-v1-24-4-a613587f8a-b","judgment":"finite_recurrence_period","recognizable_route":true,"rationale":"Uses a remainder cycle to reduce a distant step and identify a state pair."}
+{"id":"mrc-v1-34-0-56711f5676-a","judgment":"finite_double_count","recognizable_route":true,"rationale":"Explicitly proposes double counting objects to obtain the quantity."}
+{"id":"mrc-v1-34-0-56711f5676-b","judgment":"ambiguous_or_missing","recognizable_route":false,"rationale":"Direct division of a target by 27; no defined route."}
+{"id":"mrc-v1-34-1-e46bc87214-a","judgment":"ambiguous_or_missing","recognizable_route":false,"rationale":"Double-entry accounting is not double counting the same finite mathematical incidences."}
+{"id":"mrc-v1-34-1-e46bc87214-b","judgment":"ambiguous_or_missing","recognizable_route":false,"rationale":"A grab bag of remainder operations for a cipher; no defined route."}
+{"id":"mrc-v1-34-2-de6103b4e6-a","judgment":"finite_double_count","recognizable_route":true,"rationale":"Explicitly proposes double counting finite objects through two group choices."}
+{"id":"mrc-v1-34-2-de6103b4e6-b","judgment":"ambiguous_or_missing","recognizable_route":false,"rationale":"Euclidean-algorithm divisions alone do not state the gcd solvability criterion for an integer linear equation."}
+{"id":"mrc-v1-34-3-aa44950f7b-a","judgment":"ambiguous_or_missing","recognizable_route":false,"rationale":"Hypergeometric counting is not a stated double count."}
+{"id":"mrc-v1-34-3-aa44950f7b-b","judgment":"finite_recurrence_period","recognizable_route":true,"rationale":"Explicitly uses a cycle of remainders to locate a targeted pair in an iterated state process."}
+{"id":"mrc-v1-34-4-a1ecf17213-a","judgment":"finite_double_count","recognizable_route":true,"rationale":"Explicitly proposes double counting objects to obtain the quantity."}
+{"id":"mrc-v1-34-4-a1ecf17213-b","judgment":"ambiguous_or_missing","recognizable_route":false,"rationale":"Works backward by remainder division without a recognizable defined route."}

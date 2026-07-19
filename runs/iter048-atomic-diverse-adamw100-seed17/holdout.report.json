@@ -1,0 +1,25 @@
+{
+  "count": 16,
+  "per_family": {
+    "diophantine_solvability": {
+      "count": 8,
+      "semantic": 3,
+      "semantic_rate": 0.375,
+      "strict": 3,
+      "strict_rate": 0.375
+    },
+    "polynomial_value_obstruction": {
+      "count": 8,
+      "semantic": 0,
+      "semantic_rate": 0.0,
+      "strict": 0,
+      "strict_rate": 0.0
+    }
+  },
+  "predictions_sha256": "6b2378e2aeca78d614fda6746d83da54ae0195850c92ad2303b42e457f149d33",
+  "semantic": 3,
+  "semantic_rate": 0.1875,
+  "strict": 3,
+  "strict_rate": 0.1875,
+  "verifier_sha256": "360b8a6d4e0f71e33b0d03be4024cd848b3e2336676f184bd83f3e7bd4e7abc5"
+}

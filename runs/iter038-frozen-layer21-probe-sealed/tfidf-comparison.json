@@ -1,0 +1,54 @@
+{
+  "baseline": {
+    "path": "runs/iter038-frozen-layer21-probe-sealed/tfidf-contrast-v2-predictions.jsonl",
+    "sha256": "de8794c310cf28f5b4c8559bb01b962513bac78c80d2ed2c627b13bedad54725"
+  },
+  "baseline_accuracy": 0.18,
+  "bootstrap_samples": 10000,
+  "bootstrap_seed": 20260719,
+  "candidate": {
+    "path": "runs/iter038-frozen-layer21-probe-sealed/contrast-predictions.jsonl",
+    "sha256": "321d896aed81d9d98f80283003b09d4162be444290cf291b0c2dd8b77abf4400"
+  },
+  "candidate_accuracy": 0.33,
+  "count": 100,
+  "difference_percentage_points": 15.000000000000002,
+  "exact_mcnemar_two_sided_p": 0.035697803555194696,
+  "harmed": 15,
+  "helped": 30,
+  "pair_cluster_bootstrap_difference_95pct_pp": [
+    4.0,
+    26.0
+  ],
+  "pairs": 50,
+  "per_family": {
+    "diophantine_solvability": {
+      "baseline_correct": 0,
+      "candidate_correct": 0,
+      "count": 20
+    },
+    "finite_double_count": {
+      "baseline_correct": 0,
+      "candidate_correct": 0,
+      "count": 20
+    },
+    "finite_recurrence_period": {
+      "baseline_correct": 0,
+      "candidate_correct": 20,
+      "count": 20
+    },
+    "modular_period_prime_filter": {
+      "baseline_correct": 18,
+      "candidate_correct": 3,
+      "count": 20
+    },
+    "polynomial_value_obstruction": {
+      "baseline_correct": 0,
+      "candidate_correct": 10,
+      "count": 20
+    }
+  },
+  "schema_version": 1,
+  "tied_both_correct": 3,
+  "tied_both_wrong": 52
+}

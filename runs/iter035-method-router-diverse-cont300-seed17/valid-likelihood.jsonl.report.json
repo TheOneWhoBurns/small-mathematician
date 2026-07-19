@@ -1,0 +1,43 @@
+{
+  "accuracy": 1.0,
+  "confusion": [
+    {
+      "count": 10,
+      "expected": "diophantine_solvability",
+      "predicted": "diophantine_solvability"
+    },
+    {
+      "count": 10,
+      "expected": "finite_double_count",
+      "predicted": "finite_double_count"
+    },
+    {
+      "count": 10,
+      "expected": "finite_recurrence_period",
+      "predicted": "finite_recurrence_period"
+    },
+    {
+      "count": 10,
+      "expected": "modular_period_prime_filter",
+      "predicted": "modular_period_prime_filter"
+    },
+    {
+      "count": 10,
+      "expected": "polynomial_value_obstruction",
+      "predicted": "polynomial_value_obstruction"
+    }
+  ],
+  "count": 50,
+  "deadline": "2026-07-19T09:00:00-05:00",
+  "elapsed_seconds": 22.08267593383789,
+  "mean_margin": 2.08281982421875,
+  "model": "assets/models/qwen3-0.6b-base",
+  "pair_accuracy": null,
+  "pairs": 0,
+  "prompts": "assets/data/processed/training-views/method-router-v1/valid.prompts.jsonl",
+  "prompts_sha256": "b95ff8cdc7f7d2ff677ae92b72b55548092e802720f4e7530d23bfe7595a0ae3",
+  "schema_version": 1,
+  "selection": "highest mean teacher-forced log probability of five natural-language method descriptions",
+  "weights": "runs/iter035-method-router-diverse-cont300-seed17/weights.safetensors",
+  "weights_sha256": "2a0e3f8f1a3414675e7c34ff9b39b69f486dc26c999befe522aec8da61ae83ea"
+}

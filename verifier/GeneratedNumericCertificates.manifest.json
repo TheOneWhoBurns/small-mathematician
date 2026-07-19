@@ -1,0 +1,32 @@
+{
+  "certified_ids": [
+    "dnl-v1-dev-integer_expression-000-a0bc00bbca",
+    "dnl-v1-dev-integer_expression-001-0553185c36",
+    "dnl-v1-dev-integer_expression-002-3de847548c",
+    "dnl-v1-dev-integer_expression-003-df582ae84c",
+    "dnl-v1-dev-integer_expression-004-20e1ffe096",
+    "dnl-v1-dev-integer_expression-006-5ef9c61f3e",
+    "dnl-v1-dev-integer_expression-007-2853b04321",
+    "dnl-v1-dev-integer_expression-008-d440dddbe4",
+    "dnl-v1-dev-integer_expression-009-7394abe8c1",
+    "dnl-v1-dev-integer_expression-010-0e5916b3da",
+    "dnl-v1-dev-integer_expression-011-3f09472b67",
+    "dnl-v1-dev-modular_inverse-002-516924afe7",
+    "dnl-v1-dev-quadratic_integer_roots-006-d590798eba",
+    "dnl-v1-dev-quadratic_integer_roots-007-1005c87732",
+    "dnl-v1-dev-quadratic_integer_roots-008-8187ca763f",
+    "dnl-v1-dev-quadratic_integer_roots-009-eea91191e0",
+    "dnl-v1-dev-quadratic_integer_roots-010-502bc44a79"
+  ],
+  "contract": "Each theorem restates the exact private verifier claim for a model response already accepted by the strict parser; Lean independently checks the arithmetic claim, not the natural-language parser.",
+  "details": "runs/iter024-blueprint-adamw-60-seed17/numeric-dev-details-step60.jsonl",
+  "details_sha256": "54feac42e81a0316f40eb78cbd94373e8123999e693797481a6dccd73c26b6cc",
+  "lean_certificates_emitted": 17,
+  "predictions": "runs/iter024-blueprint-adamw-60-seed17/numeric-dev-step60.jsonl",
+  "predictions_sha256": "c64eaf078f53c95755154738a593bce687c922e034ee060b5a046ce1cf3b1f94",
+  "schema_version": 1,
+  "strict_passes": 17,
+  "unsupported_strict_ids": [],
+  "verifier": "benchmarks/deterministic_nl/data/dev.verifier.jsonl",
+  "verifier_sha256": "ce1d82aad49b1593209fd3bb213351cc72bab21865eefb2e275beb4ab5e88a80"
+}

@@ -1,0 +1,54 @@
+{
+  "baseline": {
+    "path": "runs/iter039-frozen-layer21-contrast-trained-iter014-sealed/tfidf-contrast-v3-predictions.jsonl",
+    "sha256": "ff7f57eba3d2793ec3465ea7b2b7b587d1aab43e34050d6972a0ff7e5e0aa784"
+  },
+  "baseline_accuracy": 0.2,
+  "bootstrap_samples": 10000,
+  "bootstrap_seed": 20260719,
+  "candidate": {
+    "path": "runs/iter039-frozen-layer21-contrast-trained-iter014-sealed/contrast-v3-predictions.jsonl",
+    "sha256": "96167d8148b82e386704413c2ad000e5d0d7ef1c8c8be620215678a42910856e"
+  },
+  "candidate_accuracy": 0.87,
+  "count": 100,
+  "difference_percentage_points": 67.0,
+  "exact_mcnemar_two_sided_p": 1.3552527156068805e-20,
+  "harmed": 0,
+  "helped": 67,
+  "pair_cluster_bootstrap_difference_95pct_pp": [
+    59.0,
+    75.0
+  ],
+  "pairs": 50,
+  "per_family": {
+    "diophantine_solvability": {
+      "baseline_correct": 20,
+      "candidate_correct": 20,
+      "count": 20
+    },
+    "finite_double_count": {
+      "baseline_correct": 0,
+      "candidate_correct": 20,
+      "count": 20
+    },
+    "finite_recurrence_period": {
+      "baseline_correct": 0,
+      "candidate_correct": 14,
+      "count": 20
+    },
+    "modular_period_prime_filter": {
+      "baseline_correct": 0,
+      "candidate_correct": 20,
+      "count": 20
+    },
+    "polynomial_value_obstruction": {
+      "baseline_correct": 0,
+      "candidate_correct": 13,
+      "count": 20
+    }
+  },
+  "schema_version": 1,
+  "tied_both_correct": 20,
+  "tied_both_wrong": 13
+}

@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "overall": {
+    "prompts": 100,
+    "semantic_correct": 0,
+    "semantic_accuracy": 0.0,
+    "ambiguous_or_missing": 100,
+    "recognizable_route_responses": 0,
+    "correct_given_recognizable_route": 0,
+    "recognizable_route_precision": null,
+    "recognizable_route_precision_reason": "Undefined because the denominator is zero: no response proposed any of the five routes."
+  },
+  "per_gold_route": {
+    "polynomial_value_obstruction": {
+      "count": 20,
+      "semantic_correct": 0,
+      "accuracy": 0.0,
+      "ambiguous_or_missing": 20
+    },
+    "diophantine_solvability": {
+      "count": 20,
+      "semantic_correct": 0,
+      "accuracy": 0.0,
+      "ambiguous_or_missing": 20
+    },
+    "modular_period_prime_filter": {
+      "count": 20,
+      "semantic_correct": 0,
+      "accuracy": 0.0,
+      "ambiguous_or_missing": 20
+    },
+    "finite_double_count": {
+      "count": 20,
+      "semantic_correct": 0,
+      "accuracy": 0.0,
+      "ambiguous_or_missing": 20
+    },
+    "finite_recurrence_period": {
+      "count": 20,
+      "semantic_correct": 0,
+      "accuracy": 0.0,
+      "ambiguous_or_missing": 20
+    }
+  },
+  "matched_pairs": {
+    "pairs": 50,
+    "both_sides_semantically_correct": 0,
+    "both_sides_accuracy": 0.0,
+    "exactly_one_side_correct": 0,
+    "neither_side_correct": 50
+  },
+  "blind_response_characterization": {
+    "route_counts": {
+      "polynomial_value_obstruction": 0,
+      "diophantine_solvability": 0,
+      "modular_period_prime_filter": 0,
+      "finite_double_count": 0,
+      "finite_recurrence_period": 0,
+      "ambiguous_missing": 100
+    },
+    "description": "Most outputs are repeated gear symbols, MethodManager placeholders, or other nonsemantic fragments. The few English fragments propose score addition or a generic equality predicate, neither of which is one of the five routes."
+  },
+  "protocol_comparison_to_iter035": {
+    "same_elements": [
+      "The same five route definitions were used.",
+      "The response's actually proposed method controlled the label; intended or correct methods were never supplied.",
+      "Ambiguous or missing outputs were explicitly labeled and counted incorrect after unblinding.",
+      "Judgments and their hash were sealed before joining to the same 100 gold route and matched-pair records.",
+      "Overall, per-route, matched-pair, and recognizable-route precision use the same formulas."
+    ],
+    "difference": "This iter014 audit was intentionally stricter before sealing: only response text was available. The iter035 audit task allowed the public prompt for reference resolution. Therefore only protocol, not conclusions or numerical outcomes, should be compared directly."
+  },
+  "artifacts": [
+    {
+      "path": "runs/iter014-traces-cont-adamw-500-seed17/contrast.jsonl",
+      "sha256": "bc334f66c593e715ee8424e4a8a40d6e30d69a41a402c3ee637392fc9c8f79ff"
+    },
+    {
+      "path": "experiments/faithful-formalizer-probe/iter014-contrast100/blind_route_judgments.jsonl",
+      "sha256": "a1aacdc263fd2e511213d5495041e07f0271fe827d106768ccca8b4d502bd9cc"
+    },
+    {
+      "path": "experiments/faithful-formalizer-probe/iter014-contrast100/manifest.json",
+      "sha256": "4b04a51803663263d5d08257df795748eefaf4c8a9eaaec56b3fffee0f692c5f"
+    },
+    {
+      "path": "experiments/faithful-formalizer-probe/iter014-contrast100/postseal_semantic_scores.jsonl",
+      "sha256": "2b9c4d57e0108da6e124484ebd733b0b4f3e2b2c3fbdc8f7c3c2678518a191f5"
+    },
+    {
+      "path": "benchmarks/method_router/contrast/data/prompts.jsonl",
+      "sha256": "7235446d98d2e733375cfe2b057c542487c48c5a54c2601ba6f903e0cae1eb22"
+    }
+  ],
+  "limitations": [
+    "The response-only blind condition is conservative: no prompt context was used to resolve vague references.",
+    "Recognizable-route precision is mathematically undefined, not zero, because there are no recognizable route predictions.",
+    "This is a single-auditor semantic classification, although the pervasive nonsemantic degeneration leaves little interpretive latitude.",
+    "The audit measures method selection only, not problem solving or proof correctness.",
+    "No causal conclusion about training changes should be drawn from this audit alone; generation and evaluation conditions must be compared separately."
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "created_unix": 1784432481.820829,
+  "deadline": "2026-07-19T09:00:00-05:00",
+  "elapsed_seconds": 70.98776507377625,
+  "max_tokens": 160,
+  "model": "assets/models/qwen3-0.6b-base",
+  "new_predictions": 48,
+  "predictions_total": 60,
+  "prompt_mode": "raw",
+  "prompt_path": "benchmarks/deterministic_nl/data/dev.prompts.jsonl",
+  "prompt_sha256": "87fd7a925cc59084f0544f3f1d4f1042f7ac0de11db69b11e1386fb2b40d71d1",
+  "requested": 60,
+  "schema_version": 1,
+  "seed": 17,
+  "split": "dev",
+  "system_prompt": null,
+  "temperature": 0.0,
+  "user_prefix": "Respond only in English.\n",
+  "user_suffix": "\nSolution:\n",
+  "weights": "runs/iter013-raw-expanded-adamw-500-seed17/weights.safetensors",
+  "weights_sha256": "f013f7112ae21e2a1ab40c8b077d4397d9ddd926f97cdddb9b47eee4a7643f4b"
+}

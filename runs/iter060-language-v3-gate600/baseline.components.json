@@ -1,0 +1,36 @@
+{
+  "overall": {
+    "count": 200,
+    "gcd_correct": 30,
+    "gcd_correct_rate": 0.15,
+    "internally_consistent": 97,
+    "internally_consistent_rate": 0.485,
+    "parsed": 182,
+    "parsed_rate": 0.91,
+    "relation_correct": 62,
+    "relation_correct_given_gcd_correct": 0.43333333333333335,
+    "relation_correct_rate": 0.31,
+    "semantic": 10,
+    "semantic_rate": 0.05,
+    "target_extracted": 165,
+    "target_extracted_rate": 0.825
+  },
+  "per_surface": {
+    "test": {
+      "count": 200,
+      "gcd_correct": 30,
+      "gcd_correct_rate": 0.15,
+      "internally_consistent": 97,
+      "internally_consistent_rate": 0.485,
+      "parsed": 182,
+      "parsed_rate": 0.91,
+      "relation_correct": 62,
+      "relation_correct_given_gcd_correct": 0.43333333333333335,
+      "relation_correct_rate": 0.31,
+      "semantic": 10,
+      "semantic_rate": 0.05,
+      "target_extracted": 165,
+      "target_extracted_rate": 0.825
+    }
+  }
+}

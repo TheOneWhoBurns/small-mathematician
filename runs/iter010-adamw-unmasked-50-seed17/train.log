@@ -1,0 +1,44 @@
+Loading pretrained model
+Loading datasets
+Training every model parameter
+Trainable parameters: 100.000% (596.050M/596.050M)
+Starting training..., iters: 50
+Calculating loss...:   0%|          | 0/10 [00:00<?, ?it/s]Calculating loss...:  10%|█         | 1/10 [00:00<00:01,  8.78it/s]Calculating loss...:  30%|███       | 3/10 [00:00<00:00, 10.08it/s]Calculating loss...:  50%|█████     | 5/10 [00:00<00:00, 12.07it/s]Calculating loss...:  70%|███████   | 7/10 [00:00<00:00, 11.42it/s]Calculating loss...:  90%|█████████ | 9/10 [00:00<00:00, 11.29it/s]Calculating loss...: 100%|██████████| 10/10 [00:00<00:00, 11.08it/s]
+Iter 1: Val loss 3.014, Val took 0.909s
+Calculating loss...:   0%|          | 0/10 [00:00<?, ?it/s]Calculating loss...:  20%|██        | 2/10 [00:00<00:00, 13.49it/s]Calculating loss...:  40%|████      | 4/10 [00:00<00:00, 11.45it/s]Calculating loss...:  60%|██████    | 6/10 [00:00<00:00, 10.55it/s]Calculating loss...:  80%|████████  | 8/10 [00:00<00:00, 11.41it/s]Calculating loss...: 100%|██████████| 10/10 [00:00<00:00, 11.23it/s]Calculating loss...: 100%|██████████| 10/10 [00:00<00:00, 11.30it/s]
+Iter 10: Val loss 2.677, Val took 0.891s
+Iter 10: Train loss 2.919, Learning Rate 1.000e-06, It/sec 2.090, Tokens/sec 304.345, Trained Tokens 1456, Peak mem 5.517 GB
+Calculating loss...:   0%|          | 0/10 [00:00<?, ?it/s]Calculating loss...:  20%|██        | 2/10 [00:00<00:00, 10.17it/s]Calculating loss...:  40%|████      | 4/10 [00:00<00:00, 10.26it/s]Calculating loss...:  60%|██████    | 6/10 [00:00<00:00, 10.14it/s]Calculating loss...:  80%|████████  | 8/10 [00:00<00:00, 10.83it/s]Calculating loss...: 100%|██████████| 10/10 [00:00<00:00, 10.50it/s]Calculating loss...: 100%|██████████| 10/10 [00:00<00:00, 10.45it/s]
+Iter 20: Val loss 2.282, Val took 0.960s
+Iter 20: Train loss 2.425, Learning Rate 1.000e-06, It/sec 2.194, Tokens/sec 337.148, Trained Tokens 2993, Peak mem 5.517 GB
+Calculating loss...:   0%|          | 0/10 [00:00<?, ?it/s]Calculating loss...:  20%|██        | 2/10 [00:00<00:00,  9.86it/s]Calculating loss...:  40%|████      | 4/10 [00:00<00:00, 11.85it/s]Calculating loss...:  60%|██████    | 6/10 [00:00<00:00, 11.96it/s]Calculating loss...:  80%|████████  | 8/10 [00:00<00:00, 11.73it/s]Calculating loss...: 100%|██████████| 10/10 [00:00<00:00, 10.81it/s]Calculating loss...: 100%|██████████| 10/10 [00:00<00:00, 11.11it/s]
+Iter 30: Val loss 2.011, Val took 0.904s
+Iter 30: Train loss 2.233, Learning Rate 1.000e-06, It/sec 2.448, Tokens/sec 319.935, Trained Tokens 4300, Peak mem 5.517 GB
+Calculating loss...:   0%|          | 0/10 [00:00<?, ?it/s]Calculating loss...:  20%|██        | 2/10 [00:00<00:00, 11.53it/s]Calculating loss...:  40%|████      | 4/10 [00:00<00:00, 10.39it/s]Calculating loss...:  60%|██████    | 6/10 [00:00<00:00, 10.36it/s]Calculating loss...:  80%|████████  | 8/10 [00:00<00:00, 10.31it/s]Calculating loss...: 100%|██████████| 10/10 [00:00<00:00, 10.99it/s]Calculating loss...: 100%|██████████| 10/10 [00:00<00:00, 10.76it/s]
+Iter 40: Val loss 1.774, Val took 0.932s
+Iter 40: Train loss 1.899, Learning Rate 1.000e-06, It/sec 2.277, Tokens/sec 340.176, Trained Tokens 5794, Peak mem 5.517 GB
+Calculating loss...:   0%|          | 0/10 [00:00<?, ?it/s]Calculating loss...:  10%|█         | 1/10 [00:00<00:00,  9.88it/s]Calculating loss...:  30%|███       | 3/10 [00:00<00:00, 10.16it/s]Calculating loss...:  50%|█████     | 5/10 [00:00<00:00, 10.62it/s]Calculating loss...:  70%|███████   | 7/10 [00:00<00:00, 10.08it/s]Calculating loss...:  90%|█████████ | 9/10 [00:00<00:00,  9.83it/s]Calculating loss...: 100%|██████████| 10/10 [00:01<00:00,  9.83it/s]Calculating loss...: 100%|██████████| 10/10 [00:01<00:00,  9.98it/s]
+Iter 50: Val loss 1.578, Val took 1.006s
+Iter 50: Train loss 1.677, Learning Rate 1.000e-06, It/sec 2.264, Tokens/sec 339.099, Trained Tokens 7292, Peak mem 5.517 GB
+Saved final weights to runs/iter010-adamw-unmasked-50-seed17/weights.safetensors.
+Final Metal peak memory: 5.517 GB
+real 29.38
+user 4.07
+sys 5.89
+          1473855488  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+              191912  page reclaims
+                 207  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   1  messages sent
+                   1  messages received
+                   1  signals received
+                 629  voluntary context switches
+               41795  involuntary context switches
+           103504956  instructions retired
+            39023499  cycles elapsed
+            10715664  peak memory footprint

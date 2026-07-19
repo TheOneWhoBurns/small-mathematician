@@ -1,0 +1,22 @@
+{
+  "created_unix": 1784450928.4994,
+  "deadline": "2026-07-19T09:00:00-05:00",
+  "elapsed_seconds": 112.5069260597229,
+  "max_tokens": 200,
+  "model": "assets/models/qwen3-0.6b-base",
+  "new_predictions": 60,
+  "predictions_total": 60,
+  "prompt_mode": "raw",
+  "prompt_path": "benchmarks/deterministic_nl/data/dev.prompts.jsonl",
+  "prompt_sha256": "87fd7a925cc59084f0544f3f1d4f1042f7ac0de11db69b11e1386fb2b40d71d1",
+  "requested": 60,
+  "schema_version": 1,
+  "seed": 17,
+  "split": "dev",
+  "system_prompt": null,
+  "temperature": 0.0,
+  "user_prefix": "Respond only in English.\n",
+  "user_suffix": "\nSolution:\n",
+  "weights": "runs/iter036-method-numeric-rehearsal-probe100-seed17/weights.safetensors",
+  "weights_sha256": "17cd20601160d4de6aa622dc231545e2d02561fbae7462dd1f2d02ca0db58b80"
+}

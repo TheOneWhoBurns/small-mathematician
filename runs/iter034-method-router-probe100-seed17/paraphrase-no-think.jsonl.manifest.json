@@ -1,0 +1,23 @@
+{
+  "assistant_prefix": "<think>\n\n</think>\n\n",
+  "chat_template": true,
+  "created_unix": 1784449177.9363468,
+  "deadline": "2026-07-19T09:00:00-05:00",
+  "elapsed_seconds": 90.03464889526367,
+  "family": null,
+  "max_tokens": 80,
+  "model": "assets/models/qwen3-0.6b-base",
+  "new_predictions": 80,
+  "output": "runs/iter034-method-router-probe100-seed17/paraphrase-no-think.jsonl",
+  "predictions_total": 80,
+  "prompt_prefix": "Respond only in English.\n",
+  "prompt_suffix": "\nMethod:\n",
+  "prompts": "assets/data/processed/training-views/method-router-v1/paraphrase.prompts.jsonl",
+  "prompts_sha256": "2a4ba30cda88ad495bd25e64c21b269c26d17206b4044ceb4002be2e80c9cc2b",
+  "requested": 80,
+  "schema_version": 1,
+  "seed": 17,
+  "temperature": 0.0,
+  "weights": "runs/iter034-method-router-probe100-seed17/weights.safetensors",
+  "weights_sha256": "397029f0eb7e74dce6d5e8a9ab3a364888719fcd86360f514fda6c051e5b00d9"
+}

@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "status": "frozen_design_pending_formalizer_binding",
+  "research_question": "How much mathematical problem-solving ability can be compressed into a very small, memory- and time-efficient, natural-language-only model when formalization, theorem retrieval, and Lean verification are delegated to a fixed external system?",
+  "hard_stop": "2026-07-19T09:00:00-05:00",
+  "architecture_boundary": {
+    "small_model_input": "natural-language mathematical statement only",
+    "small_model_output": "natural-language concept list and proof blueprint only",
+    "forbidden_small_model_fields": [
+      "Lean source",
+      "Lean theorem statement",
+      "proof state",
+      "tactic trace",
+      "Mathlib lemma name"
+    ]
+  },
+  "hardware": {
+    "machine": "MacBook Air",
+    "chip": "Apple M4 10-core",
+    "unified_memory_gib": 16
+  },
+  "model": {
+    "path": "assets/models/qwen3-0.6b-base",
+    "source": "Qwen/Qwen3-0.6B-Base",
+    "revision": "da87bfb608c14b7cf20ba1ce41287e8de496c0cd",
+    "parameter_count": 596049920,
+    "training_command": "uv run python scripts/train_all_parameters.py",
+    "full_parameter_guard": "The training log must say 100.000% (596.050M/596.050M); stock mlx_lm.lora full mode is not sufficient."
+  },
+  "data": {
+    "candidate_pool": "assets/data/processed/audited/eligible-default.jsonl",
+    "pool_report": "assets/data/processed/audited/audit-report.json",
+    "family_key": "family_id",
+    "content_key": "content_id",
+    "split_hash": "sha256('small-mathematician-v1|' + family_id)",
+    "split_buckets": {
+      "train": "00-79",
+      "validation": "80-89",
+      "internal_test": "90-99"
+    },
+    "cross_split_gate": "No family_id or content_id may occur in more than one split; audit statement near-duplicates across splits before freezing.",
+    "sealed_final_benchmarks": [
+      "assets/data/processed/eval/proofbench.jsonl",
+      "assets/data/processed/eval/ma-proofbench-natural.jsonl"
+    ],
+    "verifier_only": "assets/data/processed/verifier-only/ma-proofbench-lean.jsonl"
+  },
+  "training": {
+    "optimizer": "adafactor",
+    "batch_size": 1,
+    "gradient_checkpointing": true,
+    "mask_prompt": true,
+    "candidate_context_caps": [512, 1024, 1536],
+    "context_choice_rule": "Choose the cap with the best validation gain per wall-hour after accounting for the percentage of post-preparation examples that fit without truncation; memory alone does not choose the cap.",
+    "sampling_unit": "family",
+    "comparison_budget": "equal non-padding training tokens and equal generation/evaluation budgets",
+    "checkpoint_policy": {
+      "keep": "baseline, current proxy Pareto leader, previous reproducible leader, and any checkpoint queued for frozen-formalizer evaluation",
+      "discard": "failed or dominated checkpoints after their config, log, metric record, and checksum metadata are appended to the ledger",
+      "disk_reserve_gib": 4
+    }
+  },
+  "adaptive_schedule": {
+    "fixed_duration_trials": false,
+    "decision_interval_max_minutes": 45,
+    "short_trial_stop": "Stop when the candidate can be ranked against the incumbent with the frozen proxy confidence rule, or when its declared token/wall budget is exhausted.",
+    "progression": [
+      "calibrate context, optimizer, and data-shape costs",
+      "compare coherent curriculum or blueprint-schema changes on family-held-out validation",
+      "re-run a surprising winner with a second seed",
+      "spend the largest remaining block on one substantial run only after a reproducible proxy leader exists"
+    ],
+    "overnight_planning_envelope": "Approximately 10-18 development cycles plus zero or one 2-4 hour substantial run, with the final 45 minutes reserved for validation, checkpoint pruning, and ledger audit. This is an estimate, not a quota."
+  },
+  "proxy_evaluation": {
+    "available_now": true,
+    "selection_split": "validation",
+    "never_select_on": ["internal_test", "ProofBench", "MA-ProofBench"],
+    "metrics": [
+      "completion-only validation negative log-likelihood",
+      "structured-output parse rate",
+      "concept-label precision and recall where labels are audited",
+      "truncation rate",
+      "wall time",
+      "peak Metal memory",
+      "checkpoint bytes"
+    ],
+    "claim_boundary": "Proxy improvements justify another experiment or retention of a checkpoint; they do not establish mathematical reasoning or verified theorem uplift."
+  },
+  "scientific_evaluation": {
+    "available_now": false,
+    "primary_metric": "paired faithful Lean-verified solve-rate uplift of model_blueprint over no_blueprint, in percentage points",
+    "success": "statement_faithful AND lean_verified",
+    "pairing_unit": "theorem_id x generation_seed",
+    "confidence_interval": "95% family-cluster bootstrap with 10000 resamples and seed 20260719",
+    "required_conditions": [
+      "no_blueprint",
+      "base_model_blueprint",
+      "model_blueprint",
+      "corrupted_blueprint",
+      "generic_blueprint",
+      "reference_argument"
+    ],
+    "baselines": [
+      "same frozen formalizer with no blueprint",
+      "untrained Qwen3-0.6B Base blueprint",
+      "retrieval-only blueprint under the same retrieval snapshot"
+    ],
+    "formalizer_binding_required": [
+      "provider and exact model/revision",
+      "formalizer prompt SHA-256",
+      "decoding parameters and attempt budget",
+      "retrieval corpus and index SHA-256",
+      "Lean and Mathlib revisions",
+      "statement-faithfulness checker and prompt/revision",
+      "per-theorem wall-time and token budget"
+    ],
+    "interactive_agent_warning": "The current GPT-5.6 Sol interactive agent is not a reproducibly frozen external formalizer. It may prepare data and inspect failures, but scientific results require the binding above."
+  },
+  "promotion_rule": {
+    "proxy": "Keep a candidate only on the Pareto frontier of validation completion loss, parse rate, wall time, peak memory, and checkpoint size. Re-run surprising wins; never promote from training loss.",
+    "scientific": "Promote only if model_blueprint has positive paired uplift over no_blueprint, beats corrupted_blueprint and generic_blueprint, the 95% family-cluster interval excludes zero, and there is no statement-faithfulness regression."
+  },
+  "benchmark_command": "uv run python scripts/score_formalizer_results.py --config configs/experiment.v1.json --outcomes runs/frozen-formalizer/outcomes.jsonl"
+}

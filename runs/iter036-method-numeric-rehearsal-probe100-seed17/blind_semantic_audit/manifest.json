@@ -1,0 +1,18 @@
+{
+  "allowed_route_definitions": {
+    "diophantine_solvability": "gcd divisibility criterion for integer linear equations",
+    "finite_double_count": "count the same finite incidences/objects in two ways",
+    "finite_recurrence_period": "finite-state repetition/cycle detection for recurrences",
+    "modular_period_prime_filter": "periodicity of modular powers used to filter primes",
+    "polynomial_value_obstruction": "congruence/difference preservation for integer polynomial values"
+  },
+  "ambiguous_or_missing_records": 99,
+  "audit": "fresh blind semantic route audit",
+  "blindness_statement": "Before sealing, the auditor read only contrast.jsonl and the five route definitions supplied in the task. No prompts, gold labels, other runs, prior audits, reports, or evaluations were opened. Judgments use response text alone.",
+  "input": "small-mathematician/runs/iter036-method-numeric-rehearsal-probe100-seed17/contrast.jsonl",
+  "input_sha256": "dbbd5cab9ef879ac2230c09bae33976a68baa2274e6ec01d81d154752c9076ba",
+  "judgment_policy": "Classify only a route actually proposed by the response text. Do not infer from ID, repair the response, or solve the underlying problem; otherwise mark ambiguous/missing.",
+  "recognizable_route_records": 1,
+  "records": 100,
+  "sealed_at_utc": "2026-07-19T08:52:34.749585+00:00"
+}

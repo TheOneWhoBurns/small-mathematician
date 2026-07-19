@@ -1,0 +1,41 @@
+mx.metal.device_info is deprecated and will be removed in a future version. Use mx.device_info instead.
+Loading pretrained model
+Loading datasets
+Training every model parameter
+Trainable parameters: 100.000% (596.050M/596.050M)
+Starting training..., iters: 3
+[WARNING] Some sequences are longer than 512 tokens. The longest sentence 526 will be truncated to 512. Consider pre-splitting your data to save memory.
+Calculating loss...:   0%|          | 0/1 [00:00<?, ?it/s]Calculating loss...: 100%|██████████| 1/1 [00:00<00:00,  1.41it/s]Calculating loss...: 100%|██████████| 1/1 [00:00<00:00,  1.40it/s]
+[WARNING] Some sequences are longer than 512 tokens. The longest sentence 526 will be truncated to 512. Consider pre-splitting your data to save memory.
+Iter 1: Val loss 1.271, Val took 0.723s
+Iter 1: Train loss 1.170, Learning Rate 1.000e-05, It/sec 0.339, Tokens/sec 97.271, Trained Tokens 287, Peak mem 3.389 GB
+[WARNING] Some sequences are longer than 512 tokens. The longest sentence 526 will be truncated to 512. Consider pre-splitting your data to save memory.
+Iter 2: Train loss 9.887, Learning Rate 1.000e-05, It/sec 0.369, Tokens/sec 149.654, Trained Tokens 693, Peak mem 3.389 GB
+[WARNING] Some sequences are longer than 512 tokens. The longest sentence 526 will be truncated to 512. Consider pre-splitting your data to save memory.
+Calculating loss...:   0%|          | 0/1 [00:00<?, ?it/s]Calculating loss...: 100%|██████████| 1/1 [00:00<00:00,  2.33it/s]Calculating loss...: 100%|██████████| 1/1 [00:00<00:00,  2.33it/s]
+[WARNING] Some sequences are longer than 512 tokens. The longest sentence 526 will be truncated to 512. Consider pre-splitting your data to save memory.
+Iter 3: Val loss 3.648, Val took 0.438s
+Iter 3: Train loss 4.192, Learning Rate 1.000e-05, It/sec 0.383, Tokens/sec 158.756, Trained Tokens 1108, Peak mem 3.414 GB
+mx.metal.get_peak_memory is deprecated and will be removed in a future version. Use mx.get_peak_memory instead.
+Saved final weights to experiments/full_train_probe/output-all-real512-seed17/weights.safetensors.
+Final Metal peak memory: 3.414 GB
+real 14.21
+user 1.85
+sys 2.17
+          1389510656  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+              195847  page reclaims
+                3550  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   1  messages sent
+                   1  messages received
+                   1  signals received
+                3812  voluntary context switches
+               31314  involuntary context switches
+           199257540  instructions retired
+           103700597  cycles elapsed
+            10748432  peak memory footprint

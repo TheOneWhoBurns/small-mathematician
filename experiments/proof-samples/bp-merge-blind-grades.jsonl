@@ -1,0 +1,24 @@
+{"id":"fineproofs-00014","label":"A","score":1,"reason":"It assumes the wrong proposition, misstates powers of two and the greatest proper divisor, and derives no relevant contradiction."}
+{"id":"fineproofs-00014","label":"B","score":1,"reason":"The argument confuses evenness with being a power of two and contradicts an assumption it never coherently made."}
+{"id":"fineproofs-00014","label":"C","score":1,"reason":"It writes a power of two merely as 2k, makes unsupported parity substitutions, and restates its assumption as a contradiction."}
+{"id":"fineproofs-00482","label":"A","score":1,"reason":"It misstates the allowed digits and falsely assumes divisibility preserves a decimal digit multiset."}
+{"id":"fineproofs-00482","label":"B","score":1,"reason":"The response only repeats the defining digit counts and gives no modular quotient or size argument."}
+{"id":"fineproofs-00482","label":"C","score":1,"reason":"It inserts forbidden digits into the defining property and treats their required absence as an unrelated contradiction."}
+{"id":"fineproofs-00933","label":"A","score":2,"reason":"The initial Cauchy-Schwarz product bound is correct and useful, but the unfinished second application does not provide the factor-four bridge."}
+{"id":"fineproofs-00933","label":"B","score":2,"reason":"It correctly derives the main reciprocal-product lower bound but cuts off before comparing the two denominators."}
+{"id":"fineproofs-00933","label":"C","score":2,"reason":"It invokes relevant Cauchy-Schwarz and quadratic comparisons, but the final displayed factor-four inequality is deduced in an impossible direction."}
+{"id":"fineproofs-01863","label":"A","score":1,"reason":"The invented chain of circle intersections is irrelevant and never supplies the necessary midpoint-vector relation."}
+{"id":"fineproofs-01863","label":"B","score":1,"reason":"It repeatedly asserts false perpendicular and parallel relations and does not establish either pair of opposite sides."}
+{"id":"fineproofs-01863","label":"C","score":1,"reason":"The stated perpendicular and parallel claims do not follow from the chord-midpoint configuration and cannot prove the parallelogram."}
+{"id":"fineproofs-01993","label":"A","score":1,"reason":"It treats ordered coordinates as independent choices and loops over tautologies without computing a tuple count or coordinate sum."}
+{"id":"fineproofs-01993","label":"B","score":1,"reason":"The count of 100 tuples is false and the response repeatedly restates the undefined sum instead of calculating an average."}
+{"id":"fineproofs-01993","label":"C","score":1,"reason":"It gives the same incorrect tuple count and repetitive tautologies, with no symmetry or order-statistic method."}
+{"id":"fineproofs-02529","label":"A","score":1,"reason":"The initial congruence has the wrong sign and the claimed equivalences involving 2^p, parity, and primality are unsupported."}
+{"id":"fineproofs-02529","label":"B","score":2,"reason":"The modular reformulation and finite-period idea are relevant, but it falsely concludes that congruence to 41 has no solutions."}
+{"id":"fineproofs-02529","label":"C","score":2,"reason":"It correctly sets up the problem modulo 43 and invokes periodic powers, but the decisive no-solution claim is false."}
+{"id":"fineproofs-03674","label":"A","score":2,"reason":"Differentiation through a Taylor or product expansion is a viable route, but no derivative formula or limiting partial sum is supplied."}
+{"id":"fineproofs-03674","label":"B","score":1,"reason":"The derivative formulas and series expansion are false, leaving no usable route to the limit."}
+{"id":"fineproofs-03674","label":"C","score":2,"reason":"Expanding e^x and then differentiating termwise is relevant progress, but the stated derivative series is incorrect and the limit is unfinished."}
+{"id":"fineproofs-03875","label":"A","score":1,"reason":"The proposed cycle count and central binomial coefficient have no connection to the three-lamp toggle transformations."}
+{"id":"fineproofs-03875","label":"B","score":1,"reason":"It assumes all binary states are reachable without analyzing the toggle span and misses the divisible-by-three case."}
+{"id":"fineproofs-03875","label":"C","score":1,"reason":"It treats switches as independent single-lamp choices, leaves k undefined, and ignores the cyclic linear constraints."}

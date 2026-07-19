@@ -1,0 +1,34 @@
+{
+  "dev_per_family": 12,
+  "schema_version": 1,
+  "seed": 20260718,
+  "splits": {
+    "dev": {
+      "count": 60,
+      "families": {
+        "gcd_bezout": 12,
+        "integer_expression": 12,
+        "linear_system": 12,
+        "modular_inverse": 12,
+        "quadratic_integer_roots": 12
+      },
+      "public_sha256": "87fd7a925cc59084f0544f3f1d4f1042f7ac0de11db69b11e1386fb2b40d71d1",
+      "verifier_sha256": "ce1d82aad49b1593209fd3bb213351cc72bab21865eefb2e275beb4ab5e88a80"
+    },
+    "test": {
+      "count": 140,
+      "families": {
+        "chinese_remainder": 20,
+        "gcd_bezout": 20,
+        "integer_expression": 20,
+        "linear_system": 20,
+        "modular_inverse": 20,
+        "polynomial_remainder": 20,
+        "quadratic_integer_roots": 20
+      },
+      "public_sha256": "1dcd12b5687dd42152c2b5a25cb9a2c0a2bb7c1a88c776e49dbda72b24a22b8b",
+      "verifier_sha256": "0f739eb821de092c8cd07b70b3a1c60816893402c26ae6ca6be196f924c3dd4a"
+    }
+  },
+  "test_per_family": 20
+}

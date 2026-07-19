@@ -1,0 +1,18 @@
+{
+  "audit": "strict_blind_semantic_route_audit",
+  "blind_input": "runs/iter035-method-router-diverse-cont300-seed17/contrast.jsonl",
+  "blind_input_fields_used": ["id", "response"],
+  "route_definitions": {
+    "polynomial_value_obstruction": "congruence/difference preservation for integer polynomial values",
+    "diophantine_solvability": "gcd divisibility criterion for integer linear equations",
+    "modular_period_prime_filter": "periodicity of modular powers used to filter primes",
+    "finite_double_count": "count the same finite incidences/objects in two ways",
+    "finite_recurrence_period": "finite-state repetition/cycle detection for recurrences"
+  },
+  "fallback_judgment": "ambiguous_or_missing",
+  "blind_rule": "Classify the route actually proposed by response text alone. Do not infer from ID, repair, solve, or consult prompts, gold labels, prior audits, contrast reports, or other outputs before sealing.",
+  "recognizable_route_rule": "true iff the response text itself proposes one of the five defined route mechanisms; otherwise false",
+  "forbidden_inputs_opened_before_seal": false,
+  "judgment_count": 100,
+  "seal_protocol": "Compute SHA-256 of judgments.jsonl and this manifest.json before opening any gold-bearing prompt file; record those hashes in seal.sha256."
+}

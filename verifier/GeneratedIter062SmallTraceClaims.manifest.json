@@ -1,0 +1,7 @@
+{
+  "accepted_claims": 64,
+  "certificate_sha256": "08b8e4929686927822cc5ef741e2abeacaa0aeba92c0903145c1cf51e4cc7933",
+  "details_sha256": "db0225caeaff710f1048379922a34e0a93566173d2d9ed6bf559ed8d0c65e112",
+  "trace_step_certificates": 198,
+  "verifier_sha256": "549040175534f28707ecc0e0cff2be3ffd60759bd704e39bf36aacff60ed1c76"
+}

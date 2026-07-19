@@ -1,0 +1,85 @@
+{
+  "count": 100,
+  "forbidden_gold_phrases": [
+    "polynomial_value_obstruction",
+    "diophantine_solvability",
+    "modular_period_prime_filter",
+    "finite_double_count",
+    "finite_recurrence_period",
+    "congruence preservation for integer polynomials",
+    "greatest-common-divisor criterion for linear diophantine equations",
+    "periodicity of modular powers",
+    "double counting of element incidences",
+    "cycle detection for finite recurrences",
+    "congruence preservation",
+    "greatest-common-divisor criterion",
+    "periodicity of modular powers",
+    "double counting",
+    "cycle detection",
+    "bezout witness"
+  ],
+  "forbidden_v1_relation_phrases": [
+    "a score rule assigns positions",
+    "the rule must be built from the integer input",
+    "two signed whole-number choices",
+    "their combined total can be exactly",
+    "beginning from the multiplicative identity",
+    "repeatedly multiply by",
+    "keep the remainder after division",
+    "list every ordered choice",
+    "occur in at least one chosen group",
+    "a pair begins at",
+    "each move replaces"
+  ],
+  "limitations": [
+    "This is a controlled method-selection test, not a proof or final-answer benchmark.",
+    "Unambiguity is established from the authored mathematical contracts and structural audits, not from model agreement.",
+    "Matching controls story shell, word count, and numeric sequence within pairs, but operative vocabulary must differ because the relations differ.",
+    "The set is held out only if configuration and model selection were already frozen before inspecting v2 results."
+  ],
+  "pair_contract": {
+    "counterpart_route_is_nonoperative_decoy": true,
+    "different_correct_routes": true,
+    "new_relation_phrasings": true,
+    "new_story_shells": true,
+    "same_ordered_numeric_literals": true,
+    "same_word_count": true
+  },
+  "pair_type_counts": {
+    "diophantine_solvability + finite_double_count": 5,
+    "diophantine_solvability + finite_recurrence_period": 5,
+    "diophantine_solvability + modular_period_prime_filter": 5,
+    "diophantine_solvability + polynomial_value_obstruction": 5,
+    "finite_double_count + finite_recurrence_period": 5,
+    "finite_double_count + modular_period_prime_filter": 5,
+    "finite_double_count + polynomial_value_obstruction": 5,
+    "finite_recurrence_period + modular_period_prime_filter": 5,
+    "finite_recurrence_period + polynomial_value_obstruction": 5,
+    "modular_period_prime_filter + polynomial_value_obstruction": 5
+  },
+  "pairs": 50,
+  "prompts_sha256": "e087fa2d070427ac1cb537a7d44ad0831291550558fd131e69f86bb8e8626fdb",
+  "purpose": "new held-out matched relation and counterdecoy test for a router fixed on contrast v1",
+  "route_counts": {
+    "diophantine_solvability": 20,
+    "finite_double_count": 20,
+    "finite_recurrence_period": 20,
+    "modular_period_prime_filter": 20,
+    "polynomial_value_obstruction": 20
+  },
+  "routes": [
+    "polynomial_value_obstruction",
+    "diophantine_solvability",
+    "modular_period_prime_filter",
+    "finite_double_count",
+    "finite_recurrence_period"
+  ],
+  "schema_version": 2,
+  "scope": "route-selection evaluation only; no model training, executor validation, or Lean claim",
+  "seed": 20260720,
+  "v1_comparison_contract": {
+    "exact_prompt_overlap_required": 0,
+    "long_normalized_ngram_overlap_required": 0,
+    "normalized_ngram_size": 8
+  }
+}

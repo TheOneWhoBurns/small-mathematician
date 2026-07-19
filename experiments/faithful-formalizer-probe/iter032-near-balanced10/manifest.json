@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "sealed_at_utc": "2026-07-19T08:06:33Z",
+  "purpose": "Blind held-out audit of whether a stronger external formalizer can faithfully formalize, without repairing, a deterministic balanced sample of ten natural-language outputs from iter032.",
+  "sample": {
+    "selection_rule": "Traverse near-no-think.jsonl in file order and retain the first two IDs encountered for each family.",
+    "count": 10,
+    "ids_in_selected_order": [
+      "vpl-v1-near-polynomial_value_obstruction-000-0dd51ccbae",
+      "vpl-v1-near-polynomial_value_obstruction-001-41f078ab50",
+      "vpl-v1-near-diophantine_solvability-000-d334ffc687",
+      "vpl-v1-near-diophantine_solvability-001-e0a8b7d314",
+      "vpl-v1-near-modular_period_prime_filter-000-3f281f5588",
+      "vpl-v1-near-modular_period_prime_filter-001-53dec3ba50",
+      "vpl-v1-near-finite_double_count-000-21c8f7765c",
+      "vpl-v1-near-finite_double_count-001-78714a9cad",
+      "vpl-v1-near-finite_recurrence_period-000-7dc5cc2ee0",
+      "vpl-v1-near-finite_recurrence_period-001-f217b9e1e7"
+    ]
+  },
+  "blind_phase": {
+    "allowed_inputs": [
+      {
+        "path": "runs/iter032-vpl-ordered-completion-300-seed17/near-no-think.jsonl",
+        "sha256": "8b9081fc8bccf63fb5e43392fe54cfd1fbbbe60008bbed36f1a5f4fef10bfdeb",
+        "record_count": 80,
+        "scope_read": "Only the ten responses selected by the deterministic rule."
+      },
+      {
+        "path": "benchmarks/verified_plan_ladder/data/near.prompts.jsonl",
+        "sha256": "9506e3231d8705d31d5241c7dcc89f118c0190e1c8c2d7681d97a54b3a7647a4",
+        "record_count": 80,
+        "scope_read": "Only the ten public prompt records matching selected IDs."
+      }
+    ],
+    "prohibited_before_seal": [
+      "near targets",
+      "near private verifier records",
+      "near evaluator details",
+      "near oracle outputs",
+      "prior iter032 near metrics or expected answers"
+    ],
+    "attestation": "The judgments were written before reading any prohibited iter032 near material. Claims were extracted only when actually asserted by a selected response, allowing ordinary paraphrase. No incorrect claim was corrected, no missing premise was supplied, and no problem was independently solved around a response.",
+    "rubric": {
+      "faithful_formalization_possible": "At least one mathematically meaningful proposition can be represented without changing what the response says; truth is separate.",
+      "certifiable_argument_on_own_precheck": "The response states a coherent set of essential claims that can be checked from the public parameters and supports its conclusion without correction, supplied premises, or independent solution.",
+      "requires_repair_or_independent_solving": "Certification would require changing a false or contradictory claim, adding an absent essential mathematical step, choosing between contradictory conclusions, or solving the problem independently."
+    }
+  },
+  "sealed_artifact": {
+    "path": "experiments/faithful-formalizer-probe/iter032-near-balanced10/blind_judgments.jsonl",
+    "sha256": "0bf505d7542b270fdd0046512c77a1d10d37d828a0a6671fd9f1c1e8fb0de2c7",
+    "record_count": 10
+  },
+  "blind_counts": {
+    "faithful_formalization_possible": 10,
+    "formalization_coverage": {
+      "minimal": 1,
+      "partial": 1,
+      "substantive": 8
+    },
+    "certifiable_argument_on_own_precheck": 1,
+    "requires_repair_or_independent_solving": 9
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "calibration": {
+    "accepted": 1,
+    "count": 16,
+    "coverage": 0.0625,
+    "precision": 1.0
+  },
+  "selection_contract": "highest-coverage mean-log-probability threshold with zero calibration false accepts",
+  "test": {
+    "accepted": 5,
+    "correct": 2,
+    "count": 8,
+    "coverage": 0.625,
+    "precision": 0.4
+  },
+  "threshold": -0.0294189453125
+}

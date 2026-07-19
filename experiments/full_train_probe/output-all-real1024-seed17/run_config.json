@@ -1,0 +1,34 @@
+{
+  "arguments": {
+    "batch_size": 1,
+    "data": "experiments/full_train_probe/realistic/tokens-1024",
+    "grad_accumulation_steps": 1,
+    "grad_checkpoint": true,
+    "iters": 3,
+    "learning_rate": 1e-05,
+    "mask_prompt": true,
+    "max_seq_length": 1024,
+    "model": "assets/models/qwen3-0.6b-base",
+    "optimizer": "adafactor",
+    "output_dir": "experiments/full_train_probe/output-all-real1024-seed17",
+    "save_every": 1000,
+    "seed": 17,
+    "steps_per_eval": 1000,
+    "steps_per_report": 1,
+    "val_batches": 1
+  },
+  "created_unix": 1784429114.922702,
+  "device": {
+    "architecture": "applegpu_g16g",
+    "device_name": "Apple M4",
+    "max_buffer_length": 9534832640,
+    "max_recommended_working_set_size": 12713115648,
+    "memory_size": 17179869184,
+    "resource_limit": 499000
+  },
+  "mlx": "0.32.0",
+  "mlx_lm": "0.31.3",
+  "python": "3.12.13",
+  "schema_version": 1,
+  "training_contract": "all model parameters unfrozen"
+}

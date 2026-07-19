@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "repository": "TheOneWhoBurns/Work-on-Ai",
+  "release_tag": "small-mathematician-artifacts-v1",
+  "external_sources": {
+    "qwen3_0_6b_base": {
+      "destination": "assets/models/qwen3-0.6b-base",
+      "lock_source": "assets/sources.lock.json",
+      "fetch_command": ["python", "scripts/fetch_assets.py", "--only", "model"]
+    }
+  },
+  "profiles": {
+    "inference": {
+      "description": "Run the standalone 8-bit deployment model.",
+      "external_sources": [],
+      "artifacts": ["iter069_8bit"]
+    },
+    "train-specialist": {
+      "description": "Continue full post-training from the long-chain specialist.",
+      "external_sources": ["qwen3_0_6b_base"],
+      "artifacts": ["iter067_full"]
+    },
+    "train-general": {
+      "description": "Continue full post-training from the strongest general checkpoint.",
+      "external_sources": ["qwen3_0_6b_base"],
+      "artifacts": ["iter065_full"]
+    },
+    "history": {
+      "description": "Restore the retained full-precision research lineage.",
+      "external_sources": [],
+      "artifacts": ["iter014_full", "iter058_full", "iter061_full", "iter065_full"]
+    },
+    "all": {
+      "description": "Restore every remotely retained model artifact and the pinned base model.",
+      "external_sources": ["qwen3_0_6b_base"],
+      "artifacts": ["iter014_full", "iter058_full", "iter061_full", "iter065_full", "iter067_full", "iter069_8bit"]
+    }
+  },
+  "artifacts": {
+    "iter014_full": {
+      "release_asset": "iter014-traces-cont-weights.safetensors",
+      "destination": "runs/iter014-traces-cont-adamw-500-seed17/weights.safetensors",
+      "bytes": 1192134923,
+      "sha256": "7ab1e989e7e4ca7d509bca81138b0510fa54321d9c2e86f69f3bc0afcb5f76eb",
+      "local_policy": "cold"
+    },
+    "iter058_full": {
+      "release_asset": "iter058-diophantine-v2-weights.safetensors",
+      "destination": "runs/iter058-diophantine-v2-gate600/weights.safetensors",
+      "bytes": 1192134923,
+      "sha256": "20bb44c959c0c293d60c1e6ae84d686a97a74e6908e6162fe11041250be3f3e5",
+      "local_policy": "cold"
+    },
+    "iter061_full": {
+      "release_asset": "iter061-trace-v4-weights.safetensors",
+      "destination": "runs/iter061-trace-v4/weights.safetensors",
+      "bytes": 1192134923,
+      "sha256": "d3c92e96dffed64c615c6c8e2a72090aa547197dd9d1d6d5c2ed20d63519c6b3",
+      "local_policy": "cold"
+    },
+    "iter065_full": {
+      "release_asset": "iter065-trace-curriculum-v6-weights.safetensors",
+      "destination": "runs/iter065-trace-curriculum-v6/weights.safetensors",
+      "bytes": 1192134923,
+      "sha256": "eb03005648128db8e4b8e6acf6c93c61ebdb3ff29cb2aaa899944965d4a15c03",
+      "local_policy": "cold"
+    },
+    "iter067_full": {
+      "release_asset": "iter067-trace-length-v7-weights.safetensors",
+      "destination": "runs/iter067-trace-length-v7/weights.safetensors",
+      "bytes": 1192134923,
+      "sha256": "1c9fb3ed91625721ae610c6d13e981de25b4070faf04c8b3f0ec152673b30a2b",
+      "local_policy": "warm"
+    },
+    "iter069_8bit": {
+      "release_asset": "iter069-iter067-8bit-model.safetensors",
+      "destination": "runs/iter069-iter067-8bit/model.safetensors",
+      "bytes": 633443038,
+      "sha256": "1f8ea0aae28fbefeb73a9cec6a7a4a597d580102d9f9faba1a18cdfa2ac27d1f",
+      "local_policy": "warm"
+    }
+  }
+}

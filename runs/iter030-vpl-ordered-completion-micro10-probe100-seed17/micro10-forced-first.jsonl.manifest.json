@@ -1,0 +1,22 @@
+{
+  "assistant_prefix": "<think>\n\n</think>\n\nFirst,",
+  "chat_template": true,
+  "created_unix": 1784446991.656123,
+  "deadline": "2026-07-19T09:00:00-05:00",
+  "elapsed_seconds": 24.445145845413208,
+  "max_tokens": 255,
+  "model": "assets/models/qwen3-0.6b-base",
+  "new_predictions": 10,
+  "output": "runs/iter030-vpl-ordered-completion-micro10-probe100-seed17/micro10-forced-first.jsonl",
+  "predictions_total": 10,
+  "prompt_prefix": "",
+  "prompt_suffix": "",
+  "prompts": "assets/data/processed/training-views/verified-plan-ladder-ordered-completion-micro10/train.jsonl",
+  "prompts_sha256": "b73197e312200549e773ef3efddc6e829240bd83094028f9d3e7c1dc9c93d95b",
+  "requested": 10,
+  "schema_version": 1,
+  "seed": 17,
+  "temperature": 0.0,
+  "weights": "runs/iter030-vpl-ordered-completion-micro10-probe100-seed17/weights.safetensors",
+  "weights_sha256": "9b5ee12bc2d0d4f1a548aea8aacda469a1055d2c27b724d37a26d41ac2ae037c"
+}

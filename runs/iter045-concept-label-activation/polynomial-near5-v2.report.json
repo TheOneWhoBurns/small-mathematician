@@ -1,0 +1,68 @@
+{
+  "allow_partial": true,
+  "condition": "free",
+  "instances_expected": 80,
+  "instances_scored": 5,
+  "macro_family_average": {
+    "conclusion_accuracy": 0.0,
+    "critical_fact_precision": 0.0,
+    "order_valid_rate": 1.0,
+    "parse_rate": 0.0,
+    "required_fact_recall": 0.0,
+    "strict_plan_rate": 0.0
+  },
+  "overall": {
+    "conclusion_accuracy": 0.0,
+    "count": 5,
+    "critical_fact_precision": 0.0,
+    "order_valid_rate": 1.0,
+    "parse_rate": 0.0,
+    "required_fact_recall": 0.0,
+    "strict_plan_rate": 0.0
+  },
+  "per_family": {
+    "polynomial_value_obstruction": {
+      "conclusion_accuracy": 0.0,
+      "count": 5,
+      "critical_fact_precision": 0.0,
+      "order_valid_rate": 1.0,
+      "parse_rate": 0.0,
+      "required_fact_recall": 0.0,
+      "strict_plan_rate": 0.0
+    }
+  },
+  "per_split": {
+    "near": {
+      "macro_family_average": {
+        "conclusion_accuracy": 0.0,
+        "critical_fact_precision": 0.0,
+        "order_valid_rate": 1.0,
+        "parse_rate": 0.0,
+        "required_fact_recall": 0.0,
+        "strict_plan_rate": 0.0
+      },
+      "overall": {
+        "conclusion_accuracy": 0.0,
+        "count": 5,
+        "critical_fact_precision": 0.0,
+        "order_valid_rate": 1.0,
+        "parse_rate": 0.0,
+        "required_fact_recall": 0.0,
+        "strict_plan_rate": 0.0
+      },
+      "per_family": {
+        "polynomial_value_obstruction": {
+          "conclusion_accuracy": 0.0,
+          "count": 5,
+          "critical_fact_precision": 0.0,
+          "order_valid_rate": 1.0,
+          "parse_rate": 0.0,
+          "required_fact_recall": 0.0,
+          "strict_plan_rate": 0.0
+        }
+      }
+    }
+  },
+  "predictions_received": 5,
+  "split": "near"
+}

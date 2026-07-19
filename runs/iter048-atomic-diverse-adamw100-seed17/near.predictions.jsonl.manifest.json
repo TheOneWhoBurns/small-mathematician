@@ -1,0 +1,23 @@
+{
+  "assistant_prefix": "",
+  "chat_template": false,
+  "created_unix": 1784454103.569094,
+  "deadline": "2026-07-19T08:50:00-05:00",
+  "elapsed_seconds": 13.791018009185791,
+  "family": null,
+  "max_tokens": 64,
+  "model": "assets/models/qwen3-0.6b-base",
+  "new_predictions": 32,
+  "output": "runs/iter048-atomic-diverse-adamw100-seed17/near.predictions.jsonl",
+  "predictions_total": 32,
+  "prompt_prefix": "",
+  "prompt_suffix": "",
+  "prompts": "benchmarks/atomic_claims/near.prompts.jsonl",
+  "prompts_sha256": "daeb062d92d39ec509acafb9882ff59748319ff568cce848757be35aad7e3bb6",
+  "requested": 32,
+  "schema_version": 1,
+  "seed": 17,
+  "temperature": 0.0,
+  "weights": "runs/iter048-atomic-diverse-adamw100-seed17/weights.safetensors",
+  "weights_sha256": "c74d1827653441097812a078813a6f6536613d3662b98b465579aab41849b697"
+}

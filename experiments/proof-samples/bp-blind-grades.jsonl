@@ -1,0 +1,24 @@
+{"id":"fineproofs-00010","label":"A","score":1,"verdict":"The fractional-part rearrangement is false, so the proposed route cannot establish the conclusion.","truncated":true}
+{"id":"fineproofs-00010","label":"B","score":2,"verdict":"It correctly proves that a-b is an integer, but the unsupported claim that this integer must be zero leaves the decisive gap.","truncated":false}
+{"id":"fineproofs-00010","label":"C","score":3,"verdict":"The integer-and-fractional-part decomposition gives the right equation, with only the explicit deduction that n=m omitted before the conclusion.","truncated":false}
+{"id":"fineproofs-01105","label":"A","score":1,"verdict":"It merely asserts linearity and bijectivity without deriving either property or identifying the solutions.","truncated":false}
+{"id":"fineproofs-01105","label":"B","score":1,"verdict":"The proposed function is incorrect and the listed substitution does not support its derivation.","truncated":false}
+{"id":"fineproofs-01105","label":"C","score":1,"verdict":"It assumes f(0)=0 and removes a y from inside f without justification, then repeats the invalid equation until cutoff.","truncated":true}
+{"id":"fineproofs-01254","label":"A","score":1,"verdict":"It supplies definitions and a tautology but no counting argument, then heads toward an incorrect total.","truncated":true}
+{"id":"fineproofs-01254","label":"B","score":1,"verdict":"It only restates the objective and provides no viable counting strategy.","truncated":true}
+{"id":"fineproofs-01254","label":"C","score":1,"verdict":"It names inclusion-exclusion without specifying any counts and concludes with the wrong value.","truncated":false}
+{"id":"fineproofs-01303","label":"A","score":1,"verdict":"The response only says to find an optimal placement and calculate it, without translating the configuration into a usable optimization.","truncated":false}
+{"id":"fineproofs-01303","label":"B","score":1,"verdict":"It misreads the board mechanics, invents row and column sums of 55, and cuts off before any valid optimization.","truncated":true}
+{"id":"fineproofs-01303","label":"C","score":1,"verdict":"This is a generic restatement of the task with no mathematical bound, construction, or calculation.","truncated":false}
+{"id":"fineproofs-01356","label":"A","score":1,"verdict":"Its claimed divisibility criterion is false and repeatedly stated without a construction or upper bound.","truncated":true}
+{"id":"fineproofs-01356","label":"B","score":1,"verdict":"It states the answer but proposes the false claim that no sequence of length 2023 exists and gives no argument.","truncated":false}
+{"id":"fineproofs-01356","label":"C","score":1,"verdict":"It only restates the required construction and upper bound without giving either the ordering or the divisibility mechanism.","truncated":false}
+{"id":"fineproofs-01490","label":"A","score":1,"verdict":"It lists the quantities to determine but supplies no discriminant analysis, exponent constraints, bound, or construction.","truncated":false}
+{"id":"fineproofs-01490","label":"B","score":2,"verdict":"It correctly starts with the zero-discriminant condition, but every subsequent bound and the proposed root formula are unsupported or false.","truncated":false}
+{"id":"fineproofs-01490","label":"C","score":1,"verdict":"The asserted criterion for a repeated root is false, and no actual proof blueprint follows the setup.","truncated":true}
+{"id":"fineproofs-01816","label":"A","score":2,"verdict":"It notes a genuine consequence of the integer root for the constant term, but the claimed contradiction with f(2010) is unrelated and invalid.","truncated":false}
+{"id":"fineproofs-01816","label":"B","score":2,"verdict":"It points toward comparing the two polynomial values, but omits the essential integer-divisibility identity that creates the contradiction.","truncated":false}
+{"id":"fineproofs-01816","label":"C","score":1,"verdict":"It falsely treats 2010 as a root and assumes both a zero constant term and quadratic degree, so the argument is unusable.","truncated":false}
+{"id":"fineproofs-02103","label":"A","score":1,"verdict":"The claimed terms and period four are incorrect, and the response cuts off before a valid computation.","truncated":true}
+{"id":"fineproofs-02103","label":"B","score":1,"verdict":"It asserts false equalities between consecutive terms and therefore gives no valid periodicity argument.","truncated":false}
+{"id":"fineproofs-02103","label":"C","score":1,"verdict":"It provides only a generic pattern-finding checklist and an incorrect final answer with no supporting computation.","truncated":false}

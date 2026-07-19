@@ -1,0 +1,13 @@
+{
+  "count": 80,
+  "details_sha256": "531895524ebbc8095cf016038b4213c3645580e2b0844fe0c707aa958148caa4",
+  "private_math_valid": 80,
+  "private_sha256": "af00e2c70d04a8b2413ab008188aff7ca1cacbdff3d7a1a5ae8101e129129e2b",
+  "responses_sha256": "9e7c67749ad73a9308e4495f9863bd0f4417a1b0e67216ed4c04746ea20fe920",
+  "route_parse_failures": 0,
+  "schema_version": 1,
+  "seal_sha256": "9481306fa8f3aa7cf8a5dfc4def3c7e92ee0d6fab0a3e0f350c67a2bccc8e263",
+  "strict": 80,
+  "strict_rate": 1.0,
+  "targets_sha256": "9f234aa72602c682c2390541acbc831407bf7a9dd5e6c7fbfcdb1e1502046145"
+}

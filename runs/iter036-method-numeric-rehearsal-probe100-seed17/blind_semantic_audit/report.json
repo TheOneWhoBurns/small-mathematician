@@ -1,0 +1,77 @@
+{
+  "blind_artifacts": {
+    "judgments_sha256": "7e39d5c7fb8b8efc89c08f8017d3d95b29ed66be3dcf12a3be52281a604a1408",
+    "manifest_sha256": "7b6d8ea4b28738dec82c49eb54f1f685ea17edadf573b36b9fd99fec836c2d26",
+    "seal_sha256": "2d612f745cfcad030e3e965dbe6a0b0610a4181f8875615e241fadcd865288e9",
+    "seal_verified_before_gold_open": true
+  },
+  "gold_source": "benchmarks/method_router/contrast/data/prompts.jsonl",
+  "gold_source_sha256": "7235446d98d2e733375cfe2b057c542487c48c5a54c2601ba6f903e0cae1eb22",
+  "join_key": "id",
+  "limitations": [
+    "The audit is intentionally strict and response-text-only; corrupted, truncated, instruction-echoing, or underspecified text is not repaired from the prompt.",
+    "Ambiguous/missing is treated as incorrect for accuracy and excluded from the denominator of recognizable-route precision.",
+    "Recognizable-route precision has a denominator of one, so its 100% estimate is statistically uninformative by itself.",
+    "Matched-pair accuracy uses the strict both-sides-correct definition."
+  ],
+  "metrics": {
+    "matched_pair_accuracy": {
+      "accuracy": 0.0,
+      "correct": 0,
+      "definition": "A matched pair is correct only if both of its two response judgments equal their gold routes.",
+      "total": 50
+    },
+    "overall_accuracy": {
+      "accuracy": 0.01,
+      "correct": 1,
+      "total": 100
+    },
+    "per_route_accuracy": {
+      "diophantine_solvability": {
+        "accuracy": 0.0,
+        "correct": 0,
+        "total": 20
+      },
+      "finite_double_count": {
+        "accuracy": 0.0,
+        "correct": 0,
+        "total": 20
+      },
+      "finite_recurrence_period": {
+        "accuracy": 0.05,
+        "correct": 1,
+        "total": 20
+      },
+      "modular_period_prime_filter": {
+        "accuracy": 0.0,
+        "correct": 0,
+        "total": 20
+      },
+      "polynomial_value_obstruction": {
+        "accuracy": 0.0,
+        "correct": 0,
+        "total": 20
+      }
+    },
+    "recognizable_route_coverage": {
+      "coverage": 0.01,
+      "recognizable": 1,
+      "total": 100
+    },
+    "recognizable_route_precision": {
+      "correct": 1,
+      "definition": "Correct gold-route matches divided by judgments marked recognizable_route=true.",
+      "precision": 1.0,
+      "total": 1
+    }
+  },
+  "recognizable_judgments": [
+    {
+      "correct": true,
+      "gold_route": "finite_recurrence_period",
+      "id": "mrc-v1-24-0-cb13ee06ed-b",
+      "judgment": "finite_recurrence_period"
+    }
+  ],
+  "scored_at_utc": "2026-07-19T08:53:44.538907+00:00"
+}

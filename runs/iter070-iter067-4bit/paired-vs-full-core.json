@@ -1,0 +1,38 @@
+{
+  "metric": "trace_valid",
+  "overall": {
+    "baseline_rate": 0.225,
+    "baseline_semantic": 45,
+    "candidate_rate": 0.0,
+    "candidate_semantic": 0,
+    "count": 200,
+    "delta": -0.225,
+    "harmed": 45,
+    "helped": 0,
+    "mcnemar_exact_two_sided_p": 5.684341886080802e-14
+  },
+  "per_surface": {
+    "long": {
+      "baseline_rate": 0.26,
+      "baseline_semantic": 26,
+      "candidate_rate": 0.0,
+      "candidate_semantic": 0,
+      "count": 100,
+      "delta": -0.26,
+      "harmed": 26,
+      "helped": 0,
+      "mcnemar_exact_two_sided_p": 2.9802322387695312e-08
+    },
+    "short": {
+      "baseline_rate": 0.19,
+      "baseline_semantic": 19,
+      "candidate_rate": 0.0,
+      "candidate_semantic": 0,
+      "count": 100,
+      "delta": -0.19,
+      "harmed": 19,
+      "helped": 0,
+      "mcnemar_exact_two_sided_p": 3.814697265625e-06
+    }
+  }
+}

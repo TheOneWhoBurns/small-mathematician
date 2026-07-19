@@ -1,0 +1,70 @@
+{
+  "accuracy": 0.95,
+  "configuration": {
+    "layer": 21,
+    "pool": "mean",
+    "ridge": 0.1
+  },
+  "confusion": [
+    {
+      "count": 20,
+      "expected": "diophantine_solvability",
+      "predicted": "diophantine_solvability"
+    },
+    {
+      "count": 20,
+      "expected": "finite_double_count",
+      "predicted": "finite_double_count"
+    },
+    {
+      "count": 20,
+      "expected": "finite_recurrence_period",
+      "predicted": "finite_recurrence_period"
+    },
+    {
+      "count": 20,
+      "expected": "modular_period_prime_filter",
+      "predicted": "modular_period_prime_filter"
+    },
+    {
+      "count": 2,
+      "expected": "polynomial_value_obstruction",
+      "predicted": "diophantine_solvability"
+    },
+    {
+      "count": 3,
+      "expected": "polynomial_value_obstruction",
+      "predicted": "modular_period_prime_filter"
+    },
+    {
+      "count": 15,
+      "expected": "polynomial_value_obstruction",
+      "predicted": "polynomial_value_obstruction"
+    }
+  ],
+  "count": 100,
+  "elapsed_seconds": 10.270414113998413,
+  "evaluation_contract": "sealed frozen readout; no fitting or configuration selection",
+  "model": "assets/models/qwen3-0.6b-base",
+  "pair_accuracy": 0.9,
+  "pairs": 50,
+  "peak_metal_gb": 1.235490138,
+  "prediction_counts": {
+    "diophantine_solvability": 22,
+    "finite_double_count": 20,
+    "finite_recurrence_period": 20,
+    "modular_period_prime_filter": 23,
+    "polynomial_value_obstruction": 15
+  },
+  "predictions_sha256": "c20b45ad0e38cd11f7cd6f4582064bf1b8580f494118119cce781e18d54a8bcf",
+  "probe": "runs/iter039b-frozen-layer21-contrast-trained-base-sealed/probe.npz",
+  "probe_bytes": 30984,
+  "probe_parameters": 5120,
+  "probe_sha256": "bdaae51db013fa520ef6ef516fd6deae303275ae59d327bf9b7fade1dcba2795",
+  "prompts": "benchmarks/method_router/contrast_v3/data/prompts.jsonl",
+  "prompts_per_second_including_load": 9.736705734552764,
+  "prompts_sha256": "74c5cf839fc92836aefa8520cc47058d25b2d42d9b349d8b0f2e7cabcf08f066",
+  "schema_version": 1,
+  "weights": "runs/iter061-trace-v4/weights.safetensors",
+  "weights_sha256": "d3c92e96dffed64c615c6c8e2a72090aa547197dd9d1d6d5c2ed20d63519c6b3"
+}

@@ -1,0 +1,15 @@
+{"id":"fineproofs-00010","label":"A","score":1,"verdict":"It assumes the key same-floor interval fact without justification, makes false claims, and never reaches a valid proof.","truncated":true}
+{"id":"fineproofs-00010","label":"B","score":1,"verdict":"The case assumptions are unjustified and the final inequality is not a contradiction, so the argument does not prove the claim.","truncated":false}
+{"id":"fineproofs-00010","label":"C","score":1,"verdict":"It pursues the false claim that both numbers must be integers and contains invalid algebra before cutting off.","truncated":true}
+{"id":"fineproofs-01105","label":"A","score":1,"verdict":"It assumes an unproved value for f(0), alters the functional equation illegally, and concludes a function that does not satisfy it.","truncated":false}
+{"id":"fineproofs-01105","label":"B","score":1,"verdict":"The substitutions and rearrangements are invalid, and the proposed zero function plainly fails the original equation.","truncated":false}
+{"id":"fineproofs-01105","label":"C","score":1,"verdict":"It arbitrarily restricts the parameter and draws unsupported conclusions from tautological substitutions before cutting off.","truncated":true}
+{"id":"fineproofs-01254","label":"A","score":1,"verdict":"It confuses ordered tuples of subsets with set partitions and applies incompatible counts without deriving the requested sum.","truncated":true}
+{"id":"fineproofs-01254","label":"B","score":1,"verdict":"It invokes inclusion-exclusion but develops no coherent counting argument or valid expression for the requested sum.","truncated":true}
+{"id":"fineproofs-01254","label":"C","score":1,"verdict":"It conflates the number of subsets with the sum of union sizes and gives an unsupported incorrect answer.","truncated":false}
+{"id":"fineproofs-01490","label":"A","score":2,"verdict":"It correctly identifies the zero-discriminant condition and parameterizes the coefficients as powers, but the exponent algebra is wrong and the maximum is not found.","truncated":true}
+{"id":"fineproofs-01490","label":"B","score":2,"verdict":"It starts from the correct discriminant condition but invents unsupported exponent relations and never obtains the maximum root.","truncated":true}
+{"id":"fineproofs-01490","label":"C","score":2,"verdict":"It uses the repeated-root formula and power structure, but unjustifiably fixes the base and makes unsupported integrality assumptions before cutting off.","truncated":true}
+{"id":"fineproofs-01816","label":"A","score":1,"verdict":"It incorrectly treats 2010 as a root and relies on false equalities, so the rational-root discussion cannot establish impossibility.","truncated":true}
+{"id":"fineproofs-01816","label":"B","score":1,"verdict":"It falsely treats 2010 as a root and assumes coefficient facts not given, making the rational-root argument invalid.","truncated":false}
+{"id":"fineproofs-01816","label":"C","score":1,"verdict":"It misapplies the rational root theorem and never develops the elementary divisibility contradiction before cutting off.","truncated":true}

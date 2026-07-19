@@ -1,0 +1,17 @@
+{
+  "created_unix": 1784437169.056143,
+  "elapsed_seconds": 39.30237174034119,
+  "limit": 5,
+  "max_tokens": 300,
+  "model": "assets/models/qwen3-0.6b-base",
+  "new_predictions": 5,
+  "schema_version": 1,
+  "seed": 17,
+  "selection": "first rows by sha256('proof-sample-v1|' + family_id)",
+  "source_sha256": "318a9d2a0e98496bb9edd6bac7cb3ba3ddc836ce962b02c804e7e006f161b9e0",
+  "split": "valid",
+  "temperature": 0.0,
+  "view": "assets/data/processed/training-views/self-contained-proof-1024-v2",
+  "weights": "runs/iter020-proof-v2-raw-adamw-75-seed17/weights.safetensors",
+  "weights_sha256": "ebcae477b12ad229100bdc0fb759dad9e1060d413c637e6516cd9a15a337a743"
+}

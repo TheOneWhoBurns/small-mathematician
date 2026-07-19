@@ -1,0 +1,70 @@
+{
+  "accuracy": 0.94,
+  "configuration": {
+    "layer": 21,
+    "pool": "mean",
+    "ridge": 0.1
+  },
+  "confusion": [
+    {
+      "count": 20,
+      "expected": "diophantine_solvability",
+      "predicted": "diophantine_solvability"
+    },
+    {
+      "count": 20,
+      "expected": "finite_double_count",
+      "predicted": "finite_double_count"
+    },
+    {
+      "count": 20,
+      "expected": "finite_recurrence_period",
+      "predicted": "finite_recurrence_period"
+    },
+    {
+      "count": 20,
+      "expected": "modular_period_prime_filter",
+      "predicted": "modular_period_prime_filter"
+    },
+    {
+      "count": 3,
+      "expected": "polynomial_value_obstruction",
+      "predicted": "diophantine_solvability"
+    },
+    {
+      "count": 3,
+      "expected": "polynomial_value_obstruction",
+      "predicted": "modular_period_prime_filter"
+    },
+    {
+      "count": 14,
+      "expected": "polynomial_value_obstruction",
+      "predicted": "polynomial_value_obstruction"
+    }
+  ],
+  "count": 100,
+  "elapsed_seconds": 8.84308385848999,
+  "evaluation_contract": "sealed frozen readout; no fitting or configuration selection",
+  "model": "assets/models/qwen3-0.6b-base",
+  "pair_accuracy": 0.88,
+  "pairs": 50,
+  "peak_metal_gb": 1.23635849,
+  "prediction_counts": {
+    "diophantine_solvability": 23,
+    "finite_double_count": 20,
+    "finite_recurrence_period": 20,
+    "modular_period_prime_filter": 23,
+    "polynomial_value_obstruction": 14
+  },
+  "predictions_sha256": "5d9f249588a95ef6540e8d805e8c0cb3195f0e9b39a0bcb314943055a71733d1",
+  "probe": "runs/iter039b-frozen-layer21-contrast-trained-base-sealed/probe.npz",
+  "probe_bytes": 30984,
+  "probe_parameters": 5120,
+  "probe_sha256": "bdaae51db013fa520ef6ef516fd6deae303275ae59d327bf9b7fade1dcba2795",
+  "prompts": "benchmarks/method_router/contrast_v3/data/prompts.jsonl",
+  "prompts_per_second_including_load": 11.308270748047207,
+  "prompts_sha256": "74c5cf839fc92836aefa8520cc47058d25b2d42d9b349d8b0f2e7cabcf08f066",
+  "schema_version": 1,
+  "weights": "runs/iter065-trace-curriculum-v6/weights.safetensors",
+  "weights_sha256": "eb03005648128db8e4b8e6acf6c93c61ebdb3ff29cb2aaa899944965d4a15c03"
+}

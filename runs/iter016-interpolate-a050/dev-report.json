@@ -1,0 +1,62 @@
+{
+  "instances_expected": 60,
+  "macro_family_average": {
+    "answer_accuracy": 0.36666666666666664,
+    "certificate_valid_rate": 0.13988095238095238,
+    "format_valid_rate": 0.7,
+    "reasoning_present_rate": 0.7,
+    "strict_pass_rate": 0.2833333333333333
+  },
+  "overall": {
+    "answer_accuracy": 0.36666666666666664,
+    "certificate_valid_rate": 0.2,
+    "count": 60,
+    "format_valid_rate": 0.7,
+    "reasoning_present_rate": 0.7,
+    "strict_pass_rate": 0.2833333333333333
+  },
+  "per_family": {
+    "gcd_bezout": {
+      "answer_accuracy": 0.4166666666666667,
+      "certificate_valid_rate": 0.0,
+      "count": 12,
+      "format_valid_rate": 0.5833333333333334,
+      "reasoning_present_rate": 0.5833333333333334,
+      "strict_pass_rate": 0.0
+    },
+    "integer_expression": {
+      "answer_accuracy": 0.9166666666666666,
+      "certificate_valid_rate": null,
+      "count": 12,
+      "format_valid_rate": 1.0,
+      "reasoning_present_rate": 1.0,
+      "strict_pass_rate": 0.9166666666666666
+    },
+    "linear_system": {
+      "answer_accuracy": 0.0,
+      "certificate_valid_rate": 0.0,
+      "count": 12,
+      "format_valid_rate": 0.3333333333333333,
+      "reasoning_present_rate": 0.3333333333333333,
+      "strict_pass_rate": 0.0
+    },
+    "modular_inverse": {
+      "answer_accuracy": 0.08333333333333333,
+      "certificate_valid_rate": 0.14285714285714285,
+      "count": 12,
+      "format_valid_rate": 0.5833333333333334,
+      "reasoning_present_rate": 0.5833333333333334,
+      "strict_pass_rate": 0.08333333333333333
+    },
+    "quadratic_integer_roots": {
+      "answer_accuracy": 0.4166666666666667,
+      "certificate_valid_rate": 0.4166666666666667,
+      "count": 12,
+      "format_valid_rate": 1.0,
+      "reasoning_present_rate": 1.0,
+      "strict_pass_rate": 0.4166666666666667
+    }
+  },
+  "predictions_received": 60,
+  "split": "dev"
+}

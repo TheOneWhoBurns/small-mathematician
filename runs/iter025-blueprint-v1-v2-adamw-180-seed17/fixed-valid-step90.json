@@ -1,0 +1,17 @@
+{
+  "created_unix": 1784441724.210742,
+  "data": "assets/data/processed/training-views/blueprint-pilot-v1-v2-raw",
+  "examples": 16,
+  "loss": 1.4793143272399902,
+  "mask_prompt": false,
+  "max_seq_length": 1024,
+  "mlx": "0.32.0",
+  "mlx_lm": "0.31.3",
+  "model": "assets/models/qwen3-0.6b-base",
+  "num_batches": 16,
+  "perplexity": 4.389934539794922,
+  "python": "3.12.13",
+  "schema_version": 1,
+  "split": "valid",
+  "weights": "runs/iter025-blueprint-v1-v2-adamw-180-seed17/0000090_adapters.safetensors"
+}

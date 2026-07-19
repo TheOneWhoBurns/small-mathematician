@@ -1,0 +1,138 @@
+{
+  "schema_version": 1,
+  "question": "Can a stronger semantic formalizer recover correct mathematical method paraphrases that the exact marker evaluator misses?",
+  "answer": "Yes, substantially, but only when the tiny model actually proposes a recognizable route. The sealed audit recovers 43 correct routes where the exact marker evaluator records zero; 54 responses remain ambiguous or missing.",
+  "overall": {
+    "prompts": 100,
+    "semantic_correct": 43,
+    "semantic_accuracy": 0.43,
+    "ambiguous_or_missing": 54,
+    "recognized_route_responses": 46,
+    "correct_given_recognized_route": 43,
+    "precision_given_recognized_route": 0.9347826086956522,
+    "recognized_but_wrong_route": 3,
+    "exact_marker_correct": 0,
+    "exact_marker_accuracy": 0.0,
+    "semantic_recoveries_over_marker": 43,
+    "marker_only_correct": 0
+  },
+  "per_gold_route": {
+    "polynomial_value_obstruction": {
+      "count": 20,
+      "semantic_correct": 0,
+      "accuracy": 0.0,
+      "ambiguous_or_missing": 19
+    },
+    "diophantine_solvability": {
+      "count": 20,
+      "semantic_correct": 1,
+      "accuracy": 0.05,
+      "ambiguous_or_missing": 19
+    },
+    "modular_period_prime_filter": {
+      "count": 20,
+      "semantic_correct": 20,
+      "accuracy": 1.0,
+      "ambiguous_or_missing": 0
+    },
+    "finite_double_count": {
+      "count": 20,
+      "semantic_correct": 8,
+      "accuracy": 0.4,
+      "ambiguous_or_missing": 12
+    },
+    "finite_recurrence_period": {
+      "count": 20,
+      "semantic_correct": 14,
+      "accuracy": 0.7,
+      "ambiguous_or_missing": 4
+    }
+  },
+  "blind_response_route_counts": {
+    "polynomial_value_obstruction": 0,
+    "diophantine_solvability": 4,
+    "modular_period_prime_filter": 20,
+    "finite_double_count": 8,
+    "finite_recurrence_period": 14,
+    "ambiguous_missing": 54
+  },
+  "recognized_but_wrong": [
+    {
+      "id": "mrc-v1-01-3-3245f599fb-a",
+      "gold_route": "polynomial_value_obstruction",
+      "response_route": "diophantine_solvability"
+    },
+    {
+      "id": "mrc-v1-14-3-98d56a2ba0-b",
+      "gold_route": "finite_recurrence_period",
+      "response_route": "diophantine_solvability"
+    },
+    {
+      "id": "mrc-v1-34-2-de6103b4e6-b",
+      "gold_route": "finite_recurrence_period",
+      "response_route": "diophantine_solvability"
+    }
+  ],
+  "matched_pairs": {
+    "pairs": 50,
+    "both_sides_semantically_correct": 9,
+    "both_sides_accuracy": 0.18,
+    "exactly_one_side_correct": 25,
+    "neither_side_correct": 16,
+    "by_route_pair": {
+      "diophantine_solvability + finite_double_count": "0/5",
+      "diophantine_solvability + finite_recurrence_period": "0/5",
+      "diophantine_solvability + modular_period_prime_filter": "1/5",
+      "diophantine_solvability + polynomial_value_obstruction": "0/5",
+      "finite_double_count + finite_recurrence_period": "0/5",
+      "finite_double_count + modular_period_prime_filter": "3/5",
+      "finite_double_count + polynomial_value_obstruction": "0/5",
+      "finite_recurrence_period + modular_period_prime_filter": "5/5",
+      "finite_recurrence_period + polynomial_value_obstruction": "0/5",
+      "modular_period_prime_filter + polynomial_value_obstruction": "0/5"
+    }
+  },
+  "interpretation": [
+    "The exact marker score of zero materially understates semantic route selection for modular powers, finite recurrences, and some double-counting responses.",
+    "The model is not broadly route-competent: it never semantically proposes polynomial difference preservation, and only one of twenty Diophantine prompts receives the correct gcd route.",
+    "Once a response proposes one of the five recognizable routes, it is usually aligned with gold: 43 of 46. The dominant failure mode is irrelevant, generic, or incomplete method text rather than selecting the wrong defined route.",
+    "Matched-pair accuracy remains only 18 percent because a pair requires both contrasted methods to be recovered; performance is concentrated in the modular and recurrence routes."
+  ],
+  "artifacts": [
+    {
+      "path": "experiments/faithful-formalizer-probe/iter035-contrast100/blind_route_judgments.jsonl",
+      "sha256": "517cae391f595656b9e3a4a1bdbfca87514df440669ea609d362a3f9bf1fa3df"
+    },
+    {
+      "path": "experiments/faithful-formalizer-probe/iter035-contrast100/manifest.json",
+      "sha256": "c07f90e415c2b10195ad1cf6e6a23ef177a57054113db977a65970e45a1a9c04"
+    },
+    {
+      "path": "experiments/faithful-formalizer-probe/iter035-contrast100/postseal_semantic_scores.jsonl",
+      "sha256": "e1ee008eb2e9198dd1c83b69bcdb71d572e44c3140143b668ea4fe8fd73ca985"
+    },
+    {
+      "path": "runs/iter035-method-router-diverse-cont300-seed17/contrast.jsonl",
+      "sha256": "976d794f6fe5b114e19690af9c5ccc6141cb743deb62ec7909cde769375a2997"
+    },
+    {
+      "path": "runs/iter035-method-router-diverse-cont300-seed17/contrast-details.jsonl",
+      "sha256": "d708b3f1ff39f13fe8aa8d9fa78bd0ccaf197b4a04e49f9cb862890eb46df4ee"
+    },
+    {
+      "path": "benchmarks/method_router/contrast/data/prompts.jsonl",
+      "sha256": "7235446d98d2e733375cfe2b057c542487c48c5a54c2601ba6f903e0cae1eb22"
+    },
+    {
+      "path": "benchmarks/method_router/contrast/data/manifest.json",
+      "sha256": "cdee4eaa8c7d442cc6826bc2eb64a6f42e87d78f8fcb3101d8bbabbaf793ebbb"
+    }
+  ],
+  "limitations": [
+    "This is a single-auditor semantic classification; inter-rater reliability was not measured.",
+    "The blind seal prevents gold-label leakage, but semantic route boundaries remain judgment calls, especially for generic remainder computations and recurrence-like prose.",
+    "Ambiguous or missing responses were counted incorrect, making the 43 percent figure conservative with respect to route hints but appropriate for executable routing.",
+    "This benchmark tests method selection only. A semantically correct route does not establish that the response can execute the method, solve the problem, or produce a certifiable proof.",
+    "The 100 prompts are synthetic matched contrasts and may not represent natural mathematical problem distributions."
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "created_unix": 1784446206.566584,
+  "deadline": "2026-07-19T09:00:00-05:00",
+  "elapsed_seconds": 152.53744196891785,
+  "max_tokens": 256,
+  "model": "assets/models/qwen3-0.6b-base",
+  "new_predictions": 50,
+  "output": "runs/iter028-vpl-free-probe100-seed17/train-fit.jsonl",
+  "predictions_total": 50,
+  "prompt_prefix": "Respond only in English.\n",
+  "prompt_suffix": "\nPlan:\n",
+  "prompts": "benchmarks/verified_plan_ladder/data/train_fit.prompts.jsonl",
+  "prompts_sha256": "c6dc87633adad237c08d820d60cd07d3272169e3f30f448a57871155774384c8",
+  "requested": 50,
+  "schema_version": 1,
+  "seed": 17,
+  "temperature": 0.0,
+  "weights": "runs/iter028-vpl-free-probe100-seed17/weights.safetensors",
+  "weights_sha256": "be8d0029579693a3b8361e2232dbc3653da22e12309354a68d29228f39b6e3b9"
+}

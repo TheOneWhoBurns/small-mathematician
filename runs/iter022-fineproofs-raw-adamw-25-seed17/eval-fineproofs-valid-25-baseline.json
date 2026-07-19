@@ -1,0 +1,17 @@
+{
+  "created_unix": 1784437696.2745779,
+  "data": "assets/data/processed/training-views/fineproofs-proof-1024-v2-raw",
+  "examples": 36,
+  "loss": 1.0749030113220215,
+  "mask_prompt": false,
+  "max_seq_length": 1024,
+  "mlx": "0.32.0",
+  "mlx_lm": "0.31.3",
+  "model": "assets/models/qwen3-0.6b-base",
+  "num_batches": 25,
+  "perplexity": 2.929708957672119,
+  "python": "3.12.13",
+  "schema_version": 1,
+  "split": "valid",
+  "weights": "runs/iter014-traces-cont-adamw-500-seed17/weights.safetensors"
+}

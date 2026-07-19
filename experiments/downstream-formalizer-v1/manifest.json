@@ -1,0 +1,11 @@
+{
+  "baseline_blueprints": "experiments/proof-samples/bp-iter014.jsonl",
+  "baseline_blueprints_sha256": "fbb7872f5090a6d71e7ad4ffc2f7be858349c1d83a55173f31bb94e3580b3415",
+  "reference_proofs_exposed_to_formalizer": false,
+  "rows": 8,
+  "schema_version": 1,
+  "trained_blueprints": "experiments/proof-samples/bp-iter024.jsonl",
+  "trained_blueprints_sha256": "cad80f6116f35987d2207465829ec802c5ad3daee366e9b2ce473ccac875e7d1",
+  "valid_sha256": "bb138e3bccc540a482cf41b2196597da4d75e0d75974162d4a927231194dbf06",
+  "view": "assets/data/processed/training-views/fineproofs-proof-1024-v2"
+}

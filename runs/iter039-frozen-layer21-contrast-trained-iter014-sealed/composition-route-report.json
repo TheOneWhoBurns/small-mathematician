@@ -1,0 +1,60 @@
+{
+  "accuracy": 1.0,
+  "configuration": {
+    "layer": 21,
+    "pool": "mean",
+    "ridge": 0.1
+  },
+  "confusion": [
+    {
+      "count": 16,
+      "expected": "diophantine_solvability",
+      "predicted": "diophantine_solvability"
+    },
+    {
+      "count": 16,
+      "expected": "finite_double_count",
+      "predicted": "finite_double_count"
+    },
+    {
+      "count": 16,
+      "expected": "finite_recurrence_period",
+      "predicted": "finite_recurrence_period"
+    },
+    {
+      "count": 16,
+      "expected": "modular_period_prime_filter",
+      "predicted": "modular_period_prime_filter"
+    },
+    {
+      "count": 16,
+      "expected": "polynomial_value_obstruction",
+      "predicted": "polynomial_value_obstruction"
+    }
+  ],
+  "count": 80,
+  "elapsed_seconds": 4.705047130584717,
+  "evaluation_contract": "sealed frozen readout; no fitting or configuration selection",
+  "model": "assets/models/qwen3-0.6b-base",
+  "pair_accuracy": null,
+  "pairs": 0,
+  "peak_metal_gb": 1.192099848,
+  "prediction_counts": {
+    "diophantine_solvability": 16,
+    "finite_double_count": 16,
+    "finite_recurrence_period": 16,
+    "modular_period_prime_filter": 16,
+    "polynomial_value_obstruction": 16
+  },
+  "predictions_sha256": "ba4a346d72653a7f90bfdc32782a42b9a2716d060132171dce0f9f7dd2c32c9b",
+  "probe": "runs/iter039-frozen-layer21-contrast-trained-iter014-sealed/probe.npz",
+  "probe_bytes": 30984,
+  "probe_parameters": 5120,
+  "probe_sha256": "d729c596f2c209f1f8df7adb7e592cda8de9571915a481b9d73bbd69af89efd7",
+  "prompts": "benchmarks/verified_plan_ladder/data/composition.prompts.jsonl",
+  "prompts_per_second_including_load": 17.003017776371998,
+  "prompts_sha256": "db172e8fd50bb24fbcdffe59311a5edad4a550c17ba454483bad9b167ce2827c",
+  "schema_version": 1,
+  "weights": "runs/iter014-traces-cont-adamw-500-seed17/weights.safetensors",
+  "weights_sha256": "7ab1e989e7e4ca7d509bca81138b0510fa54321d9c2e86f69f3bc0afcb5f76eb"
+}

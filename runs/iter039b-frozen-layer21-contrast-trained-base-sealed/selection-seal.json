@@ -1,0 +1,31 @@
+{
+  "classes": [
+    "diophantine_solvability",
+    "finite_double_count",
+    "finite_recurrence_period",
+    "modular_period_prime_filter",
+    "polynomial_value_obstruction"
+  ],
+  "contrast_opened": false,
+  "probe": "runs/iter039b-frozen-layer21-contrast-trained-base-sealed/probe.npz",
+  "probe_bytes": 30984,
+  "probe_sha256": "bdaae51db013fa520ef6ef516fd6deae303275ae59d327bf9b7fade1dcba2795",
+  "schema_version": 1,
+  "selected": {
+    "layer": 21,
+    "pool": "mean",
+    "ridge": 0.1,
+    "train_accuracy": 1.0,
+    "validation_accuracy": 0.8
+  },
+  "selection_data": [
+    "assets/data/processed/training-views/method-router-v1-plus-contrast-v1/train.prompts.jsonl",
+    "assets/data/processed/training-views/method-router-v1/paraphrase.prompts.jsonl"
+  ],
+  "selection_data_sha256": [
+    "d533696fdc3fc48c7e9516c691185b1cc638922a49c6df5a17aea35b7e5e3d2a",
+    "2a4ba30cda88ad495bd25e64c21b269c26d17206b4044ceb4002be2e80c9cc2b"
+  ],
+  "selection_mode": "configuration fixed externally before held-out evaluation",
+  "trainable_parameters": 5120
+}

@@ -1,0 +1,32 @@
+{"id": "vpl-v1-paraphrase-polynomial_value_obstruction-000-c311ed2731", "response": "The two values cannot coexist."}
+{"id": "vpl-v1-paraphrase-polynomial_value_obstruction-001-13b6b7e570", "response": "The two values cannot coexist."}
+{"id": "vpl-v1-paraphrase-polynomial_value_obstruction-002-cac5b53178", "response": "The two values cannot coexist."}
+{"id": "vpl-v1-paraphrase-polynomial_value_obstruction-003-d20127a894", "response": "The two values cannot coexist."}
+{"id": "vpl-v1-paraphrase-polynomial_value_obstruction-004-fd69223ba6", "response": "The two values cannot coexist."}
+{"id": "vpl-v1-paraphrase-polynomial_value_obstruction-005-a2f7fbcc58", "response": "The two values cannot coexist."}
+{"id": "vpl-v1-paraphrase-polynomial_value_obstruction-006-4ded7bda40", "response": "The two values cannot coexist."}
+{"id": "vpl-v1-paraphrase-polynomial_value_obstruction-007-76d3bf6874", "response": "The two values cannot coexist."}
+{"id": "vpl-v1-paraphrase-polynomial_value_obstruction-008-90cd79c30d", "response": "The two values cannot coexist."}
+{"id": "vpl-v1-paraphrase-polynomial_value_obstruction-009-264b5923b3", "response": "The two values cannot coexist."}
+{"id": "vpl-v1-paraphrase-polynomial_value_obstruction-010-9b29cde46f", "response": "The two values cannot coexist."}
+{"id": "vpl-v1-paraphrase-polynomial_value_obstruction-011-7186ddbe17", "response": "The two values cannot coexist."}
+{"id": "vpl-v1-paraphrase-polynomial_value_obstruction-012-7695d038a3", "response": "The two values cannot coexist."}
+{"id": "vpl-v1-paraphrase-polynomial_value_obstruction-013-00d109b2e8", "response": "The two values cannot coexist."}
+{"id": "vpl-v1-paraphrase-polynomial_value_obstruction-014-74b7bfe6ce", "response": "The two values cannot coexist."}
+{"id": "vpl-v1-paraphrase-polynomial_value_obstruction-015-2104e361e1", "response": "The two values cannot coexist."}
+{"id": "vpl-v1-paraphrase-diophantine_solvability-000-a2d596f139", "response": "The greatest common divisor of 75 and 18 is 3, and 3 divides 28."}
+{"id": "vpl-v1-paraphrase-diophantine_solvability-001-327b4785dc", "response": "The greatest common divisor of 147 and 28 is 21, and 21 does not divide 52."}
+{"id": "vpl-v1-paraphrase-diophantine_solvability-002-bacded7afd", "response": "The greatest common divisor is 1, and it divides -60."}
+{"id": "vpl-v1-paraphrase-diophantine_solvability-003-6145fe81bb", "response": "The greatest common divisor is 1, and it divides -61."}
+{"id": "vpl-v1-paraphrase-diophantine_solvability-004-d468334e2e", "response": "The greatest common divisor of 9 and 84 is 9, and it divides 9 times s plus 84 times r."}
+{"id": "vpl-v1-paraphrase-diophantine_solvability-005-c6ab9415d3", "response": "The greatest common divisor of 121 and 264 is 13, and 13 divides 99."}
+{"id": "vpl-v1-paraphrase-diophantine_solvability-006-ecb8be6731", "response": "The greatest common divisor of 162 and 120 is 18, and 18 divides -35."}
+{"id": "vpl-v1-paraphrase-diophantine_solvability-007-8d8ead0367", "response": "The greatest common divisor of 60 and 52 is 4, and it divides -11."}
+{"id": "vpl-v1-paraphrase-diophantine_solvability-008-533313dcbb", "response": "The greatest common divisor of 145 and 105 is 5, and it does not divide 35."}
+{"id": "vpl-v1-paraphrase-diophantine_solvability-009-253eeb8186", "response": "The greatest common divisor of 119 and 133 is 1, and it divides 15."}
+{"id": "vpl-v1-paraphrase-diophantine_solvability-010-8f0b06dc26", "response": "The greatest common divisor of 96 and 152 is 8, and it does not divide 72."}
+{"id": "vpl-v1-paraphrase-diophantine_solvability-011-b8e53db05d", "response": "The greatest common divisor is 1, and it divides -66."}
+{"id": "vpl-v1-paraphrase-diophantine_solvability-012-7bfa5d2668", "response": "The greatest common divisor is 1, and it divides -65."}
+{"id": "vpl-v1-paraphrase-diophantine_solvability-013-23a02f010c", "response": "The greatest common divisor of 76 and 48 is 4, and it divides 34."}
+{"id": "vpl-v1-paraphrase-diophantine_solvability-014-5814fdf22b", "response": "The greatest common divisor of 280 and 250 is 10, and 10 divides -30."}
+{"id": "vpl-v1-paraphrase-diophantine_solvability-015-a3c5f2989e", "response": "The greatest common divisor is 1, and it divides -52."}

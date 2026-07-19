@@ -1,0 +1,17 @@
+{
+  "created_unix": 1784436164.918082,
+  "data": "assets/data/processed/training-views/self-contained-proof-1024-raw",
+  "examples": 263,
+  "loss": 1.1299192905426025,
+  "mask_prompt": false,
+  "max_seq_length": 1024,
+  "mlx": "0.32.0",
+  "mlx_lm": "0.31.3",
+  "model": "assets/models/qwen3-0.6b-base",
+  "num_batches": 25,
+  "perplexity": 3.0954067707061768,
+  "python": "3.12.13",
+  "schema_version": 1,
+  "split": "valid",
+  "weights": "runs/iter019-naturalproof-raw-adamw-75-seed17/weights.safetensors"
+}

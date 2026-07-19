@@ -1,0 +1,17 @@
+{
+  "created_unix": 1784437778.6394088,
+  "elapsed_seconds": 66.6431679725647,
+  "limit": 5,
+  "max_tokens": 350,
+  "model": "assets/models/qwen3-0.6b-base",
+  "new_predictions": 5,
+  "schema_version": 1,
+  "seed": 17,
+  "selection": "first rows by sha256('proof-sample-v1|' + family_id)",
+  "source_sha256": "bb138e3bccc540a482cf41b2196597da4d75e0d75974162d4a927231194dbf06",
+  "split": "valid",
+  "temperature": 0.0,
+  "view": "assets/data/processed/training-views/fineproofs-proof-1024-v2",
+  "weights": "runs/iter019-naturalproof-raw-adamw-75-seed17/weights.safetensors",
+  "weights_sha256": "829c62c6a36e44f0e6c2fa12de7580bfa06e36e2f09449b7af99322e18085143"
+}

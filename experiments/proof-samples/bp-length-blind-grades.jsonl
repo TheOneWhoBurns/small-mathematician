@@ -1,0 +1,24 @@
+{"id":"fineproofs-00014","label":"A","score":1,"reason":"It falsely infers that d is not a power of two and that adding a non-power cannot produce a power of two."}
+{"id":"fineproofs-00014","label":"B","score":1,"reason":"It assumes the wrong proposition, misstates powers of two and the greatest proper divisor, and derives no relevant contradiction."}
+{"id":"fineproofs-00014","label":"C","score":1,"reason":"The response merely restates the desired conclusion as a step and provides no number-theoretic strategy."}
+{"id":"fineproofs-00482","label":"A","score":1,"reason":"It repeatedly discusses the number of digits but never uses divisibility, a quotient congruence, or a size contradiction."}
+{"id":"fineproofs-00482","label":"B","score":1,"reason":"The claim that every such number is divisible by 70 is false and the repeated checklist has no usable argument."}
+{"id":"fineproofs-00482","label":"C","score":1,"reason":"It only repeats the given digit counts and absence conditions without connecting them to divisibility between two numbers."}
+{"id":"fineproofs-00933","label":"A","score":2,"reason":"The main Cauchy-Schwarz lower bound is correct, but the response cuts off before the essential comparison with the squared-sum denominator."}
+{"id":"fineproofs-00933","label":"B","score":2,"reason":"It correctly reaches the reciprocal-product Cauchy-Schwarz inequality but omits the factor-four quadratic estimate needed to finish."}
+{"id":"fineproofs-00933","label":"C","score":1,"reason":"It only names Cauchy-Schwarz twice and supplies no concrete denominator bound or factor-four bridge."}
+{"id":"fineproofs-01863","label":"A","score":1,"reason":"The asserted perpendicular and parallel relations are false and do not establish the opposite sides of the quadrilateral."}
+{"id":"fineproofs-01863","label":"B","score":1,"reason":"Equal and parallel opposite sides would suffice, but the response merely says to prove those facts and gives no route from the chord geometry."}
+{"id":"fineproofs-01863","label":"C","score":1,"reason":"It announces a diagonal criterion but then supplies unrelated, false perpendicularity and length claims instead of proving bisection."}
+{"id":"fineproofs-01993","label":"A","score":1,"reason":"This is only a generic definition-of-average checklist with no count, symmetry, order-statistic identity, or numerical result."}
+{"id":"fineproofs-01993","label":"B","score":1,"reason":"It incorrectly counts tuples as 99 and repeats a tautological statement without calculating the fourth-coordinate sum."}
+{"id":"fineproofs-01993","label":"C","score":1,"reason":"It treats the ordered coordinates as independent choices and loops over undefined sums rather than providing a counting method."}
+{"id":"fineproofs-02529","label":"A","score":2,"reason":"The modular reformulation and finite-period idea are relevant progress, but the claim that residue 41 is impossible is false."}
+{"id":"fineproofs-02529","label":"B","score":1,"reason":"The congruence has the wrong sign, the equivalence to 2^p is false, and the stated primes and sum are incorrect."}
+{"id":"fineproofs-02529","label":"C","score":1,"reason":"It proposes checking an unbounded set of primes, offers no periodic reduction, and states an incorrect answer."}
+{"id":"fineproofs-03674","label":"A","score":1,"reason":"It states an incorrect high-derivative value and wrong limit, so the generic differentiation steps do not form a usable strategy."}
+{"id":"fineproofs-03674","label":"B","score":2,"reason":"A differentiation and Taylor-series route is viable, but no derivative formula or limiting partial sum is actually given."}
+{"id":"fineproofs-03674","label":"C","score":2,"reason":"It identifies the same viable analytic route but leaves every essential computation and the value of the limit unspecified."}
+{"id":"fineproofs-03875","label":"A","score":1,"reason":"It treats the switches as independent single-lamp choices, leaves k undefined, and ignores the three-lamp cyclic action."}
+{"id":"fineproofs-03875","label":"B","score":1,"reason":"Derangements and switch-order permutations are unrelated to the number of distinct states generated over F2."}
+{"id":"fineproofs-03875","label":"C","score":1,"reason":"It incorrectly identifies reachable states with a fixed Hamming-weight class and never analyzes the toggle span."}

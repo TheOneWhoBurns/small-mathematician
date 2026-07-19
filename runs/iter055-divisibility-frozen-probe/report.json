@@ -1,0 +1,594 @@
+{
+  "all_trials": [
+    {
+      "contrast_accuracy": 1.0,
+      "layer": 14,
+      "pool": "last",
+      "ridge": 0.001,
+      "train_accuracy": 0.7071428571428572,
+      "validation_accuracy": 0.5
+    },
+    {
+      "contrast_accuracy": 0.875,
+      "layer": 14,
+      "pool": "last",
+      "ridge": 0.01,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.7
+    },
+    {
+      "contrast_accuracy": 0.875,
+      "layer": 28,
+      "pool": "last",
+      "ridge": 0.01,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.7
+    },
+    {
+      "contrast_accuracy": 0.875,
+      "layer": 28,
+      "pool": "last",
+      "ridge": 0.1,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.7
+    },
+    {
+      "contrast_accuracy": 0.875,
+      "layer": 28,
+      "pool": "last",
+      "ridge": 1.0,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.7
+    },
+    {
+      "contrast_accuracy": 0.875,
+      "layer": 28,
+      "pool": "last",
+      "ridge": 10.0,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.7
+    },
+    {
+      "contrast_accuracy": 0.875,
+      "layer": 28,
+      "pool": "last",
+      "ridge": 100.0,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.7
+    },
+    {
+      "contrast_accuracy": 0.875,
+      "layer": 14,
+      "pool": "last",
+      "ridge": 100.0,
+      "train_accuracy": 0.9928571428571429,
+      "validation_accuracy": 0.6
+    },
+    {
+      "contrast_accuracy": 0.75,
+      "layer": 21,
+      "pool": "last",
+      "ridge": 0.01,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.9
+    },
+    {
+      "contrast_accuracy": 0.75,
+      "layer": 21,
+      "pool": "last",
+      "ridge": 0.1,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.9
+    },
+    {
+      "contrast_accuracy": 0.75,
+      "layer": 21,
+      "pool": "last",
+      "ridge": 1.0,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.9
+    },
+    {
+      "contrast_accuracy": 0.75,
+      "layer": 21,
+      "pool": "last",
+      "ridge": 10.0,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.8
+    },
+    {
+      "contrast_accuracy": 0.75,
+      "layer": 21,
+      "pool": "last",
+      "ridge": 100.0,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.8
+    },
+    {
+      "contrast_accuracy": 0.75,
+      "layer": 14,
+      "pool": "last",
+      "ridge": 0.1,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.7
+    },
+    {
+      "contrast_accuracy": 0.75,
+      "layer": 14,
+      "pool": "last",
+      "ridge": 1.0,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.7
+    },
+    {
+      "contrast_accuracy": 0.75,
+      "layer": 14,
+      "pool": "last",
+      "ridge": 10.0,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.7
+    },
+    {
+      "contrast_accuracy": 0.75,
+      "layer": 14,
+      "pool": "mean",
+      "ridge": 0.1,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.7
+    },
+    {
+      "contrast_accuracy": 0.75,
+      "layer": 14,
+      "pool": "mean",
+      "ridge": 1.0,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.7
+    },
+    {
+      "contrast_accuracy": 0.75,
+      "layer": 14,
+      "pool": "mean",
+      "ridge": 10.0,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.7
+    },
+    {
+      "contrast_accuracy": 0.75,
+      "layer": 28,
+      "pool": "mean",
+      "ridge": 100.0,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.7
+    },
+    {
+      "contrast_accuracy": 0.75,
+      "layer": 0,
+      "pool": "mean",
+      "ridge": 0.001,
+      "train_accuracy": 0.8428571428571429,
+      "validation_accuracy": 0.6
+    },
+    {
+      "contrast_accuracy": 0.75,
+      "layer": 14,
+      "pool": "mean",
+      "ridge": 0.01,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.6
+    },
+    {
+      "contrast_accuracy": 0.75,
+      "layer": 14,
+      "pool": "mean",
+      "ridge": 100.0,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.6
+    },
+    {
+      "contrast_accuracy": 0.75,
+      "layer": 21,
+      "pool": "mean",
+      "ridge": 100.0,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.6
+    },
+    {
+      "contrast_accuracy": 0.75,
+      "layer": 28,
+      "pool": "last",
+      "ridge": 0.001,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.6
+    },
+    {
+      "contrast_accuracy": 0.75,
+      "layer": 7,
+      "pool": "last",
+      "ridge": 0.001,
+      "train_accuracy": 0.9857142857142858,
+      "validation_accuracy": 0.5
+    },
+    {
+      "contrast_accuracy": 0.75,
+      "layer": 7,
+      "pool": "last",
+      "ridge": 0.01,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.5
+    },
+    {
+      "contrast_accuracy": 0.75,
+      "layer": 7,
+      "pool": "last",
+      "ridge": 0.1,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.5
+    },
+    {
+      "contrast_accuracy": 0.75,
+      "layer": 7,
+      "pool": "last",
+      "ridge": 1.0,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.5
+    },
+    {
+      "contrast_accuracy": 0.75,
+      "layer": 7,
+      "pool": "last",
+      "ridge": 10.0,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.5
+    },
+    {
+      "contrast_accuracy": 0.75,
+      "layer": 21,
+      "pool": "mean",
+      "ridge": 10.0,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.5
+    },
+    {
+      "contrast_accuracy": 0.75,
+      "layer": 7,
+      "pool": "last",
+      "ridge": 100.0,
+      "train_accuracy": 0.9928571428571429,
+      "validation_accuracy": 0.4
+    },
+    {
+      "contrast_accuracy": 0.75,
+      "layer": 21,
+      "pool": "mean",
+      "ridge": 1.0,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.4
+    },
+    {
+      "contrast_accuracy": 0.625,
+      "layer": 0,
+      "pool": "mean",
+      "ridge": 0.01,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.7
+    },
+    {
+      "contrast_accuracy": 0.625,
+      "layer": 0,
+      "pool": "mean",
+      "ridge": 0.1,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.7
+    },
+    {
+      "contrast_accuracy": 0.625,
+      "layer": 0,
+      "pool": "mean",
+      "ridge": 10.0,
+      "train_accuracy": 0.8214285714285714,
+      "validation_accuracy": 0.7
+    },
+    {
+      "contrast_accuracy": 0.625,
+      "layer": 0,
+      "pool": "mean",
+      "ridge": 100.0,
+      "train_accuracy": 0.8071428571428572,
+      "validation_accuracy": 0.7
+    },
+    {
+      "contrast_accuracy": 0.625,
+      "layer": 21,
+      "pool": "last",
+      "ridge": 0.001,
+      "train_accuracy": 0.9,
+      "validation_accuracy": 0.7
+    },
+    {
+      "contrast_accuracy": 0.625,
+      "layer": 0,
+      "pool": "mean",
+      "ridge": 1.0,
+      "train_accuracy": 0.9428571428571428,
+      "validation_accuracy": 0.6
+    },
+    {
+      "contrast_accuracy": 0.625,
+      "layer": 7,
+      "pool": "mean",
+      "ridge": 0.01,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.6
+    },
+    {
+      "contrast_accuracy": 0.625,
+      "layer": 7,
+      "pool": "mean",
+      "ridge": 10.0,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.6
+    },
+    {
+      "contrast_accuracy": 0.625,
+      "layer": 7,
+      "pool": "mean",
+      "ridge": 100.0,
+      "train_accuracy": 0.9857142857142858,
+      "validation_accuracy": 0.6
+    },
+    {
+      "contrast_accuracy": 0.625,
+      "layer": 28,
+      "pool": "mean",
+      "ridge": 0.01,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.6
+    },
+    {
+      "contrast_accuracy": 0.625,
+      "layer": 28,
+      "pool": "mean",
+      "ridge": 0.1,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.6
+    },
+    {
+      "contrast_accuracy": 0.625,
+      "layer": 28,
+      "pool": "mean",
+      "ridge": 1.0,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.6
+    },
+    {
+      "contrast_accuracy": 0.625,
+      "layer": 28,
+      "pool": "mean",
+      "ridge": 10.0,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.6
+    },
+    {
+      "contrast_accuracy": 0.625,
+      "layer": 21,
+      "pool": "mean",
+      "ridge": 0.01,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.5
+    },
+    {
+      "contrast_accuracy": 0.625,
+      "layer": 7,
+      "pool": "mean",
+      "ridge": 0.1,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.4
+    },
+    {
+      "contrast_accuracy": 0.625,
+      "layer": 7,
+      "pool": "mean",
+      "ridge": 1.0,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.4
+    },
+    {
+      "contrast_accuracy": 0.625,
+      "layer": 21,
+      "pool": "mean",
+      "ridge": 0.1,
+      "train_accuracy": 1.0,
+      "validation_accuracy": 0.4
+    },
+    {
+      "contrast_accuracy": 0.625,
+      "layer": 21,
+      "pool": "mean",
+      "ridge": 0.001,
+      "train_accuracy": 0.9928571428571429,
+      "validation_accuracy": 0.3
+    },
+    {
+      "contrast_accuracy": 0.5,
+      "layer": 7,
+      "pool": "mean",
+      "ridge": 0.001,
+      "train_accuracy": 0.6714285714285714,
+      "validation_accuracy": 0.8
+    },
+    {
+      "contrast_accuracy": 0.5,
+      "layer": 28,
+      "pool": "mean",
+      "ridge": 0.001,
+      "train_accuracy": 0.9785714285714285,
+      "validation_accuracy": 0.7
+    },
+    {
+      "contrast_accuracy": 0.5,
+      "layer": 0,
+      "pool": "last",
+      "ridge": 0.001,
+      "train_accuracy": 0.42857142857142855,
+      "validation_accuracy": 0.4
+    },
+    {
+      "contrast_accuracy": 0.5,
+      "layer": 0,
+      "pool": "last",
+      "ridge": 0.01,
+      "train_accuracy": 0.42857142857142855,
+      "validation_accuracy": 0.4
+    },
+    {
+      "contrast_accuracy": 0.5,
+      "layer": 0,
+      "pool": "last",
+      "ridge": 0.1,
+      "train_accuracy": 0.42857142857142855,
+      "validation_accuracy": 0.4
+    },
+    {
+      "contrast_accuracy": 0.5,
+      "layer": 0,
+      "pool": "last",
+      "ridge": 1.0,
+      "train_accuracy": 0.42857142857142855,
+      "validation_accuracy": 0.4
+    },
+    {
+      "contrast_accuracy": 0.5,
+      "layer": 0,
+      "pool": "last",
+      "ridge": 10.0,
+      "train_accuracy": 0.42857142857142855,
+      "validation_accuracy": 0.4
+    },
+    {
+      "contrast_accuracy": 0.5,
+      "layer": 0,
+      "pool": "last",
+      "ridge": 100.0,
+      "train_accuracy": 0.42857142857142855,
+      "validation_accuracy": 0.4
+    },
+    {
+      "contrast_accuracy": 0.5,
+      "layer": 14,
+      "pool": "mean",
+      "ridge": 0.001,
+      "train_accuracy": 0.6785714285714286,
+      "validation_accuracy": 0.4
+    }
+  ],
+  "classes": [
+    "does_divide",
+    "does_not_divide"
+  ],
+  "contrast": {
+    "accuracy": 0.75,
+    "confusion": [
+      {
+        "count": 2,
+        "expected": "does_divide",
+        "predicted": "does_divide"
+      },
+      {
+        "count": 2,
+        "expected": "does_divide",
+        "predicted": "does_not_divide"
+      },
+      {
+        "count": 4,
+        "expected": "does_not_divide",
+        "predicted": "does_not_divide"
+      }
+    ],
+    "count": 8,
+    "pair_accuracy": null,
+    "prediction_counts": {
+      "does_divide": 2,
+      "does_not_divide": 6
+    }
+  },
+  "contrast_sha256": "d6b7b0cc779a442ee85aa80bcff45755081d4678e36851b0c008f96636a1f7ed",
+  "elapsed_seconds": 12.67925214767456,
+  "input_contract": "natural-language statement only",
+  "limitations": [
+    "This measures closed-set method selection, not method execution or proof generation.",
+    "The linear head uses labeled method-routing examples even though the language model remains frozen.",
+    "The synthetic five-family contrast set does not establish broad mathematical abstraction."
+  ],
+  "model": "assets/models/qwen3-0.6b-base",
+  "posthoc_oracle_best_contrast_trial": {
+    "contrast_accuracy": 1.0,
+    "layer": 14,
+    "pool": "last",
+    "ridge": 0.001,
+    "train_accuracy": 0.7071428571428572,
+    "validation_accuracy": 0.5
+  },
+  "posthoc_oracle_warning": "Uses held-out contrast labels after unsealing and is diagnostic only; it is not a selectable result.",
+  "predictions_sha256": "92baaf3a9be8b661708cd5ef68da94e898816985d28e9ce5d69467a189568bf3",
+  "probe_bytes": 18256,
+  "purpose": "test whether a tiny frozen readout can recover mathematical method concepts without modifying the language model",
+  "schema_version": 1,
+  "selected": {
+    "layer": 21,
+    "pool": "last",
+    "ridge": 0.01,
+    "train_accuracy": 1.0,
+    "validation_accuracy": 0.9
+  },
+  "selection_seal_sha256": "e205d06d0141a931aa247a1d1c3c673c2947da027698cb873bb432eb487a10fe",
+  "train": {
+    "accuracy": 1.0,
+    "confusion": [
+      {
+        "count": 60,
+        "expected": "does_divide",
+        "predicted": "does_divide"
+      },
+      {
+        "count": 80,
+        "expected": "does_not_divide",
+        "predicted": "does_not_divide"
+      }
+    ],
+    "count": 140,
+    "pair_accuracy": null,
+    "prediction_counts": {
+      "does_divide": 60,
+      "does_not_divide": 80
+    }
+  },
+  "trainable_parameters": 2048,
+  "validation": {
+    "accuracy": 0.9,
+    "confusion": [
+      {
+        "count": 4,
+        "expected": "does_divide",
+        "predicted": "does_divide"
+      },
+      {
+        "count": 1,
+        "expected": "does_not_divide",
+        "predicted": "does_divide"
+      },
+      {
+        "count": 5,
+        "expected": "does_not_divide",
+        "predicted": "does_not_divide"
+      }
+    ],
+    "count": 10,
+    "pair_accuracy": null,
+    "prediction_counts": {
+      "does_divide": 5,
+      "does_not_divide": 5
+    }
+  },
+  "weights": "runs/iter054-diophantine-decomposed-adamw100-seed17/weights.safetensors",
+  "weights_sha256": "a8d5a8e0b8613badcd5659a57e23fa637adbffb18851a02d7d124c35e9c586d0"
+}

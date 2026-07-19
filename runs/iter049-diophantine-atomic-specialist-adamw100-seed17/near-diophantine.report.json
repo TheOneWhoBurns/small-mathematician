@@ -1,0 +1,18 @@
+{
+  "count": 16,
+  "per_family": {
+    "diophantine_solvability": {
+      "count": 16,
+      "semantic": 3,
+      "semantic_rate": 0.1875,
+      "strict": 3,
+      "strict_rate": 0.1875
+    }
+  },
+  "predictions_sha256": "d0a3c05e391de2bccb4b415f6a7b7abc7ca18cd9d7f7ff1a0af5d62d6b70b124",
+  "semantic": 3,
+  "semantic_rate": 0.1875,
+  "strict": 3,
+  "strict_rate": 0.1875,
+  "verifier_sha256": "7ab8b3dd9d8a05d51b30f384ef5cb4e13a382b74d55f76ee6a66d5b617ca3b81"
+}

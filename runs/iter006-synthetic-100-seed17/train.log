@@ -1,0 +1,48 @@
+Loading pretrained model
+Loading datasets
+Training every model parameter
+Trainable parameters: 100.000% (596.050M/596.050M)
+Starting training..., iters: 100
+Calculating loss...:   0%|          | 0/10 [00:00<?, ?it/s]Calculating loss...:  10%|█         | 1/10 [00:00<00:01,  8.31it/s]Calculating loss...:  30%|███       | 3/10 [00:00<00:00,  9.81it/s]Calculating loss...:  50%|█████     | 5/10 [00:00<00:00, 11.82it/s]Calculating loss...:  70%|███████   | 7/10 [00:00<00:00, 11.26it/s]Calculating loss...:  90%|█████████ | 9/10 [00:00<00:00, 11.16it/s]Calculating loss...: 100%|██████████| 10/10 [00:00<00:00, 10.91it/s]
+Iter 1: Val loss 2.686, Val took 0.924s
+Iter 10: Train loss 4.025, Learning Rate 1.000e-05, It/sec 1.587, Tokens/sec 124.407, Trained Tokens 784, Peak mem 3.318 GB
+Iter 20: Train loss 2.196, Learning Rate 1.000e-05, It/sec 1.713, Tokens/sec 145.751, Trained Tokens 1635, Peak mem 3.318 GB
+Calculating loss...:   0%|          | 0/10 [00:00<?, ?it/s]Calculating loss...:  20%|██        | 2/10 [00:00<00:00, 13.68it/s]Calculating loss...:  40%|████      | 4/10 [00:00<00:00, 11.56it/s]Calculating loss...:  60%|██████    | 6/10 [00:00<00:00, 10.54it/s]Calculating loss...:  80%|████████  | 8/10 [00:00<00:00, 11.38it/s]Calculating loss...: 100%|██████████| 10/10 [00:00<00:00, 11.23it/s]Calculating loss...: 100%|██████████| 10/10 [00:00<00:00, 11.31it/s]
+Iter 25: Val loss 1.247, Val took 0.888s
+Iter 30: Train loss 1.111, Learning Rate 1.000e-05, It/sec 1.869, Tokens/sec 139.239, Trained Tokens 2380, Peak mem 3.318 GB
+Iter 40: Train loss 1.013, Learning Rate 1.000e-05, It/sec 1.763, Tokens/sec 141.769, Trained Tokens 3184, Peak mem 3.318 GB
+Calculating loss...:   0%|          | 0/10 [00:00<?, ?it/s]Calculating loss...:  20%|██        | 2/10 [00:00<00:00,  9.86it/s]Calculating loss...:  40%|████      | 4/10 [00:00<00:00,  9.84it/s]Calculating loss...:  50%|█████     | 5/10 [00:00<00:00,  9.63it/s]Calculating loss...:  60%|██████    | 6/10 [00:00<00:00,  9.43it/s]Calculating loss...:  80%|████████  | 8/10 [00:00<00:00, 10.47it/s]Calculating loss...: 100%|██████████| 10/10 [00:00<00:00, 10.37it/s]Calculating loss...: 100%|██████████| 10/10 [00:00<00:00, 10.11it/s]
+Iter 50: Val loss 0.795, Val took 0.993s
+Iter 50: Train loss 1.201, Learning Rate 1.000e-05, It/sec 1.762, Tokens/sec 139.541, Trained Tokens 3976, Peak mem 3.318 GB
+Iter 60: Train loss 1.042, Learning Rate 1.000e-05, It/sec 1.689, Tokens/sec 146.576, Trained Tokens 4844, Peak mem 3.318 GB
+Iter 70: Train loss 1.107, Learning Rate 1.000e-05, It/sec 1.720, Tokens/sec 144.841, Trained Tokens 5686, Peak mem 3.318 GB
+Calculating loss...:   0%|          | 0/10 [00:00<?, ?it/s]Calculating loss...:  20%|██        | 2/10 [00:00<00:00,  9.76it/s]Calculating loss...:  40%|████      | 4/10 [00:00<00:00, 11.61it/s]Calculating loss...:  60%|██████    | 6/10 [00:00<00:00, 11.68it/s]Calculating loss...:  80%|████████  | 8/10 [00:00<00:00, 11.33it/s]Calculating loss...: 100%|██████████| 10/10 [00:00<00:00, 10.70it/s]Calculating loss...: 100%|██████████| 10/10 [00:00<00:00, 10.94it/s]
+Iter 75: Val loss 0.690, Val took 0.919s
+Iter 80: Train loss 0.534, Learning Rate 1.000e-05, It/sec 1.775, Tokens/sec 141.648, Trained Tokens 6484, Peak mem 3.318 GB
+Iter 90: Train loss 0.718, Learning Rate 1.000e-05, It/sec 1.799, Tokens/sec 139.800, Trained Tokens 7261, Peak mem 3.318 GB
+Calculating loss...:   0%|          | 0/10 [00:00<?, ?it/s]Calculating loss...:  20%|██        | 2/10 [00:00<00:00, 11.98it/s]Calculating loss...:  40%|████      | 4/10 [00:00<00:00, 10.53it/s]Calculating loss...:  60%|██████    | 6/10 [00:00<00:00, 10.05it/s]Calculating loss...:  80%|████████  | 8/10 [00:00<00:00,  9.67it/s]Calculating loss...: 100%|██████████| 10/10 [00:00<00:00, 10.20it/s]Calculating loss...: 100%|██████████| 10/10 [00:00<00:00, 10.22it/s]
+Iter 100: Val loss 0.240, Val took 0.983s
+Iter 100: Train loss 0.455, Learning Rate 1.000e-05, It/sec 1.780, Tokens/sec 139.742, Trained Tokens 8046, Peak mem 3.318 GB
+Iter 100: Saved adapter weights to runs/iter006-synthetic-100-seed17/weights.safetensors and runs/iter006-synthetic-100-seed17/0000100_adapters.safetensors.
+Saved final weights to runs/iter006-synthetic-100-seed17/weights.safetensors.
+Final Metal peak memory: 3.318 GB
+real 65.45
+user 9.85
+sys 16.77
+          1482670080  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+              189369  page reclaims
+                 430  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   1  messages sent
+                   1  messages received
+                   1  signals received
+                3608  voluntary context switches
+              104563  involuntary context switches
+           104862609  instructions retired
+            39718714  cycles elapsed
+            10797560  peak memory footprint

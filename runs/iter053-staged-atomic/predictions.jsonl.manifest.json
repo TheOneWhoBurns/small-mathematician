@@ -1,0 +1,23 @@
+{
+  "assistant_prefix": "",
+  "chat_template": false,
+  "created_unix": 1784455129.763856,
+  "deadline": "2026-07-19T08:50:00-05:00",
+  "elapsed_seconds": 2.056619882583618,
+  "family": null,
+  "max_tokens": 32,
+  "model": "assets/models/qwen3-0.6b-base",
+  "new_predictions": 5,
+  "output": "runs/iter053-staged-atomic/predictions.jsonl",
+  "predictions_total": 5,
+  "prompt_prefix": "",
+  "prompt_suffix": "",
+  "prompts": "runs/iter053-staged-atomic/prompts.jsonl",
+  "prompts_sha256": "01393f9c00a4976993cc33749a8e010e7f329cfa2e881988b06d554437911891",
+  "requested": 5,
+  "schema_version": 1,
+  "seed": 17,
+  "temperature": 0.0,
+  "weights": "runs/iter049-diophantine-atomic-specialist-adamw100-seed17/weights.safetensors",
+  "weights_sha256": "116d19ad558758ecaa9fc1abc9ba12534691396859db6e23ae0bd1d0c484cced"
+}

@@ -1,0 +1,2914 @@
+{
+  "candidate_mean_offsets": {
+    "diophantine_solvability": -3.6375,
+    "finite_double_count": -5.05,
+    "finite_recurrence_period": -5.1375,
+    "modular_period_prime_filter": -5.365625,
+    "polynomial_value_obstruction": -5.14375
+  },
+  "evaluation": "runs/iter014-traces-cont-adamw-500-seed17/contrast-likelihood.jsonl",
+  "purpose": "diagnose candidate-method score priors; not a fitted task classifier",
+  "raw": {
+    "accuracy": 0.2,
+    "confusion": [
+      {
+        "count": 20,
+        "expected": "diophantine_solvability",
+        "predicted": "diophantine_solvability"
+      },
+      {
+        "count": 20,
+        "expected": "finite_double_count",
+        "predicted": "diophantine_solvability"
+      },
+      {
+        "count": 20,
+        "expected": "finite_recurrence_period",
+        "predicted": "diophantine_solvability"
+      },
+      {
+        "count": 20,
+        "expected": "modular_period_prime_filter",
+        "predicted": "diophantine_solvability"
+      },
+      {
+        "count": 20,
+        "expected": "polynomial_value_obstruction",
+        "predicted": "diophantine_solvability"
+      }
+    ],
+    "pair_accuracy": 0.0,
+    "prediction_counts": {
+      "diophantine_solvability": 100
+    },
+    "predictions": [
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.921875,
+          "finite_double_count": -4.96875,
+          "finite_recurrence_period": -5.0,
+          "modular_period_prime_filter": -5.34375,
+          "polynomial_value_obstruction": -5.1875
+        },
+        "correct": false,
+        "expected_route": "polynomial_value_obstruction",
+        "id": "mrc-v1-01-0-de7bddb80f-a",
+        "pair_id": "mrc-v1-01-0-de7bddb80f",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.59375,
+          "finite_double_count": -4.875,
+          "finite_recurrence_period": -5.0,
+          "modular_period_prime_filter": -5.28125,
+          "polynomial_value_obstruction": -5.0
+        },
+        "correct": true,
+        "expected_route": "diophantine_solvability",
+        "id": "mrc-v1-01-0-de7bddb80f-b",
+        "pair_id": "mrc-v1-01-0-de7bddb80f",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.921875,
+          "finite_double_count": -5.03125,
+          "finite_recurrence_period": -5.0625,
+          "modular_period_prime_filter": -5.40625,
+          "polynomial_value_obstruction": -5.15625
+        },
+        "correct": false,
+        "expected_route": "polynomial_value_obstruction",
+        "id": "mrc-v1-01-1-f2757cdaae-a",
+        "pair_id": "mrc-v1-01-1-f2757cdaae",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.625,
+          "finite_double_count": -4.90625,
+          "finite_recurrence_period": -5.03125,
+          "modular_period_prime_filter": -5.34375,
+          "polynomial_value_obstruction": -5.03125
+        },
+        "correct": true,
+        "expected_route": "diophantine_solvability",
+        "id": "mrc-v1-01-1-f2757cdaae-b",
+        "pair_id": "mrc-v1-01-1-f2757cdaae",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.96875,
+          "finite_double_count": -5.0,
+          "finite_recurrence_period": -5.09375,
+          "modular_period_prime_filter": -5.4375,
+          "polynomial_value_obstruction": -5.15625
+        },
+        "correct": false,
+        "expected_route": "polynomial_value_obstruction",
+        "id": "mrc-v1-01-2-8352d54d96-a",
+        "pair_id": "mrc-v1-01-2-8352d54d96",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.625,
+          "finite_double_count": -4.90625,
+          "finite_recurrence_period": -5.03125,
+          "modular_period_prime_filter": -5.40625,
+          "polynomial_value_obstruction": -5.0
+        },
+        "correct": true,
+        "expected_route": "diophantine_solvability",
+        "id": "mrc-v1-01-2-8352d54d96-b",
+        "pair_id": "mrc-v1-01-2-8352d54d96",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.921875,
+          "finite_double_count": -4.96875,
+          "finite_recurrence_period": -5.0625,
+          "modular_period_prime_filter": -5.375,
+          "polynomial_value_obstruction": -5.125
+        },
+        "correct": false,
+        "expected_route": "polynomial_value_obstruction",
+        "id": "mrc-v1-01-3-3245f599fb-a",
+        "pair_id": "mrc-v1-01-3-3245f599fb",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.609375,
+          "finite_double_count": -4.875,
+          "finite_recurrence_period": -4.96875,
+          "modular_period_prime_filter": -5.375,
+          "polynomial_value_obstruction": -4.9375
+        },
+        "correct": true,
+        "expected_route": "diophantine_solvability",
+        "id": "mrc-v1-01-3-3245f599fb-b",
+        "pair_id": "mrc-v1-01-3-3245f599fb",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.875,
+          "finite_double_count": -4.96875,
+          "finite_recurrence_period": -5.03125,
+          "modular_period_prime_filter": -5.40625,
+          "polynomial_value_obstruction": -5.15625
+        },
+        "correct": false,
+        "expected_route": "polynomial_value_obstruction",
+        "id": "mrc-v1-01-4-ca848eadea-a",
+        "pair_id": "mrc-v1-01-4-ca848eadea",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.671875,
+          "finite_double_count": -4.9375,
+          "finite_recurrence_period": -5.03125,
+          "modular_period_prime_filter": -5.40625,
+          "polynomial_value_obstruction": -5.03125
+        },
+        "correct": true,
+        "expected_route": "diophantine_solvability",
+        "id": "mrc-v1-01-4-ca848eadea-b",
+        "pair_id": "mrc-v1-01-4-ca848eadea",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.78125,
+          "finite_double_count": -4.96875,
+          "finite_recurrence_period": -5.28125,
+          "modular_period_prime_filter": -5.40625,
+          "polynomial_value_obstruction": -5.15625
+        },
+        "correct": false,
+        "expected_route": "polynomial_value_obstruction",
+        "id": "mrc-v1-02-0-aa83fcc2b7-a",
+        "pair_id": "mrc-v1-02-0-aa83fcc2b7",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.625,
+          "finite_double_count": -4.78125,
+          "finite_recurrence_period": -4.71875,
+          "modular_period_prime_filter": -4.90625,
+          "polynomial_value_obstruction": -5.15625
+        },
+        "correct": false,
+        "expected_route": "modular_period_prime_filter",
+        "id": "mrc-v1-02-0-aa83fcc2b7-b",
+        "pair_id": "mrc-v1-02-0-aa83fcc2b7",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.796875,
+          "finite_double_count": -4.96875,
+          "finite_recurrence_period": -5.25,
+          "modular_period_prime_filter": -5.46875,
+          "polynomial_value_obstruction": -5.125
+        },
+        "correct": false,
+        "expected_route": "polynomial_value_obstruction",
+        "id": "mrc-v1-02-1-103fb9f46f-a",
+        "pair_id": "mrc-v1-02-1-103fb9f46f",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.671875,
+          "finite_double_count": -4.84375,
+          "finite_recurrence_period": -4.78125,
+          "modular_period_prime_filter": -5.0,
+          "polynomial_value_obstruction": -5.125
+        },
+        "correct": false,
+        "expected_route": "modular_period_prime_filter",
+        "id": "mrc-v1-02-1-103fb9f46f-b",
+        "pair_id": "mrc-v1-02-1-103fb9f46f",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.796875,
+          "finite_double_count": -4.96875,
+          "finite_recurrence_period": -5.28125,
+          "modular_period_prime_filter": -5.46875,
+          "polynomial_value_obstruction": -5.15625
+        },
+        "correct": false,
+        "expected_route": "polynomial_value_obstruction",
+        "id": "mrc-v1-02-2-a2209746c9-a",
+        "pair_id": "mrc-v1-02-2-a2209746c9",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.625,
+          "finite_double_count": -4.8125,
+          "finite_recurrence_period": -4.71875,
+          "modular_period_prime_filter": -4.96875,
+          "polynomial_value_obstruction": -5.15625
+        },
+        "correct": false,
+        "expected_route": "modular_period_prime_filter",
+        "id": "mrc-v1-02-2-a2209746c9-b",
+        "pair_id": "mrc-v1-02-2-a2209746c9",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.84375,
+          "finite_double_count": -5.0,
+          "finite_recurrence_period": -5.21875,
+          "modular_period_prime_filter": -5.4375,
+          "polynomial_value_obstruction": -5.09375
+        },
+        "correct": false,
+        "expected_route": "polynomial_value_obstruction",
+        "id": "mrc-v1-02-3-3ea09562fd-a",
+        "pair_id": "mrc-v1-02-3-3ea09562fd",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.625,
+          "finite_double_count": -4.8125,
+          "finite_recurrence_period": -4.71875,
+          "modular_period_prime_filter": -4.96875,
+          "polynomial_value_obstruction": -5.09375
+        },
+        "correct": false,
+        "expected_route": "modular_period_prime_filter",
+        "id": "mrc-v1-02-3-3ea09562fd-b",
+        "pair_id": "mrc-v1-02-3-3ea09562fd",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.796875,
+          "finite_double_count": -4.9375,
+          "finite_recurrence_period": -5.3125,
+          "modular_period_prime_filter": -5.46875,
+          "polynomial_value_obstruction": -5.125
+        },
+        "correct": false,
+        "expected_route": "polynomial_value_obstruction",
+        "id": "mrc-v1-02-4-6bbf4530aa-a",
+        "pair_id": "mrc-v1-02-4-6bbf4530aa",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.671875,
+          "finite_double_count": -4.84375,
+          "finite_recurrence_period": -4.71875,
+          "modular_period_prime_filter": -4.96875,
+          "polynomial_value_obstruction": -5.125
+        },
+        "correct": false,
+        "expected_route": "modular_period_prime_filter",
+        "id": "mrc-v1-02-4-6bbf4530aa-b",
+        "pair_id": "mrc-v1-02-4-6bbf4530aa",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.78125,
+          "finite_double_count": -4.90625,
+          "finite_recurrence_period": -5.03125,
+          "modular_period_prime_filter": -5.4375,
+          "polynomial_value_obstruction": -5.15625
+        },
+        "correct": false,
+        "expected_route": "polynomial_value_obstruction",
+        "id": "mrc-v1-03-0-8e422894e8-a",
+        "pair_id": "mrc-v1-03-0-8e422894e8",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.546875,
+          "finite_double_count": -4.6875,
+          "finite_recurrence_period": -4.90625,
+          "modular_period_prime_filter": -5.1875,
+          "polynomial_value_obstruction": -5.0625
+        },
+        "correct": false,
+        "expected_route": "finite_double_count",
+        "id": "mrc-v1-03-0-8e422894e8-b",
+        "pair_id": "mrc-v1-03-0-8e422894e8",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.78125,
+          "finite_double_count": -4.9375,
+          "finite_recurrence_period": -5.09375,
+          "modular_period_prime_filter": -5.5,
+          "polynomial_value_obstruction": -5.125
+        },
+        "correct": false,
+        "expected_route": "polynomial_value_obstruction",
+        "id": "mrc-v1-03-1-2e27ef1f15-a",
+        "pair_id": "mrc-v1-03-1-2e27ef1f15",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.609375,
+          "finite_double_count": -4.71875,
+          "finite_recurrence_period": -4.96875,
+          "modular_period_prime_filter": -5.21875,
+          "polynomial_value_obstruction": -5.125
+        },
+        "correct": false,
+        "expected_route": "finite_double_count",
+        "id": "mrc-v1-03-1-2e27ef1f15-b",
+        "pair_id": "mrc-v1-03-1-2e27ef1f15",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.8125,
+          "finite_double_count": -4.96875,
+          "finite_recurrence_period": -5.09375,
+          "modular_period_prime_filter": -5.5,
+          "polynomial_value_obstruction": -5.15625
+        },
+        "correct": false,
+        "expected_route": "polynomial_value_obstruction",
+        "id": "mrc-v1-03-2-cd64e687d2-a",
+        "pair_id": "mrc-v1-03-2-cd64e687d2",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.59375,
+          "finite_double_count": -4.75,
+          "finite_recurrence_period": -4.96875,
+          "modular_period_prime_filter": -5.21875,
+          "polynomial_value_obstruction": -5.09375
+        },
+        "correct": false,
+        "expected_route": "finite_double_count",
+        "id": "mrc-v1-03-2-cd64e687d2-b",
+        "pair_id": "mrc-v1-03-2-cd64e687d2",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.84375,
+          "finite_double_count": -4.9375,
+          "finite_recurrence_period": -5.0625,
+          "modular_period_prime_filter": -5.46875,
+          "polynomial_value_obstruction": -5.09375
+        },
+        "correct": false,
+        "expected_route": "polynomial_value_obstruction",
+        "id": "mrc-v1-03-3-c74065ffe6-a",
+        "pair_id": "mrc-v1-03-3-c74065ffe6",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.59375,
+          "finite_double_count": -4.71875,
+          "finite_recurrence_period": -4.9375,
+          "modular_period_prime_filter": -5.21875,
+          "polynomial_value_obstruction": -4.96875
+        },
+        "correct": false,
+        "expected_route": "finite_double_count",
+        "id": "mrc-v1-03-3-c74065ffe6-b",
+        "pair_id": "mrc-v1-03-3-c74065ffe6",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.8125,
+          "finite_double_count": -4.90625,
+          "finite_recurrence_period": -5.09375,
+          "modular_period_prime_filter": -5.46875,
+          "polynomial_value_obstruction": -5.125
+        },
+        "correct": false,
+        "expected_route": "polynomial_value_obstruction",
+        "id": "mrc-v1-03-4-7f44dfb3d9-a",
+        "pair_id": "mrc-v1-03-4-7f44dfb3d9",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.609375,
+          "finite_double_count": -4.71875,
+          "finite_recurrence_period": -5.0,
+          "modular_period_prime_filter": -5.21875,
+          "polynomial_value_obstruction": -5.09375
+        },
+        "correct": false,
+        "expected_route": "finite_double_count",
+        "id": "mrc-v1-03-4-7f44dfb3d9-b",
+        "pair_id": "mrc-v1-03-4-7f44dfb3d9",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.75,
+          "finite_double_count": -4.90625,
+          "finite_recurrence_period": -4.90625,
+          "modular_period_prime_filter": -5.40625,
+          "polynomial_value_obstruction": -5.125
+        },
+        "correct": false,
+        "expected_route": "polynomial_value_obstruction",
+        "id": "mrc-v1-04-0-5cffa4cbf7-a",
+        "pair_id": "mrc-v1-04-0-5cffa4cbf7",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.59375,
+          "finite_double_count": -4.8125,
+          "finite_recurrence_period": -4.59375,
+          "modular_period_prime_filter": -5.09375,
+          "polynomial_value_obstruction": -5.3125
+        },
+        "correct": false,
+        "expected_route": "finite_recurrence_period",
+        "id": "mrc-v1-04-0-5cffa4cbf7-b",
+        "pair_id": "mrc-v1-04-0-5cffa4cbf7",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.78125,
+          "finite_double_count": -4.9375,
+          "finite_recurrence_period": -4.9375,
+          "modular_period_prime_filter": -5.40625,
+          "polynomial_value_obstruction": -5.125
+        },
+        "correct": false,
+        "expected_route": "polynomial_value_obstruction",
+        "id": "mrc-v1-04-1-0eee241fd8-a",
+        "pair_id": "mrc-v1-04-1-0eee241fd8",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.625,
+          "finite_double_count": -4.84375,
+          "finite_recurrence_period": -4.625,
+          "modular_period_prime_filter": -5.1875,
+          "polynomial_value_obstruction": -5.25
+        },
+        "correct": false,
+        "expected_route": "finite_recurrence_period",
+        "id": "mrc-v1-04-1-0eee241fd8-b",
+        "pair_id": "mrc-v1-04-1-0eee241fd8",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.84375,
+          "finite_double_count": -4.9375,
+          "finite_recurrence_period": -4.9375,
+          "modular_period_prime_filter": -5.46875,
+          "polynomial_value_obstruction": -5.15625
+        },
+        "correct": false,
+        "expected_route": "polynomial_value_obstruction",
+        "id": "mrc-v1-04-2-7e81fbf336-a",
+        "pair_id": "mrc-v1-04-2-7e81fbf336",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.609375,
+          "finite_double_count": -4.84375,
+          "finite_recurrence_period": -4.625,
+          "modular_period_prime_filter": -5.15625,
+          "polynomial_value_obstruction": -5.21875
+        },
+        "correct": false,
+        "expected_route": "finite_recurrence_period",
+        "id": "mrc-v1-04-2-7e81fbf336-b",
+        "pair_id": "mrc-v1-04-2-7e81fbf336",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.8125,
+          "finite_double_count": -4.96875,
+          "finite_recurrence_period": -4.9375,
+          "modular_period_prime_filter": -5.4375,
+          "polynomial_value_obstruction": -5.09375
+        },
+        "correct": false,
+        "expected_route": "polynomial_value_obstruction",
+        "id": "mrc-v1-04-3-25d4af72c0-a",
+        "pair_id": "mrc-v1-04-3-25d4af72c0",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.5625,
+          "finite_double_count": -4.78125,
+          "finite_recurrence_period": -4.65625,
+          "modular_period_prime_filter": -5.15625,
+          "polynomial_value_obstruction": -5.15625
+        },
+        "correct": false,
+        "expected_route": "finite_recurrence_period",
+        "id": "mrc-v1-04-3-25d4af72c0-b",
+        "pair_id": "mrc-v1-04-3-25d4af72c0",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.8125,
+          "finite_double_count": -4.9375,
+          "finite_recurrence_period": -4.96875,
+          "modular_period_prime_filter": -5.46875,
+          "polynomial_value_obstruction": -5.0625
+        },
+        "correct": false,
+        "expected_route": "polynomial_value_obstruction",
+        "id": "mrc-v1-04-4-af836f8f89-a",
+        "pair_id": "mrc-v1-04-4-af836f8f89",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.59375,
+          "finite_double_count": -4.875,
+          "finite_recurrence_period": -4.6875,
+          "modular_period_prime_filter": -5.15625,
+          "polynomial_value_obstruction": -5.25
+        },
+        "correct": false,
+        "expected_route": "finite_recurrence_period",
+        "id": "mrc-v1-04-4-af836f8f89-b",
+        "pair_id": "mrc-v1-04-4-af836f8f89",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.546875,
+          "finite_double_count": -4.84375,
+          "finite_recurrence_period": -5.03125,
+          "modular_period_prime_filter": -5.21875,
+          "polynomial_value_obstruction": -5.15625
+        },
+        "correct": true,
+        "expected_route": "diophantine_solvability",
+        "id": "mrc-v1-12-0-5b0ee1e7a2-a",
+        "pair_id": "mrc-v1-12-0-5b0ee1e7a2",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.609375,
+          "finite_double_count": -4.71875,
+          "finite_recurrence_period": -4.625,
+          "modular_period_prime_filter": -4.78125,
+          "polynomial_value_obstruction": -5.21875
+        },
+        "correct": false,
+        "expected_route": "modular_period_prime_filter",
+        "id": "mrc-v1-12-0-5b0ee1e7a2-b",
+        "pair_id": "mrc-v1-12-0-5b0ee1e7a2",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.546875,
+          "finite_double_count": -4.78125,
+          "finite_recurrence_period": -5.09375,
+          "modular_period_prime_filter": -5.3125,
+          "polynomial_value_obstruction": -5.0625
+        },
+        "correct": true,
+        "expected_route": "diophantine_solvability",
+        "id": "mrc-v1-12-1-4f8d19caee-a",
+        "pair_id": "mrc-v1-12-1-4f8d19caee",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.625,
+          "finite_double_count": -4.78125,
+          "finite_recurrence_period": -4.625,
+          "modular_period_prime_filter": -4.84375,
+          "polynomial_value_obstruction": -5.1875
+        },
+        "correct": false,
+        "expected_route": "modular_period_prime_filter",
+        "id": "mrc-v1-12-1-4f8d19caee-b",
+        "pair_id": "mrc-v1-12-1-4f8d19caee",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.546875,
+          "finite_double_count": -4.8125,
+          "finite_recurrence_period": -5.03125,
+          "modular_period_prime_filter": -5.34375,
+          "polynomial_value_obstruction": -5.125
+        },
+        "correct": true,
+        "expected_route": "diophantine_solvability",
+        "id": "mrc-v1-12-2-4fb31f55be-a",
+        "pair_id": "mrc-v1-12-2-4fb31f55be",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.65625,
+          "finite_double_count": -4.78125,
+          "finite_recurrence_period": -4.65625,
+          "modular_period_prime_filter": -4.96875,
+          "polynomial_value_obstruction": -5.21875
+        },
+        "correct": false,
+        "expected_route": "modular_period_prime_filter",
+        "id": "mrc-v1-12-2-4fb31f55be-b",
+        "pair_id": "mrc-v1-12-2-4fb31f55be",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.5625,
+          "finite_double_count": -4.8125,
+          "finite_recurrence_period": -5.03125,
+          "modular_period_prime_filter": -5.21875,
+          "polynomial_value_obstruction": -5.0
+        },
+        "correct": true,
+        "expected_route": "diophantine_solvability",
+        "id": "mrc-v1-12-3-d2fa747bef-a",
+        "pair_id": "mrc-v1-12-3-d2fa747bef",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.59375,
+          "finite_double_count": -4.78125,
+          "finite_recurrence_period": -4.625,
+          "modular_period_prime_filter": -4.84375,
+          "polynomial_value_obstruction": -5.15625
+        },
+        "correct": false,
+        "expected_route": "modular_period_prime_filter",
+        "id": "mrc-v1-12-3-d2fa747bef-b",
+        "pair_id": "mrc-v1-12-3-d2fa747bef",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.546875,
+          "finite_double_count": -4.78125,
+          "finite_recurrence_period": -5.09375,
+          "modular_period_prime_filter": -5.34375,
+          "polynomial_value_obstruction": -5.09375
+        },
+        "correct": true,
+        "expected_route": "diophantine_solvability",
+        "id": "mrc-v1-12-4-3f1b07083a-a",
+        "pair_id": "mrc-v1-12-4-3f1b07083a",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.625,
+          "finite_double_count": -4.78125,
+          "finite_recurrence_period": -4.6875,
+          "modular_period_prime_filter": -4.90625,
+          "polynomial_value_obstruction": -5.1875
+        },
+        "correct": false,
+        "expected_route": "modular_period_prime_filter",
+        "id": "mrc-v1-12-4-3f1b07083a-b",
+        "pair_id": "mrc-v1-12-4-3f1b07083a",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.546875,
+          "finite_double_count": -4.875,
+          "finite_recurrence_period": -5.03125,
+          "modular_period_prime_filter": -5.40625,
+          "polynomial_value_obstruction": -5.125
+        },
+        "correct": true,
+        "expected_route": "diophantine_solvability",
+        "id": "mrc-v1-13-0-5fe8b00239-a",
+        "pair_id": "mrc-v1-13-0-5fe8b00239",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.71875,
+          "finite_double_count": -4.78125,
+          "finite_recurrence_period": -4.90625,
+          "modular_period_prime_filter": -5.1875,
+          "polynomial_value_obstruction": -5.375
+        },
+        "correct": false,
+        "expected_route": "finite_double_count",
+        "id": "mrc-v1-13-0-5fe8b00239-b",
+        "pair_id": "mrc-v1-13-0-5fe8b00239",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.5625,
+          "finite_double_count": -4.9375,
+          "finite_recurrence_period": -5.03125,
+          "modular_period_prime_filter": -5.4375,
+          "polynomial_value_obstruction": -5.09375
+        },
+        "correct": true,
+        "expected_route": "diophantine_solvability",
+        "id": "mrc-v1-13-1-7613f0969c-a",
+        "pair_id": "mrc-v1-13-1-7613f0969c",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.71875,
+          "finite_double_count": -4.75,
+          "finite_recurrence_period": -4.90625,
+          "modular_period_prime_filter": -5.21875,
+          "polynomial_value_obstruction": -5.3125
+        },
+        "correct": false,
+        "expected_route": "finite_double_count",
+        "id": "mrc-v1-13-1-7613f0969c-b",
+        "pair_id": "mrc-v1-13-1-7613f0969c",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.609375,
+          "finite_double_count": -4.90625,
+          "finite_recurrence_period": -5.03125,
+          "modular_period_prime_filter": -5.46875,
+          "polynomial_value_obstruction": -5.125
+        },
+        "correct": true,
+        "expected_route": "diophantine_solvability",
+        "id": "mrc-v1-13-2-3003962264-a",
+        "pair_id": "mrc-v1-13-2-3003962264",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.75,
+          "finite_double_count": -4.75,
+          "finite_recurrence_period": -4.9375,
+          "modular_period_prime_filter": -5.25,
+          "polynomial_value_obstruction": -5.3125
+        },
+        "correct": false,
+        "expected_route": "finite_double_count",
+        "id": "mrc-v1-13-2-3003962264-b",
+        "pair_id": "mrc-v1-13-2-3003962264",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.59375,
+          "finite_double_count": -4.875,
+          "finite_recurrence_period": -5.0,
+          "modular_period_prime_filter": -5.4375,
+          "polynomial_value_obstruction": -5.03125
+        },
+        "correct": true,
+        "expected_route": "diophantine_solvability",
+        "id": "mrc-v1-13-3-93acc84ab1-a",
+        "pair_id": "mrc-v1-13-3-93acc84ab1",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.6875,
+          "finite_double_count": -4.71875,
+          "finite_recurrence_period": -4.84375,
+          "modular_period_prime_filter": -5.125,
+          "polynomial_value_obstruction": -5.1875
+        },
+        "correct": false,
+        "expected_route": "finite_double_count",
+        "id": "mrc-v1-13-3-93acc84ab1-b",
+        "pair_id": "mrc-v1-13-3-93acc84ab1",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.5625,
+          "finite_double_count": -4.90625,
+          "finite_recurrence_period": -5.03125,
+          "modular_period_prime_filter": -5.4375,
+          "polynomial_value_obstruction": -5.0625
+        },
+        "correct": true,
+        "expected_route": "diophantine_solvability",
+        "id": "mrc-v1-13-4-f73460e191-a",
+        "pair_id": "mrc-v1-13-4-f73460e191",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.71875,
+          "finite_double_count": -4.78125,
+          "finite_recurrence_period": -4.96875,
+          "modular_period_prime_filter": -5.25,
+          "polynomial_value_obstruction": -5.3125
+        },
+        "correct": false,
+        "expected_route": "finite_double_count",
+        "id": "mrc-v1-13-4-f73460e191-b",
+        "pair_id": "mrc-v1-13-4-f73460e191",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.5,
+          "finite_double_count": -4.90625,
+          "finite_recurrence_period": -4.875,
+          "modular_period_prime_filter": -5.375,
+          "polynomial_value_obstruction": -5.0625
+        },
+        "correct": true,
+        "expected_route": "diophantine_solvability",
+        "id": "mrc-v1-14-0-dfb975eb0c-a",
+        "pair_id": "mrc-v1-14-0-dfb975eb0c",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.671875,
+          "finite_double_count": -4.8125,
+          "finite_recurrence_period": -4.625,
+          "modular_period_prime_filter": -5.125,
+          "polynomial_value_obstruction": -5.34375
+        },
+        "correct": false,
+        "expected_route": "finite_recurrence_period",
+        "id": "mrc-v1-14-0-dfb975eb0c-b",
+        "pair_id": "mrc-v1-14-0-dfb975eb0c",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.5625,
+          "finite_double_count": -4.9375,
+          "finite_recurrence_period": -4.9375,
+          "modular_period_prime_filter": -5.46875,
+          "polynomial_value_obstruction": -5.0625
+        },
+        "correct": true,
+        "expected_route": "diophantine_solvability",
+        "id": "mrc-v1-14-1-608dfc60a5-a",
+        "pair_id": "mrc-v1-14-1-608dfc60a5",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.625,
+          "finite_double_count": -4.78125,
+          "finite_recurrence_period": -4.625,
+          "modular_period_prime_filter": -5.09375,
+          "polynomial_value_obstruction": -5.28125
+        },
+        "correct": false,
+        "expected_route": "finite_recurrence_period",
+        "id": "mrc-v1-14-1-608dfc60a5-b",
+        "pair_id": "mrc-v1-14-1-608dfc60a5",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.5625,
+          "finite_double_count": -4.90625,
+          "finite_recurrence_period": -4.9375,
+          "modular_period_prime_filter": -5.46875,
+          "polynomial_value_obstruction": -5.0625
+        },
+        "correct": true,
+        "expected_route": "diophantine_solvability",
+        "id": "mrc-v1-14-2-57a5dac3b0-a",
+        "pair_id": "mrc-v1-14-2-57a5dac3b0",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.6875,
+          "finite_double_count": -4.84375,
+          "finite_recurrence_period": -4.6875,
+          "modular_period_prime_filter": -5.21875,
+          "polynomial_value_obstruction": -5.3125
+        },
+        "correct": false,
+        "expected_route": "finite_recurrence_period",
+        "id": "mrc-v1-14-2-57a5dac3b0-b",
+        "pair_id": "mrc-v1-14-2-57a5dac3b0",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.5625,
+          "finite_double_count": -4.9375,
+          "finite_recurrence_period": -4.9375,
+          "modular_period_prime_filter": -5.40625,
+          "polynomial_value_obstruction": -5.0
+        },
+        "correct": true,
+        "expected_route": "diophantine_solvability",
+        "id": "mrc-v1-14-3-98d56a2ba0-a",
+        "pair_id": "mrc-v1-14-3-98d56a2ba0",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.65625,
+          "finite_double_count": -4.8125,
+          "finite_recurrence_period": -4.65625,
+          "modular_period_prime_filter": -5.125,
+          "polynomial_value_obstruction": -5.21875
+        },
+        "correct": false,
+        "expected_route": "finite_recurrence_period",
+        "id": "mrc-v1-14-3-98d56a2ba0-b",
+        "pair_id": "mrc-v1-14-3-98d56a2ba0",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.5625,
+          "finite_double_count": -4.90625,
+          "finite_recurrence_period": -4.9375,
+          "modular_period_prime_filter": -5.4375,
+          "polynomial_value_obstruction": -5.0625
+        },
+        "correct": true,
+        "expected_route": "diophantine_solvability",
+        "id": "mrc-v1-14-4-36f51489a5-a",
+        "pair_id": "mrc-v1-14-4-36f51489a5",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.671875,
+          "finite_double_count": -4.8125,
+          "finite_recurrence_period": -4.6875,
+          "modular_period_prime_filter": -5.21875,
+          "polynomial_value_obstruction": -5.3125
+        },
+        "correct": false,
+        "expected_route": "finite_recurrence_period",
+        "id": "mrc-v1-14-4-36f51489a5-b",
+        "pair_id": "mrc-v1-14-4-36f51489a5",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.59375,
+          "finite_double_count": -4.78125,
+          "finite_recurrence_period": -4.8125,
+          "modular_period_prime_filter": -4.90625,
+          "polynomial_value_obstruction": -5.15625
+        },
+        "correct": false,
+        "expected_route": "modular_period_prime_filter",
+        "id": "mrc-v1-23-0-788a985b50-a",
+        "pair_id": "mrc-v1-23-0-788a985b50",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.59375,
+          "finite_double_count": -4.78125,
+          "finite_recurrence_period": -5.09375,
+          "modular_period_prime_filter": -5.21875,
+          "polynomial_value_obstruction": -5.21875
+        },
+        "correct": false,
+        "expected_route": "finite_double_count",
+        "id": "mrc-v1-23-0-788a985b50-b",
+        "pair_id": "mrc-v1-23-0-788a985b50",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.609375,
+          "finite_double_count": -4.84375,
+          "finite_recurrence_period": -4.8125,
+          "modular_period_prime_filter": -5.0,
+          "polynomial_value_obstruction": -5.125
+        },
+        "correct": false,
+        "expected_route": "modular_period_prime_filter",
+        "id": "mrc-v1-23-1-71de8ce3d6-a",
+        "pair_id": "mrc-v1-23-1-71de8ce3d6",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.5625,
+          "finite_double_count": -4.78125,
+          "finite_recurrence_period": -5.09375,
+          "modular_period_prime_filter": -5.28125,
+          "polynomial_value_obstruction": -5.25
+        },
+        "correct": false,
+        "expected_route": "finite_double_count",
+        "id": "mrc-v1-23-1-71de8ce3d6-b",
+        "pair_id": "mrc-v1-23-1-71de8ce3d6",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.5625,
+          "finite_double_count": -4.84375,
+          "finite_recurrence_period": -4.78125,
+          "modular_period_prime_filter": -4.96875,
+          "polynomial_value_obstruction": -5.125
+        },
+        "correct": false,
+        "expected_route": "modular_period_prime_filter",
+        "id": "mrc-v1-23-2-7f633e1c3d-a",
+        "pair_id": "mrc-v1-23-2-7f633e1c3d",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.59375,
+          "finite_double_count": -4.75,
+          "finite_recurrence_period": -5.0625,
+          "modular_period_prime_filter": -5.21875,
+          "polynomial_value_obstruction": -5.21875
+        },
+        "correct": false,
+        "expected_route": "finite_double_count",
+        "id": "mrc-v1-23-2-7f633e1c3d-b",
+        "pair_id": "mrc-v1-23-2-7f633e1c3d",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.59375,
+          "finite_double_count": -4.8125,
+          "finite_recurrence_period": -4.8125,
+          "modular_period_prime_filter": -5.03125,
+          "polynomial_value_obstruction": -5.09375
+        },
+        "correct": false,
+        "expected_route": "modular_period_prime_filter",
+        "id": "mrc-v1-23-3-006634a22e-a",
+        "pair_id": "mrc-v1-23-3-006634a22e",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.59375,
+          "finite_double_count": -4.75,
+          "finite_recurrence_period": -5.03125,
+          "modular_period_prime_filter": -5.1875,
+          "polynomial_value_obstruction": -5.125
+        },
+        "correct": false,
+        "expected_route": "finite_double_count",
+        "id": "mrc-v1-23-3-006634a22e-b",
+        "pair_id": "mrc-v1-23-3-006634a22e",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.609375,
+          "finite_double_count": -4.875,
+          "finite_recurrence_period": -4.78125,
+          "modular_period_prime_filter": -5.03125,
+          "polynomial_value_obstruction": -5.125
+        },
+        "correct": false,
+        "expected_route": "modular_period_prime_filter",
+        "id": "mrc-v1-23-4-5cb21ae89a-a",
+        "pair_id": "mrc-v1-23-4-5cb21ae89a",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.546875,
+          "finite_double_count": -4.78125,
+          "finite_recurrence_period": -5.03125,
+          "modular_period_prime_filter": -5.21875,
+          "polynomial_value_obstruction": -5.1875
+        },
+        "correct": false,
+        "expected_route": "finite_double_count",
+        "id": "mrc-v1-23-4-5cb21ae89a-b",
+        "pair_id": "mrc-v1-23-4-5cb21ae89a",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.59375,
+          "finite_double_count": -4.84375,
+          "finite_recurrence_period": -4.65625,
+          "modular_period_prime_filter": -4.90625,
+          "polynomial_value_obstruction": -5.15625
+        },
+        "correct": false,
+        "expected_route": "modular_period_prime_filter",
+        "id": "mrc-v1-24-0-cb13ee06ed-a",
+        "pair_id": "mrc-v1-24-0-cb13ee06ed",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.546875,
+          "finite_double_count": -4.78125,
+          "finite_recurrence_period": -4.78125,
+          "modular_period_prime_filter": -5.1875,
+          "polynomial_value_obstruction": -5.28125
+        },
+        "correct": false,
+        "expected_route": "finite_recurrence_period",
+        "id": "mrc-v1-24-0-cb13ee06ed-b",
+        "pair_id": "mrc-v1-24-0-cb13ee06ed",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.59375,
+          "finite_double_count": -4.875,
+          "finite_recurrence_period": -4.6875,
+          "modular_period_prime_filter": -4.96875,
+          "polynomial_value_obstruction": -5.15625
+        },
+        "correct": false,
+        "expected_route": "modular_period_prime_filter",
+        "id": "mrc-v1-24-1-767b49a1b4-a",
+        "pair_id": "mrc-v1-24-1-767b49a1b4",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.609375,
+          "finite_double_count": -4.8125,
+          "finite_recurrence_period": -4.78125,
+          "modular_period_prime_filter": -5.1875,
+          "polynomial_value_obstruction": -5.25
+        },
+        "correct": false,
+        "expected_route": "finite_recurrence_period",
+        "id": "mrc-v1-24-1-767b49a1b4-b",
+        "pair_id": "mrc-v1-24-1-767b49a1b4",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.59375,
+          "finite_double_count": -4.90625,
+          "finite_recurrence_period": -4.6875,
+          "modular_period_prime_filter": -4.96875,
+          "polynomial_value_obstruction": -5.15625
+        },
+        "correct": false,
+        "expected_route": "modular_period_prime_filter",
+        "id": "mrc-v1-24-2-f513723e04-a",
+        "pair_id": "mrc-v1-24-2-f513723e04",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.59375,
+          "finite_double_count": -4.78125,
+          "finite_recurrence_period": -4.78125,
+          "modular_period_prime_filter": -5.1875,
+          "polynomial_value_obstruction": -5.28125
+        },
+        "correct": false,
+        "expected_route": "finite_recurrence_period",
+        "id": "mrc-v1-24-2-f513723e04-b",
+        "pair_id": "mrc-v1-24-2-f513723e04",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.546875,
+          "finite_double_count": -4.875,
+          "finite_recurrence_period": -4.625,
+          "modular_period_prime_filter": -4.90625,
+          "polynomial_value_obstruction": -5.0625
+        },
+        "correct": false,
+        "expected_route": "modular_period_prime_filter",
+        "id": "mrc-v1-24-3-6c62c6dd75-a",
+        "pair_id": "mrc-v1-24-3-6c62c6dd75",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.609375,
+          "finite_double_count": -4.8125,
+          "finite_recurrence_period": -4.78125,
+          "modular_period_prime_filter": -5.125,
+          "polynomial_value_obstruction": -5.125
+        },
+        "correct": false,
+        "expected_route": "finite_recurrence_period",
+        "id": "mrc-v1-24-3-6c62c6dd75-b",
+        "pair_id": "mrc-v1-24-3-6c62c6dd75",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.59375,
+          "finite_double_count": -4.90625,
+          "finite_recurrence_period": -4.6875,
+          "modular_period_prime_filter": -4.96875,
+          "polynomial_value_obstruction": -5.125
+        },
+        "correct": false,
+        "expected_route": "modular_period_prime_filter",
+        "id": "mrc-v1-24-4-a613587f8a-a",
+        "pair_id": "mrc-v1-24-4-a613587f8a",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.625,
+          "finite_double_count": -4.78125,
+          "finite_recurrence_period": -4.8125,
+          "modular_period_prime_filter": -5.15625,
+          "polynomial_value_obstruction": -5.1875
+        },
+        "correct": false,
+        "expected_route": "finite_recurrence_period",
+        "id": "mrc-v1-24-4-a613587f8a-b",
+        "pair_id": "mrc-v1-24-4-a613587f8a",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.5625,
+          "finite_double_count": -4.78125,
+          "finite_recurrence_period": -4.84375,
+          "modular_period_prime_filter": -5.25,
+          "polynomial_value_obstruction": -5.25
+        },
+        "correct": false,
+        "expected_route": "finite_double_count",
+        "id": "mrc-v1-34-0-56711f5676-a",
+        "pair_id": "mrc-v1-34-0-56711f5676",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.609375,
+          "finite_double_count": -4.8125,
+          "finite_recurrence_period": -4.71875,
+          "modular_period_prime_filter": -5.28125,
+          "polynomial_value_obstruction": -5.3125
+        },
+        "correct": false,
+        "expected_route": "finite_recurrence_period",
+        "id": "mrc-v1-34-0-56711f5676-b",
+        "pair_id": "mrc-v1-34-0-56711f5676",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.59375,
+          "finite_double_count": -4.71875,
+          "finite_recurrence_period": -4.875,
+          "modular_period_prime_filter": -5.25,
+          "polynomial_value_obstruction": -5.25
+        },
+        "correct": false,
+        "expected_route": "finite_double_count",
+        "id": "mrc-v1-34-1-e46bc87214-a",
+        "pair_id": "mrc-v1-34-1-e46bc87214",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.671875,
+          "finite_double_count": -4.90625,
+          "finite_recurrence_period": -4.8125,
+          "modular_period_prime_filter": -5.40625,
+          "polynomial_value_obstruction": -5.28125
+        },
+        "correct": false,
+        "expected_route": "finite_recurrence_period",
+        "id": "mrc-v1-34-1-e46bc87214-b",
+        "pair_id": "mrc-v1-34-1-e46bc87214",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.625,
+          "finite_double_count": -4.78125,
+          "finite_recurrence_period": -4.90625,
+          "modular_period_prime_filter": -5.28125,
+          "polynomial_value_obstruction": -5.25
+        },
+        "correct": false,
+        "expected_route": "finite_double_count",
+        "id": "mrc-v1-34-2-de6103b4e6-a",
+        "pair_id": "mrc-v1-34-2-de6103b4e6",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.625,
+          "finite_double_count": -4.90625,
+          "finite_recurrence_period": -4.8125,
+          "modular_period_prime_filter": -5.40625,
+          "polynomial_value_obstruction": -5.3125
+        },
+        "correct": false,
+        "expected_route": "finite_recurrence_period",
+        "id": "mrc-v1-34-2-de6103b4e6-b",
+        "pair_id": "mrc-v1-34-2-de6103b4e6",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.5625,
+          "finite_double_count": -4.75,
+          "finite_recurrence_period": -4.84375,
+          "modular_period_prime_filter": -5.1875,
+          "polynomial_value_obstruction": -5.1875
+        },
+        "correct": false,
+        "expected_route": "finite_double_count",
+        "id": "mrc-v1-34-3-aa44950f7b-a",
+        "pair_id": "mrc-v1-34-3-aa44950f7b",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.625,
+          "finite_double_count": -4.875,
+          "finite_recurrence_period": -4.78125,
+          "modular_period_prime_filter": -5.375,
+          "polynomial_value_obstruction": -5.1875
+        },
+        "correct": false,
+        "expected_route": "finite_recurrence_period",
+        "id": "mrc-v1-34-3-aa44950f7b-b",
+        "pair_id": "mrc-v1-34-3-aa44950f7b",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.625,
+          "finite_double_count": -4.78125,
+          "finite_recurrence_period": -4.9375,
+          "modular_period_prime_filter": -5.3125,
+          "polynomial_value_obstruction": -5.25
+        },
+        "correct": false,
+        "expected_route": "finite_double_count",
+        "id": "mrc-v1-34-4-a1ecf17213-a",
+        "pair_id": "mrc-v1-34-4-a1ecf17213",
+        "predicted_route": "diophantine_solvability"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -3.625,
+          "finite_double_count": -4.875,
+          "finite_recurrence_period": -4.8125,
+          "modular_period_prime_filter": -5.40625,
+          "polynomial_value_obstruction": -5.28125
+        },
+        "correct": false,
+        "expected_route": "finite_recurrence_period",
+        "id": "mrc-v1-34-4-a1ecf17213-b",
+        "pair_id": "mrc-v1-34-4-a1ecf17213",
+        "predicted_route": "diophantine_solvability"
+      }
+    ]
+  },
+  "reference": "runs/iter014-traces-cont-adamw-500-seed17/content-free-likelihood.jsonl",
+  "reference_labels_used": false,
+  "reference_mean_centered": {
+    "accuracy": 0.49,
+    "confusion": [
+      {
+        "count": 14,
+        "expected": "diophantine_solvability",
+        "predicted": "finite_double_count"
+      },
+      {
+        "count": 5,
+        "expected": "diophantine_solvability",
+        "predicted": "finite_recurrence_period"
+      },
+      {
+        "count": 1,
+        "expected": "diophantine_solvability",
+        "predicted": "polynomial_value_obstruction"
+      },
+      {
+        "count": 19,
+        "expected": "finite_double_count",
+        "predicted": "finite_double_count"
+      },
+      {
+        "count": 1,
+        "expected": "finite_double_count",
+        "predicted": "finite_recurrence_period"
+      },
+      {
+        "count": 20,
+        "expected": "finite_recurrence_period",
+        "predicted": "finite_recurrence_period"
+      },
+      {
+        "count": 10,
+        "expected": "modular_period_prime_filter",
+        "predicted": "finite_recurrence_period"
+      },
+      {
+        "count": 10,
+        "expected": "modular_period_prime_filter",
+        "predicted": "modular_period_prime_filter"
+      },
+      {
+        "count": 12,
+        "expected": "polynomial_value_obstruction",
+        "predicted": "finite_double_count"
+      },
+      {
+        "count": 8,
+        "expected": "polynomial_value_obstruction",
+        "predicted": "finite_recurrence_period"
+      }
+    ],
+    "pair_accuracy": 0.16,
+    "prediction_counts": {
+      "finite_double_count": 45,
+      "finite_recurrence_period": 44,
+      "modular_period_prime_filter": 10,
+      "polynomial_value_obstruction": 1
+    },
+    "predictions": [
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -0.2843749999999998,
+          "finite_double_count": 0.08124999999999982,
+          "finite_recurrence_period": 0.13750000000000018,
+          "modular_period_prime_filter": 0.021874999999999645,
+          "polynomial_value_obstruction": -0.04375000000000018
+        },
+        "correct": false,
+        "expected_route": "polynomial_value_obstruction",
+        "id": "mrc-v1-01-0-de7bddb80f-a",
+        "pair_id": "mrc-v1-01-0-de7bddb80f",
+        "predicted_route": "finite_recurrence_period"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": 0.04375000000000018,
+          "finite_double_count": 0.17499999999999982,
+          "finite_recurrence_period": 0.13750000000000018,
+          "modular_period_prime_filter": 0.08437499999999964,
+          "polynomial_value_obstruction": 0.14374999999999982
+        },
+        "correct": false,
+        "expected_route": "diophantine_solvability",
+        "id": "mrc-v1-01-0-de7bddb80f-b",
+        "pair_id": "mrc-v1-01-0-de7bddb80f",
+        "predicted_route": "finite_double_count"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -0.2843749999999998,
+          "finite_double_count": 0.018749999999999822,
+          "finite_recurrence_period": 0.07500000000000018,
+          "modular_period_prime_filter": -0.040625000000000355,
+          "polynomial_value_obstruction": -0.012500000000000178
+        },
+        "correct": false,
+        "expected_route": "polynomial_value_obstruction",
+        "id": "mrc-v1-01-1-f2757cdaae-a",
+        "pair_id": "mrc-v1-01-1-f2757cdaae",
+        "predicted_route": "finite_recurrence_period"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": 0.012500000000000178,
+          "finite_double_count": 0.14374999999999982,
+          "finite_recurrence_period": 0.10625000000000018,
+          "modular_period_prime_filter": 0.021874999999999645,
+          "polynomial_value_obstruction": 0.11249999999999982
+        },
+        "correct": false,
+        "expected_route": "diophantine_solvability",
+        "id": "mrc-v1-01-1-f2757cdaae-b",
+        "pair_id": "mrc-v1-01-1-f2757cdaae",
+        "predicted_route": "finite_double_count"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -0.3312499999999998,
+          "finite_double_count": 0.04999999999999982,
+          "finite_recurrence_period": 0.04375000000000018,
+          "modular_period_prime_filter": -0.07187500000000036,
+          "polynomial_value_obstruction": -0.012500000000000178
+        },
+        "correct": false,
+        "expected_route": "polynomial_value_obstruction",
+        "id": "mrc-v1-01-2-8352d54d96-a",
+        "pair_id": "mrc-v1-01-2-8352d54d96",
+        "predicted_route": "finite_double_count"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": 0.012500000000000178,
+          "finite_double_count": 0.14374999999999982,
+          "finite_recurrence_period": 0.10625000000000018,
+          "modular_period_prime_filter": -0.040625000000000355,
+          "polynomial_value_obstruction": 0.14374999999999982
+        },
+        "correct": false,
+        "expected_route": "diophantine_solvability",
+        "id": "mrc-v1-01-2-8352d54d96-b",
+        "pair_id": "mrc-v1-01-2-8352d54d96",
+        "predicted_route": "finite_double_count"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -0.2843749999999998,
+          "finite_double_count": 0.08124999999999982,
+          "finite_recurrence_period": 0.07500000000000018,
+          "modular_period_prime_filter": -0.009375000000000355,
+          "polynomial_value_obstruction": 0.018749999999999822
+        },
+        "correct": false,
+        "expected_route": "polynomial_value_obstruction",
+        "id": "mrc-v1-01-3-3245f599fb-a",
+        "pair_id": "mrc-v1-01-3-3245f599fb",
+        "predicted_route": "finite_double_count"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": 0.028125000000000178,
+          "finite_double_count": 0.17499999999999982,
+          "finite_recurrence_period": 0.16875000000000018,
+          "modular_period_prime_filter": -0.009375000000000355,
+          "polynomial_value_obstruction": 0.20624999999999982
+        },
+        "correct": false,
+        "expected_route": "diophantine_solvability",
+        "id": "mrc-v1-01-3-3245f599fb-b",
+        "pair_id": "mrc-v1-01-3-3245f599fb",
+        "predicted_route": "polynomial_value_obstruction"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -0.23749999999999982,
+          "finite_double_count": 0.08124999999999982,
+          "finite_recurrence_period": 0.10625000000000018,
+          "modular_period_prime_filter": -0.040625000000000355,
+          "polynomial_value_obstruction": -0.012500000000000178
+        },
+        "correct": false,
+        "expected_route": "polynomial_value_obstruction",
+        "id": "mrc-v1-01-4-ca848eadea-a",
+        "pair_id": "mrc-v1-01-4-ca848eadea",
+        "predicted_route": "finite_recurrence_period"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -0.03437499999999982,
+          "finite_double_count": 0.11249999999999982,
+          "finite_recurrence_period": 0.10625000000000018,
+          "modular_period_prime_filter": -0.040625000000000355,
+          "polynomial_value_obstruction": 0.11249999999999982
+        },
+        "correct": false,
+        "expected_route": "diophantine_solvability",
+        "id": "mrc-v1-01-4-ca848eadea-b",
+        "pair_id": "mrc-v1-01-4-ca848eadea",
+        "predicted_route": "finite_double_count"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -0.14374999999999982,
+          "finite_double_count": 0.08124999999999982,
+          "finite_recurrence_period": -0.14374999999999982,
+          "modular_period_prime_filter": -0.040625000000000355,
+          "polynomial_value_obstruction": -0.012500000000000178
+        },
+        "correct": false,
+        "expected_route": "polynomial_value_obstruction",
+        "id": "mrc-v1-02-0-aa83fcc2b7-a",
+        "pair_id": "mrc-v1-02-0-aa83fcc2b7",
+        "predicted_route": "finite_double_count"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": 0.012500000000000178,
+          "finite_double_count": 0.2687499999999998,
+          "finite_recurrence_period": 0.4187500000000002,
+          "modular_period_prime_filter": 0.45937499999999964,
+          "polynomial_value_obstruction": -0.012500000000000178
+        },
+        "correct": true,
+        "expected_route": "modular_period_prime_filter",
+        "id": "mrc-v1-02-0-aa83fcc2b7-b",
+        "pair_id": "mrc-v1-02-0-aa83fcc2b7",
+        "predicted_route": "modular_period_prime_filter"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -0.15937499999999982,
+          "finite_double_count": 0.08124999999999982,
+          "finite_recurrence_period": -0.11249999999999982,
+          "modular_period_prime_filter": -0.10312500000000036,
+          "polynomial_value_obstruction": 0.018749999999999822
+        },
+        "correct": false,
+        "expected_route": "polynomial_value_obstruction",
+        "id": "mrc-v1-02-1-103fb9f46f-a",
+        "pair_id": "mrc-v1-02-1-103fb9f46f",
+        "predicted_route": "finite_double_count"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -0.03437499999999982,
+          "finite_double_count": 0.20624999999999982,
+          "finite_recurrence_period": 0.3562500000000002,
+          "modular_period_prime_filter": 0.36562499999999964,
+          "polynomial_value_obstruction": 0.018749999999999822
+        },
+        "correct": true,
+        "expected_route": "modular_period_prime_filter",
+        "id": "mrc-v1-02-1-103fb9f46f-b",
+        "pair_id": "mrc-v1-02-1-103fb9f46f",
+        "predicted_route": "modular_period_prime_filter"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -0.15937499999999982,
+          "finite_double_count": 0.08124999999999982,
+          "finite_recurrence_period": -0.14374999999999982,
+          "modular_period_prime_filter": -0.10312500000000036,
+          "polynomial_value_obstruction": -0.012500000000000178
+        },
+        "correct": false,
+        "expected_route": "polynomial_value_obstruction",
+        "id": "mrc-v1-02-2-a2209746c9-a",
+        "pair_id": "mrc-v1-02-2-a2209746c9",
+        "predicted_route": "finite_double_count"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": 0.012500000000000178,
+          "finite_double_count": 0.23749999999999982,
+          "finite_recurrence_period": 0.4187500000000002,
+          "modular_period_prime_filter": 0.39687499999999964,
+          "polynomial_value_obstruction": -0.012500000000000178
+        },
+        "correct": false,
+        "expected_route": "modular_period_prime_filter",
+        "id": "mrc-v1-02-2-a2209746c9-b",
+        "pair_id": "mrc-v1-02-2-a2209746c9",
+        "predicted_route": "finite_recurrence_period"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -0.20624999999999982,
+          "finite_double_count": 0.04999999999999982,
+          "finite_recurrence_period": -0.08124999999999982,
+          "modular_period_prime_filter": -0.07187500000000036,
+          "polynomial_value_obstruction": 0.04999999999999982
+        },
+        "correct": false,
+        "expected_route": "polynomial_value_obstruction",
+        "id": "mrc-v1-02-3-3ea09562fd-a",
+        "pair_id": "mrc-v1-02-3-3ea09562fd",
+        "predicted_route": "finite_double_count"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": 0.012500000000000178,
+          "finite_double_count": 0.23749999999999982,
+          "finite_recurrence_period": 0.4187500000000002,
+          "modular_period_prime_filter": 0.39687499999999964,
+          "polynomial_value_obstruction": 0.04999999999999982
+        },
+        "correct": false,
+        "expected_route": "modular_period_prime_filter",
+        "id": "mrc-v1-02-3-3ea09562fd-b",
+        "pair_id": "mrc-v1-02-3-3ea09562fd",
+        "predicted_route": "finite_recurrence_period"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -0.15937499999999982,
+          "finite_double_count": 0.11249999999999982,
+          "finite_recurrence_period": -0.17499999999999982,
+          "modular_period_prime_filter": -0.10312500000000036,
+          "polynomial_value_obstruction": 0.018749999999999822
+        },
+        "correct": false,
+        "expected_route": "polynomial_value_obstruction",
+        "id": "mrc-v1-02-4-6bbf4530aa-a",
+        "pair_id": "mrc-v1-02-4-6bbf4530aa",
+        "predicted_route": "finite_double_count"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -0.03437499999999982,
+          "finite_double_count": 0.20624999999999982,
+          "finite_recurrence_period": 0.4187500000000002,
+          "modular_period_prime_filter": 0.39687499999999964,
+          "polynomial_value_obstruction": 0.018749999999999822
+        },
+        "correct": false,
+        "expected_route": "modular_period_prime_filter",
+        "id": "mrc-v1-02-4-6bbf4530aa-b",
+        "pair_id": "mrc-v1-02-4-6bbf4530aa",
+        "predicted_route": "finite_recurrence_period"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -0.14374999999999982,
+          "finite_double_count": 0.14374999999999982,
+          "finite_recurrence_period": 0.10625000000000018,
+          "modular_period_prime_filter": -0.07187500000000036,
+          "polynomial_value_obstruction": -0.012500000000000178
+        },
+        "correct": false,
+        "expected_route": "polynomial_value_obstruction",
+        "id": "mrc-v1-03-0-8e422894e8-a",
+        "pair_id": "mrc-v1-03-0-8e422894e8",
+        "predicted_route": "finite_double_count"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": 0.09062500000000018,
+          "finite_double_count": 0.3624999999999998,
+          "finite_recurrence_period": 0.23125000000000018,
+          "modular_period_prime_filter": 0.17812499999999964,
+          "polynomial_value_obstruction": 0.08124999999999982
+        },
+        "correct": true,
+        "expected_route": "finite_double_count",
+        "id": "mrc-v1-03-0-8e422894e8-b",
+        "pair_id": "mrc-v1-03-0-8e422894e8",
+        "predicted_route": "finite_double_count"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -0.14374999999999982,
+          "finite_double_count": 0.11249999999999982,
+          "finite_recurrence_period": 0.04375000000000018,
+          "modular_period_prime_filter": -0.13437500000000036,
+          "polynomial_value_obstruction": 0.018749999999999822
+        },
+        "correct": false,
+        "expected_route": "polynomial_value_obstruction",
+        "id": "mrc-v1-03-1-2e27ef1f15-a",
+        "pair_id": "mrc-v1-03-1-2e27ef1f15",
+        "predicted_route": "finite_double_count"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": 0.028125000000000178,
+          "finite_double_count": 0.3312499999999998,
+          "finite_recurrence_period": 0.16875000000000018,
+          "modular_period_prime_filter": 0.14687499999999964,
+          "polynomial_value_obstruction": 0.018749999999999822
+        },
+        "correct": true,
+        "expected_route": "finite_double_count",
+        "id": "mrc-v1-03-1-2e27ef1f15-b",
+        "pair_id": "mrc-v1-03-1-2e27ef1f15",
+        "predicted_route": "finite_double_count"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -0.17499999999999982,
+          "finite_double_count": 0.08124999999999982,
+          "finite_recurrence_period": 0.04375000000000018,
+          "modular_period_prime_filter": -0.13437500000000036,
+          "polynomial_value_obstruction": -0.012500000000000178
+        },
+        "correct": false,
+        "expected_route": "polynomial_value_obstruction",
+        "id": "mrc-v1-03-2-cd64e687d2-a",
+        "pair_id": "mrc-v1-03-2-cd64e687d2",
+        "predicted_route": "finite_double_count"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": 0.04375000000000018,
+          "finite_double_count": 0.2999999999999998,
+          "finite_recurrence_period": 0.16875000000000018,
+          "modular_period_prime_filter": 0.14687499999999964,
+          "polynomial_value_obstruction": 0.04999999999999982
+        },
+        "correct": true,
+        "expected_route": "finite_double_count",
+        "id": "mrc-v1-03-2-cd64e687d2-b",
+        "pair_id": "mrc-v1-03-2-cd64e687d2",
+        "predicted_route": "finite_double_count"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -0.20624999999999982,
+          "finite_double_count": 0.11249999999999982,
+          "finite_recurrence_period": 0.07500000000000018,
+          "modular_period_prime_filter": -0.10312500000000036,
+          "polynomial_value_obstruction": 0.04999999999999982
+        },
+        "correct": false,
+        "expected_route": "polynomial_value_obstruction",
+        "id": "mrc-v1-03-3-c74065ffe6-a",
+        "pair_id": "mrc-v1-03-3-c74065ffe6",
+        "predicted_route": "finite_double_count"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": 0.04375000000000018,
+          "finite_double_count": 0.3312499999999998,
+          "finite_recurrence_period": 0.20000000000000018,
+          "modular_period_prime_filter": 0.14687499999999964,
+          "polynomial_value_obstruction": 0.17499999999999982
+        },
+        "correct": true,
+        "expected_route": "finite_double_count",
+        "id": "mrc-v1-03-3-c74065ffe6-b",
+        "pair_id": "mrc-v1-03-3-c74065ffe6",
+        "predicted_route": "finite_double_count"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -0.17499999999999982,
+          "finite_double_count": 0.14374999999999982,
+          "finite_recurrence_period": 0.04375000000000018,
+          "modular_period_prime_filter": -0.10312500000000036,
+          "polynomial_value_obstruction": 0.018749999999999822
+        },
+        "correct": false,
+        "expected_route": "polynomial_value_obstruction",
+        "id": "mrc-v1-03-4-7f44dfb3d9-a",
+        "pair_id": "mrc-v1-03-4-7f44dfb3d9",
+        "predicted_route": "finite_double_count"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": 0.028125000000000178,
+          "finite_double_count": 0.3312499999999998,
+          "finite_recurrence_period": 0.13750000000000018,
+          "modular_period_prime_filter": 0.14687499999999964,
+          "polynomial_value_obstruction": 0.04999999999999982
+        },
+        "correct": true,
+        "expected_route": "finite_double_count",
+        "id": "mrc-v1-03-4-7f44dfb3d9-b",
+        "pair_id": "mrc-v1-03-4-7f44dfb3d9",
+        "predicted_route": "finite_double_count"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -0.11249999999999982,
+          "finite_double_count": 0.14374999999999982,
+          "finite_recurrence_period": 0.23125000000000018,
+          "modular_period_prime_filter": -0.040625000000000355,
+          "polynomial_value_obstruction": 0.018749999999999822
+        },
+        "correct": false,
+        "expected_route": "polynomial_value_obstruction",
+        "id": "mrc-v1-04-0-5cffa4cbf7-a",
+        "pair_id": "mrc-v1-04-0-5cffa4cbf7",
+        "predicted_route": "finite_recurrence_period"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": 0.04375000000000018,
+          "finite_double_count": 0.23749999999999982,
+          "finite_recurrence_period": 0.5437500000000002,
+          "modular_period_prime_filter": 0.27187499999999964,
+          "polynomial_value_obstruction": -0.16875000000000018
+        },
+        "correct": true,
+        "expected_route": "finite_recurrence_period",
+        "id": "mrc-v1-04-0-5cffa4cbf7-b",
+        "pair_id": "mrc-v1-04-0-5cffa4cbf7",
+        "predicted_route": "finite_recurrence_period"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -0.14374999999999982,
+          "finite_double_count": 0.11249999999999982,
+          "finite_recurrence_period": 0.20000000000000018,
+          "modular_period_prime_filter": -0.040625000000000355,
+          "polynomial_value_obstruction": 0.018749999999999822
+        },
+        "correct": false,
+        "expected_route": "polynomial_value_obstruction",
+        "id": "mrc-v1-04-1-0eee241fd8-a",
+        "pair_id": "mrc-v1-04-1-0eee241fd8",
+        "predicted_route": "finite_recurrence_period"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": 0.012500000000000178,
+          "finite_double_count": 0.20624999999999982,
+          "finite_recurrence_period": 0.5125000000000002,
+          "modular_period_prime_filter": 0.17812499999999964,
+          "polynomial_value_obstruction": -0.10625000000000018
+        },
+        "correct": true,
+        "expected_route": "finite_recurrence_period",
+        "id": "mrc-v1-04-1-0eee241fd8-b",
+        "pair_id": "mrc-v1-04-1-0eee241fd8",
+        "predicted_route": "finite_recurrence_period"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -0.20624999999999982,
+          "finite_double_count": 0.11249999999999982,
+          "finite_recurrence_period": 0.20000000000000018,
+          "modular_period_prime_filter": -0.10312500000000036,
+          "polynomial_value_obstruction": -0.012500000000000178
+        },
+        "correct": false,
+        "expected_route": "polynomial_value_obstruction",
+        "id": "mrc-v1-04-2-7e81fbf336-a",
+        "pair_id": "mrc-v1-04-2-7e81fbf336",
+        "predicted_route": "finite_recurrence_period"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": 0.028125000000000178,
+          "finite_double_count": 0.20624999999999982,
+          "finite_recurrence_period": 0.5125000000000002,
+          "modular_period_prime_filter": 0.20937499999999964,
+          "polynomial_value_obstruction": -0.07500000000000018
+        },
+        "correct": true,
+        "expected_route": "finite_recurrence_period",
+        "id": "mrc-v1-04-2-7e81fbf336-b",
+        "pair_id": "mrc-v1-04-2-7e81fbf336",
+        "predicted_route": "finite_recurrence_period"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -0.17499999999999982,
+          "finite_double_count": 0.08124999999999982,
+          "finite_recurrence_period": 0.20000000000000018,
+          "modular_period_prime_filter": -0.07187500000000036,
+          "polynomial_value_obstruction": 0.04999999999999982
+        },
+        "correct": false,
+        "expected_route": "polynomial_value_obstruction",
+        "id": "mrc-v1-04-3-25d4af72c0-a",
+        "pair_id": "mrc-v1-04-3-25d4af72c0",
+        "predicted_route": "finite_recurrence_period"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": 0.07500000000000018,
+          "finite_double_count": 0.2687499999999998,
+          "finite_recurrence_period": 0.4812500000000002,
+          "modular_period_prime_filter": 0.20937499999999964,
+          "polynomial_value_obstruction": -0.012500000000000178
+        },
+        "correct": true,
+        "expected_route": "finite_recurrence_period",
+        "id": "mrc-v1-04-3-25d4af72c0-b",
+        "pair_id": "mrc-v1-04-3-25d4af72c0",
+        "predicted_route": "finite_recurrence_period"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -0.17499999999999982,
+          "finite_double_count": 0.11249999999999982,
+          "finite_recurrence_period": 0.16875000000000018,
+          "modular_period_prime_filter": -0.10312500000000036,
+          "polynomial_value_obstruction": 0.08124999999999982
+        },
+        "correct": false,
+        "expected_route": "polynomial_value_obstruction",
+        "id": "mrc-v1-04-4-af836f8f89-a",
+        "pair_id": "mrc-v1-04-4-af836f8f89",
+        "predicted_route": "finite_recurrence_period"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": 0.04375000000000018,
+          "finite_double_count": 0.17499999999999982,
+          "finite_recurrence_period": 0.4500000000000002,
+          "modular_period_prime_filter": 0.20937499999999964,
+          "polynomial_value_obstruction": -0.10625000000000018
+        },
+        "correct": true,
+        "expected_route": "finite_recurrence_period",
+        "id": "mrc-v1-04-4-af836f8f89-b",
+        "pair_id": "mrc-v1-04-4-af836f8f89",
+        "predicted_route": "finite_recurrence_period"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": 0.09062500000000018,
+          "finite_double_count": 0.20624999999999982,
+          "finite_recurrence_period": 0.10625000000000018,
+          "modular_period_prime_filter": 0.14687499999999964,
+          "polynomial_value_obstruction": -0.012500000000000178
+        },
+        "correct": false,
+        "expected_route": "diophantine_solvability",
+        "id": "mrc-v1-12-0-5b0ee1e7a2-a",
+        "pair_id": "mrc-v1-12-0-5b0ee1e7a2",
+        "predicted_route": "finite_double_count"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": 0.028125000000000178,
+          "finite_double_count": 0.3312499999999998,
+          "finite_recurrence_period": 0.5125000000000002,
+          "modular_period_prime_filter": 0.5843749999999996,
+          "polynomial_value_obstruction": -0.07500000000000018
+        },
+        "correct": true,
+        "expected_route": "modular_period_prime_filter",
+        "id": "mrc-v1-12-0-5b0ee1e7a2-b",
+        "pair_id": "mrc-v1-12-0-5b0ee1e7a2",
+        "predicted_route": "modular_period_prime_filter"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": 0.09062500000000018,
+          "finite_double_count": 0.2687499999999998,
+          "finite_recurrence_period": 0.04375000000000018,
+          "modular_period_prime_filter": 0.053124999999999645,
+          "polynomial_value_obstruction": 0.08124999999999982
+        },
+        "correct": false,
+        "expected_route": "diophantine_solvability",
+        "id": "mrc-v1-12-1-4f8d19caee-a",
+        "pair_id": "mrc-v1-12-1-4f8d19caee",
+        "predicted_route": "finite_double_count"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": 0.012500000000000178,
+          "finite_double_count": 0.2687499999999998,
+          "finite_recurrence_period": 0.5125000000000002,
+          "modular_period_prime_filter": 0.5218749999999996,
+          "polynomial_value_obstruction": -0.04375000000000018
+        },
+        "correct": true,
+        "expected_route": "modular_period_prime_filter",
+        "id": "mrc-v1-12-1-4f8d19caee-b",
+        "pair_id": "mrc-v1-12-1-4f8d19caee",
+        "predicted_route": "modular_period_prime_filter"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": 0.09062500000000018,
+          "finite_double_count": 0.23749999999999982,
+          "finite_recurrence_period": 0.10625000000000018,
+          "modular_period_prime_filter": 0.021874999999999645,
+          "polynomial_value_obstruction": 0.018749999999999822
+        },
+        "correct": false,
+        "expected_route": "diophantine_solvability",
+        "id": "mrc-v1-12-2-4fb31f55be-a",
+        "pair_id": "mrc-v1-12-2-4fb31f55be",
+        "predicted_route": "finite_double_count"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -0.018749999999999822,
+          "finite_double_count": 0.2687499999999998,
+          "finite_recurrence_period": 0.4812500000000002,
+          "modular_period_prime_filter": 0.39687499999999964,
+          "polynomial_value_obstruction": -0.07500000000000018
+        },
+        "correct": false,
+        "expected_route": "modular_period_prime_filter",
+        "id": "mrc-v1-12-2-4fb31f55be-b",
+        "pair_id": "mrc-v1-12-2-4fb31f55be",
+        "predicted_route": "finite_recurrence_period"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": 0.07500000000000018,
+          "finite_double_count": 0.23749999999999982,
+          "finite_recurrence_period": 0.10625000000000018,
+          "modular_period_prime_filter": 0.14687499999999964,
+          "polynomial_value_obstruction": 0.14374999999999982
+        },
+        "correct": false,
+        "expected_route": "diophantine_solvability",
+        "id": "mrc-v1-12-3-d2fa747bef-a",
+        "pair_id": "mrc-v1-12-3-d2fa747bef",
+        "predicted_route": "finite_double_count"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": 0.04375000000000018,
+          "finite_double_count": 0.2687499999999998,
+          "finite_recurrence_period": 0.5125000000000002,
+          "modular_period_prime_filter": 0.5218749999999996,
+          "polynomial_value_obstruction": -0.012500000000000178
+        },
+        "correct": true,
+        "expected_route": "modular_period_prime_filter",
+        "id": "mrc-v1-12-3-d2fa747bef-b",
+        "pair_id": "mrc-v1-12-3-d2fa747bef",
+        "predicted_route": "modular_period_prime_filter"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": 0.09062500000000018,
+          "finite_double_count": 0.2687499999999998,
+          "finite_recurrence_period": 0.04375000000000018,
+          "modular_period_prime_filter": 0.021874999999999645,
+          "polynomial_value_obstruction": 0.04999999999999982
+        },
+        "correct": false,
+        "expected_route": "diophantine_solvability",
+        "id": "mrc-v1-12-4-3f1b07083a-a",
+        "pair_id": "mrc-v1-12-4-3f1b07083a",
+        "predicted_route": "finite_double_count"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": 0.012500000000000178,
+          "finite_double_count": 0.2687499999999998,
+          "finite_recurrence_period": 0.4500000000000002,
+          "modular_period_prime_filter": 0.45937499999999964,
+          "polynomial_value_obstruction": -0.04375000000000018
+        },
+        "correct": true,
+        "expected_route": "modular_period_prime_filter",
+        "id": "mrc-v1-12-4-3f1b07083a-b",
+        "pair_id": "mrc-v1-12-4-3f1b07083a",
+        "predicted_route": "modular_period_prime_filter"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": 0.09062500000000018,
+          "finite_double_count": 0.17499999999999982,
+          "finite_recurrence_period": 0.10625000000000018,
+          "modular_period_prime_filter": -0.040625000000000355,
+          "polynomial_value_obstruction": 0.018749999999999822
+        },
+        "correct": false,
+        "expected_route": "diophantine_solvability",
+        "id": "mrc-v1-13-0-5fe8b00239-a",
+        "pair_id": "mrc-v1-13-0-5fe8b00239",
+        "predicted_route": "finite_double_count"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -0.08124999999999982,
+          "finite_double_count": 0.2687499999999998,
+          "finite_recurrence_period": 0.23125000000000018,
+          "modular_period_prime_filter": 0.17812499999999964,
+          "polynomial_value_obstruction": -0.23125000000000018
+        },
+        "correct": true,
+        "expected_route": "finite_double_count",
+        "id": "mrc-v1-13-0-5fe8b00239-b",
+        "pair_id": "mrc-v1-13-0-5fe8b00239",
+        "predicted_route": "finite_double_count"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": 0.07500000000000018,
+          "finite_double_count": 0.11249999999999982,
+          "finite_recurrence_period": 0.10625000000000018,
+          "modular_period_prime_filter": -0.07187500000000036,
+          "polynomial_value_obstruction": 0.04999999999999982
+        },
+        "correct": false,
+        "expected_route": "diophantine_solvability",
+        "id": "mrc-v1-13-1-7613f0969c-a",
+        "pair_id": "mrc-v1-13-1-7613f0969c",
+        "predicted_route": "finite_double_count"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -0.08124999999999982,
+          "finite_double_count": 0.2999999999999998,
+          "finite_recurrence_period": 0.23125000000000018,
+          "modular_period_prime_filter": 0.14687499999999964,
+          "polynomial_value_obstruction": -0.16875000000000018
+        },
+        "correct": true,
+        "expected_route": "finite_double_count",
+        "id": "mrc-v1-13-1-7613f0969c-b",
+        "pair_id": "mrc-v1-13-1-7613f0969c",
+        "predicted_route": "finite_double_count"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": 0.028125000000000178,
+          "finite_double_count": 0.14374999999999982,
+          "finite_recurrence_period": 0.10625000000000018,
+          "modular_period_prime_filter": -0.10312500000000036,
+          "polynomial_value_obstruction": 0.018749999999999822
+        },
+        "correct": false,
+        "expected_route": "diophantine_solvability",
+        "id": "mrc-v1-13-2-3003962264-a",
+        "pair_id": "mrc-v1-13-2-3003962264",
+        "predicted_route": "finite_double_count"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -0.11249999999999982,
+          "finite_double_count": 0.2999999999999998,
+          "finite_recurrence_period": 0.20000000000000018,
+          "modular_period_prime_filter": 0.11562499999999964,
+          "polynomial_value_obstruction": -0.16875000000000018
+        },
+        "correct": true,
+        "expected_route": "finite_double_count",
+        "id": "mrc-v1-13-2-3003962264-b",
+        "pair_id": "mrc-v1-13-2-3003962264",
+        "predicted_route": "finite_double_count"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": 0.04375000000000018,
+          "finite_double_count": 0.17499999999999982,
+          "finite_recurrence_period": 0.13750000000000018,
+          "modular_period_prime_filter": -0.07187500000000036,
+          "polynomial_value_obstruction": 0.11249999999999982
+        },
+        "correct": false,
+        "expected_route": "diophantine_solvability",
+        "id": "mrc-v1-13-3-93acc84ab1-a",
+        "pair_id": "mrc-v1-13-3-93acc84ab1",
+        "predicted_route": "finite_double_count"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -0.04999999999999982,
+          "finite_double_count": 0.3312499999999998,
+          "finite_recurrence_period": 0.2937500000000002,
+          "modular_period_prime_filter": 0.24062499999999964,
+          "polynomial_value_obstruction": -0.04375000000000018
+        },
+        "correct": true,
+        "expected_route": "finite_double_count",
+        "id": "mrc-v1-13-3-93acc84ab1-b",
+        "pair_id": "mrc-v1-13-3-93acc84ab1",
+        "predicted_route": "finite_double_count"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": 0.07500000000000018,
+          "finite_double_count": 0.14374999999999982,
+          "finite_recurrence_period": 0.10625000000000018,
+          "modular_period_prime_filter": -0.07187500000000036,
+          "polynomial_value_obstruction": 0.08124999999999982
+        },
+        "correct": false,
+        "expected_route": "diophantine_solvability",
+        "id": "mrc-v1-13-4-f73460e191-a",
+        "pair_id": "mrc-v1-13-4-f73460e191",
+        "predicted_route": "finite_double_count"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -0.08124999999999982,
+          "finite_double_count": 0.2687499999999998,
+          "finite_recurrence_period": 0.16875000000000018,
+          "modular_period_prime_filter": 0.11562499999999964,
+          "polynomial_value_obstruction": -0.16875000000000018
+        },
+        "correct": true,
+        "expected_route": "finite_double_count",
+        "id": "mrc-v1-13-4-f73460e191-b",
+        "pair_id": "mrc-v1-13-4-f73460e191",
+        "predicted_route": "finite_double_count"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": 0.13750000000000018,
+          "finite_double_count": 0.14374999999999982,
+          "finite_recurrence_period": 0.2625000000000002,
+          "modular_period_prime_filter": -0.009375000000000355,
+          "polynomial_value_obstruction": 0.08124999999999982
+        },
+        "correct": false,
+        "expected_route": "diophantine_solvability",
+        "id": "mrc-v1-14-0-dfb975eb0c-a",
+        "pair_id": "mrc-v1-14-0-dfb975eb0c",
+        "predicted_route": "finite_recurrence_period"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -0.03437499999999982,
+          "finite_double_count": 0.23749999999999982,
+          "finite_recurrence_period": 0.5125000000000002,
+          "modular_period_prime_filter": 0.24062499999999964,
+          "polynomial_value_obstruction": -0.20000000000000018
+        },
+        "correct": true,
+        "expected_route": "finite_recurrence_period",
+        "id": "mrc-v1-14-0-dfb975eb0c-b",
+        "pair_id": "mrc-v1-14-0-dfb975eb0c",
+        "predicted_route": "finite_recurrence_period"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": 0.07500000000000018,
+          "finite_double_count": 0.11249999999999982,
+          "finite_recurrence_period": 0.20000000000000018,
+          "modular_period_prime_filter": -0.10312500000000036,
+          "polynomial_value_obstruction": 0.08124999999999982
+        },
+        "correct": false,
+        "expected_route": "diophantine_solvability",
+        "id": "mrc-v1-14-1-608dfc60a5-a",
+        "pair_id": "mrc-v1-14-1-608dfc60a5",
+        "predicted_route": "finite_recurrence_period"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": 0.012500000000000178,
+          "finite_double_count": 0.2687499999999998,
+          "finite_recurrence_period": 0.5125000000000002,
+          "modular_period_prime_filter": 0.27187499999999964,
+          "polynomial_value_obstruction": -0.13750000000000018
+        },
+        "correct": true,
+        "expected_route": "finite_recurrence_period",
+        "id": "mrc-v1-14-1-608dfc60a5-b",
+        "pair_id": "mrc-v1-14-1-608dfc60a5",
+        "predicted_route": "finite_recurrence_period"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": 0.07500000000000018,
+          "finite_double_count": 0.14374999999999982,
+          "finite_recurrence_period": 0.20000000000000018,
+          "modular_period_prime_filter": -0.10312500000000036,
+          "polynomial_value_obstruction": 0.08124999999999982
+        },
+        "correct": false,
+        "expected_route": "diophantine_solvability",
+        "id": "mrc-v1-14-2-57a5dac3b0-a",
+        "pair_id": "mrc-v1-14-2-57a5dac3b0",
+        "predicted_route": "finite_recurrence_period"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -0.04999999999999982,
+          "finite_double_count": 0.20624999999999982,
+          "finite_recurrence_period": 0.4500000000000002,
+          "modular_period_prime_filter": 0.14687499999999964,
+          "polynomial_value_obstruction": -0.16875000000000018
+        },
+        "correct": true,
+        "expected_route": "finite_recurrence_period",
+        "id": "mrc-v1-14-2-57a5dac3b0-b",
+        "pair_id": "mrc-v1-14-2-57a5dac3b0",
+        "predicted_route": "finite_recurrence_period"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": 0.07500000000000018,
+          "finite_double_count": 0.11249999999999982,
+          "finite_recurrence_period": 0.20000000000000018,
+          "modular_period_prime_filter": -0.040625000000000355,
+          "polynomial_value_obstruction": 0.14374999999999982
+        },
+        "correct": false,
+        "expected_route": "diophantine_solvability",
+        "id": "mrc-v1-14-3-98d56a2ba0-a",
+        "pair_id": "mrc-v1-14-3-98d56a2ba0",
+        "predicted_route": "finite_recurrence_period"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -0.018749999999999822,
+          "finite_double_count": 0.23749999999999982,
+          "finite_recurrence_period": 0.4812500000000002,
+          "modular_period_prime_filter": 0.24062499999999964,
+          "polynomial_value_obstruction": -0.07500000000000018
+        },
+        "correct": true,
+        "expected_route": "finite_recurrence_period",
+        "id": "mrc-v1-14-3-98d56a2ba0-b",
+        "pair_id": "mrc-v1-14-3-98d56a2ba0",
+        "predicted_route": "finite_recurrence_period"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": 0.07500000000000018,
+          "finite_double_count": 0.14374999999999982,
+          "finite_recurrence_period": 0.20000000000000018,
+          "modular_period_prime_filter": -0.07187500000000036,
+          "polynomial_value_obstruction": 0.08124999999999982
+        },
+        "correct": false,
+        "expected_route": "diophantine_solvability",
+        "id": "mrc-v1-14-4-36f51489a5-a",
+        "pair_id": "mrc-v1-14-4-36f51489a5",
+        "predicted_route": "finite_recurrence_period"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -0.03437499999999982,
+          "finite_double_count": 0.23749999999999982,
+          "finite_recurrence_period": 0.4500000000000002,
+          "modular_period_prime_filter": 0.14687499999999964,
+          "polynomial_value_obstruction": -0.16875000000000018
+        },
+        "correct": true,
+        "expected_route": "finite_recurrence_period",
+        "id": "mrc-v1-14-4-36f51489a5-b",
+        "pair_id": "mrc-v1-14-4-36f51489a5",
+        "predicted_route": "finite_recurrence_period"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": 0.04375000000000018,
+          "finite_double_count": 0.2687499999999998,
+          "finite_recurrence_period": 0.3250000000000002,
+          "modular_period_prime_filter": 0.45937499999999964,
+          "polynomial_value_obstruction": -0.012500000000000178
+        },
+        "correct": true,
+        "expected_route": "modular_period_prime_filter",
+        "id": "mrc-v1-23-0-788a985b50-a",
+        "pair_id": "mrc-v1-23-0-788a985b50",
+        "predicted_route": "modular_period_prime_filter"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": 0.04375000000000018,
+          "finite_double_count": 0.2687499999999998,
+          "finite_recurrence_period": 0.04375000000000018,
+          "modular_period_prime_filter": 0.14687499999999964,
+          "polynomial_value_obstruction": -0.07500000000000018
+        },
+        "correct": true,
+        "expected_route": "finite_double_count",
+        "id": "mrc-v1-23-0-788a985b50-b",
+        "pair_id": "mrc-v1-23-0-788a985b50",
+        "predicted_route": "finite_double_count"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": 0.028125000000000178,
+          "finite_double_count": 0.20624999999999982,
+          "finite_recurrence_period": 0.3250000000000002,
+          "modular_period_prime_filter": 0.36562499999999964,
+          "polynomial_value_obstruction": 0.018749999999999822
+        },
+        "correct": true,
+        "expected_route": "modular_period_prime_filter",
+        "id": "mrc-v1-23-1-71de8ce3d6-a",
+        "pair_id": "mrc-v1-23-1-71de8ce3d6",
+        "predicted_route": "modular_period_prime_filter"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": 0.07500000000000018,
+          "finite_double_count": 0.2687499999999998,
+          "finite_recurrence_period": 0.04375000000000018,
+          "modular_period_prime_filter": 0.08437499999999964,
+          "polynomial_value_obstruction": -0.10625000000000018
+        },
+        "correct": true,
+        "expected_route": "finite_double_count",
+        "id": "mrc-v1-23-1-71de8ce3d6-b",
+        "pair_id": "mrc-v1-23-1-71de8ce3d6",
+        "predicted_route": "finite_double_count"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": 0.07500000000000018,
+          "finite_double_count": 0.20624999999999982,
+          "finite_recurrence_period": 0.3562500000000002,
+          "modular_period_prime_filter": 0.39687499999999964,
+          "polynomial_value_obstruction": 0.018749999999999822
+        },
+        "correct": true,
+        "expected_route": "modular_period_prime_filter",
+        "id": "mrc-v1-23-2-7f633e1c3d-a",
+        "pair_id": "mrc-v1-23-2-7f633e1c3d",
+        "predicted_route": "modular_period_prime_filter"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": 0.04375000000000018,
+          "finite_double_count": 0.2999999999999998,
+          "finite_recurrence_period": 0.07500000000000018,
+          "modular_period_prime_filter": 0.14687499999999964,
+          "polynomial_value_obstruction": -0.07500000000000018
+        },
+        "correct": true,
+        "expected_route": "finite_double_count",
+        "id": "mrc-v1-23-2-7f633e1c3d-b",
+        "pair_id": "mrc-v1-23-2-7f633e1c3d",
+        "predicted_route": "finite_double_count"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": 0.04375000000000018,
+          "finite_double_count": 0.23749999999999982,
+          "finite_recurrence_period": 0.3250000000000002,
+          "modular_period_prime_filter": 0.33437499999999964,
+          "polynomial_value_obstruction": 0.04999999999999982
+        },
+        "correct": true,
+        "expected_route": "modular_period_prime_filter",
+        "id": "mrc-v1-23-3-006634a22e-a",
+        "pair_id": "mrc-v1-23-3-006634a22e",
+        "predicted_route": "modular_period_prime_filter"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": 0.04375000000000018,
+          "finite_double_count": 0.2999999999999998,
+          "finite_recurrence_period": 0.10625000000000018,
+          "modular_period_prime_filter": 0.17812499999999964,
+          "polynomial_value_obstruction": 0.018749999999999822
+        },
+        "correct": true,
+        "expected_route": "finite_double_count",
+        "id": "mrc-v1-23-3-006634a22e-b",
+        "pair_id": "mrc-v1-23-3-006634a22e",
+        "predicted_route": "finite_double_count"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": 0.028125000000000178,
+          "finite_double_count": 0.17499999999999982,
+          "finite_recurrence_period": 0.3562500000000002,
+          "modular_period_prime_filter": 0.33437499999999964,
+          "polynomial_value_obstruction": 0.018749999999999822
+        },
+        "correct": false,
+        "expected_route": "modular_period_prime_filter",
+        "id": "mrc-v1-23-4-5cb21ae89a-a",
+        "pair_id": "mrc-v1-23-4-5cb21ae89a",
+        "predicted_route": "finite_recurrence_period"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": 0.09062500000000018,
+          "finite_double_count": 0.2687499999999998,
+          "finite_recurrence_period": 0.10625000000000018,
+          "modular_period_prime_filter": 0.14687499999999964,
+          "polynomial_value_obstruction": -0.04375000000000018
+        },
+        "correct": true,
+        "expected_route": "finite_double_count",
+        "id": "mrc-v1-23-4-5cb21ae89a-b",
+        "pair_id": "mrc-v1-23-4-5cb21ae89a",
+        "predicted_route": "finite_double_count"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": 0.04375000000000018,
+          "finite_double_count": 0.20624999999999982,
+          "finite_recurrence_period": 0.4812500000000002,
+          "modular_period_prime_filter": 0.45937499999999964,
+          "polynomial_value_obstruction": -0.012500000000000178
+        },
+        "correct": false,
+        "expected_route": "modular_period_prime_filter",
+        "id": "mrc-v1-24-0-cb13ee06ed-a",
+        "pair_id": "mrc-v1-24-0-cb13ee06ed",
+        "predicted_route": "finite_recurrence_period"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": 0.09062500000000018,
+          "finite_double_count": 0.2687499999999998,
+          "finite_recurrence_period": 0.3562500000000002,
+          "modular_period_prime_filter": 0.17812499999999964,
+          "polynomial_value_obstruction": -0.13750000000000018
+        },
+        "correct": true,
+        "expected_route": "finite_recurrence_period",
+        "id": "mrc-v1-24-0-cb13ee06ed-b",
+        "pair_id": "mrc-v1-24-0-cb13ee06ed",
+        "predicted_route": "finite_recurrence_period"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": 0.04375000000000018,
+          "finite_double_count": 0.17499999999999982,
+          "finite_recurrence_period": 0.4500000000000002,
+          "modular_period_prime_filter": 0.39687499999999964,
+          "polynomial_value_obstruction": -0.012500000000000178
+        },
+        "correct": false,
+        "expected_route": "modular_period_prime_filter",
+        "id": "mrc-v1-24-1-767b49a1b4-a",
+        "pair_id": "mrc-v1-24-1-767b49a1b4",
+        "predicted_route": "finite_recurrence_period"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": 0.028125000000000178,
+          "finite_double_count": 0.23749999999999982,
+          "finite_recurrence_period": 0.3562500000000002,
+          "modular_period_prime_filter": 0.17812499999999964,
+          "polynomial_value_obstruction": -0.10625000000000018
+        },
+        "correct": true,
+        "expected_route": "finite_recurrence_period",
+        "id": "mrc-v1-24-1-767b49a1b4-b",
+        "pair_id": "mrc-v1-24-1-767b49a1b4",
+        "predicted_route": "finite_recurrence_period"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": 0.04375000000000018,
+          "finite_double_count": 0.14374999999999982,
+          "finite_recurrence_period": 0.4500000000000002,
+          "modular_period_prime_filter": 0.39687499999999964,
+          "polynomial_value_obstruction": -0.012500000000000178
+        },
+        "correct": false,
+        "expected_route": "modular_period_prime_filter",
+        "id": "mrc-v1-24-2-f513723e04-a",
+        "pair_id": "mrc-v1-24-2-f513723e04",
+        "predicted_route": "finite_recurrence_period"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": 0.04375000000000018,
+          "finite_double_count": 0.2687499999999998,
+          "finite_recurrence_period": 0.3562500000000002,
+          "modular_period_prime_filter": 0.17812499999999964,
+          "polynomial_value_obstruction": -0.13750000000000018
+        },
+        "correct": true,
+        "expected_route": "finite_recurrence_period",
+        "id": "mrc-v1-24-2-f513723e04-b",
+        "pair_id": "mrc-v1-24-2-f513723e04",
+        "predicted_route": "finite_recurrence_period"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": 0.09062500000000018,
+          "finite_double_count": 0.17499999999999982,
+          "finite_recurrence_period": 0.5125000000000002,
+          "modular_period_prime_filter": 0.45937499999999964,
+          "polynomial_value_obstruction": 0.08124999999999982
+        },
+        "correct": false,
+        "expected_route": "modular_period_prime_filter",
+        "id": "mrc-v1-24-3-6c62c6dd75-a",
+        "pair_id": "mrc-v1-24-3-6c62c6dd75",
+        "predicted_route": "finite_recurrence_period"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": 0.028125000000000178,
+          "finite_double_count": 0.23749999999999982,
+          "finite_recurrence_period": 0.3562500000000002,
+          "modular_period_prime_filter": 0.24062499999999964,
+          "polynomial_value_obstruction": 0.018749999999999822
+        },
+        "correct": true,
+        "expected_route": "finite_recurrence_period",
+        "id": "mrc-v1-24-3-6c62c6dd75-b",
+        "pair_id": "mrc-v1-24-3-6c62c6dd75",
+        "predicted_route": "finite_recurrence_period"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": 0.04375000000000018,
+          "finite_double_count": 0.14374999999999982,
+          "finite_recurrence_period": 0.4500000000000002,
+          "modular_period_prime_filter": 0.39687499999999964,
+          "polynomial_value_obstruction": 0.018749999999999822
+        },
+        "correct": false,
+        "expected_route": "modular_period_prime_filter",
+        "id": "mrc-v1-24-4-a613587f8a-a",
+        "pair_id": "mrc-v1-24-4-a613587f8a",
+        "predicted_route": "finite_recurrence_period"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": 0.012500000000000178,
+          "finite_double_count": 0.2687499999999998,
+          "finite_recurrence_period": 0.3250000000000002,
+          "modular_period_prime_filter": 0.20937499999999964,
+          "polynomial_value_obstruction": -0.04375000000000018
+        },
+        "correct": true,
+        "expected_route": "finite_recurrence_period",
+        "id": "mrc-v1-24-4-a613587f8a-b",
+        "pair_id": "mrc-v1-24-4-a613587f8a",
+        "predicted_route": "finite_recurrence_period"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": 0.07500000000000018,
+          "finite_double_count": 0.2687499999999998,
+          "finite_recurrence_period": 0.2937500000000002,
+          "modular_period_prime_filter": 0.11562499999999964,
+          "polynomial_value_obstruction": -0.10625000000000018
+        },
+        "correct": false,
+        "expected_route": "finite_double_count",
+        "id": "mrc-v1-34-0-56711f5676-a",
+        "pair_id": "mrc-v1-34-0-56711f5676",
+        "predicted_route": "finite_recurrence_period"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": 0.028125000000000178,
+          "finite_double_count": 0.23749999999999982,
+          "finite_recurrence_period": 0.4187500000000002,
+          "modular_period_prime_filter": 0.08437499999999964,
+          "polynomial_value_obstruction": -0.16875000000000018
+        },
+        "correct": true,
+        "expected_route": "finite_recurrence_period",
+        "id": "mrc-v1-34-0-56711f5676-b",
+        "pair_id": "mrc-v1-34-0-56711f5676",
+        "predicted_route": "finite_recurrence_period"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": 0.04375000000000018,
+          "finite_double_count": 0.3312499999999998,
+          "finite_recurrence_period": 0.2625000000000002,
+          "modular_period_prime_filter": 0.11562499999999964,
+          "polynomial_value_obstruction": -0.10625000000000018
+        },
+        "correct": true,
+        "expected_route": "finite_double_count",
+        "id": "mrc-v1-34-1-e46bc87214-a",
+        "pair_id": "mrc-v1-34-1-e46bc87214",
+        "predicted_route": "finite_double_count"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": -0.03437499999999982,
+          "finite_double_count": 0.14374999999999982,
+          "finite_recurrence_period": 0.3250000000000002,
+          "modular_period_prime_filter": -0.040625000000000355,
+          "polynomial_value_obstruction": -0.13750000000000018
+        },
+        "correct": true,
+        "expected_route": "finite_recurrence_period",
+        "id": "mrc-v1-34-1-e46bc87214-b",
+        "pair_id": "mrc-v1-34-1-e46bc87214",
+        "predicted_route": "finite_recurrence_period"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": 0.012500000000000178,
+          "finite_double_count": 0.2687499999999998,
+          "finite_recurrence_period": 0.23125000000000018,
+          "modular_period_prime_filter": 0.08437499999999964,
+          "polynomial_value_obstruction": -0.10625000000000018
+        },
+        "correct": true,
+        "expected_route": "finite_double_count",
+        "id": "mrc-v1-34-2-de6103b4e6-a",
+        "pair_id": "mrc-v1-34-2-de6103b4e6",
+        "predicted_route": "finite_double_count"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": 0.012500000000000178,
+          "finite_double_count": 0.14374999999999982,
+          "finite_recurrence_period": 0.3250000000000002,
+          "modular_period_prime_filter": -0.040625000000000355,
+          "polynomial_value_obstruction": -0.16875000000000018
+        },
+        "correct": true,
+        "expected_route": "finite_recurrence_period",
+        "id": "mrc-v1-34-2-de6103b4e6-b",
+        "pair_id": "mrc-v1-34-2-de6103b4e6",
+        "predicted_route": "finite_recurrence_period"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": 0.07500000000000018,
+          "finite_double_count": 0.2999999999999998,
+          "finite_recurrence_period": 0.2937500000000002,
+          "modular_period_prime_filter": 0.17812499999999964,
+          "polynomial_value_obstruction": -0.04375000000000018
+        },
+        "correct": true,
+        "expected_route": "finite_double_count",
+        "id": "mrc-v1-34-3-aa44950f7b-a",
+        "pair_id": "mrc-v1-34-3-aa44950f7b",
+        "predicted_route": "finite_double_count"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": 0.012500000000000178,
+          "finite_double_count": 0.17499999999999982,
+          "finite_recurrence_period": 0.3562500000000002,
+          "modular_period_prime_filter": -0.009375000000000355,
+          "polynomial_value_obstruction": -0.04375000000000018
+        },
+        "correct": true,
+        "expected_route": "finite_recurrence_period",
+        "id": "mrc-v1-34-3-aa44950f7b-b",
+        "pair_id": "mrc-v1-34-3-aa44950f7b",
+        "predicted_route": "finite_recurrence_period"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": 0.012500000000000178,
+          "finite_double_count": 0.2687499999999998,
+          "finite_recurrence_period": 0.20000000000000018,
+          "modular_period_prime_filter": 0.053124999999999645,
+          "polynomial_value_obstruction": -0.10625000000000018
+        },
+        "correct": true,
+        "expected_route": "finite_double_count",
+        "id": "mrc-v1-34-4-a1ecf17213-a",
+        "pair_id": "mrc-v1-34-4-a1ecf17213",
+        "predicted_route": "finite_double_count"
+      },
+      {
+        "adjusted_scores": {
+          "diophantine_solvability": 0.012500000000000178,
+          "finite_double_count": 0.17499999999999982,
+          "finite_recurrence_period": 0.3250000000000002,
+          "modular_period_prime_filter": -0.040625000000000355,
+          "polynomial_value_obstruction": -0.13750000000000018
+        },
+        "correct": true,
+        "expected_route": "finite_recurrence_period",
+        "id": "mrc-v1-34-4-a1ecf17213-b",
+        "pair_id": "mrc-v1-34-4-a1ecf17213",
+        "predicted_route": "finite_recurrence_period"
+      }
+    ]
+  },
+  "schema_version": 1
+}

@@ -1,0 +1,7 @@
+Loading pretrained model
+Loading datasets
+Training
+Trainable parameters: 73.898% (440.466M/596.050M)
+Starting training..., iters: 3
+Calculating loss...:   0%|          | 0/1 [00:00<?, ?it/s]Calculating loss...: 100%|██████████| 1/1 [00:00<00:00,  1.15it/s]Calculating loss...: 100%|██████████| 1/1 [00:00<00:00,  1.15it/s]
+Iter 1: Val loss 2.243, Val took 0.908s
