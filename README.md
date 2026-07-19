@@ -2,7 +2,7 @@
 
 ## Current result
 
-The 596M-parameter model now produces strictly verified natural-language Euclidean arguments. Iteration 65 provides the strongest general promotion result: complete arguments improve from 37/200 to 60/200 (`p = 1.52e-5`) and verified computational cores from 69/200 to 88/200. The recommended iteration-67 specialist separately improves four-or-more-step cores from 17/100 to 26/100 (`p = 0.0117`) without significant short-chain harm. Its 8-bit deployment artifact is 633 MB, peaks at 0.807 GB during long-form inference, and runs about 49% faster than full precision on a fresh paired confirmation; verified cores move from 59/200 to 54/200, while complete arguments incur a measurable six-case loss.
+The 596M-parameter model now produces strictly verified natural-language Euclidean arguments. Iteration 65 provides the strongest general promotion result: complete arguments improve from 37/200 to 60/200 (`p = 1.52e-5`) and verified computational cores from 69/200 to 88/200. Iteration 67 separately improves four-or-more-step cores from 17/100 to 26/100 (`p = 0.0117`) without significant short-chain harm. The current accuracy procedure uses iteration 89 for the first Euclidean sentence and iteration 67 for continuation; on a fresh 300-case suite, verified cores improve from 82 to 92 with 13 gains and three losses (`p = 0.0213`). Its 8-bit single-model deployment artifact remains the memory-efficient option at 633 MB and 0.807 GB inference peak.
 
 Read [`CHECKPOINT_CARD.md`](CHECKPOINT_CARD.md) for the artifact contract and [`RESEARCH_REPORT.md`](RESEARCH_REPORT.md) for the evidence, failures, and next experiments.
 
@@ -44,12 +44,17 @@ be restored to a runnable state with one command:
 
 ```sh
 ./scripts/hydrate.sh --profile train-specialist
+
+# Restore both checkpoints used by the promoted staged accuracy procedure.
+./scripts/hydrate.sh --profile accuracy
 ```
 
 Available profiles are:
 
 - `inference`: restore the standalone 8-bit deployment model;
 - `train-specialist`: restore the pinned Qwen base and iteration-67 parent;
+- `accuracy`: restore the base, iteration-67 continuation, and iteration-89 first-step specialist;
+- `compressed-specialist-experiment`: restore the base, iteration 67, and the unpromoted int8 specialist delta;
 - `train-general`: restore the base and iteration-65 general checkpoint;
 - `history`: restore cold historical checkpoints;
 - `all`: restore every retained model artifact.

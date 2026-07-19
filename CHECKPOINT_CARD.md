@@ -24,6 +24,7 @@ Use the iteration-89 first-step specialist for at most the first 60 generated to
 - Paired result: 13 helped, three harmed, exact `p = 0.0213`
 - Runtime: one checkpoint resident at a time; 1.393 GB measured peak
 - Storage: two 1,192,134,923-byte full checkpoints
+- Hydration profile: `./scripts/hydrate.sh --profile accuracy`
 
 The staged procedure is the accuracy recommendation because its strict-core gain replicated on a fresh parameter-disjoint suite. It is not a broader-model claim: semantic complete arguments moved from 60 to 67 (`p = 0.0654`), and the final sentence barely changed. Lean compiled all 362 generated Euclidean equalities in the 92 checker-accepted staged cores.
 

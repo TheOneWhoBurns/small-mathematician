@@ -20,6 +20,16 @@
       "external_sources": ["qwen3_0_6b_base"],
       "artifacts": ["iter067_full"]
     },
+    "accuracy": {
+      "description": "Restore the promoted two-stage first-step specialist and continuation procedure.",
+      "external_sources": ["qwen3_0_6b_base"],
+      "artifacts": ["iter067_full", "iter089_full"]
+    },
+    "compressed-specialist-experiment": {
+      "description": "Restore iteration 67 and the unpromoted int8 first-step delta experiment.",
+      "external_sources": ["qwen3_0_6b_base"],
+      "artifacts": ["iter067_full", "iter096_int8_delta"]
+    },
     "train-general": {
       "description": "Continue full post-training from the strongest general checkpoint.",
       "external_sources": ["qwen3_0_6b_base"],
@@ -33,7 +43,7 @@
     "all": {
       "description": "Restore every remotely retained model artifact and the pinned base model.",
       "external_sources": ["qwen3_0_6b_base"],
-      "artifacts": ["iter014_full", "iter058_full", "iter061_full", "iter065_full", "iter067_full", "iter069_8bit"]
+      "artifacts": ["iter014_full", "iter058_full", "iter061_full", "iter065_full", "iter067_full", "iter069_8bit", "iter089_full", "iter096_int8_delta"]
     }
   },
   "artifacts": {
@@ -78,6 +88,20 @@
       "bytes": 633443038,
       "sha256": "1f8ea0aae28fbefeb73a9cec6a7a4a597d580102d9f9faba1a18cdfa2ac27d1f",
       "local_policy": "warm"
+    },
+    "iter089_full": {
+      "release_asset": "iter089-first-step-weights.safetensors",
+      "destination": "runs/iter089-first-step-loss-full/weights.safetensors",
+      "bytes": 1192134923,
+      "sha256": "60b8a636906908e4f3dc0d984f0ba7a8e291f30bab5582f28d41a74ac5671f2c",
+      "local_policy": "warm"
+    },
+    "iter096_int8_delta": {
+      "release_asset": "iter096-first-step-int8-delta.safetensors",
+      "destination": "runs/iter096-specialist-int8-delta/iter067-to-iter089.int8.safetensors",
+      "bytes": 596125674,
+      "sha256": "6e85ce2c0b124e20bcf411a092a4a5f947ad6ff0a9d1397cb4593dacbfb50a0b",
+      "local_policy": "cold"
     }
   }
 }
