@@ -1,0 +1,82 @@
+{
+  "metric": "trace_valid",
+  "overall": {
+    "baseline_rate": 0.27291666666666664,
+    "baseline_semantic": 131,
+    "candidate_rate": 0.06666666666666667,
+    "candidate_semantic": 32,
+    "count": 480,
+    "delta": -0.20625,
+    "harmed": 106,
+    "helped": 7,
+    "mcnemar_exact_two_sided_p": 7.952916585291773e-24
+  },
+  "per_surface": {
+    "large_long": {
+      "baseline_rate": 0.125,
+      "baseline_semantic": 10,
+      "candidate_rate": 0.0,
+      "candidate_semantic": 0,
+      "count": 80,
+      "delta": -0.125,
+      "harmed": 10,
+      "helped": 0,
+      "mcnemar_exact_two_sided_p": 0.001953125
+    },
+    "large_short": {
+      "baseline_rate": 0.05,
+      "baseline_semantic": 4,
+      "candidate_rate": 0.0125,
+      "candidate_semantic": 1,
+      "count": 80,
+      "delta": -0.0375,
+      "harmed": 4,
+      "helped": 1,
+      "mcnemar_exact_two_sided_p": 0.375
+    },
+    "medium_long": {
+      "baseline_rate": 0.1875,
+      "baseline_semantic": 15,
+      "candidate_rate": 0.025,
+      "candidate_semantic": 2,
+      "count": 80,
+      "delta": -0.1625,
+      "harmed": 14,
+      "helped": 1,
+      "mcnemar_exact_two_sided_p": 0.0009765625
+    },
+    "medium_short": {
+      "baseline_rate": 0.1375,
+      "baseline_semantic": 11,
+      "candidate_rate": 0.025,
+      "candidate_semantic": 2,
+      "count": 80,
+      "delta": -0.1125,
+      "harmed": 10,
+      "helped": 1,
+      "mcnemar_exact_two_sided_p": 0.01171875
+    },
+    "small_long": {
+      "baseline_rate": 0.6375,
+      "baseline_semantic": 51,
+      "candidate_rate": 0.2125,
+      "candidate_semantic": 17,
+      "count": 80,
+      "delta": -0.425,
+      "harmed": 36,
+      "helped": 2,
+      "mcnemar_exact_two_sided_p": 5.398760549724102e-09
+    },
+    "small_short": {
+      "baseline_rate": 0.5,
+      "baseline_semantic": 40,
+      "candidate_rate": 0.125,
+      "candidate_semantic": 10,
+      "count": 80,
+      "delta": -0.375,
+      "harmed": 32,
+      "helped": 2,
+      "mcnemar_exact_two_sided_p": 6.938353180885315e-08
+    }
+  }
+}

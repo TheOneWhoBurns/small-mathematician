@@ -1,0 +1,82 @@
+{
+  "metric": "trace_valid",
+  "overall": {
+    "baseline_rate": 0.27291666666666664,
+    "baseline_semantic": 131,
+    "candidate_rate": 0.3,
+    "candidate_semantic": 144,
+    "count": 480,
+    "delta": 0.027083333333333334,
+    "harmed": 20,
+    "helped": 33,
+    "mcnemar_exact_two_sided_p": 0.09837064844049181
+  },
+  "per_surface": {
+    "large_long": {
+      "baseline_rate": 0.125,
+      "baseline_semantic": 10,
+      "candidate_rate": 0.1625,
+      "candidate_semantic": 13,
+      "count": 80,
+      "delta": 0.0375,
+      "harmed": 1,
+      "helped": 4,
+      "mcnemar_exact_two_sided_p": 0.375
+    },
+    "large_short": {
+      "baseline_rate": 0.05,
+      "baseline_semantic": 4,
+      "candidate_rate": 0.1,
+      "candidate_semantic": 8,
+      "count": 80,
+      "delta": 0.05,
+      "harmed": 2,
+      "helped": 6,
+      "mcnemar_exact_two_sided_p": 0.2890625
+    },
+    "medium_long": {
+      "baseline_rate": 0.1875,
+      "baseline_semantic": 15,
+      "candidate_rate": 0.1625,
+      "candidate_semantic": 13,
+      "count": 80,
+      "delta": -0.025,
+      "harmed": 4,
+      "helped": 2,
+      "mcnemar_exact_two_sided_p": 0.6875
+    },
+    "medium_short": {
+      "baseline_rate": 0.1375,
+      "baseline_semantic": 11,
+      "candidate_rate": 0.175,
+      "candidate_semantic": 14,
+      "count": 80,
+      "delta": 0.0375,
+      "harmed": 2,
+      "helped": 5,
+      "mcnemar_exact_two_sided_p": 0.453125
+    },
+    "small_long": {
+      "baseline_rate": 0.6375,
+      "baseline_semantic": 51,
+      "candidate_rate": 0.65,
+      "candidate_semantic": 52,
+      "count": 80,
+      "delta": 0.0125,
+      "harmed": 7,
+      "helped": 8,
+      "mcnemar_exact_two_sided_p": 1.0
+    },
+    "small_short": {
+      "baseline_rate": 0.5,
+      "baseline_semantic": 40,
+      "candidate_rate": 0.55,
+      "candidate_semantic": 44,
+      "count": 80,
+      "delta": 0.05,
+      "harmed": 4,
+      "helped": 8,
+      "mcnemar_exact_two_sided_p": 0.3876953125
+    }
+  }
+}

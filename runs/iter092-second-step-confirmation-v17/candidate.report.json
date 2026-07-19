@@ -1,0 +1,81 @@
+{
+  "count": 300,
+  "final_valid": 122,
+  "final_valid_rate": 0.4066666666666667,
+  "parsed": 297,
+  "parsed_rate": 0.99,
+  "per_surface": {
+    "large_long": {
+      "count": 50,
+      "final_valid": 14,
+      "final_valid_rate": 0.28,
+      "parsed": 50,
+      "parsed_rate": 1.0,
+      "semantic": 7,
+      "semantic_rate": 0.14,
+      "trace_valid": 10,
+      "trace_valid_rate": 0.2
+    },
+    "large_short": {
+      "count": 50,
+      "final_valid": 7,
+      "final_valid_rate": 0.14,
+      "parsed": 48,
+      "parsed_rate": 0.96,
+      "semantic": 0,
+      "semantic_rate": 0.0,
+      "trace_valid": 3,
+      "trace_valid_rate": 0.06
+    },
+    "medium_long": {
+      "count": 50,
+      "final_valid": 23,
+      "final_valid_rate": 0.46,
+      "parsed": 50,
+      "parsed_rate": 1.0,
+      "semantic": 12,
+      "semantic_rate": 0.24,
+      "trace_valid": 16,
+      "trace_valid_rate": 0.32
+    },
+    "medium_short": {
+      "count": 50,
+      "final_valid": 15,
+      "final_valid_rate": 0.3,
+      "parsed": 50,
+      "parsed_rate": 1.0,
+      "semantic": 6,
+      "semantic_rate": 0.12,
+      "trace_valid": 9,
+      "trace_valid_rate": 0.18
+    },
+    "small_long": {
+      "count": 50,
+      "final_valid": 31,
+      "final_valid_rate": 0.62,
+      "parsed": 50,
+      "parsed_rate": 1.0,
+      "semantic": 27,
+      "semantic_rate": 0.54,
+      "trace_valid": 32,
+      "trace_valid_rate": 0.64
+    },
+    "small_short": {
+      "count": 50,
+      "final_valid": 32,
+      "final_valid_rate": 0.64,
+      "parsed": 49,
+      "parsed_rate": 0.98,
+      "semantic": 18,
+      "semantic_rate": 0.36,
+      "trace_valid": 26,
+      "trace_valid_rate": 0.52
+    }
+  },
+  "predictions_sha256": "9a7d2be4327b179aa9e51ba937c5e7cc178fc7b51c87213154caadbba62c52c7",
+  "semantic": 70,
+  "semantic_rate": 0.23333333333333334,
+  "trace_valid": 96,
+  "trace_valid_rate": 0.32,
+  "verifier_sha256": "cb1a6892dd0ab3ce0bcc7a22c48c459d8a3ba5cede09e3df9ce1d59e4de84796"
+}

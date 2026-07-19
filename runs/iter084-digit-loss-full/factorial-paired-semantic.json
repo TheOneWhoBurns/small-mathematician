@@ -1,0 +1,82 @@
+{
+  "metric": "semantic",
+  "overall": {
+    "baseline_rate": 0.19166666666666668,
+    "baseline_semantic": 92,
+    "candidate_rate": 0.20208333333333334,
+    "candidate_semantic": 97,
+    "count": 480,
+    "delta": 0.010416666666666666,
+    "harmed": 18,
+    "helped": 23,
+    "mcnemar_exact_two_sided_p": 0.5327092552361137
+  },
+  "per_surface": {
+    "large_long": {
+      "baseline_rate": 0.0625,
+      "baseline_semantic": 5,
+      "candidate_rate": 0.0625,
+      "candidate_semantic": 5,
+      "count": 80,
+      "delta": 0.0,
+      "harmed": 1,
+      "helped": 1,
+      "mcnemar_exact_two_sided_p": 1.0
+    },
+    "large_short": {
+      "baseline_rate": 0.0375,
+      "baseline_semantic": 3,
+      "candidate_rate": 0.0375,
+      "candidate_semantic": 3,
+      "count": 80,
+      "delta": 0.0,
+      "harmed": 2,
+      "helped": 2,
+      "mcnemar_exact_two_sided_p": 1.0
+    },
+    "medium_long": {
+      "baseline_rate": 0.1375,
+      "baseline_semantic": 11,
+      "candidate_rate": 0.075,
+      "candidate_semantic": 6,
+      "count": 80,
+      "delta": -0.0625,
+      "harmed": 6,
+      "helped": 1,
+      "mcnemar_exact_two_sided_p": 0.125
+    },
+    "medium_short": {
+      "baseline_rate": 0.1,
+      "baseline_semantic": 8,
+      "candidate_rate": 0.1375,
+      "candidate_semantic": 11,
+      "count": 80,
+      "delta": 0.0375,
+      "harmed": 1,
+      "helped": 4,
+      "mcnemar_exact_two_sided_p": 0.375
+    },
+    "small_long": {
+      "baseline_rate": 0.45,
+      "baseline_semantic": 36,
+      "candidate_rate": 0.475,
+      "candidate_semantic": 38,
+      "count": 80,
+      "delta": 0.025,
+      "harmed": 6,
+      "helped": 8,
+      "mcnemar_exact_two_sided_p": 0.79052734375
+    },
+    "small_short": {
+      "baseline_rate": 0.3625,
+      "baseline_semantic": 29,
+      "candidate_rate": 0.425,
+      "candidate_semantic": 34,
+      "count": 80,
+      "delta": 0.0625,
+      "harmed": 2,
+      "helped": 7,
+      "mcnemar_exact_two_sided_p": 0.1796875
+    }
+  }
+}

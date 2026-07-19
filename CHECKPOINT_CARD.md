@@ -13,6 +13,20 @@
 
 The model receives only natural-language statements and concept labels. It was never trained on Lean source, tactic states, theorem names, or Mathlib lemma names. It emits a natural-language Euclidean-algorithm argument. Parsing, verification, theorem retrieval, and Lean compilation are fixed external components.
 
+## Recommended accuracy procedure
+
+Use the iteration-89 first-step specialist for at most the first 60 generated tokens, extract its first valid natural-language Euclidean sentence, then unload it and continue with iteration 67 for at most 230 tokens.
+
+- First-step weights: `runs/iter089-first-step-loss-full/weights.safetensors`
+- First-step SHA-256: `60b8a636906908e4f3dc0d984f0ba7a8e291f30bab5582f28d41a74ac5671f2c`
+- Continuation weights: the iteration-67 checkpoint above
+- Fresh v18 strict cores: 82/300 single-model versus 92/300 staged
+- Paired result: 13 helped, three harmed, exact `p = 0.0213`
+- Runtime: one checkpoint resident at a time; 1.393 GB measured peak
+- Storage: two 1,192,134,923-byte full checkpoints
+
+The staged procedure is the accuracy recommendation because its strict-core gain replicated on a fresh parameter-disjoint suite. It is not a broader-model claim: semantic complete arguments moved from 60 to 67 (`p = 0.0654`), and the final sentence barely changed. Lean compiled all 362 generated Euclidean equalities in the 92 checker-accepted staged cores.
+
 ## Deployment checkpoint
 
 - Model directory: `runs/iter069-iter067-8bit/`
@@ -78,6 +92,8 @@ The unchanged 31 KB frozen method router scores 96/100 statements and 92% matche
 
 The standalone 8-bit deployment model preserves exactly the same 96/100 routing score and 92% matched-pair score.
 
+The most recent diagnostic revises the causal story. In a balanced magnitude-by-chain-length suite, chain length alone was near random for predicting failure (`AUC = 0.503`), while magnitude plus digit features reached `0.779` and the combined feature set reached `0.800`. On 480 traces, 227 first failed at step one and 92 at step two; only 30 first failed at step three or later. Decimal digits are linearly decodable from hidden states, but magnitude probes fail out of range. The current bottleneck is best described as brittle use of number magnitude and the first quotient-remainder transition, with later chain accumulation secondary.
+
 ## Example accepted output
 
 Problem: Could a balance change by exactly -48 using arbitrary signed groups of 55 and 45?
@@ -96,6 +112,8 @@ Every equality and the final conclusion compile in Lean through the fixed certif
 - The 96% router is a synthetic five-way closed-set test, not broad mathematical understanding.
 - The 51.5% small “core” rate is not the model-complete rate: a fixed downstream layer supplies the theorem application and corrects the final conclusion.
 - Naive 6-bit and 4-bit affine quantization fail badly: 6-bit falls to 6/200 complete and 21/200 core-valid on the diagnostic suite; 4-bit produces no parseable exact-format output. The learned full-post-training deltas are unusually quantization-sensitive below eight bits.
+- The staged accuracy procedure doubles checkpoint storage even though only one checkpoint is resident at a time.
+- The 596,125,674-byte int8 specialist delta preserved first-step behavior on v18, but is not promoted: no end-to-end staged verification was run after the early stop, and reconstruction peaked at 1.956 GB.
 
 ## Reproduction anchors
 
@@ -119,3 +137,7 @@ Every equality and the final conclusion compile in Lean through the fixed certif
 - Fresh 8-bit paired core report: `runs/iter072-quant-confirmation-v8/paired-core.json`
 - Fresh 8-bit complete Lean file: `verifier/GeneratedIter072EightBitComplete.lean`
 - Fresh 8-bit core Lean file: `verifier/GeneratedIter072EightBitCore.lean`
+- First-step specialist: `runs/iter089-first-step-loss-full/weights.safetensors`
+- Fresh staged paired core report: `runs/iter095-staged-prefix-confirmation-v18/paired-trace_valid.json`
+- Fresh staged core Lean file: `verifier/GeneratedIter095StagedCore.lean`
+- Experimental int8 specialist delta report: `runs/iter096-specialist-int8-delta/v18-prefix-comparison.report.json`

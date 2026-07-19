@@ -1,0 +1,82 @@
+{
+  "metric": "trace_valid",
+  "overall": {
+    "baseline_rate": 0.27291666666666664,
+    "baseline_semantic": 131,
+    "candidate_rate": 0.2833333333333333,
+    "candidate_semantic": 136,
+    "count": 480,
+    "delta": 0.010416666666666666,
+    "harmed": 26,
+    "helped": 31,
+    "mcnemar_exact_two_sided_p": 0.5966417603730826
+  },
+  "per_surface": {
+    "large_long": {
+      "baseline_rate": 0.125,
+      "baseline_semantic": 10,
+      "candidate_rate": 0.0875,
+      "candidate_semantic": 7,
+      "count": 80,
+      "delta": -0.0375,
+      "harmed": 4,
+      "helped": 1,
+      "mcnemar_exact_two_sided_p": 0.375
+    },
+    "large_short": {
+      "baseline_rate": 0.05,
+      "baseline_semantic": 4,
+      "candidate_rate": 0.075,
+      "candidate_semantic": 6,
+      "count": 80,
+      "delta": 0.025,
+      "harmed": 2,
+      "helped": 4,
+      "mcnemar_exact_two_sided_p": 0.6875
+    },
+    "medium_long": {
+      "baseline_rate": 0.1875,
+      "baseline_semantic": 15,
+      "candidate_rate": 0.1625,
+      "candidate_semantic": 13,
+      "count": 80,
+      "delta": -0.025,
+      "harmed": 7,
+      "helped": 5,
+      "mcnemar_exact_two_sided_p": 0.7744140625
+    },
+    "medium_short": {
+      "baseline_rate": 0.1375,
+      "baseline_semantic": 11,
+      "candidate_rate": 0.2,
+      "candidate_semantic": 16,
+      "count": 80,
+      "delta": 0.0625,
+      "harmed": 0,
+      "helped": 5,
+      "mcnemar_exact_two_sided_p": 0.0625
+    },
+    "small_long": {
+      "baseline_rate": 0.6375,
+      "baseline_semantic": 51,
+      "candidate_rate": 0.5875,
+      "candidate_semantic": 47,
+      "count": 80,
+      "delta": -0.05,
+      "harmed": 10,
+      "helped": 6,
+      "mcnemar_exact_two_sided_p": 0.454498291015625
+    },
+    "small_short": {
+      "baseline_rate": 0.5,
+      "baseline_semantic": 40,
+      "candidate_rate": 0.5875,
+      "candidate_semantic": 47,
+      "count": 80,
+      "delta": 0.0875,
+      "harmed": 3,
+      "helped": 10,
+      "mcnemar_exact_two_sided_p": 0.09228515625
+    }
+  }
+}

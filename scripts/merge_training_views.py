@@ -20,18 +20,20 @@ def read(path: Path) -> list[dict]:
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--train", type=Path, nargs="+", required=True)
-    parser.add_argument("--valid", type=Path, required=True)
+    parser.add_argument("--valid", type=Path, nargs="+", required=True)
     parser.add_argument("--output", type=Path, required=True)
     args = parser.parse_args()
 
     train_rows = [row for path in args.train for row in read(path)]
-    valid_rows = read(args.valid)
+    valid_rows = [row for path in args.valid for row in read(path)]
     train_ids = [row.get("metadata", {}).get("id") for row in train_rows]
     valid_ids = [row.get("metadata", {}).get("id") for row in valid_rows]
     if any(not isinstance(example_id, str) for example_id in train_ids + valid_ids):
         raise ValueError("every row must have metadata.id")
     if len(train_ids) != len(set(train_ids)):
         raise ValueError("duplicate training IDs")
+    if len(valid_ids) != len(set(valid_ids)):
+        raise ValueError("duplicate validation IDs")
     if set(train_ids) & set(valid_ids):
         raise ValueError("train/valid ID overlap")
 
@@ -44,7 +46,7 @@ def main() -> None:
     manifest = {
         "schema_version": 1,
         "train_sources": [{"path": str(path), "sha256": sha256(path)} for path in args.train],
-        "valid_source": {"path": str(args.valid), "sha256": sha256(args.valid)},
+        "valid_sources": [{"path": str(path), "sha256": sha256(path)} for path in args.valid],
         "counts": {"train": len(train_rows), "valid": len(valid_rows)},
         "duplicate_ids": 0,
         "train_valid_overlap": 0,

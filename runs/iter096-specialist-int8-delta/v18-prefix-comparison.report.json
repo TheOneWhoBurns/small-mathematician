@@ -1,0 +1,19 @@
+{
+  "benchmark": "number_representation_confirmation_v18/sealed_test",
+  "count": 300,
+  "full_specialist_checkpoint": "runs/iter089-first-step-loss-full/weights.safetensors",
+  "quantized_delta": "runs/iter096-specialist-int8-delta/iter067-to-iter089.int8.safetensors",
+  "quantized_delta_sha256": "6e85ce2c0b124e20bcf411a092a4a5f947ad6ff0a9d1397cb4593dacbfb50a0b",
+  "full_prefix_parsed": 299,
+  "quantized_prefix_parsed": 300,
+  "exact_prefix_match_quantized_vs_full": 280,
+  "full_first_step_exact": 163,
+  "quantized_first_step_exact": 165,
+  "quantized_helped_over_full": 4,
+  "quantized_harmed_vs_full": 2,
+  "mcnemar_exact_p": 0.6875,
+  "quantized_generation_prompts_per_second": 0.83184,
+  "quantized_generation_peak_rss_gb": 1.955972984,
+  "decision": "promising_storage_experiment_not_promoted",
+  "reason": "The compressed delta preserved specialist first-step behavior, but the campaign was stopped before an end-to-end continuation and strict-verifier comparison could be run. Keep the full specialist checkpoint for the promoted staged procedure."
+}

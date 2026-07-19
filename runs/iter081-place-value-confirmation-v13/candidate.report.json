@@ -1,0 +1,81 @@
+{
+  "count": 300,
+  "final_valid": 111,
+  "final_valid_rate": 0.37,
+  "parsed": 299,
+  "parsed_rate": 0.9966666666666667,
+  "per_surface": {
+    "large_long": {
+      "count": 50,
+      "final_valid": 10,
+      "final_valid_rate": 0.2,
+      "parsed": 49,
+      "parsed_rate": 0.98,
+      "semantic": 5,
+      "semantic_rate": 0.1,
+      "trace_valid": 6,
+      "trace_valid_rate": 0.12
+    },
+    "large_short": {
+      "count": 50,
+      "final_valid": 6,
+      "final_valid_rate": 0.12,
+      "parsed": 50,
+      "parsed_rate": 1.0,
+      "semantic": 3,
+      "semantic_rate": 0.06,
+      "trace_valid": 4,
+      "trace_valid_rate": 0.08
+    },
+    "medium_long": {
+      "count": 50,
+      "final_valid": 22,
+      "final_valid_rate": 0.44,
+      "parsed": 50,
+      "parsed_rate": 1.0,
+      "semantic": 3,
+      "semantic_rate": 0.06,
+      "trace_valid": 8,
+      "trace_valid_rate": 0.16
+    },
+    "medium_short": {
+      "count": 50,
+      "final_valid": 17,
+      "final_valid_rate": 0.34,
+      "parsed": 50,
+      "parsed_rate": 1.0,
+      "semantic": 4,
+      "semantic_rate": 0.08,
+      "trace_valid": 7,
+      "trace_valid_rate": 0.14
+    },
+    "small_long": {
+      "count": 50,
+      "final_valid": 32,
+      "final_valid_rate": 0.64,
+      "parsed": 50,
+      "parsed_rate": 1.0,
+      "semantic": 23,
+      "semantic_rate": 0.46,
+      "trace_valid": 31,
+      "trace_valid_rate": 0.62
+    },
+    "small_short": {
+      "count": 50,
+      "final_valid": 24,
+      "final_valid_rate": 0.48,
+      "parsed": 50,
+      "parsed_rate": 1.0,
+      "semantic": 17,
+      "semantic_rate": 0.34,
+      "trace_valid": 24,
+      "trace_valid_rate": 0.48
+    }
+  },
+  "predictions_sha256": "1fdebcb923a379cfdbbbae886ab47ef7ceb2d3e75ede5ed523706f3a466808af",
+  "semantic": 55,
+  "semantic_rate": 0.18333333333333332,
+  "trace_valid": 80,
+  "trace_valid_rate": 0.26666666666666666,
+  "verifier_sha256": "db193125c69b70c21b20164e10f625dc7c153bfc92ca96a7c7d60f7855ac1bb2"
+}

@@ -1,0 +1,300 @@
+{"id": "esv14-small-test-0000", "parsed": null, "prediction": "Euclidean step: 4 times 50 plus 4 = 204.", "surface": "small", "valid": false}
+{"id": "esv14-small-test-0001", "parsed": [145, 9, 16, 1], "prediction": "Euclidean step: 145 = 9 times 16 plus 1.", "surface": "small", "valid": true}
+{"id": "esv14-small-test-0002", "parsed": [182, 1, 104, 78], "prediction": "Euclidean step: 182 = 1 times 104 plus 78.", "surface": "small", "valid": true}
+{"id": "esv14-small-test-0003", "parsed": [64, 1, 34, 30], "prediction": "Euclidean step: 64 = 1 times 34 plus 30.", "surface": "small", "valid": true}
+{"id": "esv14-small-test-0004", "parsed": null, "prediction": "Euclidean step: 2 times 58 plus 17 equals 116 plus 17 equals 1", "surface": "small", "valid": false}
+{"id": "esv14-small-test-0005", "parsed": [55, 5, 10, 5], "prediction": "Euclidean step: 55 = 5 times 10 plus 5.", "surface": "small", "valid": true}
+{"id": "esv14-small-test-0006", "parsed": [167, 1, 151, 16], "prediction": "Euclidean step: 167 = 1 times 151 plus 16.", "surface": "small", "valid": true}
+{"id": "esv14-small-test-0007", "parsed": [110, 5, 18, 10], "prediction": "Euclidean step: 110 = 5 times 18 plus 10.", "surface": "small", "valid": false}
+{"id": "esv14-small-test-0008", "parsed": [139, 1, 85, 54], "prediction": "Euclidean step: 139 = 1 times 85 plus 54.", "surface": "small", "valid": true}
+{"id": "esv14-small-test-0009", "parsed": [57, 1, 40, 17], "prediction": "Euclidean step: 57 = 1 times 40 plus 17.", "surface": "small", "valid": true}
+{"id": "esv14-small-test-0010", "parsed": [101, 9, 11, 2], "prediction": "Euclidean step: 101 = 9 times 11 plus 2.", "surface": "small", "valid": true}
+{"id": "esv14-small-test-0011", "parsed": [127, 4, 30, 7], "prediction": "Euclidean step: 127 = 4 times 30 plus 7.", "surface": "small", "valid": true}
+{"id": "esv14-small-test-0012", "parsed": [1, 1, 60, 30], "prediction": "Euclidean step: 1 = 1 times 60 plus 30.", "surface": "small", "valid": false}
+{"id": "esv14-small-test-0013", "parsed": null, "prediction": "Euclidean step: 97 equals 3 times 32 plus 11.", "surface": "small", "valid": false}
+{"id": "esv14-small-test-0014", "parsed": [92, 5, 16, 12], "prediction": "Euclidean step: 92 = 5 times 16 plus 12.", "surface": "small", "valid": true}
+{"id": "esv14-small-test-0015", "parsed": [154, 11, 14, 10], "prediction": "Euclidean step: 154 = 11 times 14 plus 10.", "surface": "small", "valid": false}
+{"id": "esv14-small-test-0016", "parsed": [195, 1, 127, 68], "prediction": "Euclidean step: 195 = 1 times 127 plus 68.", "surface": "small", "valid": true}
+{"id": "esv14-small-test-0017", "parsed": null, "prediction": "Euclidean step: 87 equals 12 times 7 plus 3.", "surface": "small", "valid": false}
+{"id": "esv14-small-test-0018", "parsed": [156, 2, 70, 16], "prediction": "Euclidean step: 156 = 2 times 70 plus 16.", "surface": "small", "valid": true}
+{"id": "esv14-small-test-0019", "parsed": [206, 23, 9, 5], "prediction": "Euclidean step: 206 = 23 times 9 plus 5.", "surface": "small", "valid": false}
+{"id": "esv14-small-test-0020", "parsed": [125, 3, 38, 11], "prediction": "Euclidean step: 125 = 3 times 38 plus 11.", "surface": "small", "valid": true}
+{"id": "esv14-small-test-0021", "parsed": [119, 11, 10, 9], "prediction": "Euclidean step: 119 = 11 times 10 plus 9.", "surface": "small", "valid": true}
+{"id": "esv14-small-test-0022", "parsed": [162, 1, 162, 0], "prediction": "Euclidean step: 162 = 1 times 162 plus 0.", "surface": "small", "valid": false}
+{"id": "esv14-small-test-0023", "parsed": [110, 18, 6, 2], "prediction": "Euclidean step: 110 = 18 times 6 plus 2.", "surface": "small", "valid": true}
+{"id": "esv14-small-test-0024", "parsed": [95, 3, 27, 16], "prediction": "Euclidean step: 95 = 3 times 27 plus 16.", "surface": "small", "valid": false}
+{"id": "esv14-small-test-0025", "parsed": [79, 6, 12, 7], "prediction": "Euclidean step: 79 = 6 times 12 plus 7.", "surface": "small", "valid": true}
+{"id": "esv14-small-test-0026", "parsed": [145, 1, 91, 54], "prediction": "Euclidean step: 145 = 1 times 91 plus 54.", "surface": "small", "valid": true}
+{"id": "esv14-small-test-0027", "parsed": [141, 6, 23, 9], "prediction": "Euclidean step: 141 = 6 times 23 plus 9.", "surface": "small", "valid": false}
+{"id": "esv14-small-test-0028", "parsed": [139, 9, 14, 1], "prediction": "Euclidean step: 139 = 9 times 14 plus 1.", "surface": "small", "valid": false}
+{"id": "esv14-small-test-0029", "parsed": [207, 6, 31, 21], "prediction": "Euclidean step: 207 = 6 times 31 plus 21.", "surface": "small", "valid": true}
+{"id": "esv14-small-test-0030", "parsed": [78, 1, 43, 35], "prediction": "Euclidean step: 78 = 1 times 43 plus 35.", "surface": "small", "valid": true}
+{"id": "esv14-small-test-0031", "parsed": [108, 3, 36, 0], "prediction": "Euclidean step: 108 = 3 times 36 plus 0.", "surface": "small", "valid": true}
+{"id": "esv14-small-test-0032", "parsed": [5, 1, 51, 4], "prediction": "Euclidean step: 5 = 1 times 51 plus 4.", "surface": "small", "valid": false}
+{"id": "esv14-small-test-0033", "parsed": [60, 1, 37, 23], "prediction": "Euclidean step: 60 = 1 times 37 plus 23.", "surface": "small", "valid": true}
+{"id": "esv14-small-test-0034", "parsed": [78, 2, 37, 14], "prediction": "Euclidean step: 78 = 2 times 37 plus 14.", "surface": "small", "valid": false}
+{"id": "esv14-small-test-0035", "parsed": [154, 22, 7, 0], "prediction": "Euclidean step: 154 = 22 times 7 plus 0.", "surface": "small", "valid": true}
+{"id": "esv14-small-test-0036", "parsed": [119, 1, 69, 50], "prediction": "Euclidean step: 119 = 1 times 69 plus 50.", "surface": "small", "valid": true}
+{"id": "esv14-small-test-0037", "parsed": [129, 32, 4, 11], "prediction": "Euclidean step: 129 = 32 times 4 plus 11.", "surface": "small", "valid": false}
+{"id": "esv14-small-test-0038", "parsed": [157, 1, 108, 49], "prediction": "Euclidean step: 157 = 1 times 108 plus 49.", "surface": "small", "valid": true}
+{"id": "esv14-small-test-0039", "parsed": [166, 8, 20, 6], "prediction": "Euclidean step: 166 = 8 times 20 plus 6.", "surface": "small", "valid": true}
+{"id": "esv14-small-test-0040", "parsed": [39, 1, 121, 39], "prediction": "Euclidean step: 39 = 1 times 121 plus 39.", "surface": "small", "valid": false}
+{"id": "esv14-small-test-0041", "parsed": [102, 3, 26, 18], "prediction": "Euclidean step: 102 = 3 times 26 plus 18.", "surface": "small", "valid": false}
+{"id": "esv14-small-test-0042", "parsed": [101, 1, 86, 15], "prediction": "Euclidean step: 101 = 1 times 86 plus 15.", "surface": "small", "valid": true}
+{"id": "esv14-small-test-0043", "parsed": [129, 5, 25, 4], "prediction": "Euclidean step: 129 = 5 times 25 plus 4.", "surface": "small", "valid": true}
+{"id": "esv14-small-test-0044", "parsed": null, "prediction": "Euclidean step: 3 times 40 plus 5.", "surface": "small", "valid": false}
+{"id": "esv14-small-test-0045", "parsed": [177, 19, 9, 6], "prediction": "Euclidean step: 177 = 19 times 9 plus 6.", "surface": "small", "valid": true}
+{"id": "esv14-small-test-0046", "parsed": [69, 1, 65, 4], "prediction": "Euclidean step: 69 = 1 times 65 plus 4.", "surface": "small", "valid": true}
+{"id": "esv14-small-test-0047", "parsed": [108, 4, 27, 0], "prediction": "Euclidean step: 108 = 4 times 27 plus 0.", "surface": "small", "valid": true}
+{"id": "esv14-small-test-0048", "parsed": null, "prediction": "Euclidean step: 42 times 64 plus 3.", "surface": "small", "valid": false}
+{"id": "esv14-small-test-0049", "parsed": [185, 7, 26, 13], "prediction": "Euclidean step: 185 = 7 times 26 plus 13.", "surface": "small", "valid": false}
+{"id": "esv14-small-test-0050", "parsed": [135, 1, 78, 57], "prediction": "Euclidean step: 135 = 1 times 78 plus 57.", "surface": "small", "valid": true}
+{"id": "esv14-small-test-0051", "parsed": [215, 71, 3, 2], "prediction": "Euclidean step: 215 = 71 times 3 plus 2.", "surface": "small", "valid": true}
+{"id": "esv14-small-test-0052", "parsed": [184, 1, 130, 54], "prediction": "Euclidean step: 184 = 1 times 130 plus 54.", "surface": "small", "valid": true}
+{"id": "esv14-small-test-0053", "parsed": [128, 5, 22, 12], "prediction": "Euclidean step: 128 = 5 times 22 plus 12.", "surface": "small", "valid": false}
+{"id": "esv14-small-test-0054", "parsed": [101, 1, 160, 1], "prediction": "Euclidean step: 101 = 1 times 160 plus 1.", "surface": "small", "valid": false}
+{"id": "esv14-small-test-0055", "parsed": [90, 4, 20, 10], "prediction": "Euclidean step: 90 = 4 times 20 plus 10.", "surface": "small", "valid": true}
+{"id": "esv14-small-test-0056", "parsed": [31, 1, 100, 31], "prediction": "Euclidean step: 31 = 1 times 100 plus 31.", "surface": "small", "valid": false}
+{"id": "esv14-small-test-0057", "parsed": [204, 5, 35, 24], "prediction": "Euclidean step: 204 = 5 times 35 plus 24.", "surface": "small", "valid": false}
+{"id": "esv14-small-test-0058", "parsed": [74, 1, 66, 8], "prediction": "Euclidean step: 74 = 1 times 66 plus 8.", "surface": "small", "valid": true}
+{"id": "esv14-small-test-0059", "parsed": [128, 4, 30, 8], "prediction": "Euclidean step: 128 = 4 times 30 plus 8.", "surface": "small", "valid": true}
+{"id": "esv14-small-test-0060", "parsed": [105, 1, 79, 26], "prediction": "Euclidean step: 105 = 1 times 79 plus 26.", "surface": "small", "valid": true}
+{"id": "esv14-small-test-0061", "parsed": [137, 6, 23, 11], "prediction": "Euclidean step: 137 = 6 times 23 plus 11.", "surface": "small", "valid": false}
+{"id": "esv14-small-test-0062", "parsed": [74, 1, 81, 13], "prediction": "Euclidean step: 74 = 1 times 81 plus 13.", "surface": "small", "valid": false}
+{"id": "esv14-small-test-0063", "parsed": [195, 4, 40, 15], "prediction": "Euclidean step: 195 = 4 times 40 plus 15.", "surface": "small", "valid": false}
+{"id": "esv14-small-test-0064", "parsed": [111, 1, 139, 10], "prediction": "Euclidean step: 111 = 1 times 139 plus 10.", "surface": "small", "valid": false}
+{"id": "esv14-small-test-0065", "parsed": [162, 9, 17, 9], "prediction": "Euclidean step: 162 = 9 times 17 plus 9.", "surface": "small", "valid": true}
+{"id": "esv14-small-test-0066", "parsed": [54, 6, 9, 0], "prediction": "Euclidean step: 54 = 6 times 9 plus 0.", "surface": "small", "valid": true}
+{"id": "esv14-small-test-0067", "parsed": [209, 29, 7, 4], "prediction": "Euclidean step: 209 = 29 times 7 plus 4.", "surface": "small", "valid": false}
+{"id": "esv14-small-test-0068", "parsed": null, "prediction": "Argument: Euclidean step: 203 = 5 times 37 plus 18.", "surface": "small", "valid": false}
+{"id": "esv14-small-test-0069", "parsed": [59, 3, 15, 14], "prediction": "Euclidean step: 59 = 3 times 15 plus 14.", "surface": "small", "valid": true}
+{"id": "esv14-small-test-0070", "parsed": [89, 1, 100, 89], "prediction": "Euclidean step: 89 = 1 times 100 plus 89.", "surface": "small", "valid": false}
+{"id": "esv14-small-test-0071", "parsed": [69, 3, 20, 9], "prediction": "Euclidean step: 69 = 3 times 20 plus 9.", "surface": "small", "valid": true}
+{"id": "esv14-small-test-0072", "parsed": [24, 1, 100, 4], "prediction": "Euclidean step: 24 = 1 times 100 plus 4.", "surface": "small", "valid": false}
+{"id": "esv14-small-test-0073", "parsed": [158, 5, 29, 18], "prediction": "Euclidean step: 158 = 5 times 29 plus 18.", "surface": "small", "valid": false}
+{"id": "esv14-small-test-0074", "parsed": [23, 5, 23, 13], "prediction": "Euclidean step: 23 = 5 times 23 plus 13.", "surface": "small", "valid": false}
+{"id": "esv14-small-test-0075", "parsed": [212, 10, 20, 12], "prediction": "Euclidean step: 212 = 10 times 20 plus 12.", "surface": "small", "valid": true}
+{"id": "esv14-small-test-0076", "parsed": null, "prediction": "Euclidean step: 29 times 63 plus 25.", "surface": "small", "valid": false}
+{"id": "esv14-small-test-0077", "parsed": [154, 5, 29, 14], "prediction": "Euclidean step: 154 = 5 times 29 plus 14.", "surface": "small", "valid": false}
+{"id": "esv14-small-test-0078", "parsed": null, "prediction": "Euclidean step: 76 = 2 * 29 plus 18.", "surface": "small", "valid": false}
+{"id": "esv14-small-test-0079", "parsed": [73, 7, 10, 3], "prediction": "Euclidean step: 73 = 7 times 10 plus 3.", "surface": "small", "valid": true}
+{"id": "esv14-small-test-0080", "parsed": null, "prediction": "Euclidean step: 44 times 4 plus 20 equals 176.", "surface": "small", "valid": false}
+{"id": "esv14-small-test-0081", "parsed": [69, 6, 10, 9], "prediction": "Euclidean step: 69 = 6 times 10 plus 9.", "surface": "small", "valid": true}
+{"id": "esv14-small-test-0082", "parsed": [101, 8, 12, 7], "prediction": "Euclidean step: 101 = 8 times 12 plus 7.", "surface": "small", "valid": false}
+{"id": "esv14-small-test-0083", "parsed": [160, 4, 33, 28], "prediction": "Euclidean step: 160 = 4 times 33 plus 28.", "surface": "small", "valid": true}
+{"id": "esv14-small-test-0084", "parsed": [182, 3, 54, 22], "prediction": "Euclidean step: 182 = 3 times 54 plus 22.", "surface": "small", "valid": false}
+{"id": "esv14-small-test-0085", "parsed": [201, 7, 29, 6], "prediction": "Euclidean step: 201 = 7 times 29 plus 6.", "surface": "small", "valid": false}
+{"id": "esv14-small-test-0086", "parsed": [212, 5, 36, 22], "prediction": "Euclidean step: 212 = 5 times 36 plus 22.", "surface": "small", "valid": false}
+{"id": "esv14-small-test-0087", "parsed": [170, 9, 18, 10], "prediction": "Euclidean step: 170 = 9 times 18 plus 10.", "surface": "small", "valid": false}
+{"id": "esv14-small-test-0088", "parsed": [134, 1, 79, 55], "prediction": "Euclidean step: 134 = 1 times 79 plus 55.", "surface": "small", "valid": true}
+{"id": "esv14-small-test-0089", "parsed": [210, 19, 11, 1], "prediction": "Euclidean step: 210 = 19 times 11 plus 1.", "surface": "small", "valid": true}
+{"id": "esv14-small-test-0090", "parsed": [134, 1, 170, 6], "prediction": "Euclidean step: 134 = 1 times 170 plus 6.", "surface": "small", "valid": false}
+{"id": "esv14-small-test-0091", "parsed": [208, 29, 7, 5], "prediction": "Euclidean step: 208 = 29 times 7 plus 5.", "surface": "small", "valid": true}
+{"id": "esv14-small-test-0092", "parsed": null, "prediction": "Euclidean step: 3 times 61 plus 5.", "surface": "small", "valid": false}
+{"id": "esv14-small-test-0093", "parsed": [92, 5, 19, 7], "prediction": "Euclidean step: 92 = 5 times 19 plus 7.", "surface": "small", "valid": false}
+{"id": "esv14-small-test-0094", "parsed": [96, 2, 45, 6], "prediction": "Euclidean step: 96 = 2 times 45 plus 6.", "surface": "small", "valid": true}
+{"id": "esv14-small-test-0095", "parsed": [161, 12, 13, 7], "prediction": "Euclidean step: 161 = 12 times 13 plus 7.", "surface": "small", "valid": false}
+{"id": "esv14-small-test-0096", "parsed": [1, 1, 65, 1], "prediction": "Euclidean step: 1 = 1 times 65 plus 1.", "surface": "small", "valid": false}
+{"id": "esv14-small-test-0097", "parsed": [150, 4, 34, 2], "prediction": "Euclidean step: 150 = 4 times 34 plus 2.", "surface": "small", "valid": false}
+{"id": "esv14-small-test-0098", "parsed": [53, 2, 25, 3], "prediction": "Euclidean step: 53 = 2 times 25 plus 3.", "surface": "small", "valid": true}
+{"id": "esv14-small-test-0099", "parsed": [74, 3, 22, 10], "prediction": "Euclidean step: 74 = 3 times 22 plus 10.", "surface": "small", "valid": false}
+{"id": "esv14-medium-test-0000", "parsed": null, "prediction": "Argument: Euclidean step: 839 = 1 times 747 plus 192.", "surface": "medium", "valid": false}
+{"id": "esv14-medium-test-0001", "parsed": [823, 26, 31, 17], "prediction": "Euclidean step: 823 = 26 times 31 plus 17.", "surface": "medium", "valid": true}
+{"id": "esv14-medium-test-0002", "parsed": [522, 1, 405, 117], "prediction": "Euclidean step: 522 = 1 times 405 plus 117.", "surface": "medium", "valid": true}
+{"id": "esv14-medium-test-0003", "parsed": [685, 228, 3, 1], "prediction": "Euclidean step: 685 = 228 times 3 plus 1.", "surface": "medium", "valid": true}
+{"id": "esv14-medium-test-0004", "parsed": null, "prediction": "Argument: Euclidean step: 565 = 1.99 times 284 plus 27.", "surface": "medium", "valid": false}
+{"id": "esv14-medium-test-0005", "parsed": [992, 90, 11, 2], "prediction": "Euclidean step: 992 = 90 times 11 plus 2.", "surface": "medium", "valid": true}
+{"id": "esv14-medium-test-0006", "parsed": [621, 1, 429, 192], "prediction": "Euclidean step: 621 = 1 times 429 plus 192.", "surface": "medium", "valid": true}
+{"id": "esv14-medium-test-0007", "parsed": null, "prediction": "Euclidean step: 42 times 42 times 21 plus 17.", "surface": "medium", "valid": false}
+{"id": "esv14-medium-test-0008", "parsed": [819, 1, 399, 420], "prediction": "Euclidean step: 819 = 1 times 399 plus 420.", "surface": "medium", "valid": false}
+{"id": "esv14-medium-test-0009", "parsed": [701, 140, 5, 1], "prediction": "Euclidean step: 701 = 140 times 5 plus 1.", "surface": "medium", "valid": true}
+{"id": "esv14-medium-test-0010", "parsed": [917, 2, 430, 157], "prediction": "Euclidean step: 917 = 2 times 430 plus 157.", "surface": "medium", "valid": false}
+{"id": "esv14-medium-test-0011", "parsed": [585, 17, 33, 18], "prediction": "Euclidean step: 585 = 17 times 33 plus 18.", "surface": "medium", "valid": false}
+{"id": "esv14-medium-test-0012", "parsed": null, "prediction": "Euclidean step: 2 times 480 plus 12.", "surface": "medium", "valid": false}
+{"id": "esv14-medium-test-0013", "parsed": [959, 56, 17, 11], "prediction": "Euclidean step: 959 = 56 times 17 plus 11.", "surface": "medium", "valid": false}
+{"id": "esv14-medium-test-0014", "parsed": [583, 1, 398, 185], "prediction": "Euclidean step: 583 = 1 times 398 plus 185.", "surface": "medium", "valid": true}
+{"id": "esv14-medium-test-0015", "parsed": [932, 58, 16, 8], "prediction": "Euclidean step: 932 = 58 times 16 plus 8.", "surface": "medium", "valid": false}
+{"id": "esv14-medium-test-0016", "parsed": null, "prediction": "Argument: Euclidean step: 870 = 6 times 135 plus 90.", "surface": "medium", "valid": false}
+{"id": "esv14-medium-test-0017", "parsed": null, "prediction": "Euclidean step: 29 times 22 plus 11 equals 629.", "surface": "medium", "valid": false}
+{"id": "esv14-medium-test-0018", "parsed": [526, 1, 584, 42], "prediction": "Euclidean step: 526 = 1 times 584 plus 42.", "surface": "medium", "valid": false}
+{"id": "esv14-medium-test-0019", "parsed": [137, 137, 7, 3], "prediction": "Euclidean step: 137 = 137 times 7 plus 3.", "surface": "medium", "valid": false}
+{"id": "esv14-medium-test-0020", "parsed": null, "prediction": "Euclidean step: 27 times 693 plus 21.", "surface": "medium", "valid": false}
+{"id": "esv14-medium-test-0021", "parsed": [530, 18, 28, 2], "prediction": "Euclidean step: 530 = 18 times 28 plus 2.", "surface": "medium", "valid": false}
+{"id": "esv14-medium-test-0022", "parsed": [740, 3, 205, 100], "prediction": "Euclidean step: 740 = 3 times 205 plus 100.", "surface": "medium", "valid": false}
+{"id": "esv14-medium-test-0023", "parsed": [659, 47, 15, 14], "prediction": "Euclidean step: 659 = 47 times 15 plus 14.", "surface": "medium", "valid": false}
+{"id": "esv14-medium-test-0024", "parsed": [877, 2, 394, 171], "prediction": "Euclidean step: 877 = 2 times 394 plus 171.", "surface": "medium", "valid": false}
+{"id": "esv14-medium-test-0025", "parsed": [550, 7, 78, 2], "prediction": "Euclidean step: 550 = 7 times 78 plus 2.", "surface": "medium", "valid": false}
+{"id": "esv14-medium-test-0026", "parsed": [845, 2, 361, 113], "prediction": "Euclidean step: 845 = 2 times 361 plus 113.", "surface": "medium", "valid": false}
+{"id": "esv14-medium-test-0027", "parsed": [917, 229, 4, 1], "prediction": "Euclidean step: 917 = 229 times 4 plus 1.", "surface": "medium", "valid": true}
+{"id": "esv14-medium-test-0028", "parsed": null, "prediction": "Argument: Euclidean step: 1 = 1 times 389 plus 64.", "surface": "medium", "valid": false}
+{"id": "esv14-medium-test-0029", "parsed": [897, 69, 13, 12], "prediction": "Euclidean step: 897 = 69 times 13 plus 12.", "surface": "medium", "valid": false}
+{"id": "esv14-medium-test-0030", "parsed": [612, 1, 466, 146], "prediction": "Euclidean step: 612 = 1 times 466 plus 146.", "surface": "medium", "valid": true}
+{"id": "esv14-medium-test-0031", "parsed": [937, 104, 9, 5], "prediction": "Euclidean step: 937 = 104 times 9 plus 5.", "surface": "medium", "valid": false}
+{"id": "esv14-medium-test-0032", "parsed": null, "prediction": "Argument: Euclidean step: 993 = 1.76 times 539 plus 257", "surface": "medium", "valid": false}
+{"id": "esv14-medium-test-0033", "parsed": [844, 52, 16, 12], "prediction": "Euclidean step: 844 = 52 times 16 plus 12.", "surface": "medium", "valid": true}
+{"id": "esv14-medium-test-0034", "parsed": [847, 1, 508, 339], "prediction": "Euclidean step: 847 = 1 times 508 plus 339.", "surface": "medium", "valid": true}
+{"id": "esv14-medium-test-0035", "parsed": [575, 30, 18, 5], "prediction": "Euclidean step: 575 = 30 times 18 plus 5.", "surface": "medium", "valid": false}
+{"id": "esv14-medium-test-0036", "parsed": null, "prediction": "Euclidean step: 4 times 133 plus 11.", "surface": "medium", "valid": false}
+{"id": "esv14-medium-test-0037", "parsed": [973, 30, 32, 13], "prediction": "Euclidean step: 973 = 30 times 32 plus 13.", "surface": "medium", "valid": false}
+{"id": "esv14-medium-test-0038", "parsed": [977, 2, 443, 190], "prediction": "Euclidean step: 977 = 2 times 443 plus 190.", "surface": "medium", "valid": false}
+{"id": "esv14-medium-test-0039", "parsed": [783, 19, 40, 3], "prediction": "Euclidean step: 783 = 19 times 40 plus 3.", "surface": "medium", "valid": false}
+{"id": "esv14-medium-test-0040", "parsed": null, "prediction": "Euclidean step: 23 times 842 plus 18.", "surface": "medium", "valid": false}
+{"id": "esv14-medium-test-0041", "parsed": [736, 105, 7, 1], "prediction": "Euclidean step: 736 = 105 times 7 plus 1.", "surface": "medium", "valid": true}
+{"id": "esv14-medium-test-0042", "parsed": [565, 1, 332, 233], "prediction": "Euclidean step: 565 = 1 times 332 plus 233.", "surface": "medium", "valid": true}
+{"id": "esv14-medium-test-0043", "parsed": null, "prediction": "Euclidean step: 888 equals 59 times 15 plus 9.", "surface": "medium", "valid": false}
+{"id": "esv14-medium-test-0044", "parsed": [610, 6, 94, 26], "prediction": "Euclidean step: 610 = 6 times 94 plus 26.", "surface": "medium", "valid": false}
+{"id": "esv14-medium-test-0045", "parsed": [679, 113, 6, 1], "prediction": "Euclidean step: 679 = 113 times 6 plus 1.", "surface": "medium", "valid": true}
+{"id": "esv14-medium-test-0046", "parsed": [826, 9, 88, 2], "prediction": "Euclidean step: 826 = 9 times 88 plus 2.", "surface": "medium", "valid": false}
+{"id": "esv14-medium-test-0047", "parsed": null, "prediction": "Euclidean step: 28 times 272 plus 4.", "surface": "medium", "valid": false}
+{"id": "esv14-medium-test-0048", "parsed": null, "prediction": "Argument: Euclidean step: 940 = 4 times 234 plus 80.", "surface": "medium", "valid": false}
+{"id": "esv14-medium-test-0049", "parsed": null, "prediction": "Euclidean step: 40 times 14 plus 12.", "surface": "medium", "valid": false}
+{"id": "esv14-medium-test-0050", "parsed": [688, 1, 408, 280], "prediction": "Euclidean step: 688 = 1 times 408 plus 280.", "surface": "medium", "valid": true}
+{"id": "esv14-medium-test-0051", "parsed": [525, 26, 20, 5], "prediction": "Euclidean step: 525 = 26 times 20 plus 5.", "surface": "medium", "valid": true}
+{"id": "esv14-medium-test-0052", "parsed": null, "prediction": "Argument: Euclidean step: 869 = 1 times 803 plus 66.", "surface": "medium", "valid": false}
+{"id": "esv14-medium-test-0053", "parsed": [508, 63, 8, 4], "prediction": "Euclidean step: 508 = 63 times 8 plus 4.", "surface": "medium", "valid": true}
+{"id": "esv14-medium-test-0054", "parsed": [785, 1, 704, 81], "prediction": "Euclidean step: 785 = 1 times 704 plus 81.", "surface": "medium", "valid": true}
+{"id": "esv14-medium-test-0055", "parsed": [897, 49, 18, 9], "prediction": "Euclidean step: 897 = 49 times 18 plus 9.", "surface": "medium", "valid": false}
+{"id": "esv14-medium-test-0056", "parsed": null, "prediction": "Argument: Euclidean step: 901 = 1 times 744 plus 157.", "surface": "medium", "valid": false}
+{"id": "esv14-medium-test-0057", "parsed": [591, 14, 40, 21], "prediction": "Euclidean step: 591 = 14 times 40 plus 21.", "surface": "medium", "valid": false}
+{"id": "esv14-medium-test-0058", "parsed": [517, 5, 98, 27], "prediction": "Euclidean step: 517 = 5 times 98 plus 27.", "surface": "medium", "valid": true}
+{"id": "esv14-medium-test-0059", "parsed": [793, 39, 20, 13], "prediction": "Euclidean step: 793 = 39 times 20 plus 13.", "surface": "medium", "valid": true}
+{"id": "esv14-medium-test-0060", "parsed": [894, 5, 172, 96], "prediction": "Euclidean step: 894 = 5 times 172 plus 96.", "surface": "medium", "valid": false}
+{"id": "esv14-medium-test-0061", "parsed": [864, 50, 17, 12], "prediction": "Euclidean step: 864 = 50 times 17 plus 12.", "surface": "medium", "valid": false}
+{"id": "esv14-medium-test-0062", "parsed": [880, 2, 411, 158], "prediction": "Euclidean step: 880 = 2 times 411 plus 158.", "surface": "medium", "valid": false}
+{"id": "esv14-medium-test-0063", "parsed": [762, 76, 10, 2], "prediction": "Euclidean step: 762 = 76 times 10 plus 2.", "surface": "medium", "valid": true}
+{"id": "esv14-medium-test-0064", "parsed": null, "prediction": "Argument: Euclidean step: 644 = 2 times 315 plus 104.", "surface": "medium", "valid": false}
+{"id": "esv14-medium-test-0065", "parsed": null, "prediction": "Euclidean step: 29 times 26 plus 13 equals 764.", "surface": "medium", "valid": false}
+{"id": "esv14-medium-test-0066", "parsed": [678, 1, 457, 221], "prediction": "Euclidean step: 678 = 1 times 457 plus 221.", "surface": "medium", "valid": true}
+{"id": "esv14-medium-test-0067", "parsed": null, "prediction": "Euclidean step: 27 times 256 plus 12.", "surface": "medium", "valid": false}
+{"id": "esv14-medium-test-0068", "parsed": [943, 6, 154, 119], "prediction": "Euclidean step: 943 = 6 times 154 plus 119.", "surface": "medium", "valid": false}
+{"id": "esv14-medium-test-0069", "parsed": [656, 54, 12, 8], "prediction": "Euclidean step: 656 = 54 times 12 plus 8.", "surface": "medium", "valid": true}
+{"id": "esv14-medium-test-0070", "parsed": [806, 1, 562, 244], "prediction": "Euclidean step: 806 = 1 times 562 plus 244.", "surface": "medium", "valid": true}
+{"id": "esv14-medium-test-0071", "parsed": [497, 24, 20, 17], "prediction": "Euclidean step: 497 = 24 times 20 plus 17.", "surface": "medium", "valid": false}
+{"id": "esv14-medium-test-0072", "parsed": [509, 1, 351, 158], "prediction": "Euclidean step: 509 = 1 times 351 plus 158.", "surface": "medium", "valid": true}
+{"id": "esv14-medium-test-0073", "parsed": [682, 45, 15, 11], "prediction": "Euclidean step: 682 = 45 times 15 plus 11.", "surface": "medium", "valid": false}
+{"id": "esv14-medium-test-0074", "parsed": [508, 1, 343, 165], "prediction": "Euclidean step: 508 = 1 times 343 plus 165.", "surface": "medium", "valid": true}
+{"id": "esv14-medium-test-0075", "parsed": [879, 39, 22, 3], "prediction": "Euclidean step: 879 = 39 times 22 plus 3.", "surface": "medium", "valid": false}
+{"id": "esv14-medium-test-0076", "parsed": null, "prediction": "Argument: Euclidean step: 890 = 2 times 315 plus 110.", "surface": "medium", "valid": false}
+{"id": "esv14-medium-test-0077", "parsed": [804, 49, 16, 12], "prediction": "Euclidean step: 804 = 49 times 16 plus 12.", "surface": "medium", "valid": false}
+{"id": "esv14-medium-test-0078", "parsed": [628, 2, 304, 112], "prediction": "Euclidean step: 628 = 2 times 304 plus 112.", "surface": "medium", "valid": false}
+{"id": "esv14-medium-test-0079", "parsed": [706, 22, 31, 26], "prediction": "Euclidean step: 706 = 22 times 31 plus 26.", "surface": "medium", "valid": false}
+{"id": "esv14-medium-test-0080", "parsed": [1, 3, 175, 12], "prediction": "Euclidean step: 1 = 3 times 175 plus 12.", "surface": "medium", "valid": false}
+{"id": "esv14-medium-test-0081", "parsed": [805, 49, 16, 11], "prediction": "Euclidean step: 805 = 49 times 16 plus 11.", "surface": "medium", "valid": false}
+{"id": "esv14-medium-test-0082", "parsed": [615, 1, 370, 245], "prediction": "Euclidean step: 615 = 1 times 370 plus 245.", "surface": "medium", "valid": true}
+{"id": "esv14-medium-test-0083", "parsed": [593, 98, 6, 1], "prediction": "Euclidean step: 593 = 98 times 6 plus 1.", "surface": "medium", "valid": false}
+{"id": "esv14-medium-test-0084", "parsed": null, "prediction": "Euclidean step: 2 times 649 plus 11.", "surface": "medium", "valid": false}
+{"id": "esv14-medium-test-0085", "parsed": [680, 56, 12, 8], "prediction": "Euclidean step: 680 = 56 times 12 plus 8.", "surface": "medium", "valid": true}
+{"id": "esv14-medium-test-0086", "parsed": [514, 1, 434, 180], "prediction": "Euclidean step: 514 = 1 times 434 plus 180.", "surface": "medium", "valid": false}
+{"id": "esv14-medium-test-0087", "parsed": [967, 26, 36, 17], "prediction": "Euclidean step: 967 = 26 times 36 plus 17.", "surface": "medium", "valid": false}
+{"id": "esv14-medium-test-0088", "parsed": [1, 3, 191, 1], "prediction": "Euclidean step: 1 = 3 times 191 plus 1.", "surface": "medium", "valid": false}
+{"id": "esv14-medium-test-0089", "parsed": [551, 39, 14, 7], "prediction": "Euclidean step: 551 = 39 times 14 plus 7.", "surface": "medium", "valid": false}
+{"id": "esv14-medium-test-0090", "parsed": [782, 1, 998, 184], "prediction": "Euclidean step: 782 = 1 times 998 plus 184.", "surface": "medium", "valid": false}
+{"id": "esv14-medium-test-0091", "parsed": [512, 36, 14, 8], "prediction": "Euclidean step: 512 = 36 times 14 plus 8.", "surface": "medium", "valid": true}
+{"id": "esv14-medium-test-0092", "parsed": [152, 3, 432, 20], "prediction": "Euclidean step: 152 = 3 times 432 plus 20.", "surface": "medium", "valid": false}
+{"id": "esv14-medium-test-0093", "parsed": [627, 23, 27, 18], "prediction": "Euclidean step: 627 = 23 times 27 plus 18.", "surface": "medium", "valid": false}
+{"id": "esv14-medium-test-0094", "parsed": [673, 3, 186, 119], "prediction": "Euclidean step: 673 = 3 times 186 plus 119.", "surface": "medium", "valid": false}
+{"id": "esv14-medium-test-0095", "parsed": null, "prediction": "Euclidean step: 122 times 7 plus 5.", "surface": "medium", "valid": false}
+{"id": "esv14-medium-test-0096", "parsed": [723, 8, 85, 33], "prediction": "Euclidean step: 723 = 8 times 85 plus 33.", "surface": "medium", "valid": false}
+{"id": "esv14-medium-test-0097", "parsed": [517, 31, 16, 11], "prediction": "Euclidean step: 517 = 31 times 16 plus 11.", "surface": "medium", "valid": false}
+{"id": "esv14-medium-test-0098", "parsed": [878, 3, 223, 133], "prediction": "Euclidean step: 878 = 3 times 223 plus 133.", "surface": "medium", "valid": false}
+{"id": "esv14-medium-test-0099", "parsed": [799, 88, 9, 7], "prediction": "Euclidean step: 799 = 88 times 9 plus 7.", "surface": "medium", "valid": true}
+{"id": "esv14-large-test-0000", "parsed": null, "prediction": "Argument: Euclidean step: 4 times 273 plus 11.", "surface": "large", "valid": false}
+{"id": "esv14-large-test-0001", "parsed": [2024, 1012, 2, 0], "prediction": "Euclidean step: 2024 = 1012 times 2 plus 0.", "surface": "large", "valid": true}
+{"id": "esv14-large-test-0002", "parsed": [1156, 9, 1740, 16], "prediction": "Euclidean step: 1156 = 9 times 1740 plus 16.", "surface": "large", "valid": false}
+{"id": "esv14-large-test-0003", "parsed": [2311, 1155, 2, 1], "prediction": "Euclidean step: 2311 = 1155 times 2 plus 1.", "surface": "large", "valid": true}
+{"id": "esv14-large-test-0004", "parsed": null, "prediction": "Argument: Euclidean step: 1402 = 1 times 1416 plus 10.", "surface": "large", "valid": false}
+{"id": "esv14-large-test-0005", "parsed": [2151, 264, 8, 3], "prediction": "Euclidean step: 2151 = 264 times 8 plus 3.", "surface": "large", "valid": false}
+{"id": "esv14-large-test-0006", "parsed": [1411, 3, 369, 222], "prediction": "Euclidean step: 1411 = 3 times 369 plus 222.", "surface": "large", "valid": false}
+{"id": "esv14-large-test-0007", "parsed": null, "prediction": "Euclidean step: 1546 = 39 times 39 times 3 plus 1.", "surface": "large", "valid": false}
+{"id": "esv14-large-test-0008", "parsed": null, "prediction": "Argument: Euclidean step: 1951 = 5 times 386 plus 1.", "surface": "large", "valid": false}
+{"id": "esv14-large-test-0009", "parsed": [104, 102, 1, 1], "prediction": "Euclidean step: 104 = 102 times 1 plus 1.", "surface": "large", "valid": false}
+{"id": "esv14-large-test-0010", "parsed": [1564, 2, 580, 284], "prediction": "Euclidean step: 1564 = 2 times 580 plus 284.", "surface": "large", "valid": false}
+{"id": "esv14-large-test-0011", "parsed": [1627, 101, 16, 15], "prediction": "Euclidean step: 1627 = 101 times 16 plus 15.", "surface": "large", "valid": false}
+{"id": "esv14-large-test-0012", "parsed": null, "prediction": "Argument: Euclidean step: 2 times 1033 plus 140.", "surface": "large", "valid": false}
+{"id": "esv14-large-test-0013", "parsed": [1369, 45, 30, 29], "prediction": "Euclidean step: 1369 = 45 times 30 plus 29.", "surface": "large", "valid": false}
+{"id": "esv14-large-test-0014", "parsed": [2194, 1428, 1, 766], "prediction": "Euclidean step: 2194 = 1428 times 1 plus 766.", "surface": "large", "valid": false}
+{"id": "esv14-large-test-0015", "parsed": null, "prediction": "Euclidean step: 77 times 32 plus 28.", "surface": "large", "valid": false}
+{"id": "esv14-large-test-0016", "parsed": [1049, 1, 570, 479], "prediction": "Euclidean step: 1049 = 1 times 570 plus 479.", "surface": "large", "valid": true}
+{"id": "esv14-large-test-0017", "parsed": [2135, 85, 24, 19], "prediction": "Euclidean step: 2135 = 85 times 24 plus 19.", "surface": "large", "valid": false}
+{"id": "esv14-large-test-0018", "parsed": [1053, 2, 361, 232], "prediction": "Euclidean step: 1053 = 2 times 361 plus 232.", "surface": "large", "valid": false}
+{"id": "esv14-large-test-0019", "parsed": [520, 14, 37, 20], "prediction": "Euclidean step: 520 = 14 times 37 plus 20.", "surface": "large", "valid": false}
+{"id": "esv14-large-test-0020", "parsed": null, "prediction": "Argument: Euclidean step: 7 times 147 plus 11.", "surface": "large", "valid": false}
+{"id": "esv14-large-test-0021", "parsed": [1083, 180, 6, 3], "prediction": "Euclidean step: 1083 = 180 times 6 plus 3.", "surface": "large", "valid": true}
+{"id": "esv14-large-test-0022", "parsed": [1632, 1, 1773, 141], "prediction": "Euclidean step: 1632 = 1 times 1773 plus 141.", "surface": "large", "valid": false}
+{"id": "esv14-large-test-0023", "parsed": [2015, 251, 8, 7], "prediction": "Euclidean step: 2015 = 251 times 8 plus 7.", "surface": "large", "valid": true}
+{"id": "esv14-large-test-0024", "parsed": null, "prediction": "Argument: Euclidean step: 1601 = 1 times 1225 plus 376.", "surface": "large", "valid": false}
+{"id": "esv14-large-test-0025", "parsed": [1110, 44, 25, 10], "prediction": "Euclidean step: 1110 = 44 times 25 plus 10.", "surface": "large", "valid": true}
+{"id": "esv14-large-test-0026", "parsed": [1298, 1, 1063, 235], "prediction": "Euclidean step: 1298 = 1 times 1063 plus 235.", "surface": "large", "valid": true}
+{"id": "esv14-large-test-0027", "parsed": [1508, 301, 5, 3], "prediction": "Euclidean step: 1508 = 301 times 5 plus 3.", "surface": "large", "valid": true}
+{"id": "esv14-large-test-0028", "parsed": null, "prediction": "Argument: Euclidean step: 2007 = 12 times 1571 plus 36.", "surface": "large", "valid": false}
+{"id": "esv14-large-test-0029", "parsed": [1896, 54, 34, 24], "prediction": "Euclidean step: 1896 = 54 times 34 plus 24.", "surface": "large", "valid": false}
+{"id": "esv14-large-test-0030", "parsed": [1042, 1, 542, 498], "prediction": "Euclidean step: 1042 = 1 times 542 plus 498.", "surface": "large", "valid": false}
+{"id": "esv14-large-test-0031", "parsed": [1088, 34, 32, 8], "prediction": "Euclidean step: 1088 = 34 times 32 plus 8.", "surface": "large", "valid": false}
+{"id": "esv14-large-test-0032", "parsed": null, "prediction": "Euclidean step: 2 times 449 plus 13.", "surface": "large", "valid": false}
+{"id": "esv14-large-test-0033", "parsed": [1911, 159, 12, 3], "prediction": "Euclidean step: 1911 = 159 times 12 plus 3.", "surface": "large", "valid": true}
+{"id": "esv14-large-test-0034", "parsed": [1098, 1, 1705, 73], "prediction": "Euclidean step: 1098 = 1 times 1705 plus 73.", "surface": "large", "valid": false}
+{"id": "esv14-large-test-0035", "parsed": [2377, 70, 33, 23], "prediction": "Euclidean step: 2377 = 70 times 33 plus 23.", "surface": "large", "valid": false}
+{"id": "esv14-large-test-0036", "parsed": [1699, 9, 184, 113], "prediction": "Euclidean step: 1699 = 9 times 184 plus 113.", "surface": "large", "valid": false}
+{"id": "esv14-large-test-0037", "parsed": [1931, 193, 10, 1], "prediction": "Euclidean step: 1931 = 193 times 10 plus 1.", "surface": "large", "valid": true}
+{"id": "esv14-large-test-0038", "parsed": [1168, 9, 1327, 112], "prediction": "Euclidean step: 1168 = 9 times 1327 plus 112.", "surface": "large", "valid": false}
+{"id": "esv14-large-test-0039", "parsed": [1533, 72, 21, 9], "prediction": "Euclidean step: 1533 = 72 times 21 plus 9.", "surface": "large", "valid": false}
+{"id": "esv14-large-test-0040", "parsed": null, "prediction": "Argument: Euclidean step: 1874 = 9 times 206 plus 100.", "surface": "large", "valid": false}
+{"id": "esv14-large-test-0041", "parsed": [2205, 110, 20, 15], "prediction": "Euclidean step: 2205 = 110 times 20 plus 15.", "surface": "large", "valid": false}
+{"id": "esv14-large-test-0042", "parsed": [857, 9, 1024, 3], "prediction": "Euclidean step: 857 = 9 times 1024 plus 3.", "surface": "large", "valid": false}
+{"id": "esv14-large-test-0043", "parsed": [425, 42, 28, 15], "prediction": "Euclidean step: 425 = 42 times 28 plus 15.", "surface": "large", "valid": false}
+{"id": "esv14-large-test-0044", "parsed": null, "prediction": "Argument: Euclidean step: 2270 = 3 times 719 plus 110.", "surface": "large", "valid": false}
+{"id": "esv14-large-test-0045", "parsed": [1622, 231, 7, 1], "prediction": "Euclidean step: 1622 = 231 times 7 plus 1.", "surface": "large", "valid": false}
+{"id": "esv14-large-test-0046", "parsed": [1567, 1, 951, 616], "prediction": "Euclidean step: 1567 = 1 times 951 plus 616.", "surface": "large", "valid": true}
+{"id": "esv14-large-test-0047", "parsed": [1001, 111, 9, 0], "prediction": "Euclidean step: 1001 = 111 times 9 plus 0.", "surface": "large", "valid": false}
+{"id": "esv14-large-test-0048", "parsed": null, "prediction": "Argument: Euclidean step: 2470 = 1.9 times 1278 plus 10", "surface": "large", "valid": false}
+{"id": "esv14-large-test-0049", "parsed": [1775, 68, 26, 17], "prediction": "Euclidean step: 1775 = 68 times 26 plus 17.", "surface": "large", "valid": false}
+{"id": "esv14-large-test-0050", "parsed": [1938, 3, 524, 210], "prediction": "Euclidean step: 1938 = 3 times 524 plus 210.", "surface": "large", "valid": false}
+{"id": "esv14-large-test-0051", "parsed": [1499, 48, 31, 17], "prediction": "Euclidean step: 1499 = 48 times 31 plus 17.", "surface": "large", "valid": false}
+{"id": "esv14-large-test-0052", "parsed": null, "prediction": "Argument: Euclidean step: 1683 = 2 times 775 plus 173.", "surface": "large", "valid": false}
+{"id": "esv14-large-test-0053", "parsed": [2190, 547, 4, 6], "prediction": "Euclidean step: 2190 = 547 times 4 plus 6.", "surface": "large", "valid": false}
+{"id": "esv14-large-test-0054", "parsed": [777, 1, 777, 0], "prediction": "Euclidean step: 777 = 1 times 777 plus 0.", "surface": "large", "valid": false}
+{"id": "esv14-large-test-0055", "parsed": null, "prediction": "Euclidean step: 139 times 135 plus 12.", "surface": "large", "valid": false}
+{"id": "esv14-large-test-0056", "parsed": [1637, 1, 1810, 227], "prediction": "Euclidean step: 1637 = 1 times 1810 plus 227.", "surface": "large", "valid": false}
+{"id": "esv14-large-test-0057", "parsed": [2294, 382, 6, 2], "prediction": "Euclidean step: 2294 = 382 times 6 plus 2.", "surface": "large", "valid": true}
+{"id": "esv14-large-test-0058", "parsed": [1197, 9, 2086, 105], "prediction": "Euclidean step: 1197 = 9 times 2086 plus 105.", "surface": "large", "valid": false}
+{"id": "esv14-large-test-0059", "parsed": null, "prediction": "Euclidean step: 318 times 320 plus 4.", "surface": "large", "valid": false}
+{"id": "esv14-large-test-0060", "parsed": null, "prediction": "Argument: Euclidean step: 2256 = 11 times 1931 plus 105", "surface": "large", "valid": false}
+{"id": "esv14-large-test-0061", "parsed": [1765, 72, 24, 19], "prediction": "Euclidean step: 1765 = 72 times 24 plus 19.", "surface": "large", "valid": false}
+{"id": "esv14-large-test-0062", "parsed": [473, 10, 473, 1], "prediction": "Euclidean step: 473 = 10 times 473 plus 1.", "surface": "large", "valid": false}
+{"id": "esv14-large-test-0063", "parsed": [1860, 232, 8, 4], "prediction": "Euclidean step: 1860 = 232 times 8 plus 4.", "surface": "large", "valid": true}
+{"id": "esv14-large-test-0064", "parsed": null, "prediction": "Euclidean step: 290 times 1826 plus 142.", "surface": "large", "valid": false}
+{"id": "esv14-large-test-0065", "parsed": [38, 4, 38, 10], "prediction": "Euclidean step: 38 = 4 times 38 plus 10.", "surface": "large", "valid": false}
+{"id": "esv14-large-test-0066", "parsed": [1936, 18, 1075, 1], "prediction": "Euclidean step: 1936 = 18 times 1075 plus 1.", "surface": "large", "valid": false}
+{"id": "esv14-large-test-0067", "parsed": [2457, 116, 21, 9], "prediction": "Euclidean step: 2457 = 116 times 21 plus 9.", "surface": "large", "valid": false}
+{"id": "esv14-large-test-0068", "parsed": null, "prediction": "Argument: Euclidean step: 44 times 355 plus 15.", "surface": "large", "valid": false}
+{"id": "esv14-large-test-0069", "parsed": [66, 66, 31, 2], "prediction": "Euclidean step: 66 = 66 times 31 plus 2.", "surface": "large", "valid": false}
+{"id": "esv14-large-test-0070", "parsed": [2269, 3, 659, 200], "prediction": "Euclidean step: 2269 = 3 times 659 plus 200.", "surface": "large", "valid": false}
+{"id": "esv14-large-test-0071", "parsed": [1368, 38, 36, 12], "prediction": "Euclidean step: 1368 = 38 times 36 plus 12.", "surface": "large", "valid": false}
+{"id": "esv14-large-test-0072", "parsed": null, "prediction": "Argument: Euclidean step: 1421 = 1 times 1175 plus 246.", "surface": "large", "valid": false}
+{"id": "esv14-large-test-0073", "parsed": [2011, 51, 39, 22], "prediction": "Euclidean step: 2011 = 51 times 39 plus 22.", "surface": "large", "valid": true}
+{"id": "esv14-large-test-0074", "parsed": [1319, 1, 1008, 311], "prediction": "Euclidean step: 1319 = 1 times 1008 plus 311.", "surface": "large", "valid": true}
+{"id": "esv14-large-test-0075", "parsed": [104, 47, 22, 10], "prediction": "Euclidean step: 104 = 47 times 22 plus 10.", "surface": "large", "valid": false}
+{"id": "esv14-large-test-0076", "parsed": null, "prediction": "Argument: Euclidean step: 2058 = 1.38 times 1467 plus 3", "surface": "large", "valid": false}
+{"id": "esv14-large-test-0077", "parsed": [19, 102, 1, 9], "prediction": "Euclidean step: 19 = 102 times 1 plus 9.", "surface": "large", "valid": false}
+{"id": "esv14-large-test-0078", "parsed": [1169, 9, 1779, 10], "prediction": "Euclidean step: 1169 = 9 times 1779 plus 10.", "surface": "large", "valid": false}
+{"id": "esv14-large-test-0079", "parsed": [2326, 258, 9, 4], "prediction": "Euclidean step: 2326 = 258 times 9 plus 4.", "surface": "large", "valid": true}
+{"id": "esv14-large-test-0080", "parsed": null, "prediction": "Argument: Euclidean step: 2462 = 1.5 times 1609 plus 35", "surface": "large", "valid": false}
+{"id": "esv14-large-test-0081", "parsed": [392, 3, 392, 0], "prediction": "Euclidean step: 392 = 3 times 392 plus 0.", "surface": "large", "valid": false}
+{"id": "esv14-large-test-0082", "parsed": [1981, 1, 1924, 57], "prediction": "Euclidean step: 1981 = 1 times 1924 plus 57.", "surface": "large", "valid": true}
+{"id": "esv14-large-test-0083", "parsed": [1618, 809, 2, 0], "prediction": "Euclidean step: 1618 = 809 times 2 plus 0.", "surface": "large", "valid": true}
+{"id": "esv14-large-test-0084", "parsed": null, "prediction": "Argument: Euclidean step: 1606 = 1 times 1374 plus 232.", "surface": "large", "valid": false}
+{"id": "esv14-large-test-0085", "parsed": [2451, 272, 9, 3], "prediction": "Euclidean step: 2451 = 272 times 9 plus 3.", "surface": "large", "valid": true}
+{"id": "esv14-large-test-0086", "parsed": [1286, 1, 1326, 100], "prediction": "Euclidean step: 1286 = 1 times 1326 plus 100.", "surface": "large", "valid": false}
+{"id": "esv14-large-test-0087", "parsed": [1830, 63, 29, 21], "prediction": "Euclidean step: 1830 = 63 times 29 plus 21.", "surface": "large", "valid": false}
+{"id": "esv14-large-test-0088", "parsed": null, "prediction": "Argument: Euclidean step: 39 = 6 times 608 plus 39.", "surface": "large", "valid": false}
+{"id": "esv14-large-test-0089", "parsed": [1245, 37, 33, 18], "prediction": "Euclidean step: 1245 = 37 times 33 plus 18.", "surface": "large", "valid": false}
+{"id": "esv14-large-test-0090", "parsed": [2133, 2, 1006, 221], "prediction": "Euclidean step: 2133 = 2 times 1006 plus 221.", "surface": "large", "valid": false}
+{"id": "esv14-large-test-0091", "parsed": [1459, 13, 119, 10], "prediction": "Euclidean step: 1459 = 13 times 119 plus 10.", "surface": "large", "valid": false}
+{"id": "esv14-large-test-0092", "parsed": null, "prediction": "Argument: Euclidean step: 1663 = 1 times 1533 plus 130.", "surface": "large", "valid": false}
+{"id": "esv14-large-test-0093", "parsed": [23, 8, 23, 15], "prediction": "Euclidean step: 23 = 8 times 23 plus 15.", "surface": "large", "valid": false}
+{"id": "esv14-large-test-0094", "parsed": [1300, 4, 258, 116], "prediction": "Euclidean step: 1300 = 4 times 258 plus 116.", "surface": "large", "valid": false}
+{"id": "esv14-large-test-0095", "parsed": null, "prediction": "Euclidean step: 190 times 180 plus 13.", "surface": "large", "valid": false}
+{"id": "esv14-large-test-0096", "parsed": [1120, 1, 872, 248], "prediction": "Euclidean step: 1120 = 1 times 872 plus 248.", "surface": "large", "valid": true}
+{"id": "esv14-large-test-0097", "parsed": [1677, 59, 28, 15], "prediction": "Euclidean step: 1677 = 59 times 28 plus 15.", "surface": "large", "valid": false}
+{"id": "esv14-large-test-0098", "parsed": [1169, 9, 1782, 1], "prediction": "Euclidean step: 1169 = 9 times 1782 plus 1.", "surface": "large", "valid": false}
+{"id": "esv14-large-test-0099", "parsed": [2162, 216, 10, 2], "prediction": "Euclidean step: 2162 = 216 times 10 plus 2.", "surface": "large", "valid": true}

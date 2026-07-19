@@ -1,0 +1,93 @@
+{
+  "count": 480,
+  "five_fold_cross_validation": {
+    "all": {
+      "auc": 0.8002778347111202,
+      "brier": 0.14176594596223013,
+      "features": [
+        "magnitude_log10",
+        "digits",
+        "steps",
+        "max_quotient_log1p",
+        "mean_quotient_log1p"
+      ],
+      "log_loss": 0.44605257346376814
+    },
+    "chain": {
+      "auc": 0.5028352804536449,
+      "brier": 0.19112502626363426,
+      "features": [
+        "steps"
+      ],
+      "log_loss": 0.5704012527187985
+    },
+    "constant": {
+      "auc": 0.45408895265423244,
+      "brier": 0.19116210937500003,
+      "features": [],
+      "log_loss": 0.5706035129423133
+    },
+    "local_quotient": {
+      "auc": 0.6572498918266494,
+      "brier": 0.17964911192961777,
+      "features": [
+        "max_quotient_log1p",
+        "mean_quotient_log1p"
+      ],
+      "log_loss": 0.5390234033981733
+    },
+    "magnitude": {
+      "auc": 0.779189724670356,
+      "brier": 0.14627194781730377,
+      "features": [
+        "magnitude_log10",
+        "digits"
+      ],
+      "log_loss": 0.457717659042085
+    },
+    "magnitude_plus_chain": {
+      "auc": 0.7945389537928993,
+      "brier": 0.14512881483609583,
+      "features": [
+        "magnitude_log10",
+        "digits",
+        "steps"
+      ],
+      "log_loss": 0.4532371258840353
+    }
+  },
+  "metric": "trace_valid",
+  "overall_rate": 0.25625,
+  "per_surface": {
+    "large_long": {
+      "count": 80,
+      "rate": 0.1125,
+      "valid": 9
+    },
+    "large_short": {
+      "count": 80,
+      "rate": 0.0375,
+      "valid": 3
+    },
+    "medium_long": {
+      "count": 80,
+      "rate": 0.175,
+      "valid": 14
+    },
+    "medium_short": {
+      "count": 80,
+      "rate": 0.1,
+      "valid": 8
+    },
+    "small_long": {
+      "count": 80,
+      "rate": 0.6125,
+      "valid": 49
+    },
+    "small_short": {
+      "count": 80,
+      "rate": 0.5,
+      "valid": 40
+    }
+  }
+}

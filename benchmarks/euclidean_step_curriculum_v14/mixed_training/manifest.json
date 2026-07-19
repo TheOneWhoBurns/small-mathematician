@@ -1,0 +1,37 @@
+{
+  "counts": {
+    "train": 4600,
+    "valid": 800
+  },
+  "duplicate_ids": 0,
+  "schema_version": 1,
+  "train_sources": [
+    {
+      "path": "benchmarks/euclidean_step_curriculum_v14/training/train.jsonl",
+      "sha256": "6aff82dd9a05b166839302bf9995f3f4bf63a6f9b122cfe4b3d28175ad72d967"
+    },
+    {
+      "path": "benchmarks/trace_curriculum_v6/medium/training/train.jsonl",
+      "sha256": "728a8c85429bf7ce899271a454de35e2eea936694c120a5c4b689ae67724b434"
+    },
+    {
+      "path": "benchmarks/trace_length_v7/long/training/train.jsonl",
+      "sha256": "f9c5befa7892fba79f99b547d20b4d0274cedf30fce8abe81f368eb38766f90f"
+    }
+  ],
+  "train_valid_overlap": 0,
+  "valid_sources": [
+    {
+      "path": "benchmarks/euclidean_step_curriculum_v14/training/valid.jsonl",
+      "sha256": "4cc710256c1648e4fb06aafa9553f026edc41d0e1cd0f136eae83f5d39149c67"
+    },
+    {
+      "path": "benchmarks/trace_curriculum_v6/medium/training/valid.jsonl",
+      "sha256": "b11e322083e333d88551839901bd21f75b60dd1c704e4d036e4d3bae6e7a004e"
+    },
+    {
+      "path": "benchmarks/trace_length_v7/long/training/valid.jsonl",
+      "sha256": "69afae576dacc1fa54bef03667f9ef2e5a616009d0426447f5fdd9c674b724d9"
+    }
+  ]
+}

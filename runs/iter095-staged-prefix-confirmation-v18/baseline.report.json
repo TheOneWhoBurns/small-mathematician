@@ -1,0 +1,81 @@
+{
+  "count": 300,
+  "final_valid": 103,
+  "final_valid_rate": 0.3433333333333333,
+  "parsed": 298,
+  "parsed_rate": 0.9933333333333333,
+  "per_surface": {
+    "large_long": {
+      "count": 50,
+      "final_valid": 9,
+      "final_valid_rate": 0.18,
+      "parsed": 49,
+      "parsed_rate": 0.98,
+      "semantic": 7,
+      "semantic_rate": 0.14,
+      "trace_valid": 8,
+      "trace_valid_rate": 0.16
+    },
+    "large_short": {
+      "count": 50,
+      "final_valid": 5,
+      "final_valid_rate": 0.1,
+      "parsed": 49,
+      "parsed_rate": 0.98,
+      "semantic": 0,
+      "semantic_rate": 0.0,
+      "trace_valid": 1,
+      "trace_valid_rate": 0.02
+    },
+    "medium_long": {
+      "count": 50,
+      "final_valid": 13,
+      "final_valid_rate": 0.26,
+      "parsed": 50,
+      "parsed_rate": 1.0,
+      "semantic": 7,
+      "semantic_rate": 0.14,
+      "trace_valid": 10,
+      "trace_valid_rate": 0.2
+    },
+    "medium_short": {
+      "count": 50,
+      "final_valid": 14,
+      "final_valid_rate": 0.28,
+      "parsed": 50,
+      "parsed_rate": 1.0,
+      "semantic": 5,
+      "semantic_rate": 0.1,
+      "trace_valid": 7,
+      "trace_valid_rate": 0.14
+    },
+    "small_long": {
+      "count": 50,
+      "final_valid": 32,
+      "final_valid_rate": 0.64,
+      "parsed": 50,
+      "parsed_rate": 1.0,
+      "semantic": 21,
+      "semantic_rate": 0.42,
+      "trace_valid": 26,
+      "trace_valid_rate": 0.52
+    },
+    "small_short": {
+      "count": 50,
+      "final_valid": 30,
+      "final_valid_rate": 0.6,
+      "parsed": 50,
+      "parsed_rate": 1.0,
+      "semantic": 20,
+      "semantic_rate": 0.4,
+      "trace_valid": 30,
+      "trace_valid_rate": 0.6
+    }
+  },
+  "predictions_sha256": "88a872347658bb52cdfd280c899388c470f9ab0755c451d38a73fa0d4d208456",
+  "semantic": 60,
+  "semantic_rate": 0.2,
+  "trace_valid": 82,
+  "trace_valid_rate": 0.2733333333333333,
+  "verifier_sha256": "3741fcb14096d9b1b58dab030e58db60e14e733a681c16d92759ff1809f7dd89"
+}

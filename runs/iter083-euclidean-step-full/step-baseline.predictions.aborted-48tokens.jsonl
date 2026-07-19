@@ -1,0 +1,77 @@
+{"id": "esv14-small-test-0000", "response": "* Recall the relevant concept, which is Euclidean division.\n * Think of a good value for A, the dividend.\n  * Think of a good value for B, the divisor.\n  * Carry out the calculation, recording the"}
+{"id": "esv14-small-test-0001", "response": "1. Divide 145 by 16 to find the integer quotient and remainder.\n 2. State the Euclidean step: 145 = 9 times 16 plus 11."}
+{"id": "esv14-small-test-0002", "response": "* Determine the quotient Q.\n  * Determine the remainder R.\n  * State the Euclidean step."}
+{"id": "esv14-small-test-0003", "response": "Step 1: Divide 64 by 34 to find the quotient and remainder.\nEuclidean step: 64 = 1 times 34 plus 30."}
+{"id": "esv14-small-test-0004", "response": "* Recall the relevant concept, which is Euclidean division.\n * Apply the plan to the task.\nResponse:\nEuclidean step: 2 times 58 plus 23."}
+{"id": "esv14-small-test-0005", "response": "Step 1: Divide 55 by 10. The quotient is 5, and the remainder is 5. Euclidean step: 55 = 5 times 10 plus 5."}
+{"id": "esv14-small-test-0006", "response": "* Determine the quotient Q.\n  * Determine the remainder R.\n  * Explain the Euclidean step."}
+{"id": "esv14-small-test-0007", "response": "1. Divide 110 by 18 to find the quotient and remainder.\n 2. State the Euclidean step: 110 = 6 times 18 plus 10."}
+{"id": "esv14-small-test-0008", "response": "* Recall the relevant concept, which is Euclidean division.\n * Think of a good value for A, Q, and B.\n  * Think of a good value for R.\n  * Execute the argumentifying chain of thought."}
+{"id": "esv14-small-test-0009", "response": "Step 1: Divide 57 by 40. The quotient is 1, and the remainder is 17. \nEuclidean step: 57 = 1 times 40 plus 17."}
+{"id": "esv14-small-test-0010", "response": "Step 1: Divide 101 by 11. The quotient is 9, and the remainder is 2. \nReasoning: To find the quotient, divide 101 by 11, which gives"}
+{"id": "esv14-small-test-0011", "response": "* Determine the quotient and remainder of 127 divided by 30.\n  * State the Euclidean step: 127 = 4 times 30 plus 7."}
+{"id": "esv14-small-test-0012", "response": "* Recall the relevant concept, which is Euclidean division.\n * Think of a good value for A, the dividend.\n * Think of a good value for B, the divisor.\n * Carry out the calculation in the required"}
+{"id": "esv14-small-test-0013", "response": "Step 1: Divide 97 by 32. The quotient is 3, and the remainder is 1. \nEuclidean step: 97 = 3 times 32 plus 1."}
+{"id": "esv14-small-test-0014", "response": "* Determine the quotient.\n  * Determine the remainder.\n  * State the Euclidean step."}
+{"id": "esv14-small-test-0015", "response": "* Determine the quotient and remainder when 154 is divided by 14.\n  * State the Euclidean step: 154 = 11 times 14 plus 10."}
+{"id": "esv14-small-test-0016", "response": "* Recall the relevant concept, which is Euclidean division.\n * Apply the plan to the argument.\nResponse:\nEuclidean step: 1 times 127 plus 38."}
+{"id": "esv14-small-test-0017", "response": "Step 1: Divide 87 by 7. The quotient is 12, and the remainder is 3. \nEuclidean step: 87 = 12 times 7 plus 3."}
+{"id": "esv14-small-test-0018", "response": "Step 1: Divide 156 by 70 to find the quotient and remainder. The quotient is 2, and the remainder is 16. \nStep 2: Write the quotient and remainder in the form '"}
+{"id": "esv14-small-test-0019", "response": "* Find the Euclidean quotient and remainder for 206 divided by 9.\n  * Explain the reasoning behind the result."}
+{"id": "esv14-small-test-0020", "response": "* Recall the relevant concept, which is Euclidean division.\n * Think of a good value for A, Q, and B.\n  * Think of a good value for R.\n  * Execute the plan."}
+{"id": "esv14-small-test-0021", "response": "1. Divide 119 by 10 to find the integer quotient and remainder.\n 2. State the Euclidean step: 119 = 11 times 10 plus 9."}
+{"id": "esv14-small-test-0022", "response": "* Determine the quotient Q.\n  * Determine the remainder R.\n  * Explain the Euclidean step."}
+{"id": "esv14-small-test-0023", "response": "* Determine the quotient and remainder when 110 is divided by 6.\n  * State the Euclidean step: 110 = 18 times 6 plus 2."}
+{"id": "esv14-small-test-0024", "response": "* Recall the relevant concept, which is Euclidean division.\n * Apply the plan to the argument.\nResponse: Euclidean step: 3 times 27 plus 14."}
+{"id": "esv14-small-test-0025", "response": "Step 1: Divide 79 by 12. The quotient is 6, and the remainder is 5. \nEuclidean step: 79 = 6 times 12 plus 5."}
+{"id": "esv14-small-test-0026", "response": "* Determine the quotient Q by dividing 145 by 91.\n  * Determine the remainder R by finding the remainder of the division.\n  * State the Euclidean step."}
+{"id": "esv14-small-test-0027", "response": "* Divide 141 by 23 to find the quotient and remainder.\n * Explain the Euclidean step."}
+{"id": "esv14-small-test-0028", "response": "* Recall the relevant concept, which is Euclidean division.\n * Think of a good value for A, Q, and B.\n  * Think of a good value for R.\n  Argument:\n    * Euclidean step:"}
+{"id": "esv14-small-test-0029", "response": "Step 1: Divide 207 by 31 to find the integer quotient and remainder. The quotient is 6, and the remainder is 21. \nEuclidean step: 207 = 6 times"}
+{"id": "esv14-small-test-0030", "response": "* Determine the quotient Q by dividing 78 by 43.\n  * Determine the remainder R by finding the difference between 78 and the product of Q and 43.\n  * State the Euclidean step as"}
+{"id": "esv14-small-test-0031", "response": "* Determine the quotient and remainder when 108 is divided by 36.\n  * State the Euclidean step: 108 = 3 times 36 plus 0."}
+{"id": "esv14-small-test-0032", "response": "* Recall the relevant concept, which is Euclidean division.\n * Apply the plan to the task.\nResponse:\nEuclidean step: 1 = 1 times 51 plus 5."}
+{"id": "esv14-small-test-0033", "response": "Step 1: Divide 60 by 37 to find the integer quotient and remainder. The integer quotient is 1, and the remainder is 23. \nEuclidean step: 60 = 1 times"}
+{"id": "esv14-small-test-0034", "response": "* Determine the quotient Q.\n  * Determine the remainder R.\n  * State the Euclidean step."}
+{"id": "esv14-small-test-0035", "response": "* Determine the quotient and remainder when 154 is divided by 7.\n  * State the Euclidean step: 154 = 22 times 7 plus 0."}
+{"id": "esv14-small-test-0036", "response": "* Recall the relevant concept, which is Euclidean division.\n * Think of a good value for A, Q, and B.\n  * Think of a good value for R.\n  * Execute the argumentifying chain of thought."}
+{"id": "esv14-small-test-0037", "response": "1. Divide 129 by 32 to find the integer quotient and remainder.\n 2. State the Euclidean step: 129 = 32 times 4 plus 11."}
+{"id": "esv14-small-test-0038", "response": "* Determine the quotient Q.\n  * Determine the remainder R.\n  * State the Euclidean step."}
+{"id": "esv14-small-test-0039", "response": "1. Divide 166 by 20 to find the quotient and remainder.\n 2. State the Euclidean step: 166 = 8 times 20 plus 6."}
+{"id": "esv14-small-test-0040", "response": "- As the dividend is larger than the divisor, the first Euclidean step will be 'Euclidean step: 152 = 1 times 121 plus 31.'"}
+{"id": "esv14-small-test-0041", "response": "Step 1: Divide 102 by 26. The quotient is 3, and the remainder is 18. \nEuclidean step: 102 = 3 times 26 plus 18"}
+{"id": "esv14-small-test-0042", "response": "Step 1: Divide 101 by 86 to find the quotient and remainder. The quotient is 1, and the remainder is 15. \nEuclidean step: 101 = 1 times"}
+{"id": "esv14-small-test-0043", "response": "1. Divide 129 by 25 to find the quotient and remainder.\n 2. State the Euclidean step: 129 = 5 times 25 plus 4."}
+{"id": "esv14-small-test-0044", "response": "Solution:\nArgument: Euclidean step: 3 times 40 plus 5."}
+{"id": "esv14-small-test-0045", "response": "Step 1: Divide 177 by 9. The quotient is 19, and the remainder is 6. \nEuclidean step: 177 = 19 times 9 plus 6."}
+{"id": "esv14-small-test-0046", "response": "Step 1: Divide 69 by 65 to find the quotient and remainder. The quotient is 1, and the remainder is 4. \nEuclidean step: 69 = 1 times 65 plus"}
+{"id": "esv14-small-test-0047", "response": "1. Divide 108 by 27 to find the quotient and remainder.\n 2. State the Euclidean step: 108 = 4 times 27 plus 0."}
+{"id": "esv14-small-test-0048", "response": "* Recall the relevant concept, which is Euclidean division.\n * Apply it to the specific task."}
+{"id": "esv14-small-test-0049", "response": "Step 1: Divide 185 by 26. The quotient is 7, and the remainder is 11. \nEuclidean step: 185 = 7 times 26 plus 11"}
+{"id": "esv14-small-test-0050", "response": "* Determine the quotient Q.\n  * Determine the remainder R.\n  * Explain the Euclidean step."}
+{"id": "esv14-small-test-0051", "response": "* Determine the quotient and remainder when 215 is divided by 3.\n  * State the Euclidean step: 215 = 71 times 3 plus 2."}
+{"id": "esv14-small-test-0052", "response": "1. Identify the dividend and divisor.\n 2. Perform the Euclidean division step.\n 3. State the Euclidean step."}
+{"id": "esv14-small-test-0053", "response": "Step 1: Divide 128 by 22 to find the integer quotient and remainder. The integer quotient is 5, and the remainder is 18. \nEuclidean step: 128 = 5"}
+{"id": "esv14-small-test-0054", "response": "* Determine the quotient Q.\n  * Determine the remainder R.\n  * State the Euclidean step."}
+{"id": "esv14-small-test-0055", "response": "Step 1: Divide 90 by 20. The quotient is 4, and the remainder is 10.\nEuclidean step: 90 = 4 times 20 plus 10."}
+{"id": "esv14-small-test-0056", "response": "* Recall the relevant concept, which is Euclidean division.\n * Think of a good value for A, Q, and B.\n  * Think of a good value for R.\n  * Execute the plan."}
+{"id": "esv14-small-test-0057", "response": "Step 1: Divide 204 by 35 to find the integer quotient and remainder. The integer quotient is 5, and the remainder is 24. \nEuclidean step: 204 = 5"}
+{"id": "esv14-small-test-0058", "response": "Step 1: Divide 74 by 66 to find the quotient and remainder. The quotient is 1, and the remainder is 8. \nStep 2: Write the Euclidean step: 74 ="}
+{"id": "esv14-small-test-0059", "response": "1. Divide 128 by 30 to find the quotient and remainder.\n 2. State the Euclidean step: 128 = 4 times 30 plus 8."}
+{"id": "esv14-small-test-0060", "response": "* Recall the relevant concept, which is Euclidean division.\n * Think of a good value for A, Q, and B.\n  * Think of a good value for R.\n  * Execute the argumentifying chain of thought."}
+{"id": "esv14-small-test-0061", "response": "Step 1: Divide 137 by 23. The quotient is 6, and the remainder is 1. \nEuclidean step: 137 = 6 times 23 plus 1."}
+{"id": "esv14-small-test-0062", "response": "Step 1: Divide 81 by 74 to find the quotient (Q) and the remainder (R). \nEuclidean step: 81 = 1 times 74 plus 7."}
+{"id": "esv14-small-test-0063", "response": "* Determine the quotient and remainder when 195 is divided by 40.\n  * State the Euclidean step: 195 = 4 times 40 plus 15."}
+{"id": "esv14-small-test-0064", "response": "* Recall the relevant concept, which is Euclidean division.\n * Think of a good value for A, Q, and B.\n  * Think of a good value for R.\n  * Execute the plan."}
+{"id": "esv14-small-test-0065", "response": "Step 1: Divide 162 by 17. The quotient is 9, and the remainder is 9. \nEuclidean step: 162 = 9 times 17 plus 9."}
+{"id": "esv14-small-test-0066", "response": "1. Identify the dividend and divisor.\n 2. Perform the Euclidean division.\n 3. Write the quotient and remainder."}
+{"id": "esv14-small-test-0067", "response": "* Determine the quotient and remainder when 209 is divided by 7.\n  * State the Euclidean step: 209 = 29 times 7 plus 4."}
+{"id": "esv14-small-test-0068", "response": "* Recall the relevant concept, which is Euclidean division.\n * Apply the plan to the task.\nResponse: Euclidean step: 5 times 37 plus 12."}
+{"id": "esv14-small-test-0069", "response": "Step 1: Divide 59 by 15. The quotient is 3, and the remainder is 14. \nEuclidean step: 59 = 3 times 15 plus 14."}
+{"id": "esv14-small-test-0070", "response": "* Determine the quotient and remainder.\n  * State the Euclidean step."}
+{"id": "esv14-small-test-0071", "response": "* Find the Euclidean quotient and remainder.\n  * Explain the Euclidean step."}
+{"id": "esv14-small-test-0072", "response": "* Recall the relevant concept, which is Euclidean division.\n * Apply it to the specific task."}
+{"id": "esv14-small-test-0073", "response": "1. Divide 158 by 29 to find the integer quotient and remainder.\n 2. State the Euclidean step: 158 = 5 times 29 plus 13."}
+{"id": "esv14-small-test-0074", "response": "* Determine the quotient Q.\n  * Determine the remainder R.\n  * Explain the Euclidean step."}
+{"id": "esv14-small-test-0075", "response": "* Find the Euclidean quotient and remainder.\n  * State the Euclidean step."}
+{"id": "esv14-small-test-0076", "response": "* Recall the relevant concept, which is Euclidean division.\n * Think of a good value for A, the dividend.\n  * Think of a good value for B, the divisor.\n  * Carry out the calculation, using the"}

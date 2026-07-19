@@ -1,0 +1,27 @@
+{
+  "counts": {
+    "test": 300,
+    "train": 3000,
+    "valid": 480
+  },
+  "parameter_overlap": 0,
+  "schema_version": 1,
+  "seed": 20260719,
+  "surfaces": {
+    "large": [
+      1001,
+      2500
+    ],
+    "medium": [
+      501,
+      1000
+    ],
+    "small": [
+      50,
+      216
+    ]
+  },
+  "test_prompt_sha256": "10a6d5d64645eb0eaec1dc2721d906d2cbf5178227787ca5e2cf576e79c2b724",
+  "test_verifier_sha256": "f1dc8b7aecaa9c15d20952033e664cc7ecba77da918f91bb29597f8443df540f",
+  "unique_parameter_pairs": 3780
+}

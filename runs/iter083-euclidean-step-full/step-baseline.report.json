@@ -1,0 +1,24 @@
+{
+  "count": 300,
+  "per_surface": {
+    "large": {
+      "count": 100,
+      "valid": 21,
+      "valid_rate": 0.21
+    },
+    "medium": {
+      "count": 100,
+      "valid": 30,
+      "valid_rate": 0.3
+    },
+    "small": {
+      "count": 100,
+      "valid": 50,
+      "valid_rate": 0.5
+    }
+  },
+  "predictions_sha256": "89dd2455f43e6fe34dec4d53460f071301079b4e78258c842ffec5b1ae8ccc80",
+  "valid": 101,
+  "valid_rate": 0.33666666666666667,
+  "verifier_sha256": "f1dc8b7aecaa9c15d20952033e664cc7ecba77da918f91bb29597f8443df540f"
+}

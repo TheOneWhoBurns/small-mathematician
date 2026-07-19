@@ -1,0 +1,82 @@
+{
+  "metric": "trace_valid",
+  "overall": {
+    "baseline_rate": 0.27291666666666664,
+    "baseline_semantic": 131,
+    "candidate_rate": 0.25416666666666665,
+    "candidate_semantic": 122,
+    "count": 480,
+    "delta": -0.01875,
+    "harmed": 28,
+    "helped": 19,
+    "mcnemar_exact_two_sided_p": 0.24296021728332562
+  },
+  "per_surface": {
+    "large_long": {
+      "baseline_rate": 0.125,
+      "baseline_semantic": 10,
+      "candidate_rate": 0.1,
+      "candidate_semantic": 8,
+      "count": 80,
+      "delta": -0.025,
+      "harmed": 5,
+      "helped": 3,
+      "mcnemar_exact_two_sided_p": 0.7265625
+    },
+    "large_short": {
+      "baseline_rate": 0.05,
+      "baseline_semantic": 4,
+      "candidate_rate": 0.05,
+      "candidate_semantic": 4,
+      "count": 80,
+      "delta": 0.0,
+      "harmed": 1,
+      "helped": 1,
+      "mcnemar_exact_two_sided_p": 1.0
+    },
+    "medium_long": {
+      "baseline_rate": 0.1875,
+      "baseline_semantic": 15,
+      "candidate_rate": 0.175,
+      "candidate_semantic": 14,
+      "count": 80,
+      "delta": -0.0125,
+      "harmed": 3,
+      "helped": 2,
+      "mcnemar_exact_two_sided_p": 1.0
+    },
+    "medium_short": {
+      "baseline_rate": 0.1375,
+      "baseline_semantic": 11,
+      "candidate_rate": 0.1375,
+      "candidate_semantic": 11,
+      "count": 80,
+      "delta": 0.0,
+      "harmed": 4,
+      "helped": 4,
+      "mcnemar_exact_two_sided_p": 1.0
+    },
+    "small_long": {
+      "baseline_rate": 0.6375,
+      "baseline_semantic": 51,
+      "candidate_rate": 0.65,
+      "candidate_semantic": 52,
+      "count": 80,
+      "delta": 0.0125,
+      "harmed": 6,
+      "helped": 7,
+      "mcnemar_exact_two_sided_p": 1.0
+    },
+    "small_short": {
+      "baseline_rate": 0.5,
+      "baseline_semantic": 40,
+      "candidate_rate": 0.4125,
+      "candidate_semantic": 33,
+      "count": 80,
+      "delta": -0.0875,
+      "harmed": 9,
+      "helped": 2,
+      "mcnemar_exact_two_sided_p": 0.0654296875
+    }
+  }
+}

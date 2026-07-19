@@ -1,0 +1,77 @@
+{
+  "counts": {
+    "train": 2800,
+    "valid": 560
+  },
+  "duplicate_ids": 0,
+  "schema_version": 1,
+  "train_sources": [
+    {
+      "path": "benchmarks/place_value_curriculum_v12/views/large_long/train.jsonl",
+      "sha256": "b417dd0797c0b2517e06e1055878190480a1c3bc70649f40f18374628b0795b0"
+    },
+    {
+      "path": "benchmarks/place_value_curriculum_v12/views/large_short/train.jsonl",
+      "sha256": "e32b2686ac67ede0d0eb3f8534432f1c08fc7313f98d25163f40cdacc306d9e6"
+    },
+    {
+      "path": "benchmarks/place_value_curriculum_v12/views/medium_long/train.jsonl",
+      "sha256": "fbe54308081d6285ecced5e159d88746a2a29f854d0c35570adb738eead79f43"
+    },
+    {
+      "path": "benchmarks/place_value_curriculum_v12/views/medium_short/train.jsonl",
+      "sha256": "9cd862d547aa187ca856974cf746e5cf34c108a32f5394ac2e55fd1506d95135"
+    },
+    {
+      "path": "benchmarks/place_value_curriculum_v12/views/small_long/train.jsonl",
+      "sha256": "586749fe1b36b2e73732e6259830a0670c1d003df8df1d1f0911c59b5a4b7894"
+    },
+    {
+      "path": "benchmarks/place_value_curriculum_v12/views/small_short/train.jsonl",
+      "sha256": "394fb724f2a0ee1f306296a695cc5aac8ea984ef8385f0e95de513c108ff6c71"
+    },
+    {
+      "path": "benchmarks/trace_curriculum_v6/medium/training/train.jsonl",
+      "sha256": "728a8c85429bf7ce899271a454de35e2eea936694c120a5c4b689ae67724b434"
+    },
+    {
+      "path": "benchmarks/trace_length_v7/long/training/train.jsonl",
+      "sha256": "f9c5befa7892fba79f99b547d20b4d0274cedf30fce8abe81f368eb38766f90f"
+    }
+  ],
+  "train_valid_overlap": 0,
+  "valid_sources": [
+    {
+      "path": "benchmarks/place_value_curriculum_v12/views/large_long/valid.jsonl",
+      "sha256": "8c997f2420ff61707a51314b4383502c774b1c6aadbeb8c0dfe1504f0ed62117"
+    },
+    {
+      "path": "benchmarks/place_value_curriculum_v12/views/large_short/valid.jsonl",
+      "sha256": "3039ea607efb81768cf1f652370273904f7d6a6bdc762b6831c067a6ddc2d104"
+    },
+    {
+      "path": "benchmarks/place_value_curriculum_v12/views/medium_long/valid.jsonl",
+      "sha256": "3b65ce676b5b4a8230df068d2fdc76b90ae3132d048a94a50562da03b159d542"
+    },
+    {
+      "path": "benchmarks/place_value_curriculum_v12/views/medium_short/valid.jsonl",
+      "sha256": "ff64e1098f7a1e2f6418cfbbc99aedbe59082f6f76728b91c87a7bb542b95f99"
+    },
+    {
+      "path": "benchmarks/place_value_curriculum_v12/views/small_long/valid.jsonl",
+      "sha256": "2a33b68e54bbda1c080a2a686d89447c9a953ef130963833c837ef0f9d0010b3"
+    },
+    {
+      "path": "benchmarks/place_value_curriculum_v12/views/small_short/valid.jsonl",
+      "sha256": "287752cd33171fc93b98177d06887727a76b54e74b6c4a3bf5fcbbe9c698ba6f"
+    },
+    {
+      "path": "benchmarks/trace_curriculum_v6/medium/training/valid.jsonl",
+      "sha256": "b11e322083e333d88551839901bd21f75b60dd1c704e4d036e4d3bae6e7a004e"
+    },
+    {
+      "path": "benchmarks/trace_length_v7/long/training/valid.jsonl",
+      "sha256": "69afae576dacc1fa54bef03667f9ef2e5a616009d0426447f5fdd9c674b724d9"
+    }
+  ]
+}

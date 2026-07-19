@@ -1,0 +1,8 @@
+{
+  "accept_field": "trace_valid",
+  "accepted_claims": 92,
+  "certificate_sha256": "e4f1b31a6fa7a33a74f688cfc48448d12298b7a47d2949cde6e35901e27e6bab",
+  "details_sha256": "66d312815086176d8056fd6d77820f6f889716c5829df1dd1b74fc30afcd74d1",
+  "trace_step_certificates": 362,
+  "verifier_sha256": "3741fcb14096d9b1b58dab030e58db60e14e733a681c16d92759ff1809f7dd89"
+}

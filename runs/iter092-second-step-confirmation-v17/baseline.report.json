@@ -1,0 +1,81 @@
+{
+  "count": 300,
+  "final_valid": 114,
+  "final_valid_rate": 0.38,
+  "parsed": 296,
+  "parsed_rate": 0.9866666666666667,
+  "per_surface": {
+    "large_long": {
+      "count": 50,
+      "final_valid": 12,
+      "final_valid_rate": 0.24,
+      "parsed": 49,
+      "parsed_rate": 0.98,
+      "semantic": 5,
+      "semantic_rate": 0.1,
+      "trace_valid": 10,
+      "trace_valid_rate": 0.2
+    },
+    "large_short": {
+      "count": 50,
+      "final_valid": 6,
+      "final_valid_rate": 0.12,
+      "parsed": 50,
+      "parsed_rate": 1.0,
+      "semantic": 0,
+      "semantic_rate": 0.0,
+      "trace_valid": 3,
+      "trace_valid_rate": 0.06
+    },
+    "medium_long": {
+      "count": 50,
+      "final_valid": 25,
+      "final_valid_rate": 0.5,
+      "parsed": 50,
+      "parsed_rate": 1.0,
+      "semantic": 16,
+      "semantic_rate": 0.32,
+      "trace_valid": 19,
+      "trace_valid_rate": 0.38
+    },
+    "medium_short": {
+      "count": 50,
+      "final_valid": 12,
+      "final_valid_rate": 0.24,
+      "parsed": 48,
+      "parsed_rate": 0.96,
+      "semantic": 4,
+      "semantic_rate": 0.08,
+      "trace_valid": 6,
+      "trace_valid_rate": 0.12
+    },
+    "small_long": {
+      "count": 50,
+      "final_valid": 31,
+      "final_valid_rate": 0.62,
+      "parsed": 50,
+      "parsed_rate": 1.0,
+      "semantic": 24,
+      "semantic_rate": 0.48,
+      "trace_valid": 31,
+      "trace_valid_rate": 0.62
+    },
+    "small_short": {
+      "count": 50,
+      "final_valid": 28,
+      "final_valid_rate": 0.56,
+      "parsed": 49,
+      "parsed_rate": 0.98,
+      "semantic": 16,
+      "semantic_rate": 0.32,
+      "trace_valid": 23,
+      "trace_valid_rate": 0.46
+    }
+  },
+  "predictions_sha256": "460e0d3f65c13f3785d96ce4a20334ea30bf11f3636e0f90b77db6d03f46ca1c",
+  "semantic": 65,
+  "semantic_rate": 0.21666666666666667,
+  "trace_valid": 92,
+  "trace_valid_rate": 0.30666666666666664,
+  "verifier_sha256": "cb1a6892dd0ab3ce0bcc7a22c48c459d8a3ba5cede09e3df9ce1d59e4de84796"
+}

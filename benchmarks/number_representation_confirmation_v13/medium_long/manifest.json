@@ -1,0 +1,26 @@
+{
+  "counts": {
+    "test": 50,
+    "train": 0,
+    "valid": 0
+  },
+  "excluded_parameters": 9398,
+  "numeric_range": {
+    "coefficient_max": 1000,
+    "coefficient_min": 501,
+    "factor_max": 210,
+    "gcd_max": 45,
+    "multiplier_max": 25,
+    "steps_max": null,
+    "steps_min": 4
+  },
+  "parameter_overlap": 0,
+  "seed": 20260904,
+  "template_counts": {
+    "test": 4,
+    "train": 8,
+    "valid": 3
+  },
+  "test_prompt_sha256": "e01dff6b68d5f017ebf24943fa7fd4c55c5d812de9962bc98a752bca94474054",
+  "test_verifier_sha256": "a27684f9a785c55ddabf8d1b04a10a1d1a49ce873f95d00e87c723b8f1e2219c"
+}

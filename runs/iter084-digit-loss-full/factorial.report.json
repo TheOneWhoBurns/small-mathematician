@@ -1,0 +1,81 @@
+{
+  "count": 480,
+  "final_valid": 179,
+  "final_valid_rate": 0.3729166666666667,
+  "parsed": 469,
+  "parsed_rate": 0.9770833333333333,
+  "per_surface": {
+    "large_long": {
+      "count": 80,
+      "final_valid": 14,
+      "final_valid_rate": 0.175,
+      "parsed": 78,
+      "parsed_rate": 0.975,
+      "semantic": 5,
+      "semantic_rate": 0.0625,
+      "trace_valid": 7,
+      "trace_valid_rate": 0.0875
+    },
+    "large_short": {
+      "count": 80,
+      "final_valid": 15,
+      "final_valid_rate": 0.1875,
+      "parsed": 78,
+      "parsed_rate": 0.975,
+      "semantic": 3,
+      "semantic_rate": 0.0375,
+      "trace_valid": 6,
+      "trace_valid_rate": 0.075
+    },
+    "medium_long": {
+      "count": 80,
+      "final_valid": 24,
+      "final_valid_rate": 0.3,
+      "parsed": 78,
+      "parsed_rate": 0.975,
+      "semantic": 6,
+      "semantic_rate": 0.075,
+      "trace_valid": 13,
+      "trace_valid_rate": 0.1625
+    },
+    "medium_short": {
+      "count": 80,
+      "final_valid": 22,
+      "final_valid_rate": 0.275,
+      "parsed": 76,
+      "parsed_rate": 0.95,
+      "semantic": 11,
+      "semantic_rate": 0.1375,
+      "trace_valid": 16,
+      "trace_valid_rate": 0.2
+    },
+    "small_long": {
+      "count": 80,
+      "final_valid": 54,
+      "final_valid_rate": 0.675,
+      "parsed": 80,
+      "parsed_rate": 1.0,
+      "semantic": 38,
+      "semantic_rate": 0.475,
+      "trace_valid": 47,
+      "trace_valid_rate": 0.5875
+    },
+    "small_short": {
+      "count": 80,
+      "final_valid": 50,
+      "final_valid_rate": 0.625,
+      "parsed": 79,
+      "parsed_rate": 0.9875,
+      "semantic": 34,
+      "semantic_rate": 0.425,
+      "trace_valid": 47,
+      "trace_valid_rate": 0.5875
+    }
+  },
+  "predictions_sha256": "ef68940e10d29d4fb84864a9a1b498a068737333e90b0339f916d08d48212649",
+  "semantic": 97,
+  "semantic_rate": 0.20208333333333334,
+  "trace_valid": 136,
+  "trace_valid_rate": 0.2833333333333333,
+  "verifier_sha256": "a49c4fc4ed9dbce136ef18c862cf7eda9a10d470a0602a350c7742884ef994ef"
+}

@@ -1,0 +1,126 @@
+{
+  "elapsed_seconds": 11.310250043869019,
+  "interpretation_boundary": "Linear ridge probes are lower bounds on decodability and do not establish causal use.",
+  "layers": {
+    "0": {
+      "extrapolation_magnitude": {
+        "ridge": 100.0,
+        "test_mae_log10": 0.8156655245744378,
+        "test_r2_log10": -52.593256441981154
+      },
+      "interpolation_digits": {
+        "per_place_accuracy": [
+          0.328,
+          0.086,
+          0.103,
+          1.0
+        ],
+        "ridge": 0.01,
+        "test_digit_accuracy": 0.37925,
+        "test_exact_number_accuracy": 0.003
+      },
+      "interpolation_magnitude": {
+        "ridge": 100.0,
+        "test_mae_log10": 0.3258443725702537,
+        "test_r2_log10": -0.017419756137026177
+      }
+    },
+    "14": {
+      "extrapolation_magnitude": {
+        "ridge": 1.0,
+        "test_mae_log10": 0.257505626085359,
+        "test_r2_log10": -4.794393667757965
+      },
+      "interpolation_digits": {
+        "per_place_accuracy": [
+          0.997,
+          0.992,
+          0.994,
+          0.998
+        ],
+        "ridge": 10.0,
+        "test_digit_accuracy": 0.99525,
+        "test_exact_number_accuracy": 0.988
+      },
+      "interpolation_magnitude": {
+        "ridge": 10.0,
+        "test_mae_log10": 0.018465225670121592,
+        "test_r2_log10": 0.9918698816836626
+      }
+    },
+    "21": {
+      "extrapolation_magnitude": {
+        "ridge": 1.0,
+        "test_mae_log10": 0.26246664547539655,
+        "test_r2_log10": -5.420678416654857
+      },
+      "interpolation_digits": {
+        "per_place_accuracy": [
+          1.0,
+          0.997,
+          1.0,
+          1.0
+        ],
+        "ridge": 10.0,
+        "test_digit_accuracy": 0.99925,
+        "test_exact_number_accuracy": 0.997
+      },
+      "interpolation_magnitude": {
+        "ridge": 1.0,
+        "test_mae_log10": 0.0141635627761125,
+        "test_r2_log10": 0.993636733466824
+      }
+    },
+    "28": {
+      "extrapolation_magnitude": {
+        "ridge": 100.0,
+        "test_mae_log10": 0.2965622278295004,
+        "test_r2_log10": -6.647715734282785
+      },
+      "interpolation_digits": {
+        "per_place_accuracy": [
+          0.995,
+          0.996,
+          0.997,
+          1.0
+        ],
+        "ridge": 100.0,
+        "test_digit_accuracy": 0.997,
+        "test_exact_number_accuracy": 0.994
+      },
+      "interpolation_magnitude": {
+        "ridge": 10.0,
+        "test_mae_log10": 0.020218608806314348,
+        "test_r2_log10": 0.992223401343862
+      }
+    },
+    "7": {
+      "extrapolation_magnitude": {
+        "ridge": 10.0,
+        "test_mae_log10": 0.39719247383653267,
+        "test_r2_log10": -12.77578140027103
+      },
+      "interpolation_digits": {
+        "per_place_accuracy": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "ridge": 10.0,
+        "test_digit_accuracy": 1.0,
+        "test_exact_number_accuracy": 1.0
+      },
+      "interpolation_magnitude": {
+        "ridge": 10.0,
+        "test_mae_log10": 0.022671359936056575,
+        "test_r2_log10": 0.9919087161899537
+      }
+    }
+  },
+  "maximum": 2500,
+  "model": "assets/models/qwen3-0.6b-base",
+  "peak_metal_gb": 1.355958336,
+  "weights": "runs/iter067-trace-length-v7/weights.safetensors",
+  "weights_sha256": "1c9fb3ed91625721ae610c6d13e981de25b4070faf04c8b3f0ec152673b30a2b"
+}

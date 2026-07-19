@@ -1,0 +1,81 @@
+{
+  "count": 120,
+  "final_valid": 48,
+  "final_valid_rate": 0.4,
+  "parsed": 119,
+  "parsed_rate": 0.9916666666666667,
+  "per_surface": {
+    "large_long": {
+      "count": 20,
+      "final_valid": 5,
+      "final_valid_rate": 0.25,
+      "parsed": 20,
+      "parsed_rate": 1.0,
+      "semantic": 3,
+      "semantic_rate": 0.15,
+      "trace_valid": 3,
+      "trace_valid_rate": 0.15
+    },
+    "large_short": {
+      "count": 20,
+      "final_valid": 5,
+      "final_valid_rate": 0.25,
+      "parsed": 20,
+      "parsed_rate": 1.0,
+      "semantic": 0,
+      "semantic_rate": 0.0,
+      "trace_valid": 1,
+      "trace_valid_rate": 0.05
+    },
+    "medium_long": {
+      "count": 20,
+      "final_valid": 8,
+      "final_valid_rate": 0.4,
+      "parsed": 20,
+      "parsed_rate": 1.0,
+      "semantic": 3,
+      "semantic_rate": 0.15,
+      "trace_valid": 4,
+      "trace_valid_rate": 0.2
+    },
+    "medium_short": {
+      "count": 20,
+      "final_valid": 8,
+      "final_valid_rate": 0.4,
+      "parsed": 19,
+      "parsed_rate": 0.95,
+      "semantic": 3,
+      "semantic_rate": 0.15,
+      "trace_valid": 3,
+      "trace_valid_rate": 0.15
+    },
+    "small_long": {
+      "count": 20,
+      "final_valid": 12,
+      "final_valid_rate": 0.6,
+      "parsed": 20,
+      "parsed_rate": 1.0,
+      "semantic": 8,
+      "semantic_rate": 0.4,
+      "trace_valid": 10,
+      "trace_valid_rate": 0.5
+    },
+    "small_short": {
+      "count": 20,
+      "final_valid": 10,
+      "final_valid_rate": 0.5,
+      "parsed": 20,
+      "parsed_rate": 1.0,
+      "semantic": 6,
+      "semantic_rate": 0.3,
+      "trace_valid": 8,
+      "trace_valid_rate": 0.4
+    }
+  },
+  "predictions_sha256": "dba40022106693e09523eb2cd45eac3c219a846bfefb320442862ec994dcb90b",
+  "semantic": 23,
+  "semantic_rate": 0.19166666666666668,
+  "trace_valid": 29,
+  "trace_valid_rate": 0.24166666666666667,
+  "verifier_sha256": "b2fb92f33601a50a8ee721b611a7dd29a1888eb2cc8be7f31385d1806f234642"
+}

@@ -1,0 +1,81 @@
+{
+  "count": 300,
+  "final_valid": 104,
+  "final_valid_rate": 0.3466666666666667,
+  "parsed": 299,
+  "parsed_rate": 0.9966666666666667,
+  "per_surface": {
+    "large_long": {
+      "count": 50,
+      "final_valid": 8,
+      "final_valid_rate": 0.16,
+      "parsed": 49,
+      "parsed_rate": 0.98,
+      "semantic": 7,
+      "semantic_rate": 0.14,
+      "trace_valid": 7,
+      "trace_valid_rate": 0.14
+    },
+    "large_short": {
+      "count": 50,
+      "final_valid": 7,
+      "final_valid_rate": 0.14,
+      "parsed": 50,
+      "parsed_rate": 1.0,
+      "semantic": 2,
+      "semantic_rate": 0.04,
+      "trace_valid": 4,
+      "trace_valid_rate": 0.08
+    },
+    "medium_long": {
+      "count": 50,
+      "final_valid": 12,
+      "final_valid_rate": 0.24,
+      "parsed": 50,
+      "parsed_rate": 1.0,
+      "semantic": 7,
+      "semantic_rate": 0.14,
+      "trace_valid": 10,
+      "trace_valid_rate": 0.2
+    },
+    "medium_short": {
+      "count": 50,
+      "final_valid": 16,
+      "final_valid_rate": 0.32,
+      "parsed": 50,
+      "parsed_rate": 1.0,
+      "semantic": 7,
+      "semantic_rate": 0.14,
+      "trace_valid": 10,
+      "trace_valid_rate": 0.2
+    },
+    "small_long": {
+      "count": 50,
+      "final_valid": 32,
+      "final_valid_rate": 0.64,
+      "parsed": 50,
+      "parsed_rate": 1.0,
+      "semantic": 22,
+      "semantic_rate": 0.44,
+      "trace_valid": 29,
+      "trace_valid_rate": 0.58
+    },
+    "small_short": {
+      "count": 50,
+      "final_valid": 29,
+      "final_valid_rate": 0.58,
+      "parsed": 50,
+      "parsed_rate": 1.0,
+      "semantic": 22,
+      "semantic_rate": 0.44,
+      "trace_valid": 32,
+      "trace_valid_rate": 0.64
+    }
+  },
+  "predictions_sha256": "b044523c1a1c321e05f5fe4a667383ffaac33b6be97fb7c2f51ca3060aa124c9",
+  "semantic": 67,
+  "semantic_rate": 0.22333333333333333,
+  "trace_valid": 92,
+  "trace_valid_rate": 0.30666666666666664,
+  "verifier_sha256": "3741fcb14096d9b1b58dab030e58db60e14e733a681c16d92759ff1809f7dd89"
+}

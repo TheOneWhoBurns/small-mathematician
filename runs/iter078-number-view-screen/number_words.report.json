@@ -1,0 +1,81 @@
+{
+  "count": 120,
+  "final_valid": 19,
+  "final_valid_rate": 0.15833333333333333,
+  "parsed": 101,
+  "parsed_rate": 0.8416666666666667,
+  "per_surface": {
+    "large_long": {
+      "count": 20,
+      "final_valid": 0,
+      "final_valid_rate": 0.0,
+      "parsed": 12,
+      "parsed_rate": 0.6,
+      "semantic": 0,
+      "semantic_rate": 0.0,
+      "trace_valid": 0,
+      "trace_valid_rate": 0.0
+    },
+    "large_short": {
+      "count": 20,
+      "final_valid": 0,
+      "final_valid_rate": 0.0,
+      "parsed": 15,
+      "parsed_rate": 0.75,
+      "semantic": 0,
+      "semantic_rate": 0.0,
+      "trace_valid": 0,
+      "trace_valid_rate": 0.0
+    },
+    "medium_long": {
+      "count": 20,
+      "final_valid": 3,
+      "final_valid_rate": 0.15,
+      "parsed": 19,
+      "parsed_rate": 0.95,
+      "semantic": 0,
+      "semantic_rate": 0.0,
+      "trace_valid": 0,
+      "trace_valid_rate": 0.0
+    },
+    "medium_short": {
+      "count": 20,
+      "final_valid": 5,
+      "final_valid_rate": 0.25,
+      "parsed": 19,
+      "parsed_rate": 0.95,
+      "semantic": 1,
+      "semantic_rate": 0.05,
+      "trace_valid": 1,
+      "trace_valid_rate": 0.05
+    },
+    "small_long": {
+      "count": 20,
+      "final_valid": 8,
+      "final_valid_rate": 0.4,
+      "parsed": 19,
+      "parsed_rate": 0.95,
+      "semantic": 3,
+      "semantic_rate": 0.15,
+      "trace_valid": 5,
+      "trace_valid_rate": 0.25
+    },
+    "small_short": {
+      "count": 20,
+      "final_valid": 3,
+      "final_valid_rate": 0.15,
+      "parsed": 17,
+      "parsed_rate": 0.85,
+      "semantic": 1,
+      "semantic_rate": 0.05,
+      "trace_valid": 3,
+      "trace_valid_rate": 0.15
+    }
+  },
+  "predictions_sha256": "caa17e91d75025044ad91242fb88b5229c1a3c4a07174764ab92cda809665d31",
+  "semantic": 5,
+  "semantic_rate": 0.041666666666666664,
+  "trace_valid": 9,
+  "trace_valid_rate": 0.075,
+  "verifier_sha256": "b2fb92f33601a50a8ee721b611a7dd29a1888eb2cc8be7f31385d1806f234642"
+}

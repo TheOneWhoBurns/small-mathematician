@@ -1,0 +1,81 @@
+{
+  "count": 480,
+  "final_valid": 174,
+  "final_valid_rate": 0.3625,
+  "parsed": 476,
+  "parsed_rate": 0.9916666666666667,
+  "per_surface": {
+    "large_long": {
+      "count": 80,
+      "final_valid": 15,
+      "final_valid_rate": 0.1875,
+      "parsed": 77,
+      "parsed_rate": 0.9625,
+      "semantic": 6,
+      "semantic_rate": 0.075,
+      "trace_valid": 8,
+      "trace_valid_rate": 0.1
+    },
+    "large_short": {
+      "count": 80,
+      "final_valid": 13,
+      "final_valid_rate": 0.1625,
+      "parsed": 80,
+      "parsed_rate": 1.0,
+      "semantic": 3,
+      "semantic_rate": 0.0375,
+      "trace_valid": 4,
+      "trace_valid_rate": 0.05
+    },
+    "medium_long": {
+      "count": 80,
+      "final_valid": 27,
+      "final_valid_rate": 0.3375,
+      "parsed": 79,
+      "parsed_rate": 0.9875,
+      "semantic": 9,
+      "semantic_rate": 0.1125,
+      "trace_valid": 14,
+      "trace_valid_rate": 0.175
+    },
+    "medium_short": {
+      "count": 80,
+      "final_valid": 21,
+      "final_valid_rate": 0.2625,
+      "parsed": 80,
+      "parsed_rate": 1.0,
+      "semantic": 9,
+      "semantic_rate": 0.1125,
+      "trace_valid": 11,
+      "trace_valid_rate": 0.1375
+    },
+    "small_long": {
+      "count": 80,
+      "final_valid": 55,
+      "final_valid_rate": 0.6875,
+      "parsed": 80,
+      "parsed_rate": 1.0,
+      "semantic": 41,
+      "semantic_rate": 0.5125,
+      "trace_valid": 52,
+      "trace_valid_rate": 0.65
+    },
+    "small_short": {
+      "count": 80,
+      "final_valid": 43,
+      "final_valid_rate": 0.5375,
+      "parsed": 80,
+      "parsed_rate": 1.0,
+      "semantic": 25,
+      "semantic_rate": 0.3125,
+      "trace_valid": 33,
+      "trace_valid_rate": 0.4125
+    }
+  },
+  "predictions_sha256": "a35af97794d54a2129cd7e9dc637862da2092b0665ce23bf792ab7a40e6abe95",
+  "semantic": 93,
+  "semantic_rate": 0.19375,
+  "trace_valid": 122,
+  "trace_valid_rate": 0.25416666666666665,
+  "verifier_sha256": "a49c4fc4ed9dbce136ef18c862cf7eda9a10d470a0602a350c7742884ef994ef"
+}

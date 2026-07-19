@@ -1,0 +1,123 @@
+{
+  "conditional_transition_accuracy": {
+    "1": {
+      "conditional_rate": 0.4583333333333333,
+      "next_exact": 55,
+      "prefix_opportunities": 120
+    },
+    "2": {
+      "conditional_rate": 0.6181818181818182,
+      "next_exact": 34,
+      "prefix_opportunities": 55
+    },
+    "3": {
+      "conditional_rate": 0.9090909090909091,
+      "next_exact": 30,
+      "prefix_opportunities": 33
+    },
+    "4": {
+      "conditional_rate": 0.75,
+      "next_exact": 15,
+      "prefix_opportunities": 20
+    },
+    "5": {
+      "conditional_rate": 1.0,
+      "next_exact": 6,
+      "prefix_opportunities": 6
+    },
+    "6": {
+      "conditional_rate": 1.0,
+      "next_exact": 3,
+      "prefix_opportunities": 3
+    },
+    "7": {
+      "conditional_rate": null,
+      "next_exact": 0,
+      "prefix_opportunities": 0
+    },
+    "8": {
+      "conditional_rate": null,
+      "next_exact": 0,
+      "prefix_opportunities": 0
+    },
+    "9": {
+      "conditional_rate": null,
+      "next_exact": 0,
+      "prefix_opportunities": 0
+    }
+  },
+  "count": 120,
+  "expected_step_lengths": {
+    "2": 20,
+    "3": 40,
+    "4": 23,
+    "5": 17,
+    "6": 13,
+    "7": 5,
+    "8": 1,
+    "9": 1
+  },
+  "first_error_step": {
+    "1": 65,
+    "2": 21,
+    "3": 3,
+    "4": 5,
+    "complete": 26
+  },
+  "parsed_step_lengths": {
+    "1": 1,
+    "2": 8,
+    "3": 33,
+    "4": 27,
+    "5": 22,
+    "6": 13,
+    "7": 5,
+    "8": 7,
+    "9": 3,
+    "10": 1
+  },
+  "per_surface": {
+    "large_long": {
+      "all_steps_exact": 3,
+      "all_steps_exact_rate": 0.15,
+      "count": 20,
+      "first_exact": 10,
+      "first_exact_rate": 0.5
+    },
+    "large_short": {
+      "all_steps_exact": 1,
+      "all_steps_exact_rate": 0.05,
+      "count": 20,
+      "first_exact": 5,
+      "first_exact_rate": 0.25
+    },
+    "medium_long": {
+      "all_steps_exact": 3,
+      "all_steps_exact_rate": 0.15,
+      "count": 20,
+      "first_exact": 8,
+      "first_exact_rate": 0.4
+    },
+    "medium_short": {
+      "all_steps_exact": 2,
+      "all_steps_exact_rate": 0.1,
+      "count": 20,
+      "first_exact": 5,
+      "first_exact_rate": 0.25
+    },
+    "small_long": {
+      "all_steps_exact": 9,
+      "all_steps_exact_rate": 0.45,
+      "count": 20,
+      "first_exact": 17,
+      "first_exact_rate": 0.85
+    },
+    "small_short": {
+      "all_steps_exact": 8,
+      "all_steps_exact_rate": 0.4,
+      "count": 20,
+      "first_exact": 10,
+      "first_exact_rate": 0.5
+    }
+  }
+}

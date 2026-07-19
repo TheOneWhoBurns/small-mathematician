@@ -24,6 +24,10 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--model", required=True)
     parser.add_argument("--weights")
+    parser.add_argument(
+        "--quantized-delta",
+        help="Optional int8 delta from --weights, produced by quantize_checkpoint_delta.py.",
+    )
     parser.add_argument("--adapter-path")
     parser.add_argument("--prompts", type=Path, required=True)
     parser.add_argument("--output", type=Path, required=True)
@@ -74,8 +78,16 @@ def main() -> None:
         tokenizer_config={"trust_remote_code": True},
         adapter_path=args.adapter_path,
     )
+    if args.quantized_delta and not args.weights:
+        parser.error("--quantized-delta requires --weights")
     if args.weights:
         weights = mx.load(args.weights)
+        if args.quantized_delta:
+            delta = mx.load(args.quantized_delta)
+            for name in list(weights):
+                quantized = delta[name + ".__delta_q"]
+                scale = delta[name + ".__delta_scale"]
+                weights[name] = weights[name] + quantized.astype(weights[name].dtype) * scale.astype(weights[name].dtype)
         model.load_weights(list(weights.items()), strict=True)
     sampler = make_sampler(temp=args.temperature)
     mx.random.seed(args.seed)
@@ -132,6 +144,8 @@ def main() -> None:
         "model": args.model,
         "weights": args.weights,
         "weights_sha256": sha256(Path(args.weights)) if args.weights else None,
+        "quantized_delta": args.quantized_delta,
+        "quantized_delta_sha256": sha256(Path(args.quantized_delta)) if args.quantized_delta else None,
         "adapter_path": args.adapter_path,
         "adapter_sha256": (
             sha256(Path(args.adapter_path) / "adapters.safetensors")

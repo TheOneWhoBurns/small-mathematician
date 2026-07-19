@@ -1,0 +1,81 @@
+{
+  "count": 300,
+  "final_valid": 300,
+  "final_valid_rate": 1.0,
+  "parsed": 300,
+  "parsed_rate": 1.0,
+  "per_surface": {
+    "large_long": {
+      "count": 50,
+      "final_valid": 50,
+      "final_valid_rate": 1.0,
+      "parsed": 50,
+      "parsed_rate": 1.0,
+      "semantic": 50,
+      "semantic_rate": 1.0,
+      "trace_valid": 50,
+      "trace_valid_rate": 1.0
+    },
+    "large_short": {
+      "count": 50,
+      "final_valid": 50,
+      "final_valid_rate": 1.0,
+      "parsed": 50,
+      "parsed_rate": 1.0,
+      "semantic": 50,
+      "semantic_rate": 1.0,
+      "trace_valid": 50,
+      "trace_valid_rate": 1.0
+    },
+    "medium_long": {
+      "count": 50,
+      "final_valid": 50,
+      "final_valid_rate": 1.0,
+      "parsed": 50,
+      "parsed_rate": 1.0,
+      "semantic": 50,
+      "semantic_rate": 1.0,
+      "trace_valid": 50,
+      "trace_valid_rate": 1.0
+    },
+    "medium_short": {
+      "count": 50,
+      "final_valid": 50,
+      "final_valid_rate": 1.0,
+      "parsed": 50,
+      "parsed_rate": 1.0,
+      "semantic": 50,
+      "semantic_rate": 1.0,
+      "trace_valid": 50,
+      "trace_valid_rate": 1.0
+    },
+    "small_long": {
+      "count": 50,
+      "final_valid": 50,
+      "final_valid_rate": 1.0,
+      "parsed": 50,
+      "parsed_rate": 1.0,
+      "semantic": 50,
+      "semantic_rate": 1.0,
+      "trace_valid": 50,
+      "trace_valid_rate": 1.0
+    },
+    "small_short": {
+      "count": 50,
+      "final_valid": 50,
+      "final_valid_rate": 1.0,
+      "parsed": 50,
+      "parsed_rate": 1.0,
+      "semantic": 50,
+      "semantic_rate": 1.0,
+      "trace_valid": 50,
+      "trace_valid_rate": 1.0
+    }
+  },
+  "predictions_sha256": "545c6dbabc27712f07f112ad11cebcda05b74b592b70a69bb35e238ad6f259ba",
+  "semantic": 300,
+  "semantic_rate": 1.0,
+  "trace_valid": 300,
+  "trace_valid_rate": 1.0,
+  "verifier_sha256": "cb1a6892dd0ab3ce0bcc7a22c48c459d8a3ba5cede09e3df9ce1d59e4de84796"
+}

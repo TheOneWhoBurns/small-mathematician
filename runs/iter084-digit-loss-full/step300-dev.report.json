@@ -1,0 +1,81 @@
+{
+  "count": 120,
+  "final_valid": 44,
+  "final_valid_rate": 0.36666666666666664,
+  "parsed": 119,
+  "parsed_rate": 0.9916666666666667,
+  "per_surface": {
+    "large_long": {
+      "count": 20,
+      "final_valid": 2,
+      "final_valid_rate": 0.1,
+      "parsed": 20,
+      "parsed_rate": 1.0,
+      "semantic": 1,
+      "semantic_rate": 0.05,
+      "trace_valid": 2,
+      "trace_valid_rate": 0.1
+    },
+    "large_short": {
+      "count": 20,
+      "final_valid": 6,
+      "final_valid_rate": 0.3,
+      "parsed": 20,
+      "parsed_rate": 1.0,
+      "semantic": 1,
+      "semantic_rate": 0.05,
+      "trace_valid": 2,
+      "trace_valid_rate": 0.1
+    },
+    "medium_long": {
+      "count": 20,
+      "final_valid": 6,
+      "final_valid_rate": 0.3,
+      "parsed": 20,
+      "parsed_rate": 1.0,
+      "semantic": 1,
+      "semantic_rate": 0.05,
+      "trace_valid": 2,
+      "trace_valid_rate": 0.1
+    },
+    "medium_short": {
+      "count": 20,
+      "final_valid": 6,
+      "final_valid_rate": 0.3,
+      "parsed": 20,
+      "parsed_rate": 1.0,
+      "semantic": 3,
+      "semantic_rate": 0.15,
+      "trace_valid": 3,
+      "trace_valid_rate": 0.15
+    },
+    "small_long": {
+      "count": 20,
+      "final_valid": 13,
+      "final_valid_rate": 0.65,
+      "parsed": 20,
+      "parsed_rate": 1.0,
+      "semantic": 8,
+      "semantic_rate": 0.4,
+      "trace_valid": 9,
+      "trace_valid_rate": 0.45
+    },
+    "small_short": {
+      "count": 20,
+      "final_valid": 11,
+      "final_valid_rate": 0.55,
+      "parsed": 19,
+      "parsed_rate": 0.95,
+      "semantic": 6,
+      "semantic_rate": 0.3,
+      "trace_valid": 8,
+      "trace_valid_rate": 0.4
+    }
+  },
+  "predictions_sha256": "aeee3a0f1724059c21e24f40aca385b71655fb257068ebfeb4f2ea7b2943c9e0",
+  "semantic": 20,
+  "semantic_rate": 0.16666666666666666,
+  "trace_valid": 26,
+  "trace_valid_rate": 0.21666666666666667,
+  "verifier_sha256": "b2fb92f33601a50a8ee721b611a7dd29a1888eb2cc8be7f31385d1806f234642"
+}

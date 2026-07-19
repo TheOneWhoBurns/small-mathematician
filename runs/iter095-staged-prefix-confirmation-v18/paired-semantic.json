@@ -1,0 +1,82 @@
+{
+  "metric": "semantic",
+  "overall": {
+    "baseline_rate": 0.2,
+    "baseline_semantic": 60,
+    "candidate_rate": 0.22333333333333333,
+    "candidate_semantic": 67,
+    "count": 300,
+    "delta": 0.023333333333333334,
+    "harmed": 2,
+    "helped": 9,
+    "mcnemar_exact_two_sided_p": 0.0654296875
+  },
+  "per_surface": {
+    "large_long": {
+      "baseline_rate": 0.14,
+      "baseline_semantic": 7,
+      "candidate_rate": 0.14,
+      "candidate_semantic": 7,
+      "count": 50,
+      "delta": 0.0,
+      "harmed": 1,
+      "helped": 1,
+      "mcnemar_exact_two_sided_p": 1.0
+    },
+    "large_short": {
+      "baseline_rate": 0.0,
+      "baseline_semantic": 0,
+      "candidate_rate": 0.04,
+      "candidate_semantic": 2,
+      "count": 50,
+      "delta": 0.04,
+      "harmed": 0,
+      "helped": 2,
+      "mcnemar_exact_two_sided_p": 0.5
+    },
+    "medium_long": {
+      "baseline_rate": 0.14,
+      "baseline_semantic": 7,
+      "candidate_rate": 0.14,
+      "candidate_semantic": 7,
+      "count": 50,
+      "delta": 0.0,
+      "harmed": 1,
+      "helped": 1,
+      "mcnemar_exact_two_sided_p": 1.0
+    },
+    "medium_short": {
+      "baseline_rate": 0.1,
+      "baseline_semantic": 5,
+      "candidate_rate": 0.14,
+      "candidate_semantic": 7,
+      "count": 50,
+      "delta": 0.04,
+      "harmed": 0,
+      "helped": 2,
+      "mcnemar_exact_two_sided_p": 0.5
+    },
+    "small_long": {
+      "baseline_rate": 0.42,
+      "baseline_semantic": 21,
+      "candidate_rate": 0.44,
+      "candidate_semantic": 22,
+      "count": 50,
+      "delta": 0.02,
+      "harmed": 0,
+      "helped": 1,
+      "mcnemar_exact_two_sided_p": 1.0
+    },
+    "small_short": {
+      "baseline_rate": 0.4,
+      "baseline_semantic": 20,
+      "candidate_rate": 0.44,
+      "candidate_semantic": 22,
+      "count": 50,
+      "delta": 0.04,
+      "harmed": 0,
+      "helped": 2,
+      "mcnemar_exact_two_sided_p": 0.5
+    }
+  }
+}

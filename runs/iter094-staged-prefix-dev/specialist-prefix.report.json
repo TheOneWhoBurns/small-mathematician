@@ -1,0 +1,81 @@
+{
+  "count": 120,
+  "final_valid": 47,
+  "final_valid_rate": 0.39166666666666666,
+  "parsed": 120,
+  "parsed_rate": 1.0,
+  "per_surface": {
+    "large_long": {
+      "count": 20,
+      "final_valid": 5,
+      "final_valid_rate": 0.25,
+      "parsed": 20,
+      "parsed_rate": 1.0,
+      "semantic": 3,
+      "semantic_rate": 0.15,
+      "trace_valid": 6,
+      "trace_valid_rate": 0.3
+    },
+    "large_short": {
+      "count": 20,
+      "final_valid": 5,
+      "final_valid_rate": 0.25,
+      "parsed": 20,
+      "parsed_rate": 1.0,
+      "semantic": 0,
+      "semantic_rate": 0.0,
+      "trace_valid": 1,
+      "trace_valid_rate": 0.05
+    },
+    "medium_long": {
+      "count": 20,
+      "final_valid": 7,
+      "final_valid_rate": 0.35,
+      "parsed": 20,
+      "parsed_rate": 1.0,
+      "semantic": 3,
+      "semantic_rate": 0.15,
+      "trace_valid": 4,
+      "trace_valid_rate": 0.2
+    },
+    "medium_short": {
+      "count": 20,
+      "final_valid": 6,
+      "final_valid_rate": 0.3,
+      "parsed": 20,
+      "parsed_rate": 1.0,
+      "semantic": 2,
+      "semantic_rate": 0.1,
+      "trace_valid": 2,
+      "trace_valid_rate": 0.1
+    },
+    "small_long": {
+      "count": 20,
+      "final_valid": 12,
+      "final_valid_rate": 0.6,
+      "parsed": 20,
+      "parsed_rate": 1.0,
+      "semantic": 9,
+      "semantic_rate": 0.45,
+      "trace_valid": 12,
+      "trace_valid_rate": 0.6
+    },
+    "small_short": {
+      "count": 20,
+      "final_valid": 12,
+      "final_valid_rate": 0.6,
+      "parsed": 20,
+      "parsed_rate": 1.0,
+      "semantic": 7,
+      "semantic_rate": 0.35,
+      "trace_valid": 9,
+      "trace_valid_rate": 0.45
+    }
+  },
+  "predictions_sha256": "5e1213a8da48a0600d094b8e6fac7aefd6dc79dff6de3f0acf7a33e8314de3b4",
+  "semantic": 24,
+  "semantic_rate": 0.2,
+  "trace_valid": 34,
+  "trace_valid_rate": 0.2833333333333333,
+  "verifier_sha256": "b2fb92f33601a50a8ee721b611a7dd29a1888eb2cc8be7f31385d1806f234642"
+}

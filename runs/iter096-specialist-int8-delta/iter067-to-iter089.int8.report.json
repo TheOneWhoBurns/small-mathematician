@@ -1,0 +1,13 @@
+{
+  "base": "runs/iter067-trace-length-v7/weights.safetensors",
+  "base_sha256": "1c9fb3ed91625721ae610c6d13e981de25b4070faf04c8b3f0ec152673b30a2b",
+  "output": "runs/iter096-specialist-int8-delta/iter067-to-iter089.int8.safetensors",
+  "output_sha256": "6e85ce2c0b124e20bcf411a092a4a5f947ad6ff0a9d1397cb4593dacbfb50a0b",
+  "quantization": "symmetric per-tensor int8 delta",
+  "relative_l2_error": 0.015950397439826892,
+  "schema_version": 1,
+  "target": "runs/iter089-first-step-loss-full/weights.safetensors",
+  "target_sha256": "60b8a636906908e4f3dc0d984f0ba7a8e291f30bab5582f28d41a74ac5671f2c",
+  "tensor_count": 310,
+  "zero_delta_tensors": 52
+}

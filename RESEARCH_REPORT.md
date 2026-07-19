@@ -12,6 +12,8 @@ The capability is not broad. The predecessor succeeds on 32% of a 200-case small
 
 Iteration 67 adds a targeted result: on a fresh trace-length-controlled test, correct four-or-more-step computational cores improve from 17% to 26% (`p = 0.0117`) without significant short-chain harm. Its complete-argument and overall gains are not significant, so it is a long-computation specialist rather than evidence of broad proof improvement.
 
+The latest campaign changes the diagnosis and improves the deployed procedure. In a balanced magnitude-by-length analysis, magnitude and local quotient difficulty predict failure much better than chain length alone. Error-position analysis then finds that 227/480 failures occur at the first Euclidean step, while conditional step accuracy rises from 52.7% at entry to 87.5% by step three. A first-step specialist followed by iteration 67 for continuation improves fresh strict trace validity from 82/300 to 92/300: 13 helped, three harmed, paired exact `p = 0.0213`. Lean independently compiled all 362 Euclidean equalities in the 92 accepted staged cores. This two-checkpoint staged decoder is now the accuracy recommendation; iteration 67 remains the canonical single-checkpoint model.
+
 An independently tested 8-bit deployment version cuts the weight file from 1.192 GB to 633 MB and inference peak from 1.355 GB to 0.807 GB while increasing throughput from 0.586 to 0.872 problems/second on the fresh confirmation run. Its verified-core count is 54 versus 59 for full precision (`p = 0.180`), but complete arguments fall from 41 to 35 (`p = 0.0313`). The quantized artifact is therefore recommended for the checked-core architecture, not as a lossless replacement for model-complete proofs.
 
 This supports the proposed division of labor:
@@ -57,11 +59,27 @@ A final curriculum was trained only on new coefficient-217–1,000 train/develop
 
 Complete arguments improved from 37/200 to 60/200: 26 helped, three harmed, paired exact `p = 1.52e-5`. Correct cores improved from 69 to 88 (`p = 5.46e-4`). The gain concentrated on fresh small problems, 27% to 46% complete (`p = 2.10e-5`); medium moved from 10% to 14% and was not significant. This checkpoint was promoted because it substantially improves the reliable short-trace regime without measurable forgetting, not because it solved the numeric-range extension.
 
-### Trace length, not coefficient size, exposed the next bottleneck
+### Trace length first exposed the bottleneck
 
 Post-hoc stratification of the iteration-65 promotion test showed that its decisive gains occurred only on one-to-three-step Euclidean chains. Complete accuracy rose from `20.4%` to `38.1%` there (`p = 1.10e-5`), while four-to-five-step gains were not significant and six-plus-step performance did not improve.
 
 A fresh curriculum therefore used only development examples requiring at least four divisions. The baseline and candidate were sealed before the private 100-short/100-long verifier was opened. Exact complete arguments moved from 28 to 35 overall (`p = 0.118`). Core-valid long computations moved from 17 to 26, with ten helped and one harmed (`p = 0.0117`); short cores moved from 20 to 19 (`p = 1.0`). Lean compiled 143 equalities in 35 complete arguments and 177 equalities in 45 core-valid arguments. This supports a narrow specialist promotion while leaving the stronger general significance claims with iteration 65.
+
+### Magnitude and the first transition explain more than chain length
+
+The later factorial diagnostic crossed three magnitude bands with short and long chains. A cross-validated classifier using chain length alone was effectively random (`AUC = 0.503`), whereas magnitude plus digit features reached `0.779`, local quotient features reached `0.657`, and all features reached `0.800`. The earlier statement that chain length predicted failure better than coefficient size was therefore true only of the earlier, confounded slice; it is not the best current explanation.
+
+The hidden-state probe also rules out a simplistic version of the representation hypothesis. At layer 7, a linear probe reconstructed all four decimal digits exactly on random held-out numbers from 1 to 2,500, and interpolated log magnitude with `R² = 0.992`. The same magnitude probe trained only through 700 failed catastrophically above 1,000 (`R² = -12.8`). Digits are present and linearly decodable, but extrapolative use of magnitude is brittle. This is correlational evidence, not proof of the model's causal computation.
+
+Direct interventions sharpened the result. Explicit place-value text did not help zero-shot, number words hurt badly, a place-value curriculum tied exactly on fresh data, and 900 updates of fixed-width decimal training significantly reduced the diagnostic score from 26/120 to 16/120. Isolated Euclidean-step training improved single-step accuracy from 101/300 to 177/300 (`p = 1.32e-17`) but reduced full-trace validity from 131/480 to 122/480. The model can learn the arithmetic operation in isolation; integrating it with the proof policy is the harder problem.
+
+### A staged first-step specialist produced the new gain
+
+Exact error localization showed 253/480 correct first steps and only 131/480 complete cores. Conditional accuracy was 63.6% on the second step given a correct first step and 87.5% on the third given a correct prefix. A first-sentence-only training objective improved fresh first-step accuracy from 157/300 to 170/300 (`p = 0.0146`) but did not significantly improve complete cores by itself.
+
+The successful architecture uses that checkpoint only to generate the first Euclidean sentence, then unloads it and lets iteration 67 continue. On the fresh v18 suite, strict trace validity rose from 82/300 to 92/300, with 13 gains and three losses (`p = 0.0213`). Semantic complete arguments moved from 60 to 67 (`p = 0.0654`), so the promotion claim is specifically about verified computational cores. Only one model is resident at a time, with measured peak memory of 1.393 GB. The two full checkpoint files require about 2.38 GB on disk.
+
+As an early-stop storage experiment, an int8 delta from iteration 67 to the first-step specialist reduced the additional artifact to 596,125,674 bytes. It matched the full specialist's exact prefix on 280/300 cases and scored 165 versus 163 exact first steps (`p = 0.688`). It is not promoted: reconstruction peaked at 1.956 GB and the user stopped the campaign before an end-to-end continuation comparison.
 
 ### Eight bits is the practical quantization boundary
 
@@ -83,6 +101,9 @@ The fresh 200-case eight-bit confirmation excluded 7,078 previously used paramet
 | Trace-length curriculum | 200 paired cases | long core 17→26, `p=0.0117` | Validated long-chain specialist |
 | Fresh 8-bit confirmation | 200 paired cases | core 59→54, `p=0.180`; complete 41→35, `p=0.0313` | Deployable for checked cores, not lossless |
 | Frozen five-way method router | 100 contrast cases | 96%; 92% pairs | Concept routing survives specialization |
+| First-step-only objective | 300 fresh paired cases | first step 157→170, `p=0.0146`; core 80→82 | Mechanism works, integration does not |
+| Staged specialist→iteration 67 | 300 fresh paired cases | core 82→92, `p=0.0213` | Promoted accuracy procedure |
+| Int8 specialist delta | 300 prefix comparisons | first step 163→165, `p=0.688` | Promising storage result; end-to-end untested |
 
 ## Efficiency
 
@@ -96,6 +117,8 @@ The fresh 200-case eight-bit confirmation excluded 7,078 previously used paramet
 - Eight-bit weights: 633,443,038 bytes; 0.807 GB inference peak; 0.872 fresh problems/second.
 - Six-bit weights: 484,446,856 bytes; rejected for capability loss.
 - Four-bit weights: 335,450,548 bytes; rejected for complete behavioral collapse.
+- Staged accuracy procedure: two 1.192 GB checkpoints on disk, loaded sequentially; 1.393 GB measured peak; 1.047 first-prefix and 0.782 continuation prompts/second.
+- Experimental int8 specialist delta: 596,125,674 bytes; 1.956 GB reconstruction/inference peak; not promoted.
 
 ## Correct architectural boundary
 
@@ -109,14 +132,14 @@ The frozen checkpoint was evaluated without further fitting on three more parame
 
 ## Next experiment ladder
 
-1. Retain intermediate validation checkpoints so a step-150 minimum can be compared honestly with the final step rather than inferred from loss alone.
-2. Separate the output contract into “compute a verified Euclidean core” and “state the conclusion”; measure whether removing the unreliable last sentence improves usable precision.
-3. Test verifier-guided multi-sample decoding on development data, then seal a fresh test before selecting sampling temperature or candidate count.
-4. Add a second concept with a genuinely different procedure, such as polynomial value-difference obstruction, while replaying the Diophantine tests for forgetting.
-5. Test whether a compact adapter on the rejected 4-bit backbone can recover verified execution without exceeding the 8-bit deployment footprint.
+1. Complete an end-to-end continuation and strict-verifier comparison for the frozen int8 specialist delta before considering it deployable.
+2. Train a compact low-rank or sparse first-step delta that can be applied without the 1.956 GB reconstruction peak.
+3. Attack quotient estimation and remainder prediction directly while retaining the staged interface; do not spend more runs on number words, place-value annotations, or fixed-width decimals without a new mechanism.
+4. Test whether the staged entrance-specialist pattern transfers to a second mathematical procedure while replaying the Diophantine suite for forgetting.
+5. Preserve separate metrics for strict model-complete arguments, verified cores, and downstream-derived conclusions.
 
 ## Reproducibility
 
-The append-only ledger contains 73 numbered iterations with hypotheses, commands or change descriptions, hashes, decisions, failures, and next questions. Benchmark manifests pin test prompt and verifier hashes. Prediction files were generated and hashed before private verifiers were opened. Lean files and manifests preserve the accepted subsets and certificate hashes.
+The append-only ledger contains 92 numbered iterations with hypotheses, commands or change descriptions, hashes, decisions, failures, and next questions. Benchmark manifests pin test prompt and verifier hashes. Prediction files were generated and hashed before private verifiers were opened. Lean files and manifests preserve the accepted subsets and certificate hashes.
 
 See `CHECKPOINT_CARD.md` for the promoted artifact and `autoresearch/ledger.jsonl` for the complete audit trail.
