@@ -38,6 +38,12 @@ The command is resumable. Downloads are written atomically, and known upstream c
 
 ## On-demand artifacts
 
+**Public availability:** this repository publishes the research code, experiment records,
+verifiers and reports. The large checkpoints referenced below are currently hosted in
+a separate private artifact repository. The hydration commands require access to that
+repository; anonymous readers can inspect the source and recorded results but cannot
+yet download those checkpoint files through this release path.
+
 Large checkpoints are stored as hash-pinned assets on the private GitHub release
 `small-mathematician-artifacts-v1`, not in Git history. A lightweight checkout can
 be restored to a runnable state with one command:
